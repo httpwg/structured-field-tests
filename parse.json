@@ -1,0 +1,38 @@
+[
+    {
+      "name": "basic string",
+      "raw": ["\"foo\""],
+      "header_type": "item",
+      "expected": "foo"
+    },
+    {
+      "name": "single quoted string",
+      "raw": ["'foo'"],
+      "header_type": "item",
+      "success": false
+    },
+    {
+      "name": "unbalanced string",
+      "raw": ["\"foo"],
+      "header_type": "item",
+      "success": false
+    },
+    {
+      "name": "string quoting",
+      "raw": ["\"foo \\\"bar\\\"\""],
+      "header_type": "item",
+      "expected": "foo \"bar\"",
+    },
+    {
+      "name": "bad string quoting",
+      "raw": ["\"foo \\,\""],
+      "header_type": "item",
+      "success": false
+    },
+    {
+      "name": "ending string quote",
+      "raw": ["\"foo \\"],
+      "header_type": "item",
+      "success": false
+    }
+]
