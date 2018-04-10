@@ -25,16 +25,10 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
 
 
-
 ## Writing Tests
 
-All tests should have a descriptive comment. Tests should be as simple as possible - just what's
+All tests should have a descriptive name. Tests should be as simple as possible - just what's
 required to test a specific piece of behavior. If you want to test interacting behaviors, create
 tests for each behavior as well as the interaction.
-
-If an 'error' member is specified, the error text should describe the error the implementation
-should raise - *not* what's being tested. Implementation error strings will vary, but the suggested
-error should be easily matched to the implementation error string. Try to avoid creating error
-tests that might pass because an incorrect error was reported.
 
 Please feel free to contribute!
