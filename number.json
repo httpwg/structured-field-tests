@@ -57,25 +57,25 @@
       "name": "non-DIGIT first character",
       "raw": ["a23"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "comma",
       "raw": ["2,3"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "negative non-DIGIT first character",
       "raw": ["-a23"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "sign out of place",
       "raw": ["4-2"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "long integer",
@@ -93,13 +93,13 @@
       "name": "too long integer",
       "raw": ["9223372036854775808"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "negative too long integer",
       "raw": ["-9223372036854775809"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "simple float",
@@ -117,12 +117,12 @@
       "name": "double decimal float",
       "raw": ["1.5.4"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "adjacent double decimal float",
       "raw": ["1..4"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
 ]

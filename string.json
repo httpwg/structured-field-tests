@@ -9,13 +9,13 @@
       "name": "single quoted string",
       "raw": ["'foo'"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "unbalanced string",
       "raw": ["\"foo"],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "string quoting",
@@ -27,12 +27,12 @@
       "name": "bad string quoting",
       "raw": ["\"foo \\,\""],
       "header_type": "item",
-      "success": false
+      "expected": false
     },
     {
       "name": "ending string quote",
       "raw": ["\"foo \\"],
       "header_type": "item",
-      "success": false
+      "expected": false
     }
 ]
