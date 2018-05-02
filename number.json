@@ -124,5 +124,5 @@
       "raw": ["1..4"],
       "header_type": "item",
       "expected": false
-    },
+    }
 ]
