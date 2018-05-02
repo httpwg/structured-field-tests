@@ -1,0 +1,50 @@
+[
+    {
+      "name": "basic binary",
+      "raw": ["*aGVsbG8=*"],
+      "header_type": "item",
+      "expected": "NBSWY3DP"
+    },
+    {
+      "name": "empty binary",
+      "raw": ["**"],
+      "header_type": "item",
+      "expected": ""
+    },
+    {
+      "name": "bad paddding",
+      "raw": ["*aGVsbG8*"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "bad end delimiter",
+      "raw": ["*aGVsbG8="],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "extra whitespace",
+      "raw": ["*aGVsb G8=*"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "extra chars",
+      "raw": ["*aGVsbG!8=*"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "suffix chars",
+      "raw": ["*aGVsbG!8=!*"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "non-zero pad bits",
+      "raw": ["*iZ==*"],
+      "header_type": "item",
+      "expected": false
+    },
+]
