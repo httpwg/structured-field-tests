@@ -3,7 +3,7 @@
       "name": "basic binary",
       "raw": ["*aGVsbG8=*"],
       "header_type": "item",
-      "expected": "NBSWY3DP"
+      "expected": "hello"
     },
     {
       "name": "empty binary",
