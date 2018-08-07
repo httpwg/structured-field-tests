@@ -49,13 +49,13 @@
     },
     {
       "name": "non-ASCII binary",
-      "raw": ["*/+A=*"],
+      "raw": ["*/+Ah*"],
       "header_type": "item",
-      "expected": "77QA===="
+      "expected": "77QCC==="
     },
     {
       "name": "base64url binary",
-      "raw": ["*_-A=*"],
+      "raw": ["*_-Ah*"],
       "header_type": "item",
       "expected": false
     }
