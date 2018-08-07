@@ -4,8 +4,7 @@
       "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=\"w\""],
       "header_type": "param-list",
       "expected": [
-        ["abc_123", {"a": 1, "b": 2}],
-        ["cdef_456", {}],
+        ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
         ["ghi", {"q": "9", "r": "w"}]
       ]
     },
