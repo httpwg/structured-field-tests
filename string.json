@@ -27,7 +27,7 @@
       "name": "string quoting",
       "raw": ["\"foo \\\"bar\\\" \\\\ baz\""],
       "header_type": "item",
-      "expected": "foo \"bar\""
+      "expected": "foo \"bar\" \\ baz"
     },
     {
       "name": "bad string quoting",
