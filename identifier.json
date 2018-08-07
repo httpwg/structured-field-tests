@@ -3,7 +3,7 @@
       "name": "basic identifier",
       "raw": ["a_b-c3/*"],
       "header_type": "param-list",
-      "expected": ["a_b-c3/*", {}]
+      "expected": [["a_b-c3/*", {}]]
     },
     {
       "name": "identifier with capitals",
