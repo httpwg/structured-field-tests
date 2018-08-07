@@ -1,12 +1,59 @@
 [
     {
-      "name": "basic parameterised list",
-      "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=w"],
+      "name": "basic param-list",
+      "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=\"w\""],
       "header_type": "param-list",
       "expected": [
         ["abc_123", {"a": 1, "b": 2}],
         ["cdef_456", {}],
         ["ghi", {"q": "9", "r": "w"}]
       ]
+    },
+    {
+      "name": "single item param-list",
+      "raw": ["text/html;q=1.0"],
+      "header_type": "param-list",
+      "expected": [
+        ["text/html", {"q": 1.0}]
+      ]
+    },
+    {
+      "name": "no whitespace param-list",
+      "raw": ["text/html,text/plain;q=0.5"],
+      "header_type": "param-list",
+      "expected": [
+        ["text/html", {}],
+        ["text/plain", {"q": 0.5}]
+      ]
+    },
+    {
+      "name": "extra whitespace param-list",
+      "raw": ["text/html  ,  text/plain  ;  q=0.5"],
+      "header_type": "param-list",
+      "expected": [
+        ["text/html", {}],
+        ["text/plain", {"q": 0.5}]
+      ]
+    },
+    {
+      "name": "two lines param-list",
+      "raw": ["text/html", "text/plain;q=0.5"],
+      "header_type": "param-list",
+      "expected": [
+        ["text/html", {}],
+        ["text/plain", {"q": 0.5}]
+      ]
+    },
+    {
+      "name": "trailing comma param-list",
+      "raw": ["text/html,text/plain;q=0.5,"],
+      "header_type": "param-list",
+      "expected": false
+    },
+    {
+      "name": "empty item param-list",
+      "raw": ["text/html,,text/plain;q=0.5,"],
+      "header_type": "param-list",
+      "expected": false
     }
 ]
