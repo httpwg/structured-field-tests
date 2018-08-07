@@ -37,7 +37,7 @@
     },
     {
       "name": "suffix chars",
-      "raw": ["*aGVsbG!8=!*"],
+      "raw": ["*aGVsbG8=!*"],
       "header_type": "item",
       "expected": false
     },
