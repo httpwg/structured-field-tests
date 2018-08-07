@@ -1,0 +1,50 @@
+[
+    {
+      "name": "basic dictionary",
+      "raw": ["en=\"Applepie\", da=*w4ZibGV0w6ZydGUK*"],
+      "header_type": "dictionary",
+      "expected": {"en": "Applepie", "da": "YODGE3DFOTB2M4TUMU======"}
+    },
+    {
+      "name": "single item dictionary",
+      "raw": ["a=1"],
+      "header_type": "dictionary",
+      "expected": {"a": 1}
+    },
+    {
+      "name": "no whitespace dictionary",
+      "raw": ["a=1,b=2"],
+      "header_type": "dictionary",
+      "expected": {"a": 1, "b": 2}
+    },
+    {
+      "name": "extra whitespace dictionary",
+      "raw": ["a=1 ,  b=2"],
+      "header_type": "dictionary",
+      "expected": {"a": 1, "b": 2}
+    },
+    {
+      "name": "two lines dictionary",
+      "raw": ["a=1", "b=2"],
+      "header_type": "dictionary",
+      "expected": {"a": 1, "b": 2}
+    },
+    {
+      "name": "trailing comma dictionary",
+      "raw": ["a=1, b=2,"],
+      "header_type": "dictionary",
+      "expected": false
+    },
+    {
+      "name": "empty item dictionary",
+      "raw": ["a=1,,b=2,"],
+      "header_type": "dictionary",
+      "expected": false
+    },
+    {
+      "name": "duplicate key dictionary",
+      "raw": ["a=1,b=2,a=1"],
+      "header_type": "dictionary",
+      "expected": false
+    }
+]
