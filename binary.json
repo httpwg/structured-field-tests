@@ -49,8 +49,14 @@
     },
     {
       "name": "non-ASCII binary",
-      "raw": ["*APCfkqn/*"],
+      "raw": ["*/+A=*"],
       "header_type": "item",
-      "expected": "ADYJ7EVJ74======"
+      "expected": "77QA===="
+    },
+    {
+      "name": "base64url binary",
+      "raw": ["*_-A=*"],
+      "header_type": "item",
+      "expected": false
     }
 ]
