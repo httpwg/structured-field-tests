@@ -46,5 +46,11 @@
       "raw": ["*iZ==*"],
       "header_type": "item",
       "expected": false
+    },
+    {
+      "name": "non-ASCII binary",
+      "raw": ["*APCfkqn/*"],
+      "header_type": "item",
+      "expected": "ADYJ7EVJ74======"
     }
 ]
