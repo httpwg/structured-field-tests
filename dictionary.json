@@ -3,7 +3,7 @@
       "name": "basic dictionary",
       "raw": ["en=\"Applepie\", da=*w4ZibGV0w6ZydGUK*"],
       "header_type": "dictionary",
-      "expected": {"en": "Applepie", "da": "YODGE3DFOTB2M4TUMU======"}
+      "expected": {"en": "Applepie", "da": "YODGE3DFOTB2M4TUMUFA===="}
     },
     {
       "name": "single item dictionary",
