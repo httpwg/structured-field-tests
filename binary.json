@@ -15,8 +15,8 @@
       "name": "bad paddding",
       "raw": ["*aGVsbG8*"],
       "header_type": "item",
-      "expected": false,
-      "or": "NBSWY3DP"
+      "expected": "NBSWY3DP",
+      "can_fail": true
     },
     {
       "name": "bad end delimiter",
@@ -47,7 +47,7 @@
       "raw": ["*iZ==*"],
       "header_type": "item",
       "expected": "RE======",
-      "or": false
+      "can_fail": true
     },
     {
       "name": "non-ASCII binary",
