@@ -54,12 +54,6 @@
       "expected": 0
     },
     {
-      "name": "non-DIGIT first character",
-      "raw": ["a23"],
-      "header_type": "item",
-      "expected": false
-    },
-    {
       "name": "comma",
       "raw": ["2,3"],
       "header_type": "item",

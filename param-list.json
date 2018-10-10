@@ -27,12 +27,18 @@
     },
     {
       "name": "extra whitespace param-list",
-      "raw": ["text/html  ,  text/plain  ;  q=0.5"],
+      "raw": ["text/html  ,  text/plain;  q=0.5"],
       "header_type": "param-list",
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
       ]
+    },
+    {
+      "name": "extra extra whitespace param-list",
+      "raw": ["text/html,text/plain ;q=0.5"],
+      "header_type": "param-list",
+      "expected": false
     },
     {
       "name": "two lines param-list",
