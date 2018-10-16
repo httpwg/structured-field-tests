@@ -1,0 +1,26 @@
+[
+    {
+        "name": "standard date",
+        "raw": ["Tue, 02 Oct 2018 10:22:00 GMT"],
+        "header_type": "item",
+        "expected": "[2018-10-02T10:22:00+00:00]"
+    },
+    {
+        "name": "RFC 850 date",
+        "raw": ["Tuesday, 02-Oct-18 10:22:00 GMT"],
+        "header_type": "item",
+        "expected": "[2018-10-02T10:22:00+00:00]"
+    },
+    {
+        "name": "ctime() date",
+        "raw": ["Tue Oct  2 10:22:00 2018"],
+        "header_type": "item",
+        "expected": "[2018-10-02T10:22:00+00:00]"
+    },
+    {
+        "name": "list of dates",
+        "raw": ["Tue, 02 Oct 2018 10:22:00 GMT, Tue, 02 Oct 2018 10:22:00 GMT"],
+        "header_type": "list",
+        "expected": ["[2018-10-02T10:22:00+00:00]", "[2018-10-02T10:22:00+00:00]"]
+    }
+]
