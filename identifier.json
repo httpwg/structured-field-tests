@@ -1,0 +1,44 @@
+[
+    {
+      "name": "basic identifier - item",
+      "raw": ["a_b-c3/*"],
+      "header_type": "item",
+      "expected": "a_b-c3/*"
+    },
+    {
+      "name": "identifier with capitals - item",
+      "raw": ["fooBar"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "bad identifier - item",
+      "raw": ["abc$%!"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "basic identifier - list",
+      "raw": ["a_b-c3/*"],
+      "header_type": "param-list",
+      "expected": [["a_b-c3/*", {}]]
+    },
+    {
+      "name": "identifier with capitals - list",
+      "raw": ["fooBar"],
+      "header_type": "param-list",
+      "expected": false
+    },
+    {
+      "name": "identifier with bad start - list",
+      "raw": ["*/*"],
+      "header_type": "param-list",
+      "expected": false
+    },
+    {
+      "name": "bad identifier - list",
+      "raw": ["abc$%!"],
+      "header_type": "param-list",
+      "expected": false
+    }
+]

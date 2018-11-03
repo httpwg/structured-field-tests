@@ -6,6 +6,12 @@
       "expected": "foo"
     },
     {
+      "name": "whitespace string",
+      "raw": ["\"   \""],
+      "header_type": "item",
+      "expected": "   "
+    },
+    {
       "name": "single quoted string",
       "raw": ["'foo'"],
       "header_type": "item",
@@ -19,9 +25,9 @@
     },
     {
       "name": "string quoting",
-      "raw": ["\"foo \\\"bar\\\"\""],
+      "raw": ["\"foo \\\"bar\\\" \\\\ baz\""],
       "header_type": "item",
-      "expected": "foo \"bar\""
+      "expected": "foo \"bar\" \\ baz"
     },
     {
       "name": "bad string quoting",
@@ -31,7 +37,7 @@
     },
     {
       "name": "ending string quote",
-      "raw": ["\"foo \\"],
+      "raw": ["\"foo \\\""],
       "header_type": "item",
       "expected": false
     }

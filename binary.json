@@ -15,7 +15,8 @@
       "name": "bad paddding",
       "raw": ["*aGVsbG8*"],
       "header_type": "item",
-      "expected": false
+      "expected": "NBSWY3DP",
+      "can_fail": true
     },
     {
       "name": "bad end delimiter",
@@ -37,13 +38,26 @@
     },
     {
       "name": "suffix chars",
-      "raw": ["*aGVsbG!8=!*"],
+      "raw": ["*aGVsbG8=!*"],
       "header_type": "item",
       "expected": false
     },
     {
       "name": "non-zero pad bits",
       "raw": ["*iZ==*"],
+      "header_type": "item",
+      "expected": "RE======",
+      "can_fail": true
+    },
+    {
+      "name": "non-ASCII binary",
+      "raw": ["*/+Ah*"],
+      "header_type": "item",
+      "expected": "77QCC==="
+    },
+    {
+      "name": "base64url binary",
+      "raw": ["*_-Ah*"],
       "header_type": "item",
       "expected": false
     }
