@@ -56,7 +56,10 @@
       "name": "extra extra whitespace param-list",
       "raw": ["text/html,text/plain ;q=0.5"],
       "header_type": "param-list",
-      "must_fail": true
+      "expected": [
+        ["text/html", {}],
+        ["text/plain", {"q": 0.5}]
+      ]
     },
     {
       "name": "two lines param-list",
