@@ -29,13 +29,13 @@
       "name": "whitespace before = param-list",
       "raw": ["text/html, text/plain;q =0.5"],
       "header_type": "param-list",
-      "must-fail": true
+      "must_fail": true
     },
     {
       "name": "whitespace after = param-list",
       "raw": ["text/html, text/plain;q= 0.5"],
       "header_type": "param-list",
-      "must-fail": true
+      "must_fail": true
     },
     {
       "name": "extra whitespace param-list",
