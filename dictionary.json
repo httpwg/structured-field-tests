@@ -6,6 +6,12 @@
       "expected": {"en": "Applepie", "da": "YODGE3DFOTB2M4TUMUFA===="}
     },
     {
+      "name": "empty dictionary",
+      "raw": [""],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
       "name": "single item dictionary",
       "raw": ["a=1"],
       "header_type": "dictionary",

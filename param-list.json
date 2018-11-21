@@ -9,6 +9,12 @@
       ]
     },
     {
+      "name": "empty param-list",
+      "raw": [""],
+      "header_type": "param-list",
+      "must_fail": true
+    },
+    {
       "name": "single item param-list",
       "raw": ["text/html;q=1.0"],
       "header_type": "param-list",

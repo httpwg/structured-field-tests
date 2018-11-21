@@ -6,6 +6,12 @@
       "expected": [1, 42]
     },
     {
+      "name": "empty list",
+      "raw": [""],
+      "header_type": "list",
+      "must_fail": true
+    },
+    {
       "name": "single item list",
       "raw": ["42"],
       "header_type": "list",
