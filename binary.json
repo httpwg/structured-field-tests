@@ -22,25 +22,25 @@
       "name": "bad end delimiter",
       "raw": ["*aGVsbG8="],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "extra whitespace",
       "raw": ["*aGVsb G8=*"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "extra chars",
       "raw": ["*aGVsbG!8=*"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "suffix chars",
       "raw": ["*aGVsbG8=!*"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "non-zero pad bits",
@@ -59,6 +59,6 @@
       "name": "base64url binary",
       "raw": ["*_-Ah*"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     }
 ]

@@ -1,0 +1,33 @@
+[
+    {
+      "name": "basic true boolean",
+      "raw": ["?T"],
+      "header_type": "item",
+      "expected": true
+    },
+    {
+      "name": "basic false boolean",
+      "raw": ["?F"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "lowercase boolean",
+      "raw": ["?t"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "unknown boolean",
+      "raw": ["?Q"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "whitespace boolean",
+      "raw": ["? T"],
+      "header_type": "item",
+      "must_fail": true
+    }
+]
+    

@@ -6,6 +6,12 @@
       "expected": [1, 42]
     },
     {
+      "name": "empty list",
+      "raw": [""],
+      "header_type": "list",
+      "must_fail": true
+    },
+    {
       "name": "single item list",
       "raw": ["42"],
       "header_type": "list",
@@ -33,12 +39,12 @@
       "name": "trailing comma list",
       "raw": ["1, 42,"],
       "header_type": "list",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "empty item list",
       "raw": ["1,,42"],
       "header_type": "list",
-      "expected": false
+      "must_fail": true
     }
 ]

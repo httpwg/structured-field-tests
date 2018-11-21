@@ -9,6 +9,12 @@
       ]
     },
     {
+      "name": "empty param-list",
+      "raw": [""],
+      "header_type": "param-list",
+      "must_fail": true
+    },
+    {
       "name": "single item param-list",
       "raw": ["text/html;q=1.0"],
       "header_type": "param-list",
@@ -24,6 +30,18 @@
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
       ]
+    },
+    {
+      "name": "whitespace before = param-list",
+      "raw": ["text/html, text/plain;q =0.5"],
+      "header_type": "param-list",
+      "must_fail": true
+    },
+    {
+      "name": "whitespace after = param-list",
+      "raw": ["text/html, text/plain;q= 0.5"],
+      "header_type": "param-list",
+      "must_fail": true
     },
     {
       "name": "extra whitespace param-list",
@@ -47,12 +65,12 @@
       "name": "trailing comma param-list",
       "raw": ["text/html,text/plain;q=0.5,"],
       "header_type": "param-list",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "empty item param-list",
       "raw": ["text/html,,text/plain;q=0.5,"],
       "header_type": "param-list",
-      "expected": false
+      "must_fail": true
     }
 ]
