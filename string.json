@@ -27,31 +27,31 @@
       "name": "non-ascii string",
       "raw": ["\"füü\""],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "tab in string",
       "raw": ["\"   \""],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "newline in string",
       "raw": ["\" \\n \""],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "single quoted string",
       "raw": ["'foo'"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "unbalanced string",
       "raw": ["\"foo"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "string quoting",
@@ -63,18 +63,18 @@
       "name": "bad string quoting",
       "raw": ["\"foo \\,\""],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "ending string quote",
       "raw": ["\"foo \\\""],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     }
     {
       "name": "abruptly ending string quote",
       "raw": ["\"foo \\"],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     }
 ]

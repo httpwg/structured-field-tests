@@ -3,7 +3,7 @@
       "name": "empty item",
       "raw": [""],
       "header_type": "item",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "leading space",

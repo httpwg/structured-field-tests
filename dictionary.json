@@ -39,36 +39,36 @@
       "name": "trailing comma dictionary",
       "raw": ["a=1, b=2,"],
       "header_type": "dictionary",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "empty item dictionary",
       "raw": ["a=1,,b=2,"],
       "header_type": "dictionary",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "duplicate key dictionary",
       "raw": ["a=1,b=2,a=1"],
       "header_type": "dictionary",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "numeric key dictionary",
       "raw": ["a=1,1b=2,a=1"],
       "header_type": "dictionary",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "uppercase key dictionary",
       "raw": ["a=1,B=2,a=1"],
       "header_type": "dictionary",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "bad key dictionary",
       "raw": ["a=1,b!=2,a=1"],
       "header_type": "dictionary",
-      "expected": false
+      "must_fail": true
     }
 ]

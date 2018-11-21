@@ -38,7 +38,7 @@
       "name": "extra extra whitespace param-list",
       "raw": ["text/html,text/plain ;q=0.5"],
       "header_type": "param-list",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "two lines param-list",
@@ -53,12 +53,12 @@
       "name": "trailing comma param-list",
       "raw": ["text/html,text/plain;q=0.5,"],
       "header_type": "param-list",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "empty item param-list",
       "raw": ["text/html,,text/plain;q=0.5,"],
       "header_type": "param-list",
-      "expected": false
+      "must_fail": true
     }
 ]

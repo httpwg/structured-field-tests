@@ -33,12 +33,12 @@
       "name": "trailing comma list",
       "raw": ["1, 42,"],
       "header_type": "list",
-      "expected": false
+      "must_fail": true
     },
     {
       "name": "empty item list",
       "raw": ["1,,42"],
       "header_type": "list",
-      "expected": false
+      "must_fail": true
     }
 ]
