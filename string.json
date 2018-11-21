@@ -70,7 +70,7 @@
       "raw": ["\"foo \\\""],
       "header_type": "item",
       "must_fail": true
-    }
+    },
     {
       "name": "abruptly ending string quote",
       "raw": ["\"foo \\"],
