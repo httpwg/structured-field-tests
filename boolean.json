@@ -7,7 +7,7 @@
     },
     {
       "name": "basic false boolean",
-      "raw": ["?T"],
+      "raw": ["?F"],
       "header_type": "item",
       "expected": false
     },
