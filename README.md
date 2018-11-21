@@ -11,6 +11,7 @@ object with the following members:
 - raw: An array of strings, each representing a header field value received
 - header_type: One of "item", "list", "dictionary", "param-list"
 - expected: The expected data structure after parsing (if successful), or `false` if test is expected to fail
+- can_fail: boolean indicating whether failing this test is acceptable; for SHOULDs. Defaults to `false`.
 
 The `expected` data structure maps the types in Structured Headers to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
