@@ -1,0 +1,32 @@
+[
+    {
+      "name": "empty item",
+      "raw": [""],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "leading space",
+      "raw": ["  1"],
+      "header_type": "item",
+      "expected": 1
+    },
+    {
+      "name": "trailing space",
+      "raw": ["1  "],
+      "header_type": "item",
+      "expected": 1
+    },
+    {
+      "name": "leading and trailing space",
+      "raw": ["  1  "],
+      "header_type": "item",
+      "expected": 1
+    },
+    {
+      "name": "leading and trailing whitespace",
+      "raw": ["     1  "],
+      "header_type": "item",
+      "expected": 1
+    }
+]
