@@ -6,10 +6,40 @@
       "expected": "foo"
     },
     {
+      "name": "empty string",
+      "raw": ["\"\""],
+      "header_type": "item",
+      "expected": ""
+    },
+    {
+      "name": "long string",
+      "raw": ["\"foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo \""],
+      "header_type": "item",
+      "expected": "foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo "
+    },
+    {
       "name": "whitespace string",
       "raw": ["\"   \""],
       "header_type": "item",
       "expected": "   "
+    },
+    {
+      "name": "non-ascii string",
+      "raw": ["\"füü\""],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "tab in string",
+      "raw": ["\"   \""],
+      "header_type": "item",
+      "expected": false
+    },
+    {
+      "name": "newline in string",
+      "raw": ["\" \\n \""],
+      "header_type": "item",
+      "expected": false
     },
     {
       "name": "single quoted string",
@@ -38,6 +68,12 @@
     {
       "name": "ending string quote",
       "raw": ["\"foo \\\""],
+      "header_type": "item",
+      "expected": false
+    }
+    {
+      "name": "abruptly ending string quote",
+      "raw": ["\"foo \\"],
       "header_type": "item",
       "expected": false
     }
