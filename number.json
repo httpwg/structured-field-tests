@@ -24,6 +24,12 @@
       "expected": 0
     },
     {
+      "name": "double negative zero",
+      "raw": ["--0"],
+      "header_type": "item",
+      "expected": false
+    },
+    {
       "name": "negative integer",
       "raw": ["-42"],
       "header_type": "item",
@@ -44,12 +50,6 @@
     {
       "name": "leading 0 zero",
       "raw": ["00"],
-      "header_type": "item",
-      "expected": 0
-    },
-    {
-      "name": "negative zero",
-      "raw": ["-0"],
       "header_type": "item",
       "expected": 0
     },
