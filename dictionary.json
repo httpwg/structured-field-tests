@@ -24,6 +24,12 @@
       "expected": {"a": 1, "b": 2}
     },
     {
+      "name": "leading whitespace dictionary",
+      "raw": ["     a=1 ,  b=2"],
+      "header_type": "dictionary",
+      "expected": {"a": 1, "b": 2}
+    },
+    {
       "name": "two lines dictionary",
       "raw": ["a=1", "b=2"],
       "header_type": "dictionary",
@@ -44,6 +50,24 @@
     {
       "name": "duplicate key dictionary",
       "raw": ["a=1,b=2,a=1"],
+      "header_type": "dictionary",
+      "expected": false
+    },
+    {
+      "name": "numeric key dictionary",
+      "raw": ["a=1,1b=2,a=1"],
+      "header_type": "dictionary",
+      "expected": false
+    },
+    {
+      "name": "uppercase key dictionary",
+      "raw": ["a=1,B=2,a=1"],
+      "header_type": "dictionary",
+      "expected": false
+    },
+    {
+      "name": "bad key dictionary",
+      "raw": ["a=1,b!=2,a=1"],
       "header_type": "dictionary",
       "expected": false
     }
