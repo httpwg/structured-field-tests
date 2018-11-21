@@ -31,7 +31,7 @@
     },
     {
       "name": "tab in string",
-      "raw": ["\"   \""],
+      "raw": ["\"\\t\""],
       "header_type": "item",
       "must_fail": true
     },
