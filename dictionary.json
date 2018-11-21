@@ -30,6 +30,18 @@
       "expected": {"a": 1, "b": 2}
     },
     {
+      "name": "whitespace before = dictionary",
+      "raw": ["a =1, b=2"],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
+      "name": "whitespace after = dictionary",
+      "raw": ["a=1, b= 2"],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
       "name": "two lines dictionary",
       "raw": ["a=1", "b=2"],
       "header_type": "dictionary",
