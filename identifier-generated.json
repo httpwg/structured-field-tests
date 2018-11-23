@@ -1022,5 +1022,1029 @@
         "raw": [
             "a\u007fa"
         ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x00 starting an identifier", 
+        "raw": [
+            "\u0000a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x01 starting an identifier", 
+        "raw": [
+            "\u0001a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x02 starting an identifier", 
+        "raw": [
+            "\u0002a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x03 starting an identifier", 
+        "raw": [
+            "\u0003a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x04 starting an identifier", 
+        "raw": [
+            "\u0004a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x05 starting an identifier", 
+        "raw": [
+            "\u0005a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x06 starting an identifier", 
+        "raw": [
+            "\u0006a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x07 starting an identifier", 
+        "raw": [
+            "\u0007a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x08 starting an identifier", 
+        "raw": [
+            "\ba"
+        ]
+    }, 
+    {
+        "expected": "a", 
+        "header_type": "item", 
+        "name": "0x09 starting an identifier", 
+        "raw": [
+            "\ta"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x0a starting an identifier", 
+        "raw": [
+            "\na"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x0b starting an identifier", 
+        "raw": [
+            "\u000ba"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x0c starting an identifier", 
+        "raw": [
+            "\fa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x0d starting an identifier", 
+        "raw": [
+            "\ra"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x0e starting an identifier", 
+        "raw": [
+            "\u000ea"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x0f starting an identifier", 
+        "raw": [
+            "\u000fa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x10 starting an identifier", 
+        "raw": [
+            "\u0010a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x11 starting an identifier", 
+        "raw": [
+            "\u0011a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x12 starting an identifier", 
+        "raw": [
+            "\u0012a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x13 starting an identifier", 
+        "raw": [
+            "\u0013a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x14 starting an identifier", 
+        "raw": [
+            "\u0014a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x15 starting an identifier", 
+        "raw": [
+            "\u0015a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x16 starting an identifier", 
+        "raw": [
+            "\u0016a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x17 starting an identifier", 
+        "raw": [
+            "\u0017a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x18 starting an identifier", 
+        "raw": [
+            "\u0018a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x19 starting an identifier", 
+        "raw": [
+            "\u0019a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x1a starting an identifier", 
+        "raw": [
+            "\u001aa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x1b starting an identifier", 
+        "raw": [
+            "\u001ba"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x1c starting an identifier", 
+        "raw": [
+            "\u001ca"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x1d starting an identifier", 
+        "raw": [
+            "\u001da"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x1e starting an identifier", 
+        "raw": [
+            "\u001ea"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x1f starting an identifier", 
+        "raw": [
+            "\u001fa"
+        ]
+    }, 
+    {
+        "expected": "a", 
+        "header_type": "item", 
+        "name": "0x20 starting an identifier", 
+        "raw": [
+            " a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x21 starting an identifier", 
+        "raw": [
+            "!a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x22 starting an identifier", 
+        "raw": [
+            "\"a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x23 starting an identifier", 
+        "raw": [
+            "#a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x24 starting an identifier", 
+        "raw": [
+            "$a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x25 starting an identifier", 
+        "raw": [
+            "%a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x26 starting an identifier", 
+        "raw": [
+            "&a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x27 starting an identifier", 
+        "raw": [
+            "'a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x28 starting an identifier", 
+        "raw": [
+            "(a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x29 starting an identifier", 
+        "raw": [
+            ")a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x2a starting an identifier", 
+        "raw": [
+            "*a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x2b starting an identifier", 
+        "raw": [
+            "+a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x2c starting an identifier", 
+        "raw": [
+            ",a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x2d starting an identifier", 
+        "raw": [
+            "-a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x2e starting an identifier", 
+        "raw": [
+            ".a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x2f starting an identifier", 
+        "raw": [
+            "/a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x30 starting an identifier", 
+        "raw": [
+            "0a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x31 starting an identifier", 
+        "raw": [
+            "1a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x32 starting an identifier", 
+        "raw": [
+            "2a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x33 starting an identifier", 
+        "raw": [
+            "3a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x34 starting an identifier", 
+        "raw": [
+            "4a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x35 starting an identifier", 
+        "raw": [
+            "5a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x36 starting an identifier", 
+        "raw": [
+            "6a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x37 starting an identifier", 
+        "raw": [
+            "7a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x38 starting an identifier", 
+        "raw": [
+            "8a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x39 starting an identifier", 
+        "raw": [
+            "9a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x3a starting an identifier", 
+        "raw": [
+            ":a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x3b starting an identifier", 
+        "raw": [
+            ";a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x3c starting an identifier", 
+        "raw": [
+            "<a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x3d starting an identifier", 
+        "raw": [
+            "=a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x3e starting an identifier", 
+        "raw": [
+            ">a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x3f starting an identifier", 
+        "raw": [
+            "?a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x40 starting an identifier", 
+        "raw": [
+            "@a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x41 starting an identifier", 
+        "raw": [
+            "Aa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x42 starting an identifier", 
+        "raw": [
+            "Ba"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x43 starting an identifier", 
+        "raw": [
+            "Ca"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x44 starting an identifier", 
+        "raw": [
+            "Da"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x45 starting an identifier", 
+        "raw": [
+            "Ea"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x46 starting an identifier", 
+        "raw": [
+            "Fa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x47 starting an identifier", 
+        "raw": [
+            "Ga"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x48 starting an identifier", 
+        "raw": [
+            "Ha"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x49 starting an identifier", 
+        "raw": [
+            "Ia"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x4a starting an identifier", 
+        "raw": [
+            "Ja"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x4b starting an identifier", 
+        "raw": [
+            "Ka"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x4c starting an identifier", 
+        "raw": [
+            "La"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x4d starting an identifier", 
+        "raw": [
+            "Ma"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x4e starting an identifier", 
+        "raw": [
+            "Na"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x4f starting an identifier", 
+        "raw": [
+            "Oa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x50 starting an identifier", 
+        "raw": [
+            "Pa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x51 starting an identifier", 
+        "raw": [
+            "Qa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x52 starting an identifier", 
+        "raw": [
+            "Ra"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x53 starting an identifier", 
+        "raw": [
+            "Sa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x54 starting an identifier", 
+        "raw": [
+            "Ta"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x55 starting an identifier", 
+        "raw": [
+            "Ua"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x56 starting an identifier", 
+        "raw": [
+            "Va"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x57 starting an identifier", 
+        "raw": [
+            "Wa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x58 starting an identifier", 
+        "raw": [
+            "Xa"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x59 starting an identifier", 
+        "raw": [
+            "Ya"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x5a starting an identifier", 
+        "raw": [
+            "Za"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x5b starting an identifier", 
+        "raw": [
+            "[a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x5c starting an identifier", 
+        "raw": [
+            "\\a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x5d starting an identifier", 
+        "raw": [
+            "]a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x5e starting an identifier", 
+        "raw": [
+            "^a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x5f starting an identifier", 
+        "raw": [
+            "_a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x60 starting an identifier", 
+        "raw": [
+            "`a"
+        ]
+    }, 
+    {
+        "expected": "aa", 
+        "header_type": "item", 
+        "name": "0x61 starting an identifier", 
+        "raw": [
+            "aa"
+        ]
+    }, 
+    {
+        "expected": "ba", 
+        "header_type": "item", 
+        "name": "0x62 starting an identifier", 
+        "raw": [
+            "ba"
+        ]
+    }, 
+    {
+        "expected": "ca", 
+        "header_type": "item", 
+        "name": "0x63 starting an identifier", 
+        "raw": [
+            "ca"
+        ]
+    }, 
+    {
+        "expected": "da", 
+        "header_type": "item", 
+        "name": "0x64 starting an identifier", 
+        "raw": [
+            "da"
+        ]
+    }, 
+    {
+        "expected": "ea", 
+        "header_type": "item", 
+        "name": "0x65 starting an identifier", 
+        "raw": [
+            "ea"
+        ]
+    }, 
+    {
+        "expected": "fa", 
+        "header_type": "item", 
+        "name": "0x66 starting an identifier", 
+        "raw": [
+            "fa"
+        ]
+    }, 
+    {
+        "expected": "ga", 
+        "header_type": "item", 
+        "name": "0x67 starting an identifier", 
+        "raw": [
+            "ga"
+        ]
+    }, 
+    {
+        "expected": "ha", 
+        "header_type": "item", 
+        "name": "0x68 starting an identifier", 
+        "raw": [
+            "ha"
+        ]
+    }, 
+    {
+        "expected": "ia", 
+        "header_type": "item", 
+        "name": "0x69 starting an identifier", 
+        "raw": [
+            "ia"
+        ]
+    }, 
+    {
+        "expected": "ja", 
+        "header_type": "item", 
+        "name": "0x6a starting an identifier", 
+        "raw": [
+            "ja"
+        ]
+    }, 
+    {
+        "expected": "ka", 
+        "header_type": "item", 
+        "name": "0x6b starting an identifier", 
+        "raw": [
+            "ka"
+        ]
+    }, 
+    {
+        "expected": "la", 
+        "header_type": "item", 
+        "name": "0x6c starting an identifier", 
+        "raw": [
+            "la"
+        ]
+    }, 
+    {
+        "expected": "ma", 
+        "header_type": "item", 
+        "name": "0x6d starting an identifier", 
+        "raw": [
+            "ma"
+        ]
+    }, 
+    {
+        "expected": "na", 
+        "header_type": "item", 
+        "name": "0x6e starting an identifier", 
+        "raw": [
+            "na"
+        ]
+    }, 
+    {
+        "expected": "oa", 
+        "header_type": "item", 
+        "name": "0x6f starting an identifier", 
+        "raw": [
+            "oa"
+        ]
+    }, 
+    {
+        "expected": "pa", 
+        "header_type": "item", 
+        "name": "0x70 starting an identifier", 
+        "raw": [
+            "pa"
+        ]
+    }, 
+    {
+        "expected": "qa", 
+        "header_type": "item", 
+        "name": "0x71 starting an identifier", 
+        "raw": [
+            "qa"
+        ]
+    }, 
+    {
+        "expected": "ra", 
+        "header_type": "item", 
+        "name": "0x72 starting an identifier", 
+        "raw": [
+            "ra"
+        ]
+    }, 
+    {
+        "expected": "sa", 
+        "header_type": "item", 
+        "name": "0x73 starting an identifier", 
+        "raw": [
+            "sa"
+        ]
+    }, 
+    {
+        "expected": "ta", 
+        "header_type": "item", 
+        "name": "0x74 starting an identifier", 
+        "raw": [
+            "ta"
+        ]
+    }, 
+    {
+        "expected": "ua", 
+        "header_type": "item", 
+        "name": "0x75 starting an identifier", 
+        "raw": [
+            "ua"
+        ]
+    }, 
+    {
+        "expected": "va", 
+        "header_type": "item", 
+        "name": "0x76 starting an identifier", 
+        "raw": [
+            "va"
+        ]
+    }, 
+    {
+        "expected": "wa", 
+        "header_type": "item", 
+        "name": "0x77 starting an identifier", 
+        "raw": [
+            "wa"
+        ]
+    }, 
+    {
+        "expected": "xa", 
+        "header_type": "item", 
+        "name": "0x78 starting an identifier", 
+        "raw": [
+            "xa"
+        ]
+    }, 
+    {
+        "expected": "ya", 
+        "header_type": "item", 
+        "name": "0x79 starting an identifier", 
+        "raw": [
+            "ya"
+        ]
+    }, 
+    {
+        "expected": "za", 
+        "header_type": "item", 
+        "name": "0x7a starting an identifier", 
+        "raw": [
+            "za"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x7b starting an identifier", 
+        "raw": [
+            "{a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x7c starting an identifier", 
+        "raw": [
+            "|a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x7d starting an identifier", 
+        "raw": [
+            "}a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x7e starting an identifier", 
+        "raw": [
+            "~a"
+        ]
+    }, 
+    {
+        "header_type": "item", 
+        "must_fail": true, 
+        "name": "0x7f starting an identifier", 
+        "raw": [
+            "\u007fa"
+        ]
     }
 ]

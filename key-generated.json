@@ -1100,6 +1100,1086 @@
         ]
     }, 
     {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x00 starting an dictionary key", 
+        "raw": [
+            "\u0000a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x01 starting an dictionary key", 
+        "raw": [
+            "\u0001a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x02 starting an dictionary key", 
+        "raw": [
+            "\u0002a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x03 starting an dictionary key", 
+        "raw": [
+            "\u0003a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x04 starting an dictionary key", 
+        "raw": [
+            "\u0004a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x05 starting an dictionary key", 
+        "raw": [
+            "\u0005a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x06 starting an dictionary key", 
+        "raw": [
+            "\u0006a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x07 starting an dictionary key", 
+        "raw": [
+            "\u0007a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x08 starting an dictionary key", 
+        "raw": [
+            "\ba=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x09 starting an dictionary key", 
+        "raw": [
+            "\ta=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0a starting an dictionary key", 
+        "raw": [
+            "\na=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0b starting an dictionary key", 
+        "raw": [
+            "\u000ba=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0c starting an dictionary key", 
+        "raw": [
+            "\fa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0d starting an dictionary key", 
+        "raw": [
+            "\ra=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0e starting an dictionary key", 
+        "raw": [
+            "\u000ea=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0f starting an dictionary key", 
+        "raw": [
+            "\u000fa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x10 starting an dictionary key", 
+        "raw": [
+            "\u0010a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x11 starting an dictionary key", 
+        "raw": [
+            "\u0011a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x12 starting an dictionary key", 
+        "raw": [
+            "\u0012a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x13 starting an dictionary key", 
+        "raw": [
+            "\u0013a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x14 starting an dictionary key", 
+        "raw": [
+            "\u0014a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x15 starting an dictionary key", 
+        "raw": [
+            "\u0015a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x16 starting an dictionary key", 
+        "raw": [
+            "\u0016a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x17 starting an dictionary key", 
+        "raw": [
+            "\u0017a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x18 starting an dictionary key", 
+        "raw": [
+            "\u0018a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x19 starting an dictionary key", 
+        "raw": [
+            "\u0019a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1a starting an dictionary key", 
+        "raw": [
+            "\u001aa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1b starting an dictionary key", 
+        "raw": [
+            "\u001ba=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1c starting an dictionary key", 
+        "raw": [
+            "\u001ca=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1d starting an dictionary key", 
+        "raw": [
+            "\u001da=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1e starting an dictionary key", 
+        "raw": [
+            "\u001ea=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1f starting an dictionary key", 
+        "raw": [
+            "\u001fa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x20 starting an dictionary key", 
+        "raw": [
+            " a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x21 starting an dictionary key", 
+        "raw": [
+            "!a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x22 starting an dictionary key", 
+        "raw": [
+            "\"a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x23 starting an dictionary key", 
+        "raw": [
+            "#a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x24 starting an dictionary key", 
+        "raw": [
+            "$a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x25 starting an dictionary key", 
+        "raw": [
+            "%a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x26 starting an dictionary key", 
+        "raw": [
+            "&a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x27 starting an dictionary key", 
+        "raw": [
+            "'a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x28 starting an dictionary key", 
+        "raw": [
+            "(a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x29 starting an dictionary key", 
+        "raw": [
+            ")a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2a starting an dictionary key", 
+        "raw": [
+            "*a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2b starting an dictionary key", 
+        "raw": [
+            "+a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2c starting an dictionary key", 
+        "raw": [
+            ",a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2d starting an dictionary key", 
+        "raw": [
+            "-a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2e starting an dictionary key", 
+        "raw": [
+            ".a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2f starting an dictionary key", 
+        "raw": [
+            "/a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x30 starting an dictionary key", 
+        "raw": [
+            "0a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x31 starting an dictionary key", 
+        "raw": [
+            "1a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x32 starting an dictionary key", 
+        "raw": [
+            "2a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x33 starting an dictionary key", 
+        "raw": [
+            "3a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x34 starting an dictionary key", 
+        "raw": [
+            "4a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x35 starting an dictionary key", 
+        "raw": [
+            "5a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x36 starting an dictionary key", 
+        "raw": [
+            "6a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x37 starting an dictionary key", 
+        "raw": [
+            "7a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x38 starting an dictionary key", 
+        "raw": [
+            "8a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x39 starting an dictionary key", 
+        "raw": [
+            "9a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3a starting an dictionary key", 
+        "raw": [
+            ":a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3b starting an dictionary key", 
+        "raw": [
+            ";a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3c starting an dictionary key", 
+        "raw": [
+            "<a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3d starting an dictionary key", 
+        "raw": [
+            "=a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3e starting an dictionary key", 
+        "raw": [
+            ">a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3f starting an dictionary key", 
+        "raw": [
+            "?a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x40 starting an dictionary key", 
+        "raw": [
+            "@a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x41 starting an dictionary key", 
+        "raw": [
+            "Aa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x42 starting an dictionary key", 
+        "raw": [
+            "Ba=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x43 starting an dictionary key", 
+        "raw": [
+            "Ca=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x44 starting an dictionary key", 
+        "raw": [
+            "Da=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x45 starting an dictionary key", 
+        "raw": [
+            "Ea=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x46 starting an dictionary key", 
+        "raw": [
+            "Fa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x47 starting an dictionary key", 
+        "raw": [
+            "Ga=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x48 starting an dictionary key", 
+        "raw": [
+            "Ha=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x49 starting an dictionary key", 
+        "raw": [
+            "Ia=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4a starting an dictionary key", 
+        "raw": [
+            "Ja=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4b starting an dictionary key", 
+        "raw": [
+            "Ka=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4c starting an dictionary key", 
+        "raw": [
+            "La=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4d starting an dictionary key", 
+        "raw": [
+            "Ma=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4e starting an dictionary key", 
+        "raw": [
+            "Na=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4f starting an dictionary key", 
+        "raw": [
+            "Oa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x50 starting an dictionary key", 
+        "raw": [
+            "Pa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x51 starting an dictionary key", 
+        "raw": [
+            "Qa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x52 starting an dictionary key", 
+        "raw": [
+            "Ra=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x53 starting an dictionary key", 
+        "raw": [
+            "Sa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x54 starting an dictionary key", 
+        "raw": [
+            "Ta=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x55 starting an dictionary key", 
+        "raw": [
+            "Ua=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x56 starting an dictionary key", 
+        "raw": [
+            "Va=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x57 starting an dictionary key", 
+        "raw": [
+            "Wa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x58 starting an dictionary key", 
+        "raw": [
+            "Xa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x59 starting an dictionary key", 
+        "raw": [
+            "Ya=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5a starting an dictionary key", 
+        "raw": [
+            "Za=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5b starting an dictionary key", 
+        "raw": [
+            "[a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5c starting an dictionary key", 
+        "raw": [
+            "\\a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5d starting an dictionary key", 
+        "raw": [
+            "]a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5e starting an dictionary key", 
+        "raw": [
+            "^a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5f starting an dictionary key", 
+        "raw": [
+            "_a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x60 starting an dictionary key", 
+        "raw": [
+            "`a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x61 starting an dictionary key", 
+        "raw": [
+            "aa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ba": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x62 starting an dictionary key", 
+        "raw": [
+            "ba=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ca": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x63 starting an dictionary key", 
+        "raw": [
+            "ca=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "da": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x64 starting an dictionary key", 
+        "raw": [
+            "da=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ea": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x65 starting an dictionary key", 
+        "raw": [
+            "ea=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "fa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x66 starting an dictionary key", 
+        "raw": [
+            "fa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ga": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x67 starting an dictionary key", 
+        "raw": [
+            "ga=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ha": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x68 starting an dictionary key", 
+        "raw": [
+            "ha=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ia": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x69 starting an dictionary key", 
+        "raw": [
+            "ia=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ja": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6a starting an dictionary key", 
+        "raw": [
+            "ja=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ka": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6b starting an dictionary key", 
+        "raw": [
+            "ka=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "la": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6c starting an dictionary key", 
+        "raw": [
+            "la=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ma": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6d starting an dictionary key", 
+        "raw": [
+            "ma=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "na": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6e starting an dictionary key", 
+        "raw": [
+            "na=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "oa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6f starting an dictionary key", 
+        "raw": [
+            "oa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "pa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x70 starting an dictionary key", 
+        "raw": [
+            "pa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "qa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x71 starting an dictionary key", 
+        "raw": [
+            "qa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ra": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x72 starting an dictionary key", 
+        "raw": [
+            "ra=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "sa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x73 starting an dictionary key", 
+        "raw": [
+            "sa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ta": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x74 starting an dictionary key", 
+        "raw": [
+            "ta=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ua": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x75 starting an dictionary key", 
+        "raw": [
+            "ua=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "va": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x76 starting an dictionary key", 
+        "raw": [
+            "va=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "wa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x77 starting an dictionary key", 
+        "raw": [
+            "wa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "xa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x78 starting an dictionary key", 
+        "raw": [
+            "xa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ya": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x79 starting an dictionary key", 
+        "raw": [
+            "ya=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "za": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x7a starting an dictionary key", 
+        "raw": [
+            "za=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7b starting an dictionary key", 
+        "raw": [
+            "{a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7c starting an dictionary key", 
+        "raw": [
+            "|a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7d starting an dictionary key", 
+        "raw": [
+            "}a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7e starting an dictionary key", 
+        "raw": [
+            "~a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7f starting an dictionary key", 
+        "raw": [
+            "\u007fa=1"
+        ]
+    }, 
+    {
         "header_type": "param-list", 
         "must_fail": true, 
         "name": "0x00 in param-list key", 
@@ -2387,6 +3467,1226 @@
         "name": "0x7f in param-list key", 
         "raw": [
             "foo; a\u007fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x00 starting a param-list key", 
+        "raw": [
+            "foo; \u0000a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x01 starting a param-list key", 
+        "raw": [
+            "foo; \u0001a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x02 starting a param-list key", 
+        "raw": [
+            "foo; \u0002a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x03 starting a param-list key", 
+        "raw": [
+            "foo; \u0003a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x04 starting a param-list key", 
+        "raw": [
+            "foo; \u0004a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x05 starting a param-list key", 
+        "raw": [
+            "foo; \u0005a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x06 starting a param-list key", 
+        "raw": [
+            "foo; \u0006a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x07 starting a param-list key", 
+        "raw": [
+            "foo; \u0007a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x08 starting a param-list key", 
+        "raw": [
+            "foo; \ba=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x09 starting a param-list key", 
+        "raw": [
+            "foo; \ta=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0a starting a param-list key", 
+        "raw": [
+            "foo; \na=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0b starting a param-list key", 
+        "raw": [
+            "foo; \u000ba=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0c starting a param-list key", 
+        "raw": [
+            "foo; \fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0d starting a param-list key", 
+        "raw": [
+            "foo; \ra=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0e starting a param-list key", 
+        "raw": [
+            "foo; \u000ea=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0f starting a param-list key", 
+        "raw": [
+            "foo; \u000fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x10 starting a param-list key", 
+        "raw": [
+            "foo; \u0010a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x11 starting a param-list key", 
+        "raw": [
+            "foo; \u0011a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x12 starting a param-list key", 
+        "raw": [
+            "foo; \u0012a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x13 starting a param-list key", 
+        "raw": [
+            "foo; \u0013a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x14 starting a param-list key", 
+        "raw": [
+            "foo; \u0014a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x15 starting a param-list key", 
+        "raw": [
+            "foo; \u0015a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x16 starting a param-list key", 
+        "raw": [
+            "foo; \u0016a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x17 starting a param-list key", 
+        "raw": [
+            "foo; \u0017a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x18 starting a param-list key", 
+        "raw": [
+            "foo; \u0018a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x19 starting a param-list key", 
+        "raw": [
+            "foo; \u0019a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1a starting a param-list key", 
+        "raw": [
+            "foo; \u001aa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1b starting a param-list key", 
+        "raw": [
+            "foo; \u001ba=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1c starting a param-list key", 
+        "raw": [
+            "foo; \u001ca=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1d starting a param-list key", 
+        "raw": [
+            "foo; \u001da=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1e starting a param-list key", 
+        "raw": [
+            "foo; \u001ea=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1f starting a param-list key", 
+        "raw": [
+            "foo; \u001fa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x20 starting a param-list key", 
+        "raw": [
+            "foo;  a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x21 starting a param-list key", 
+        "raw": [
+            "foo; !a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x22 starting a param-list key", 
+        "raw": [
+            "foo; \"a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x23 starting a param-list key", 
+        "raw": [
+            "foo; #a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x24 starting a param-list key", 
+        "raw": [
+            "foo; $a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x25 starting a param-list key", 
+        "raw": [
+            "foo; %a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x26 starting a param-list key", 
+        "raw": [
+            "foo; &a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x27 starting a param-list key", 
+        "raw": [
+            "foo; 'a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x28 starting a param-list key", 
+        "raw": [
+            "foo; (a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x29 starting a param-list key", 
+        "raw": [
+            "foo; )a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2a starting a param-list key", 
+        "raw": [
+            "foo; *a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2b starting a param-list key", 
+        "raw": [
+            "foo; +a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2c starting a param-list key", 
+        "raw": [
+            "foo; ,a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2d starting a param-list key", 
+        "raw": [
+            "foo; -a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2e starting a param-list key", 
+        "raw": [
+            "foo; .a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2f starting a param-list key", 
+        "raw": [
+            "foo; /a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x30 starting a param-list key", 
+        "raw": [
+            "foo; 0a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x31 starting a param-list key", 
+        "raw": [
+            "foo; 1a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x32 starting a param-list key", 
+        "raw": [
+            "foo; 2a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x33 starting a param-list key", 
+        "raw": [
+            "foo; 3a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x34 starting a param-list key", 
+        "raw": [
+            "foo; 4a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x35 starting a param-list key", 
+        "raw": [
+            "foo; 5a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x36 starting a param-list key", 
+        "raw": [
+            "foo; 6a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x37 starting a param-list key", 
+        "raw": [
+            "foo; 7a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x38 starting a param-list key", 
+        "raw": [
+            "foo; 8a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x39 starting a param-list key", 
+        "raw": [
+            "foo; 9a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3a starting a param-list key", 
+        "raw": [
+            "foo; :a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3b starting a param-list key", 
+        "raw": [
+            "foo; ;a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3c starting a param-list key", 
+        "raw": [
+            "foo; <a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3d starting a param-list key", 
+        "raw": [
+            "foo; =a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3e starting a param-list key", 
+        "raw": [
+            "foo; >a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3f starting a param-list key", 
+        "raw": [
+            "foo; ?a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x40 starting a param-list key", 
+        "raw": [
+            "foo; @a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x41 starting a param-list key", 
+        "raw": [
+            "foo; Aa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x42 starting a param-list key", 
+        "raw": [
+            "foo; Ba=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x43 starting a param-list key", 
+        "raw": [
+            "foo; Ca=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x44 starting a param-list key", 
+        "raw": [
+            "foo; Da=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x45 starting a param-list key", 
+        "raw": [
+            "foo; Ea=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x46 starting a param-list key", 
+        "raw": [
+            "foo; Fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x47 starting a param-list key", 
+        "raw": [
+            "foo; Ga=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x48 starting a param-list key", 
+        "raw": [
+            "foo; Ha=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x49 starting a param-list key", 
+        "raw": [
+            "foo; Ia=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4a starting a param-list key", 
+        "raw": [
+            "foo; Ja=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4b starting a param-list key", 
+        "raw": [
+            "foo; Ka=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4c starting a param-list key", 
+        "raw": [
+            "foo; La=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4d starting a param-list key", 
+        "raw": [
+            "foo; Ma=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4e starting a param-list key", 
+        "raw": [
+            "foo; Na=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4f starting a param-list key", 
+        "raw": [
+            "foo; Oa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x50 starting a param-list key", 
+        "raw": [
+            "foo; Pa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x51 starting a param-list key", 
+        "raw": [
+            "foo; Qa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x52 starting a param-list key", 
+        "raw": [
+            "foo; Ra=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x53 starting a param-list key", 
+        "raw": [
+            "foo; Sa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x54 starting a param-list key", 
+        "raw": [
+            "foo; Ta=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x55 starting a param-list key", 
+        "raw": [
+            "foo; Ua=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x56 starting a param-list key", 
+        "raw": [
+            "foo; Va=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x57 starting a param-list key", 
+        "raw": [
+            "foo; Wa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x58 starting a param-list key", 
+        "raw": [
+            "foo; Xa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x59 starting a param-list key", 
+        "raw": [
+            "foo; Ya=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5a starting a param-list key", 
+        "raw": [
+            "foo; Za=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5b starting a param-list key", 
+        "raw": [
+            "foo; [a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5c starting a param-list key", 
+        "raw": [
+            "foo; \\a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5d starting a param-list key", 
+        "raw": [
+            "foo; ]a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5e starting a param-list key", 
+        "raw": [
+            "foo; ^a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5f starting a param-list key", 
+        "raw": [
+            "foo; _a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x60 starting a param-list key", 
+        "raw": [
+            "foo; `a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x61 starting a param-list key", 
+        "raw": [
+            "foo; aa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ba": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x62 starting a param-list key", 
+        "raw": [
+            "foo; ba=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ca": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x63 starting a param-list key", 
+        "raw": [
+            "foo; ca=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "da": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x64 starting a param-list key", 
+        "raw": [
+            "foo; da=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ea": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x65 starting a param-list key", 
+        "raw": [
+            "foo; ea=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "fa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x66 starting a param-list key", 
+        "raw": [
+            "foo; fa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ga": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x67 starting a param-list key", 
+        "raw": [
+            "foo; ga=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ha": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x68 starting a param-list key", 
+        "raw": [
+            "foo; ha=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ia": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x69 starting a param-list key", 
+        "raw": [
+            "foo; ia=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ja": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6a starting a param-list key", 
+        "raw": [
+            "foo; ja=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ka": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6b starting a param-list key", 
+        "raw": [
+            "foo; ka=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "la": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6c starting a param-list key", 
+        "raw": [
+            "foo; la=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ma": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6d starting a param-list key", 
+        "raw": [
+            "foo; ma=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "na": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6e starting a param-list key", 
+        "raw": [
+            "foo; na=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "oa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6f starting a param-list key", 
+        "raw": [
+            "foo; oa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "pa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x70 starting a param-list key", 
+        "raw": [
+            "foo; pa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "qa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x71 starting a param-list key", 
+        "raw": [
+            "foo; qa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ra": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x72 starting a param-list key", 
+        "raw": [
+            "foo; ra=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "sa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x73 starting a param-list key", 
+        "raw": [
+            "foo; sa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ta": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x74 starting a param-list key", 
+        "raw": [
+            "foo; ta=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ua": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x75 starting a param-list key", 
+        "raw": [
+            "foo; ua=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "va": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x76 starting a param-list key", 
+        "raw": [
+            "foo; va=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "wa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x77 starting a param-list key", 
+        "raw": [
+            "foo; wa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "xa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x78 starting a param-list key", 
+        "raw": [
+            "foo; xa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ya": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x79 starting a param-list key", 
+        "raw": [
+            "foo; ya=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "za": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x7a starting a param-list key", 
+        "raw": [
+            "foo; za=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7b starting a param-list key", 
+        "raw": [
+            "foo; {a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7c starting a param-list key", 
+        "raw": [
+            "foo; |a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7d starting a param-list key", 
+        "raw": [
+            "foo; }a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7e starting a param-list key", 
+        "raw": [
+            "foo; ~a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7f starting a param-list key", 
+        "raw": [
+            "foo; \u007fa=1"
         ]
     }
 ]
