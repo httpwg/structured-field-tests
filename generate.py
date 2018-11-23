@@ -156,6 +156,13 @@ tests.append({
 })
 
 ## large dictionary key
+key_length = 64
+tests.append({
+    "name": "large dictionary key",
+    "raw": ["%s=1" % ("a" * key_length)],
+    "header_type": "dictionary",
+    "expected": {("a" * key_length): 1}
+})
 
 ## large lists
 list_members = 1024
@@ -185,6 +192,12 @@ tests.append({
 })
 
 ## large param key
+tests.append({
+    "name": "large param key",
+    "raw": ["foo; %s=1" % ("a" * key_length)],
+    "header_type": "param-list",
+    "expected": [["foo", {("a" * key_length): 1}]]
+})
 
 ## large strings
 string_length = 1024
@@ -202,7 +215,7 @@ tests.append({
 })
 
 ## large identifiers
-identifier_length = 64
+identifier_length = 512
 tests.append({
     "name": "large identifier",
     "raw": ["%s" % ("a" * identifier_length)],
