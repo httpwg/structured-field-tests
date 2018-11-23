@@ -143,3 +143,71 @@ for c in ALL_CHARS:
     tests.append(test)
 write('key', tests)
 
+### large types
+tests = []
+
+## large dictionaries
+dict_members = 1024
+tests.append({
+    "name": "large dictionary",
+    "raw": [", ".join(["a%s=1" % i for i in range(dict_members)])],
+    "header_type": "dictionary",
+    "expected": {"a%s" % i: 1 for i in range(dict_members)}
+})
+
+## large dictionary key
+
+## large lists
+list_members = 1024
+tests.append({
+    "name": "large list",
+    "raw": [", ".join(["a%s" % i for i in range(list_members)])],
+    "header_type": "list",
+    "expected": ["a%s" % i for i in range(list_members)]
+})
+
+## large param-lists
+param_list_members = 1024
+tests.append({
+    "name": "large param-list",
+    "raw": [", ".join(["foo; a%s=1" % i for i in range(param_list_members)])],
+    "header_type": "param-list",
+    "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)]
+})
+
+## large number of params
+param_members = 256
+tests.append({
+    "name": "large params",
+    "raw": ["foo; %s" % "; ".join(["a%s=1" % i for i in range(param_members)])],
+    "header_type": "param-list",
+    "expected": [["foo", {"a%s" % i: 1 for i in range(param_members)}]]
+})
+
+## large param key
+
+## large strings
+string_length = 1024
+tests.append({
+    "name": "large string",
+    "raw": ["\"%s\"" % ("a" * string_length)],
+    "header_type": "item",
+    "expected": "a" * string_length
+})
+tests.append({
+    "name": "large escaped string",
+    "raw": ["\"%s\"" % ("\\\"" * string_length)],
+    "header_type": "item",
+    "expected": "\"" * string_length
+})
+
+## large identifiers
+identifier_length = 64
+tests.append({
+    "name": "large identifier",
+    "raw": ["%s" % ("a" * identifier_length)],
+    "header_type": "item",
+    "expected": "a" * identifier_length
+})
+
+write('large', tests)
