@@ -1,0 +1,2392 @@
+[
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x00 in dictionary key", 
+        "raw": [
+            "a\u0000a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x01 in dictionary key", 
+        "raw": [
+            "a\u0001a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x02 in dictionary key", 
+        "raw": [
+            "a\u0002a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x03 in dictionary key", 
+        "raw": [
+            "a\u0003a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x04 in dictionary key", 
+        "raw": [
+            "a\u0004a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x05 in dictionary key", 
+        "raw": [
+            "a\u0005a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x06 in dictionary key", 
+        "raw": [
+            "a\u0006a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x07 in dictionary key", 
+        "raw": [
+            "a\u0007a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x08 in dictionary key", 
+        "raw": [
+            "a\ba=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x09 in dictionary key", 
+        "raw": [
+            "a\ta=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0a in dictionary key", 
+        "raw": [
+            "a\na=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0b in dictionary key", 
+        "raw": [
+            "a\u000ba=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0c in dictionary key", 
+        "raw": [
+            "a\fa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0d in dictionary key", 
+        "raw": [
+            "a\ra=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0e in dictionary key", 
+        "raw": [
+            "a\u000ea=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x0f in dictionary key", 
+        "raw": [
+            "a\u000fa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x10 in dictionary key", 
+        "raw": [
+            "a\u0010a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x11 in dictionary key", 
+        "raw": [
+            "a\u0011a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x12 in dictionary key", 
+        "raw": [
+            "a\u0012a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x13 in dictionary key", 
+        "raw": [
+            "a\u0013a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x14 in dictionary key", 
+        "raw": [
+            "a\u0014a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x15 in dictionary key", 
+        "raw": [
+            "a\u0015a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x16 in dictionary key", 
+        "raw": [
+            "a\u0016a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x17 in dictionary key", 
+        "raw": [
+            "a\u0017a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x18 in dictionary key", 
+        "raw": [
+            "a\u0018a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x19 in dictionary key", 
+        "raw": [
+            "a\u0019a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1a in dictionary key", 
+        "raw": [
+            "a\u001aa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1b in dictionary key", 
+        "raw": [
+            "a\u001ba=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1c in dictionary key", 
+        "raw": [
+            "a\u001ca=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1d in dictionary key", 
+        "raw": [
+            "a\u001da=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1e in dictionary key", 
+        "raw": [
+            "a\u001ea=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x1f in dictionary key", 
+        "raw": [
+            "a\u001fa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x20 in dictionary key", 
+        "raw": [
+            "a a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x21 in dictionary key", 
+        "raw": [
+            "a!a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x22 in dictionary key", 
+        "raw": [
+            "a\"a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x23 in dictionary key", 
+        "raw": [
+            "a#a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x24 in dictionary key", 
+        "raw": [
+            "a$a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x25 in dictionary key", 
+        "raw": [
+            "a%a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x26 in dictionary key", 
+        "raw": [
+            "a&a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x27 in dictionary key", 
+        "raw": [
+            "a'a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x28 in dictionary key", 
+        "raw": [
+            "a(a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x29 in dictionary key", 
+        "raw": [
+            "a)a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2a in dictionary key", 
+        "raw": [
+            "a*a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2b in dictionary key", 
+        "raw": [
+            "a+a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2c in dictionary key", 
+        "raw": [
+            "a,a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a-a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x2d in dictionary key", 
+        "raw": [
+            "a-a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2e in dictionary key", 
+        "raw": [
+            "a.a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x2f in dictionary key", 
+        "raw": [
+            "a/a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a0a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x30 in dictionary key", 
+        "raw": [
+            "a0a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a1a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x31 in dictionary key", 
+        "raw": [
+            "a1a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a2a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x32 in dictionary key", 
+        "raw": [
+            "a2a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a3a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x33 in dictionary key", 
+        "raw": [
+            "a3a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a4a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x34 in dictionary key", 
+        "raw": [
+            "a4a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a5a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x35 in dictionary key", 
+        "raw": [
+            "a5a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a6a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x36 in dictionary key", 
+        "raw": [
+            "a6a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a7a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x37 in dictionary key", 
+        "raw": [
+            "a7a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a8a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x38 in dictionary key", 
+        "raw": [
+            "a8a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a9a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x39 in dictionary key", 
+        "raw": [
+            "a9a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3a in dictionary key", 
+        "raw": [
+            "a:a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3b in dictionary key", 
+        "raw": [
+            "a;a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3c in dictionary key", 
+        "raw": [
+            "a<a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3d in dictionary key", 
+        "raw": [
+            "a=a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3e in dictionary key", 
+        "raw": [
+            "a>a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x3f in dictionary key", 
+        "raw": [
+            "a?a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x40 in dictionary key", 
+        "raw": [
+            "a@a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x41 in dictionary key", 
+        "raw": [
+            "aAa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x42 in dictionary key", 
+        "raw": [
+            "aBa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x43 in dictionary key", 
+        "raw": [
+            "aCa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x44 in dictionary key", 
+        "raw": [
+            "aDa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x45 in dictionary key", 
+        "raw": [
+            "aEa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x46 in dictionary key", 
+        "raw": [
+            "aFa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x47 in dictionary key", 
+        "raw": [
+            "aGa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x48 in dictionary key", 
+        "raw": [
+            "aHa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x49 in dictionary key", 
+        "raw": [
+            "aIa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4a in dictionary key", 
+        "raw": [
+            "aJa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4b in dictionary key", 
+        "raw": [
+            "aKa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4c in dictionary key", 
+        "raw": [
+            "aLa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4d in dictionary key", 
+        "raw": [
+            "aMa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4e in dictionary key", 
+        "raw": [
+            "aNa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x4f in dictionary key", 
+        "raw": [
+            "aOa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x50 in dictionary key", 
+        "raw": [
+            "aPa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x51 in dictionary key", 
+        "raw": [
+            "aQa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x52 in dictionary key", 
+        "raw": [
+            "aRa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x53 in dictionary key", 
+        "raw": [
+            "aSa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x54 in dictionary key", 
+        "raw": [
+            "aTa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x55 in dictionary key", 
+        "raw": [
+            "aUa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x56 in dictionary key", 
+        "raw": [
+            "aVa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x57 in dictionary key", 
+        "raw": [
+            "aWa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x58 in dictionary key", 
+        "raw": [
+            "aXa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x59 in dictionary key", 
+        "raw": [
+            "aYa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5a in dictionary key", 
+        "raw": [
+            "aZa=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5b in dictionary key", 
+        "raw": [
+            "a[a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5c in dictionary key", 
+        "raw": [
+            "a\\a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5d in dictionary key", 
+        "raw": [
+            "a]a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x5e in dictionary key", 
+        "raw": [
+            "a^a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "a_a": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x5f in dictionary key", 
+        "raw": [
+            "a_a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x60 in dictionary key", 
+        "raw": [
+            "a`a=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aaa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x61 in dictionary key", 
+        "raw": [
+            "aaa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aba": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x62 in dictionary key", 
+        "raw": [
+            "aba=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aca": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x63 in dictionary key", 
+        "raw": [
+            "aca=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ada": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x64 in dictionary key", 
+        "raw": [
+            "ada=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aea": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x65 in dictionary key", 
+        "raw": [
+            "aea=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "afa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x66 in dictionary key", 
+        "raw": [
+            "afa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aga": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x67 in dictionary key", 
+        "raw": [
+            "aga=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aha": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x68 in dictionary key", 
+        "raw": [
+            "aha=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aia": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x69 in dictionary key", 
+        "raw": [
+            "aia=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aja": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6a in dictionary key", 
+        "raw": [
+            "aja=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aka": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6b in dictionary key", 
+        "raw": [
+            "aka=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ala": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6c in dictionary key", 
+        "raw": [
+            "ala=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ama": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6d in dictionary key", 
+        "raw": [
+            "ama=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ana": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6e in dictionary key", 
+        "raw": [
+            "ana=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aoa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x6f in dictionary key", 
+        "raw": [
+            "aoa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "apa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x70 in dictionary key", 
+        "raw": [
+            "apa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aqa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x71 in dictionary key", 
+        "raw": [
+            "aqa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ara": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x72 in dictionary key", 
+        "raw": [
+            "ara=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "asa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x73 in dictionary key", 
+        "raw": [
+            "asa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ata": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x74 in dictionary key", 
+        "raw": [
+            "ata=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aua": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x75 in dictionary key", 
+        "raw": [
+            "aua=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "ava": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x76 in dictionary key", 
+        "raw": [
+            "ava=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "awa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x77 in dictionary key", 
+        "raw": [
+            "awa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "axa": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x78 in dictionary key", 
+        "raw": [
+            "axa=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aya": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x79 in dictionary key", 
+        "raw": [
+            "aya=1"
+        ]
+    }, 
+    {
+        "expected": {
+            "aza": 1
+        }, 
+        "header_type": "dictionary", 
+        "name": "0x7a in dictionary key", 
+        "raw": [
+            "aza=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7b in dictionary key", 
+        "raw": [
+            "a{a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7c in dictionary key", 
+        "raw": [
+            "a|a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7d in dictionary key", 
+        "raw": [
+            "a}a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7e in dictionary key", 
+        "raw": [
+            "a~a=1"
+        ]
+    }, 
+    {
+        "header_type": "dictionary", 
+        "must_fail": true, 
+        "name": "0x7f in dictionary key", 
+        "raw": [
+            "a\u007fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x00 in param-list key", 
+        "raw": [
+            "foo; a\u0000a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x01 in param-list key", 
+        "raw": [
+            "foo; a\u0001a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x02 in param-list key", 
+        "raw": [
+            "foo; a\u0002a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x03 in param-list key", 
+        "raw": [
+            "foo; a\u0003a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x04 in param-list key", 
+        "raw": [
+            "foo; a\u0004a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x05 in param-list key", 
+        "raw": [
+            "foo; a\u0005a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x06 in param-list key", 
+        "raw": [
+            "foo; a\u0006a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x07 in param-list key", 
+        "raw": [
+            "foo; a\u0007a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x08 in param-list key", 
+        "raw": [
+            "foo; a\ba=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x09 in param-list key", 
+        "raw": [
+            "foo; a\ta=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0a in param-list key", 
+        "raw": [
+            "foo; a\na=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0b in param-list key", 
+        "raw": [
+            "foo; a\u000ba=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0c in param-list key", 
+        "raw": [
+            "foo; a\fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0d in param-list key", 
+        "raw": [
+            "foo; a\ra=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0e in param-list key", 
+        "raw": [
+            "foo; a\u000ea=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x0f in param-list key", 
+        "raw": [
+            "foo; a\u000fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x10 in param-list key", 
+        "raw": [
+            "foo; a\u0010a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x11 in param-list key", 
+        "raw": [
+            "foo; a\u0011a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x12 in param-list key", 
+        "raw": [
+            "foo; a\u0012a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x13 in param-list key", 
+        "raw": [
+            "foo; a\u0013a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x14 in param-list key", 
+        "raw": [
+            "foo; a\u0014a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x15 in param-list key", 
+        "raw": [
+            "foo; a\u0015a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x16 in param-list key", 
+        "raw": [
+            "foo; a\u0016a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x17 in param-list key", 
+        "raw": [
+            "foo; a\u0017a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x18 in param-list key", 
+        "raw": [
+            "foo; a\u0018a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x19 in param-list key", 
+        "raw": [
+            "foo; a\u0019a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1a in param-list key", 
+        "raw": [
+            "foo; a\u001aa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1b in param-list key", 
+        "raw": [
+            "foo; a\u001ba=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1c in param-list key", 
+        "raw": [
+            "foo; a\u001ca=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1d in param-list key", 
+        "raw": [
+            "foo; a\u001da=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1e in param-list key", 
+        "raw": [
+            "foo; a\u001ea=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x1f in param-list key", 
+        "raw": [
+            "foo; a\u001fa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x20 in param-list key", 
+        "raw": [
+            "foo; a a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x21 in param-list key", 
+        "raw": [
+            "foo; a!a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x22 in param-list key", 
+        "raw": [
+            "foo; a\"a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x23 in param-list key", 
+        "raw": [
+            "foo; a#a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x24 in param-list key", 
+        "raw": [
+            "foo; a$a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x25 in param-list key", 
+        "raw": [
+            "foo; a%a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x26 in param-list key", 
+        "raw": [
+            "foo; a&a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x27 in param-list key", 
+        "raw": [
+            "foo; a'a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x28 in param-list key", 
+        "raw": [
+            "foo; a(a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x29 in param-list key", 
+        "raw": [
+            "foo; a)a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2a in param-list key", 
+        "raw": [
+            "foo; a*a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2b in param-list key", 
+        "raw": [
+            "foo; a+a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2c in param-list key", 
+        "raw": [
+            "foo; a,a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a-a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x2d in param-list key", 
+        "raw": [
+            "foo; a-a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2e in param-list key", 
+        "raw": [
+            "foo; a.a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x2f in param-list key", 
+        "raw": [
+            "foo; a/a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a0a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x30 in param-list key", 
+        "raw": [
+            "foo; a0a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a1a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x31 in param-list key", 
+        "raw": [
+            "foo; a1a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a2a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x32 in param-list key", 
+        "raw": [
+            "foo; a2a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a3a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x33 in param-list key", 
+        "raw": [
+            "foo; a3a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a4a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x34 in param-list key", 
+        "raw": [
+            "foo; a4a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a5a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x35 in param-list key", 
+        "raw": [
+            "foo; a5a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a6a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x36 in param-list key", 
+        "raw": [
+            "foo; a6a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a7a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x37 in param-list key", 
+        "raw": [
+            "foo; a7a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a8a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x38 in param-list key", 
+        "raw": [
+            "foo; a8a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a9a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x39 in param-list key", 
+        "raw": [
+            "foo; a9a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3a in param-list key", 
+        "raw": [
+            "foo; a:a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3b in param-list key", 
+        "raw": [
+            "foo; a;a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3c in param-list key", 
+        "raw": [
+            "foo; a<a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3d in param-list key", 
+        "raw": [
+            "foo; a=a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3e in param-list key", 
+        "raw": [
+            "foo; a>a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x3f in param-list key", 
+        "raw": [
+            "foo; a?a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x40 in param-list key", 
+        "raw": [
+            "foo; a@a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x41 in param-list key", 
+        "raw": [
+            "foo; aAa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x42 in param-list key", 
+        "raw": [
+            "foo; aBa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x43 in param-list key", 
+        "raw": [
+            "foo; aCa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x44 in param-list key", 
+        "raw": [
+            "foo; aDa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x45 in param-list key", 
+        "raw": [
+            "foo; aEa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x46 in param-list key", 
+        "raw": [
+            "foo; aFa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x47 in param-list key", 
+        "raw": [
+            "foo; aGa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x48 in param-list key", 
+        "raw": [
+            "foo; aHa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x49 in param-list key", 
+        "raw": [
+            "foo; aIa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4a in param-list key", 
+        "raw": [
+            "foo; aJa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4b in param-list key", 
+        "raw": [
+            "foo; aKa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4c in param-list key", 
+        "raw": [
+            "foo; aLa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4d in param-list key", 
+        "raw": [
+            "foo; aMa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4e in param-list key", 
+        "raw": [
+            "foo; aNa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x4f in param-list key", 
+        "raw": [
+            "foo; aOa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x50 in param-list key", 
+        "raw": [
+            "foo; aPa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x51 in param-list key", 
+        "raw": [
+            "foo; aQa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x52 in param-list key", 
+        "raw": [
+            "foo; aRa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x53 in param-list key", 
+        "raw": [
+            "foo; aSa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x54 in param-list key", 
+        "raw": [
+            "foo; aTa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x55 in param-list key", 
+        "raw": [
+            "foo; aUa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x56 in param-list key", 
+        "raw": [
+            "foo; aVa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x57 in param-list key", 
+        "raw": [
+            "foo; aWa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x58 in param-list key", 
+        "raw": [
+            "foo; aXa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x59 in param-list key", 
+        "raw": [
+            "foo; aYa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5a in param-list key", 
+        "raw": [
+            "foo; aZa=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5b in param-list key", 
+        "raw": [
+            "foo; a[a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5c in param-list key", 
+        "raw": [
+            "foo; a\\a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5d in param-list key", 
+        "raw": [
+            "foo; a]a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x5e in param-list key", 
+        "raw": [
+            "foo; a^a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "a_a": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x5f in param-list key", 
+        "raw": [
+            "foo; a_a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x60 in param-list key", 
+        "raw": [
+            "foo; a`a=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aaa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x61 in param-list key", 
+        "raw": [
+            "foo; aaa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aba": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x62 in param-list key", 
+        "raw": [
+            "foo; aba=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aca": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x63 in param-list key", 
+        "raw": [
+            "foo; aca=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ada": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x64 in param-list key", 
+        "raw": [
+            "foo; ada=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aea": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x65 in param-list key", 
+        "raw": [
+            "foo; aea=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "afa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x66 in param-list key", 
+        "raw": [
+            "foo; afa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aga": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x67 in param-list key", 
+        "raw": [
+            "foo; aga=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aha": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x68 in param-list key", 
+        "raw": [
+            "foo; aha=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aia": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x69 in param-list key", 
+        "raw": [
+            "foo; aia=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aja": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6a in param-list key", 
+        "raw": [
+            "foo; aja=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aka": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6b in param-list key", 
+        "raw": [
+            "foo; aka=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ala": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6c in param-list key", 
+        "raw": [
+            "foo; ala=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ama": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6d in param-list key", 
+        "raw": [
+            "foo; ama=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ana": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6e in param-list key", 
+        "raw": [
+            "foo; ana=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aoa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x6f in param-list key", 
+        "raw": [
+            "foo; aoa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "apa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x70 in param-list key", 
+        "raw": [
+            "foo; apa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aqa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x71 in param-list key", 
+        "raw": [
+            "foo; aqa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ara": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x72 in param-list key", 
+        "raw": [
+            "foo; ara=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "asa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x73 in param-list key", 
+        "raw": [
+            "foo; asa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ata": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x74 in param-list key", 
+        "raw": [
+            "foo; ata=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aua": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x75 in param-list key", 
+        "raw": [
+            "foo; aua=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "ava": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x76 in param-list key", 
+        "raw": [
+            "foo; ava=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "awa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x77 in param-list key", 
+        "raw": [
+            "foo; awa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "axa": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x78 in param-list key", 
+        "raw": [
+            "foo; axa=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aya": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x79 in param-list key", 
+        "raw": [
+            "foo; aya=1"
+        ]
+    }, 
+    {
+        "expected": [
+            [
+                "foo", 
+                {
+                    "aza": 1
+                }
+            ]
+        ], 
+        "header_type": "param-list", 
+        "name": "0x7a in param-list key", 
+        "raw": [
+            "foo; aza=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7b in param-list key", 
+        "raw": [
+            "foo; a{a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7c in param-list key", 
+        "raw": [
+            "foo; a|a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7d in param-list key", 
+        "raw": [
+            "foo; a}a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7e in param-list key", 
+        "raw": [
+            "foo; a~a=1"
+        ]
+    }, 
+    {
+        "header_type": "param-list", 
+        "must_fail": true, 
+        "name": "0x7f in param-list key", 
+        "raw": [
+            "foo; a\u007fa=1"
+        ]
+    }
+]
