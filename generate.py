@@ -21,6 +21,7 @@ def write(name, data):
 
 ### strings
 tests = []
+
 ## allowed characters
 for c in ALL_CHARS:
     test = {
@@ -50,6 +51,7 @@ write('string', tests)
 
 ### identifiers
 tests = []
+
 ## allowed characters
 for c in ALL_CHARS:
     test = {
@@ -62,6 +64,7 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+
 ## allowed starting characters
 for c in ALL_CHARS:
     test = {
@@ -80,7 +83,7 @@ write('identifier', tests)
 
 ### keys
 tests = []
-## allowed characters
+
 ## dictionary keys
 for c in ALL_CHARS:
     test = {
@@ -94,6 +97,7 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+
 ## allowed dictionary key starting characters
 for c in ALL_CHARS:
     test = {
@@ -108,6 +112,7 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+
 ## param-list keys
 for c in ALL_CHARS:
     test = {
@@ -121,6 +126,7 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+
 ## allowed param-list key starting characters
 for c in ALL_CHARS:
     test = {
