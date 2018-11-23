@@ -28,6 +28,30 @@
       "raw": ["? T"],
       "header_type": "item",
       "must_fail": true
+    },
+    {
+      "name": "zero boolean",
+      "raw": ["?0"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "one boolean",
+      "raw": ["?1"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "spelled-out True boolean",
+      "raw": ["?True"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "spelled-out False boolean",
+      "raw": ["?False"],
+      "header_type": "item",
+      "must_fail": true
     }
 ]
     
