@@ -2,6 +2,15 @@
 
 import json
 
+allowed_string_chars = [0x20, 0x21] + list(range(0x23, 0x5b + 1)) + list(range(0x5d, 0x7e + 1))
+escaped_string_chars = [0x22, 0x5c]
+allowed_identifier_chars = list(range(0x30, 0x39 + 1)) + list(range(0x61, 0x7a + 1)) + \
+    [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
+allowed_identifier_start_chars = list(range(0x61, 0x7a + 1))
+allowed_key_chars = list(range(0x30, 0x39 + 1)) + list(range(0x61, 0x7a + 1)) + \
+    [ord(c) for c in ["_", "-"]]
+allowed_key_start_chars = list(range(0x61, 0x7a + 1))
+
 def write(name, data):
     fh = open("%s-generated.json" % name, "w")
     json.dump(data, fh, indent=4, sort_keys=True)
@@ -10,7 +19,6 @@ def write(name, data):
 ### strings
 tests = []
 ## allowed characters
-allowed_string_chars = [0x20, 0x21] + list(range(0x23, 0x5b + 1)) + list(range(0x5d, 0x7e + 1))
 for c in range(0x00, 0x7f + 1):
     test = {
       "name": "0x%02x in string" % c,
@@ -24,7 +32,6 @@ for c in range(0x00, 0x7f + 1):
     tests.append(test)
 
 ## escaped characters
-escaped_string_chars = [0x22, 0x5c]
 for c in range(0x00, 0x7f + 1):
     test = {
       "name": "0x%02x in string" % c,
@@ -41,8 +48,6 @@ write('string', tests)
 ### identifiers
 tests = []
 ## allowed characters
-allowed_identifier_chars = list(range(0x30, 0x39 + 1)) + list(range(0x61, 0x7a + 1)) + \
-    [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
 for c in range(0x00, 0x7f + 1):
     test = {
       "name": "0x%02x in identifier" % c,
@@ -55,7 +60,6 @@ for c in range(0x00, 0x7f + 1):
         test["must_fail"] = True
     tests.append(test)
 ## allowed starting characters
-allowed_identifier_start_chars = list(range(0x61, 0x7a + 1))
 for c in range(0x00, 0x7f + 1):
     test = {
       "name": "0x%02x starting an identifier" % c,
@@ -74,9 +78,6 @@ write('identifier', tests)
 ### keys
 tests = []
 ## allowed characters
-allowed_key_chars = list(range(0x30, 0x39 + 1)) + list(range(0x61, 0x7a + 1)) + \
-    [ord(c) for c in ["_", "-"]]
-allowed_key_start_chars = list(range(0x61, 0x7a + 1))
 ## dictionary keys
 for c in range(0x00, 0x7f + 1):
     test = {
