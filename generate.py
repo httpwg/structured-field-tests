@@ -138,7 +138,7 @@ for c in ALL_CHARS:
     }
     if c in WHITESPACE:
         test["expected"] = [["foo", {"a": 1}]]  # whitespace is always stripped.
-    elif c in allowed_identifier_start_chars:
+    elif c in allowed_key_start_chars:
         test["expected"] = [["foo", {"%sa" % chr(c): 1}]]
     else:
         test["must_fail"] = True

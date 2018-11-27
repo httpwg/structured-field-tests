@@ -4056,390 +4056,208 @@
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Aa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x41 starting a param-list key", 
         "raw": [
             "foo; Aa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ba": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x42 starting a param-list key", 
         "raw": [
             "foo; Ba=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ca": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x43 starting a param-list key", 
         "raw": [
             "foo; Ca=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Da": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x44 starting a param-list key", 
         "raw": [
             "foo; Da=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ea": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x45 starting a param-list key", 
         "raw": [
             "foo; Ea=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Fa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x46 starting a param-list key", 
         "raw": [
             "foo; Fa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ga": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x47 starting a param-list key", 
         "raw": [
             "foo; Ga=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ha": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x48 starting a param-list key", 
         "raw": [
             "foo; Ha=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ia": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x49 starting a param-list key", 
         "raw": [
             "foo; Ia=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ja": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x4a starting a param-list key", 
         "raw": [
             "foo; Ja=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ka": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x4b starting a param-list key", 
         "raw": [
             "foo; Ka=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "La": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x4c starting a param-list key", 
         "raw": [
             "foo; La=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ma": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x4d starting a param-list key", 
         "raw": [
             "foo; Ma=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Na": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x4e starting a param-list key", 
         "raw": [
             "foo; Na=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Oa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x4f starting a param-list key", 
         "raw": [
             "foo; Oa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Pa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x50 starting a param-list key", 
         "raw": [
             "foo; Pa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Qa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x51 starting a param-list key", 
         "raw": [
             "foo; Qa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ra": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x52 starting a param-list key", 
         "raw": [
             "foo; Ra=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Sa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x53 starting a param-list key", 
         "raw": [
             "foo; Sa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ta": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x54 starting a param-list key", 
         "raw": [
             "foo; Ta=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ua": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x55 starting a param-list key", 
         "raw": [
             "foo; Ua=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Va": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x56 starting a param-list key", 
         "raw": [
             "foo; Va=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Wa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x57 starting a param-list key", 
         "raw": [
             "foo; Wa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Xa": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x58 starting a param-list key", 
         "raw": [
             "foo; Xa=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Ya": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x59 starting a param-list key", 
         "raw": [
             "foo; Ya=1"
         ]
     }, 
     {
-        "expected": [
-            [
-                "foo", 
-                {
-                    "Za": 1
-                }
-            ]
-        ], 
         "header_type": "param-list", 
+        "must_fail": true, 
         "name": "0x5a starting a param-list key", 
         "raw": [
             "foo; Za=1"
