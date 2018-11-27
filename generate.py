@@ -6,11 +6,13 @@ ALL_CHARS = range(0x00, 0x7f + 1)
 WHITESPACE = [0x09, 0x20]
 DIGITS = list(range(0x30, 0x39 + 1))
 LCALPHA = list(range(0x61, 0x7a + 1))
+UCALPHA = list(range(0x41, 0x5a + 1))
+ALPHA = LCALPHA + UCALPHA
 
 allowed_string_chars = [0x20, 0x21] + list(range(0x23, 0x5b + 1)) + list(range(0x5d, 0x7e + 1))
 escaped_string_chars = [0x22, 0x5c]
-allowed_identifier_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
-allowed_identifier_start_chars = LCALPHA
+allowed_identifier_chars = DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
+allowed_identifier_start_chars = ALPHA
 allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-"]]
 allowed_key_start_chars = LCALPHA
 

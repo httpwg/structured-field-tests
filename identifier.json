@@ -9,7 +9,13 @@
       "name": "identifier with capitals - item",
       "raw": ["fooBar"],
       "header_type": "item",
-      "must_fail": true
+      "expected": "fooBar"
+    },
+    {
+      "name": "identifier starting with capitals - item",
+      "raw": ["FooBar"],
+      "header_type": "item",
+      "expected": "FooBar"
     },
     {
       "name": "bad identifier - item",
@@ -27,7 +33,13 @@
       "name": "identifier with capitals - list",
       "raw": ["fooBar"],
       "header_type": "param-list",
-      "must_fail": true
+      "expected": [["fooBar", {}]]
+    },
+    {
+      "name": "identifier starting with capitals - list",
+      "raw": ["FooBar"],
+      "header_type": "param-list",
+      "expected": [["FooBar", {}]]
     },
     {
       "name": "identifier with bad start - list",
