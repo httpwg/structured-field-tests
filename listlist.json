@@ -1,0 +1,74 @@
+[
+    {
+      "name": "basic list of lists",
+      "raw": ["1;2, 42;43"],
+      "header_type": "list-list",
+      "expected": [[1, 2], [42, 43]]
+    },
+    {
+      "name": "empty list of lists",
+      "raw": [""],
+      "header_type": "list-list",
+      "must_fail": true
+    },
+    {
+      "name": "single item list of lists",
+      "raw": ["42"],
+      "header_type": "list-list",
+      "expected": [[42]]
+    },
+    {
+      "name": "no whitespace list of lists",
+      "raw": ["1,42"],
+      "header_type": "list-list",
+      "expected": [[1], [42]]
+    },
+    {
+      "name": "no inner whitespace list of lists",
+      "raw": ["1;2, 42;43"],
+      "header_type": "list-list",
+      "expected": [[1,2], [42,43]]
+    },
+    {
+      "name": "extra whitespace list of lists",
+      "raw": ["1 , 42"],
+      "header_type": "list-list",
+      "expected": [[1], [42]]
+    },
+    {
+      "name": "extra inner whitespace list of lists",
+      "raw": ["1 ; 2,42 ; 43"],
+      "header_type": "list-list",
+      "expected": [[1, 2], [42, 43]]
+    },
+    {
+      "name": "two line list of lists",
+      "raw": ["1", "42"],
+      "header_type": "list-list",
+      "expected": [[1], [42]]
+    },
+    {
+      "name": "trailing comma list of lists",
+      "raw": ["1;2, 42,"],
+      "header_type": "list-list",
+      "must_fail": true
+    },
+    {
+      "name": "trailing semicolon list of lists",
+      "raw": ["1;2, 42;43;"],
+      "header_type": "list-list",
+      "must_fail": true
+    },
+    {
+      "name": "empty item list of lists",
+      "raw": ["1,,42"],
+      "header_type": "list-list",
+      "must_fail": true
+    },
+    {
+      "name": "empty inner item list of lists",
+      "raw": ["1;;2,42"],
+      "header_type": "list-list",
+      "must_fail": true
+    }
+]

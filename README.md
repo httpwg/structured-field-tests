@@ -18,6 +18,7 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 
 * Dictionary: JSON object
 * List: JSON array
+* List of Lists: JSON array of JSON arrays
 * Parameterised List: JSON array of JSON arrays whose first member is a string and second member is an object
 * Integer: JSON numbers; e.g. 1
 * Float: JSON numbers; e.g. 2.5
