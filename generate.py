@@ -11,8 +11,8 @@ ALPHA = LCALPHA + UCALPHA
 
 allowed_string_chars = [0x20, 0x21] + list(range(0x23, 0x5b + 1)) + list(range(0x5d, 0x7e + 1))
 escaped_string_chars = [0x22, 0x5c]
-allowed_identifier_chars = DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
-allowed_identifier_start_chars = ALPHA
+allowed_token_chars = DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
+allowed_token_start_chars = ALPHA
 allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-"]]
 allowed_key_start_chars = LCALPHA
 
@@ -51,17 +51,17 @@ for c in ALL_CHARS:
     tests.append(test)
 write('string', tests)
 
-### identifiers
+### tokens
 tests = []
 
 ## allowed characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in identifier" % c,
+      "name": "0x%02x in token" % c,
       "raw": ["a%sa" % chr(c)],
       "header_type": "item"
     }
-    if c in allowed_identifier_chars:
+    if c in allowed_token_chars:
         test["expected"] = "a%sa" % chr(c)
     else:
         test["must_fail"] = True
@@ -70,18 +70,18 @@ for c in ALL_CHARS:
 ## allowed starting characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x starting an identifier" % c,
+      "name": "0x%02x starting an token" % c,
       "raw": ["%sa" % chr(c)],
       "header_type": "item"
     }
     if c in WHITESPACE:
         test["expected"] = "a"  # whitespace is always stripped.
-    elif c in allowed_identifier_start_chars:
+    elif c in allowed_token_start_chars:
         test["expected"] = "%sa" % chr(c)
     else:
         test["must_fail"] = True
     tests.append(test)
-write('identifier', tests)
+write('token', tests)
 
 ### keys
 tests = []
@@ -216,13 +216,13 @@ tests.append({
     "expected": "\"" * string_length
 })
 
-## large identifiers
-identifier_length = 512
+## large tokens
+token_length = 512
 tests.append({
-    "name": "large identifier",
-    "raw": ["%s" % ("a" * identifier_length)],
+    "name": "large token",
+    "raw": ["%s" % ("a" * token_length)],
     "header_type": "item",
-    "expected": "a" * identifier_length
+    "expected": "a" * token_length
 })
 
 write('large', tests)

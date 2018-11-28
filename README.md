@@ -23,7 +23,7 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 * Integer: JSON numbers; e.g. 1
 * Float: JSON numbers; e.g. 2.5
 * String: JSON string; e.g., "foo"
-* Identifier: JSON string; e.g., "bar"
+* Token: JSON string; e.g., "bar"
 * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
 
 
