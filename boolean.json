@@ -40,7 +40,7 @@
       "raw": ["?F"],
       "header_type": "item",
       "must_fail": true
-    }
+    },
     {
       "name": "t boolean",
       "raw": ["?t"],
@@ -52,7 +52,7 @@
       "raw": ["?f"],
       "header_type": "item",
       "must_fail": true
-    }
+    },
     {
       "name": "spelled-out True boolean",
       "raw": ["?True"],
