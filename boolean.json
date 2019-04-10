@@ -1,21 +1,15 @@
 [
     {
       "name": "basic true boolean",
-      "raw": ["?T"],
+      "raw": ["?1"],
       "header_type": "item",
       "expected": true
     },
     {
       "name": "basic false boolean",
-      "raw": ["?F"],
+      "raw": ["?0"],
       "header_type": "item",
       "expected": false
-    },
-    {
-      "name": "lowercase boolean",
-      "raw": ["?t"],
-      "header_type": "item",
-      "must_fail": true
     },
     {
       "name": "unknown boolean",
@@ -25,22 +19,40 @@
     },
     {
       "name": "whitespace boolean",
-      "raw": ["? T"],
+      "raw": ["? 1"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "zero boolean",
-      "raw": ["?0"],
+      "name": "negative zero boolean",
+      "raw": ["?-0"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "one boolean",
-      "raw": ["?1"],
+      "name": "T boolean",
+      "raw": ["?T"],
       "header_type": "item",
       "must_fail": true
     },
+    {
+      "name": "F boolean",
+      "raw": ["?F"],
+      "header_type": "item",
+      "must_fail": true
+    }
+    {
+      "name": "t boolean",
+      "raw": ["?t"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "f boolean",
+      "raw": ["?f"],
+      "header_type": "item",
+      "must_fail": true
+    }
     {
       "name": "spelled-out True boolean",
       "raw": ["?True"],
