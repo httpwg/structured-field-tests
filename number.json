@@ -76,7 +76,7 @@
       "raw": ["9223372036854775807"],
       "header_type": "item",
       "must_fail": true
-     },
+    },
     {
       "name": "long negative integer",
       "raw": ["-9223372036854775808"],
