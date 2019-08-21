@@ -19,7 +19,7 @@
     },
     {
       "name": "list item dictionary",
-      "raw": ["a=(1,2)"],
+      "raw": ["a=(1 2)"],
       "header_type": "dictionary",
       "expected": {"a": [[1,2], {}]}
     },
