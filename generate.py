@@ -181,7 +181,7 @@ tests.append({
     "name": "large parameterised list",
     "raw": [", ".join(["foo; a%s=1" % i for i in range(param_list_members)])],
     "header_type": "list",
-    "expected": [[["foo", {"a%s" % i: 1}] for i in range(param_list_members)]]
+    "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)]
 })
 
 ## large number of params
