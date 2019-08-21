@@ -73,25 +73,25 @@
     },
     {
       "name": "long integer",
-      "raw": ["9223372036854775807"],
+      "raw": ["123456789012345"],
       "header_type": "item",
-      "expected": 9223372036854775807
+      "expected": 123456789012345
     },
     {
       "name": "long negative integer",
-      "raw": ["-9223372036854775808"],
+      "raw": ["-123456789012345"],
       "header_type": "item",
-      "expected": -9223372036854775808
+      "expected": -123456789012345
     },
     {
       "name": "too long integer",
-      "raw": ["9223372036854775808"],
+      "raw": ["1234567890123456"],
       "header_type": "item",
       "must_fail": true
     },
     {
       "name": "negative too long integer",
-      "raw": ["-9223372036854775809"],
+      "raw": ["-1234567890123456"],
       "header_type": "item",
       "must_fail": true
     },
