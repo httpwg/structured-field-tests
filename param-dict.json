@@ -1,7 +1,7 @@
 [
     {
       "name": "basic parameterised dict",
-      "raw": ["abc=1;a=1;b=2, def=456, ghi=789;q=\"9\";r=\"w\""],
+      "raw": ["abc=123;a=1;b=2, def=456, ghi=789;q=\"9\";r=\"w\""],
       "header_type": "dictionary",
       "expected": {
         "abc": ["123", {"a": 1, "b": 2}],
@@ -19,7 +19,7 @@
     },
     {
       "name": "list item parameterised dictionary",
-      "raw": ["a=(1,2); q=1.0"],
+      "raw": ["a=(1 2); q=1.0"],
       "header_type": "dictionary",
       "expected": {"a": [[1,2], {"q": 1.0}]}
     },
