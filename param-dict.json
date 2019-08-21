@@ -1,0 +1,71 @@
+[
+    {
+      "name": "basic parameterised dict",
+      "raw": ["abc=1;a=1;b=2, def=456, ghi=789;q=\"9\";r=\"w\""],
+      "header_type": "dictionary",
+      "expected": {
+        "abc": ["123", {"a": 1, "b": 2}],
+        "def": 456,
+        "ghi": ["789", {"q": "9", "r": "w"}]
+    }
+    },
+    {
+      "name": "single item parameterised dict",
+      "raw": ["a=b; q=1.0"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": ["b", {"q": 1.0}]
+      }
+    },
+    {
+      "name": "no whitespace parameterised dict",
+      "raw": ["a=b;c=1,d=e;f=2"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": ["b", {"c": 1}],
+          "d": ["e", {"f": 2}]
+      }
+    },
+    {
+      "name": "whitespace before = parameterised dict",
+      "raw": ["a=b;q =0.5"],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
+      "name": "whitespace after = parameterised dict",
+      "raw": ["a=b;q= 0.5"],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
+      "name": "extra whitespace parameterised dict",
+      "raw": ["a=b  ;  c=1  ,  d=e ; f=2"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": ["b", {"c": 1}],
+          "d": ["e", {"f": 2}]
+      }
+    },
+    {
+      "name": "two lines parameterised list",
+      "raw": ["a=b;c=1", "d=e;f=2"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": ["b", {"c": 1}],
+          "d": ["e", {"f": 2}]
+      }
+    },
+    {
+      "name": "trailing comma parameterised list",
+      "raw": ["a=b; q=1.0,"],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
+      "name": "empty item parameterised list",
+      "raw": ["a=b; q=1.0,,c=d"],
+      "header_type": "dictionary",
+      "must_fail": true
+    }
+]
