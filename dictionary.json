@@ -9,7 +9,7 @@
       "name": "empty dictionary",
       "raw": [""],
       "header_type": "dictionary",
-      "must_fail": true
+      "expected": {}
     },
     {
       "name": "single item dictionary",

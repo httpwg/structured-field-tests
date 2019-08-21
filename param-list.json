@@ -12,7 +12,7 @@
       "name": "empty param-list",
       "raw": [""],
       "header_type": "param-list",
-      "must_fail": true
+      "expected": []
     },
     {
       "name": "single item param-list",

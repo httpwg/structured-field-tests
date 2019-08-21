@@ -9,7 +9,7 @@
       "name": "empty list of lists",
       "raw": [""],
       "header_type": "list-list",
-      "must_fail": true
+      "expected": []
     },
     {
       "name": "single item list of lists",
