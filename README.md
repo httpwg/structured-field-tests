@@ -16,7 +16,7 @@ object with the following members:
 
 The `expected` data structure maps the types in Structured Headers to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
-* Dictionary: JSON object
+* Dictionary: JSON object whose values are [member, parameters], where parameters is an object
 * List: JSON array of [primary_item, parameteters], where parameters is an object
 * List of Lists: JSON array of JSON arrays
 * Integer: JSON numbers; e.g. 1
@@ -25,7 +25,7 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 * Token: JSON string; e.g., "bar"
 * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
 
-`primary_item` can be either a simple item, or a list.
+`primary_item` and `member` can be either a simple item, or a list.
 
 ## Writing Tests
 

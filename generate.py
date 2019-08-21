@@ -95,7 +95,7 @@ for c in ALL_CHARS:
     }
     if c in allowed_key_chars:
         key = "a%sa" % chr(c)
-        test["expected"] = {key: 1}
+        test["expected"] = {key: [1]}
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -108,9 +108,9 @@ for c in ALL_CHARS:
       "header_type": "dictionary"
     }
     if c in WHITESPACE:
-        test["expected"] = {"a": 1}  # whitespace is always stripped.
+        test["expected"] = {"a": [1]}  # whitespace is always stripped.
     elif c in allowed_key_start_chars:
-        test["expected"] = {"%sa" % chr(c): 1}
+        test["expected"] = {"%sa" % chr(c): [1]}
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -154,7 +154,7 @@ tests.append({
     "name": "large dictionary",
     "raw": [", ".join(["a%s=1" % i for i in range(dict_members)])],
     "header_type": "dictionary",
-    "expected": {"a%s" % i: 1 for i in range(dict_members)}
+    "expected": {"a%s" % i: [1] for i in range(dict_members)}
 })
 
 ## large dictionary key
@@ -163,7 +163,7 @@ tests.append({
     "name": "large dictionary key",
     "raw": ["%s=1" % ("a" * key_length)],
     "header_type": "dictionary",
-    "expected": {("a" * key_length): 1}
+    "expected": {("a" * key_length): [1]}
 })
 
 ## large lists

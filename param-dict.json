@@ -18,6 +18,12 @@
       }
     },
     {
+      "name": "list item parameterised dictionary",
+      "raw": ["a=(1,2); q=1.0"],
+      "header_type": "dictionary",
+      "expected": {"a": [[1,2], {"q": 1.0}]}
+    },
+    {
       "name": "no whitespace parameterised dict",
       "raw": ["a=b;c=1,d=e;f=2"],
       "header_type": "dictionary",

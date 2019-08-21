@@ -15,25 +15,43 @@
       "name": "single item dictionary",
       "raw": ["a=1"],
       "header_type": "dictionary",
-      "expected": {"a": 1}
+      "expected": {"a": [1]}
+    },
+    {
+      "name": "list item dictionary",
+      "raw": ["a=(1,2)"],
+      "header_type": "dictionary",
+      "expected": {"a": [[1,2]]}
+    },
+    {
+      "name": "single list item dictionary",
+      "raw": ["a=(1)"],
+      "header_type": "dictionary",
+      "expected": {"a": [[1]]}
+    },
+    {
+      "name": "empty list item dictionary",
+      "raw": ["a=()"],
+      "header_type": "dictionary",
+      "expected": {"a": [[]]}
     },
     {
       "name": "no whitespace dictionary",
       "raw": ["a=1,b=2"],
       "header_type": "dictionary",
-      "expected": {"a": 1, "b": 2}
+      "expected": {"a": [1], "b": [2]}
     },
     {
       "name": "extra whitespace dictionary",
       "raw": ["a=1 ,  b=2"],
       "header_type": "dictionary",
-      "expected": {"a": 1, "b": 2}
+      "expected": {"a": [1], "b": [2]}
     },
     {
       "name": "leading whitespace dictionary",
       "raw": ["     a=1 ,  b=2"],
       "header_type": "dictionary",
-      "expected": {"a": 1, "b": 2}
+      "expected": {"a": [1], "b": [2]}
     },
     {
       "name": "whitespace before = dictionary",
@@ -51,7 +69,7 @@
       "name": "two lines dictionary",
       "raw": ["a=1", "b=2"],
       "header_type": "dictionary",
-      "expected": {"a": 1, "b": 2}
+      "expected": {"a": [1], "b": [2]}
     },
     {
       "name": "trailing comma dictionary",
