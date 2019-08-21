@@ -13,7 +13,7 @@ allowed_string_chars = [0x20, 0x21] + list(range(0x23, 0x5b + 1)) + list(range(0
 escaped_string_chars = [0x22, 0x5c]
 allowed_token_chars = DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
 allowed_token_start_chars = ALPHA
-allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-"]]
+allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-", "*"]]
 allowed_key_start_chars = LCALPHA
 
 def write(name, data):
