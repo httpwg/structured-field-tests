@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import json
 
@@ -226,3 +226,88 @@ tests.append({
 })
 
 write('large', tests)
+
+
+## Number types
+tests = []
+
+## integer sizes
+number_length = 15
+for i in range(1, number_length + 1):
+    tests.append({
+        "name": f"{i} digits of zero",
+        "raw": ["0" * i],
+        "header_type": "item",
+        "expected": 0
+    })
+    tests.append({
+        "name": f"{i} digit small integer",
+        "raw": ["1" * i],
+        "header_type": "item",
+        "expected": int("1" * i)
+    })
+    tests.append({
+        "name": f"{i} digit large integer",
+        "raw": ["9" * i],
+        "header_type": "item",
+        "expected": int("9" * i)
+    })
+
+## float sizes
+fractional_length = 6
+for i in range(1, number_length + 1):
+    for j in range(1, fractional_length + 1):
+        if i < j + 1: continue
+        tests.append({
+            "name": f"{i} digit 0, {j} fractional small float",
+            "raw": ["0" * (i-j) + "." + "1" * j],
+            "header_type": "item",
+            "expected": float("0" * (i-j) + "." + "1" * j)
+        })
+        tests.append({
+            "name": f"{i} digit, {j} fractional 0 float",
+            "raw": ["1" * (i-j) + "." + "0" * j],
+            "header_type": "item",
+            "expected": float("1" * (i-j) + "." + "0" * j)
+        })
+        tests.append({
+            "name": f"{i} digit, {j} fractional small float",
+            "raw": ["1" * (i-j) + "." + "1" * j],
+            "header_type": "item",
+            "expected": float("1" * (i-j) + "." + "1" * j)
+        })
+        tests.append({
+            "name": f"{i} digit, {j} fractional large float",
+            "raw": ["9" * (i-j) + "." + "9" * j],
+            "header_type": "item",
+            "expected": float("9" * (i-j) + "." + "9" * j)
+        })
+
+tests.append({
+    "name": f"too many digit 0 float",
+    "raw": ["0" * (number_length) + "." + "0"],
+    "header_type": "item",
+    "must_fail": True
+})
+tests.append({
+    "name": f"too many fractional digits 0 float",
+    "raw": ["0" * (number_length - fractional_length) + "." + "0" * (fractional_length + 1)],
+    "header_type": "item",
+    "must_fail": True
+})
+tests.append({
+    "name": f"too many digit 9 float",
+    "raw": ["9" * (number_length) + "." + "9"],
+    "header_type": "item",
+    "must_fail": True
+})
+tests.append({
+    "name": f"too many fractional digits 9 float",
+    "raw": ["9" * (number_length - fractional_length) + "." + "9" * (fractional_length + 1)],
+    "header_type": "item",
+    "must_fail": True
+})
+
+
+
+write('number', tests)
