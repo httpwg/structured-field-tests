@@ -25,6 +25,7 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 * Token: JSON string; e.g., "bar"
 * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
 
+`primary_item` can be either a simple item, or a list.
 
 ## Writing Tests
 
