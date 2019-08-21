@@ -115,12 +115,12 @@ for c in ALL_CHARS:
         test["must_fail"] = True
     tests.append(test)
 
-## param-list keys
+## parameterised list keys
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in param-list key" % c,
+      "name": "0x%02x in parameterised list key" % c,
       "raw": ["foo; a%sa=1" % chr(c)],
-      "header_type": "param-list"
+      "header_type": "list"
     }
     if c in allowed_key_chars:
         key = "a%sa" % chr(c)
@@ -129,12 +129,12 @@ for c in ALL_CHARS:
         test["must_fail"] = True
     tests.append(test)
 
-## allowed param-list key starting characters
+## allowed parameterised list key starting characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x starting a param-list key" % c,
+      "name": "0x%02x starting a parameterised list key" % c,
       "raw": ["foo; %sa=1" % chr(c)],
-      "header_type": "param-list"
+      "header_type": "list"
     }
     if c in WHITESPACE:
         test["expected"] = [["foo", {"a": 1}]]  # whitespace is always stripped.
@@ -172,15 +172,15 @@ tests.append({
     "name": "large list",
     "raw": [", ".join(["a%s" % i for i in range(list_members)])],
     "header_type": "list",
-    "expected": ["a%s" % i for i in range(list_members)]
+    "expected": [["a%s" % i for i in range(list_members)]]
 })
 
-## large param-lists
+## large parameterised lists
 param_list_members = 1024
 tests.append({
-    "name": "large param-list",
+    "name": "large parameterised list",
     "raw": [", ".join(["foo; a%s=1" % i for i in range(param_list_members)])],
-    "header_type": "param-list",
+    "header_type": "list",
     "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)]
 })
 
@@ -189,7 +189,7 @@ param_members = 256
 tests.append({
     "name": "large params",
     "raw": ["foo; %s" % "; ".join(["a%s=1" % i for i in range(param_members)])],
-    "header_type": "param-list",
+    "header_type": "list",
     "expected": [["foo", {"a%s" % i: 1 for i in range(param_members)}]]
 })
 
@@ -197,7 +197,7 @@ tests.append({
 tests.append({
     "name": "large param key",
     "raw": ["foo; %s=1" % ("a" * key_length)],
-    "header_type": "param-list",
+    "header_type": "list",
     "expected": [["foo", {("a" * key_length): 1}]]
 })
 

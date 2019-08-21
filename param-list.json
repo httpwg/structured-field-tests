@@ -1,76 +1,70 @@
 [
     {
-      "name": "basic param-list",
+      "name": "basic parameterised list",
       "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=\"w\""],
-      "header_type": "param-list",
+      "header_type": "list",
       "expected": [
         ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
         ["ghi", {"q": "9", "r": "w"}]
       ]
     },
     {
-      "name": "empty param-list",
-      "raw": [""],
-      "header_type": "param-list",
-      "expected": []
-    },
-    {
-      "name": "single item param-list",
+      "name": "single item parameterised list",
       "raw": ["text/html;q=1.0"],
-      "header_type": "param-list",
+      "header_type": "list",
       "expected": [
         ["text/html", {"q": 1.0}]
       ]
     },
     {
-      "name": "no whitespace param-list",
+      "name": "no whitespace parameterised list",
       "raw": ["text/html,text/plain;q=0.5"],
-      "header_type": "param-list",
+      "header_type": "list",
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
       ]
     },
     {
-      "name": "whitespace before = param-list",
+      "name": "whitespace before = parameterised list",
       "raw": ["text/html, text/plain;q =0.5"],
-      "header_type": "param-list",
+      "header_type": "list",
       "must_fail": true
     },
     {
-      "name": "whitespace after = param-list",
+      "name": "whitespace after = parameterised list",
       "raw": ["text/html, text/plain;q= 0.5"],
-      "header_type": "param-list",
+      "header_type": "list",
       "must_fail": true
     },
     {
-      "name": "extra whitespace param-list",
+      "name": "extra whitespace parameterised list",
       "raw": ["text/html  ,  text/plain ;  q=0.5"],
-      "header_type": "param-list",
+      "header_type": "list",
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
       ]
     },
     {
-      "name": "two lines param-list",
+      "name": "two lines parameterised list",
       "raw": ["text/html", "text/plain;q=0.5"],
-      "header_type": "param-list",
+      "header_type": "list",
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
       ]
     },
     {
-      "name": "trailing comma param-list",
+      "name": "trailing comma parameterised list",
       "raw": ["text/html,text/plain;q=0.5,"],
-      "header_type": "param-list",
+      "header_type": "list",
       "must_fail": true
     },
     {
-      "name": "empty item param-list",
+      "name": "empty item parameterised list",
       "raw": ["text/html,,text/plain;q=0.5,"],
-      "header_type": "param-list",
+      "header_type": "list",
       "must_fail": true
     }
 ]
