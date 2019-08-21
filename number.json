@@ -153,7 +153,7 @@
       "name": "negative float with six fractional digits",
       "raw": ["-1.123456"],
       "header_type": "item",
-      "expected": 1.123456
+      "expected": -1.123456
     },
     {
       "name": "float with seven fractional digits",
