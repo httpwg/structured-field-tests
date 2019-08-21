@@ -5,7 +5,7 @@
       "header_type": "dictionary",
       "expected": {
         "abc": ["123", {"a": 1, "b": 2}],
-        "def": 456,
+        "def": [456, {}],
         "ghi": ["789", {"q": "9", "r": "w"}]
     }
     },
