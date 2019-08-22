@@ -336,8 +336,13 @@
         ]
     },
     {
+        "expected": {
+            "a*a": [
+                1,
+                {}
+            ]
+        },
         "header_type": "dictionary",
-        "must_fail": true,
         "name": "0x2a in dictionary key",
         "raw": [
             "a*a=1"
@@ -361,7 +366,10 @@
     },
     {
         "expected": {
-            "a-a": 1
+            "a-a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x2d in dictionary key",
@@ -387,7 +395,10 @@
     },
     {
         "expected": {
-            "a0a": 1
+            "a0a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x30 in dictionary key",
@@ -397,7 +408,10 @@
     },
     {
         "expected": {
-            "a1a": 1
+            "a1a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x31 in dictionary key",
@@ -407,7 +421,10 @@
     },
     {
         "expected": {
-            "a2a": 1
+            "a2a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x32 in dictionary key",
@@ -417,7 +434,10 @@
     },
     {
         "expected": {
-            "a3a": 1
+            "a3a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x33 in dictionary key",
@@ -427,7 +447,10 @@
     },
     {
         "expected": {
-            "a4a": 1
+            "a4a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x34 in dictionary key",
@@ -437,7 +460,10 @@
     },
     {
         "expected": {
-            "a5a": 1
+            "a5a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x35 in dictionary key",
@@ -447,7 +473,10 @@
     },
     {
         "expected": {
-            "a6a": 1
+            "a6a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x36 in dictionary key",
@@ -457,7 +486,10 @@
     },
     {
         "expected": {
-            "a7a": 1
+            "a7a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x37 in dictionary key",
@@ -467,7 +499,10 @@
     },
     {
         "expected": {
-            "a8a": 1
+            "a8a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x38 in dictionary key",
@@ -477,7 +512,10 @@
     },
     {
         "expected": {
-            "a9a": 1
+            "a9a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x39 in dictionary key",
@@ -783,7 +821,10 @@
     },
     {
         "expected": {
-            "a_a": 1
+            "a_a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x5f in dictionary key",
@@ -801,7 +842,10 @@
     },
     {
         "expected": {
-            "aaa": 1
+            "aaa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x61 in dictionary key",
@@ -811,7 +855,10 @@
     },
     {
         "expected": {
-            "aba": 1
+            "aba": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x62 in dictionary key",
@@ -821,7 +868,10 @@
     },
     {
         "expected": {
-            "aca": 1
+            "aca": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x63 in dictionary key",
@@ -831,7 +881,10 @@
     },
     {
         "expected": {
-            "ada": 1
+            "ada": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x64 in dictionary key",
@@ -841,7 +894,10 @@
     },
     {
         "expected": {
-            "aea": 1
+            "aea": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x65 in dictionary key",
@@ -851,7 +907,10 @@
     },
     {
         "expected": {
-            "afa": 1
+            "afa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x66 in dictionary key",
@@ -861,7 +920,10 @@
     },
     {
         "expected": {
-            "aga": 1
+            "aga": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x67 in dictionary key",
@@ -871,7 +933,10 @@
     },
     {
         "expected": {
-            "aha": 1
+            "aha": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x68 in dictionary key",
@@ -881,7 +946,10 @@
     },
     {
         "expected": {
-            "aia": 1
+            "aia": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x69 in dictionary key",
@@ -891,7 +959,10 @@
     },
     {
         "expected": {
-            "aja": 1
+            "aja": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6a in dictionary key",
@@ -901,7 +972,10 @@
     },
     {
         "expected": {
-            "aka": 1
+            "aka": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6b in dictionary key",
@@ -911,7 +985,10 @@
     },
     {
         "expected": {
-            "ala": 1
+            "ala": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6c in dictionary key",
@@ -921,7 +998,10 @@
     },
     {
         "expected": {
-            "ama": 1
+            "ama": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6d in dictionary key",
@@ -931,7 +1011,10 @@
     },
     {
         "expected": {
-            "ana": 1
+            "ana": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6e in dictionary key",
@@ -941,7 +1024,10 @@
     },
     {
         "expected": {
-            "aoa": 1
+            "aoa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6f in dictionary key",
@@ -951,7 +1037,10 @@
     },
     {
         "expected": {
-            "apa": 1
+            "apa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x70 in dictionary key",
@@ -961,7 +1050,10 @@
     },
     {
         "expected": {
-            "aqa": 1
+            "aqa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x71 in dictionary key",
@@ -971,7 +1063,10 @@
     },
     {
         "expected": {
-            "ara": 1
+            "ara": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x72 in dictionary key",
@@ -981,7 +1076,10 @@
     },
     {
         "expected": {
-            "asa": 1
+            "asa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x73 in dictionary key",
@@ -991,7 +1089,10 @@
     },
     {
         "expected": {
-            "ata": 1
+            "ata": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x74 in dictionary key",
@@ -1001,7 +1102,10 @@
     },
     {
         "expected": {
-            "aua": 1
+            "aua": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x75 in dictionary key",
@@ -1011,7 +1115,10 @@
     },
     {
         "expected": {
-            "ava": 1
+            "ava": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x76 in dictionary key",
@@ -1021,7 +1128,10 @@
     },
     {
         "expected": {
-            "awa": 1
+            "awa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x77 in dictionary key",
@@ -1031,7 +1141,10 @@
     },
     {
         "expected": {
-            "axa": 1
+            "axa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x78 in dictionary key",
@@ -1041,7 +1154,10 @@
     },
     {
         "expected": {
-            "aya": 1
+            "aya": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x79 in dictionary key",
@@ -1051,7 +1167,10 @@
     },
     {
         "expected": {
-            "aza": 1
+            "aza": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x7a in dictionary key",
@@ -1173,7 +1292,10 @@
     },
     {
         "expected": {
-            "a": 1
+            "a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x09 starting an dictionary key",
@@ -1359,7 +1481,10 @@
     },
     {
         "expected": {
-            "a": 1
+            "a": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x20 starting an dictionary key",
@@ -1881,7 +2006,10 @@
     },
     {
         "expected": {
-            "aa": 1
+            "aa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x61 starting an dictionary key",
@@ -1891,7 +2019,10 @@
     },
     {
         "expected": {
-            "ba": 1
+            "ba": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x62 starting an dictionary key",
@@ -1901,7 +2032,10 @@
     },
     {
         "expected": {
-            "ca": 1
+            "ca": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x63 starting an dictionary key",
@@ -1911,7 +2045,10 @@
     },
     {
         "expected": {
-            "da": 1
+            "da": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x64 starting an dictionary key",
@@ -1921,7 +2058,10 @@
     },
     {
         "expected": {
-            "ea": 1
+            "ea": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x65 starting an dictionary key",
@@ -1931,7 +2071,10 @@
     },
     {
         "expected": {
-            "fa": 1
+            "fa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x66 starting an dictionary key",
@@ -1941,7 +2084,10 @@
     },
     {
         "expected": {
-            "ga": 1
+            "ga": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x67 starting an dictionary key",
@@ -1951,7 +2097,10 @@
     },
     {
         "expected": {
-            "ha": 1
+            "ha": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x68 starting an dictionary key",
@@ -1961,7 +2110,10 @@
     },
     {
         "expected": {
-            "ia": 1
+            "ia": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x69 starting an dictionary key",
@@ -1971,7 +2123,10 @@
     },
     {
         "expected": {
-            "ja": 1
+            "ja": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6a starting an dictionary key",
@@ -1981,7 +2136,10 @@
     },
     {
         "expected": {
-            "ka": 1
+            "ka": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6b starting an dictionary key",
@@ -1991,7 +2149,10 @@
     },
     {
         "expected": {
-            "la": 1
+            "la": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6c starting an dictionary key",
@@ -2001,7 +2162,10 @@
     },
     {
         "expected": {
-            "ma": 1
+            "ma": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6d starting an dictionary key",
@@ -2011,7 +2175,10 @@
     },
     {
         "expected": {
-            "na": 1
+            "na": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6e starting an dictionary key",
@@ -2021,7 +2188,10 @@
     },
     {
         "expected": {
-            "oa": 1
+            "oa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x6f starting an dictionary key",
@@ -2031,7 +2201,10 @@
     },
     {
         "expected": {
-            "pa": 1
+            "pa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x70 starting an dictionary key",
@@ -2041,7 +2214,10 @@
     },
     {
         "expected": {
-            "qa": 1
+            "qa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x71 starting an dictionary key",
@@ -2051,7 +2227,10 @@
     },
     {
         "expected": {
-            "ra": 1
+            "ra": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x72 starting an dictionary key",
@@ -2061,7 +2240,10 @@
     },
     {
         "expected": {
-            "sa": 1
+            "sa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x73 starting an dictionary key",
@@ -2071,7 +2253,10 @@
     },
     {
         "expected": {
-            "ta": 1
+            "ta": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x74 starting an dictionary key",
@@ -2081,7 +2266,10 @@
     },
     {
         "expected": {
-            "ua": 1
+            "ua": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x75 starting an dictionary key",
@@ -2091,7 +2279,10 @@
     },
     {
         "expected": {
-            "va": 1
+            "va": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x76 starting an dictionary key",
@@ -2101,7 +2292,10 @@
     },
     {
         "expected": {
-            "wa": 1
+            "wa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x77 starting an dictionary key",
@@ -2111,7 +2305,10 @@
     },
     {
         "expected": {
-            "xa": 1
+            "xa": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x78 starting an dictionary key",
@@ -2121,7 +2318,10 @@
     },
     {
         "expected": {
-            "ya": 1
+            "ya": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x79 starting an dictionary key",
@@ -2131,7 +2331,10 @@
     },
     {
         "expected": {
-            "za": 1
+            "za": [
+                1,
+                {}
+            ]
         },
         "header_type": "dictionary",
         "name": "0x7a starting an dictionary key",
@@ -2180,361 +2383,368 @@
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x00 in param-list key",
+        "name": "0x00 in parameterised list key",
         "raw": [
             "foo; a\u0000a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x01 in param-list key",
+        "name": "0x01 in parameterised list key",
         "raw": [
             "foo; a\u0001a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x02 in param-list key",
+        "name": "0x02 in parameterised list key",
         "raw": [
             "foo; a\u0002a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x03 in param-list key",
+        "name": "0x03 in parameterised list key",
         "raw": [
             "foo; a\u0003a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x04 in param-list key",
+        "name": "0x04 in parameterised list key",
         "raw": [
             "foo; a\u0004a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x05 in param-list key",
+        "name": "0x05 in parameterised list key",
         "raw": [
             "foo; a\u0005a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x06 in param-list key",
+        "name": "0x06 in parameterised list key",
         "raw": [
             "foo; a\u0006a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x07 in param-list key",
+        "name": "0x07 in parameterised list key",
         "raw": [
             "foo; a\u0007a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x08 in param-list key",
+        "name": "0x08 in parameterised list key",
         "raw": [
             "foo; a\ba=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x09 in param-list key",
+        "name": "0x09 in parameterised list key",
         "raw": [
             "foo; a\ta=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0a in param-list key",
+        "name": "0x0a in parameterised list key",
         "raw": [
             "foo; a\na=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0b in param-list key",
+        "name": "0x0b in parameterised list key",
         "raw": [
             "foo; a\u000ba=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0c in param-list key",
+        "name": "0x0c in parameterised list key",
         "raw": [
             "foo; a\fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0d in param-list key",
+        "name": "0x0d in parameterised list key",
         "raw": [
             "foo; a\ra=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0e in param-list key",
+        "name": "0x0e in parameterised list key",
         "raw": [
             "foo; a\u000ea=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0f in param-list key",
+        "name": "0x0f in parameterised list key",
         "raw": [
             "foo; a\u000fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x10 in param-list key",
+        "name": "0x10 in parameterised list key",
         "raw": [
             "foo; a\u0010a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x11 in param-list key",
+        "name": "0x11 in parameterised list key",
         "raw": [
             "foo; a\u0011a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x12 in param-list key",
+        "name": "0x12 in parameterised list key",
         "raw": [
             "foo; a\u0012a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x13 in param-list key",
+        "name": "0x13 in parameterised list key",
         "raw": [
             "foo; a\u0013a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x14 in param-list key",
+        "name": "0x14 in parameterised list key",
         "raw": [
             "foo; a\u0014a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x15 in param-list key",
+        "name": "0x15 in parameterised list key",
         "raw": [
             "foo; a\u0015a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x16 in param-list key",
+        "name": "0x16 in parameterised list key",
         "raw": [
             "foo; a\u0016a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x17 in param-list key",
+        "name": "0x17 in parameterised list key",
         "raw": [
             "foo; a\u0017a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x18 in param-list key",
+        "name": "0x18 in parameterised list key",
         "raw": [
             "foo; a\u0018a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x19 in param-list key",
+        "name": "0x19 in parameterised list key",
         "raw": [
             "foo; a\u0019a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1a in param-list key",
+        "name": "0x1a in parameterised list key",
         "raw": [
             "foo; a\u001aa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1b in param-list key",
+        "name": "0x1b in parameterised list key",
         "raw": [
             "foo; a\u001ba=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1c in param-list key",
+        "name": "0x1c in parameterised list key",
         "raw": [
             "foo; a\u001ca=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1d in param-list key",
+        "name": "0x1d in parameterised list key",
         "raw": [
             "foo; a\u001da=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1e in param-list key",
+        "name": "0x1e in parameterised list key",
         "raw": [
             "foo; a\u001ea=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1f in param-list key",
+        "name": "0x1f in parameterised list key",
         "raw": [
             "foo; a\u001fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x20 in param-list key",
+        "name": "0x20 in parameterised list key",
         "raw": [
             "foo; a a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x21 in param-list key",
+        "name": "0x21 in parameterised list key",
         "raw": [
             "foo; a!a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x22 in param-list key",
+        "name": "0x22 in parameterised list key",
         "raw": [
             "foo; a\"a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x23 in param-list key",
+        "name": "0x23 in parameterised list key",
         "raw": [
             "foo; a#a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x24 in param-list key",
+        "name": "0x24 in parameterised list key",
         "raw": [
             "foo; a$a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x25 in param-list key",
+        "name": "0x25 in parameterised list key",
         "raw": [
             "foo; a%a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x26 in param-list key",
+        "name": "0x26 in parameterised list key",
         "raw": [
             "foo; a&a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x27 in param-list key",
+        "name": "0x27 in parameterised list key",
         "raw": [
             "foo; a'a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x28 in param-list key",
+        "name": "0x28 in parameterised list key",
         "raw": [
             "foo; a(a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x29 in param-list key",
+        "name": "0x29 in parameterised list key",
         "raw": [
             "foo; a)a=1"
         ]
     },
     {
-        "header_type": "param-list",
-        "must_fail": true,
-        "name": "0x2a in param-list key",
+        "expected": [
+            [
+                "foo",
+                {
+                    "a*a": 1
+                }
+            ]
+        ],
+        "header_type": "list",
+        "name": "0x2a in parameterised list key",
         "raw": [
             "foo; a*a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2b in param-list key",
+        "name": "0x2b in parameterised list key",
         "raw": [
             "foo; a+a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2c in param-list key",
+        "name": "0x2c in parameterised list key",
         "raw": [
             "foo; a,a=1"
         ]
@@ -2548,24 +2758,24 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x2d in param-list key",
+        "header_type": "list",
+        "name": "0x2d in parameterised list key",
         "raw": [
             "foo; a-a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2e in param-list key",
+        "name": "0x2e in parameterised list key",
         "raw": [
             "foo; a.a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2f in param-list key",
+        "name": "0x2f in parameterised list key",
         "raw": [
             "foo; a/a=1"
         ]
@@ -2579,8 +2789,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x30 in param-list key",
+        "header_type": "list",
+        "name": "0x30 in parameterised list key",
         "raw": [
             "foo; a0a=1"
         ]
@@ -2594,8 +2804,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x31 in param-list key",
+        "header_type": "list",
+        "name": "0x31 in parameterised list key",
         "raw": [
             "foo; a1a=1"
         ]
@@ -2609,8 +2819,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x32 in param-list key",
+        "header_type": "list",
+        "name": "0x32 in parameterised list key",
         "raw": [
             "foo; a2a=1"
         ]
@@ -2624,8 +2834,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x33 in param-list key",
+        "header_type": "list",
+        "name": "0x33 in parameterised list key",
         "raw": [
             "foo; a3a=1"
         ]
@@ -2639,8 +2849,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x34 in param-list key",
+        "header_type": "list",
+        "name": "0x34 in parameterised list key",
         "raw": [
             "foo; a4a=1"
         ]
@@ -2654,8 +2864,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x35 in param-list key",
+        "header_type": "list",
+        "name": "0x35 in parameterised list key",
         "raw": [
             "foo; a5a=1"
         ]
@@ -2669,8 +2879,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x36 in param-list key",
+        "header_type": "list",
+        "name": "0x36 in parameterised list key",
         "raw": [
             "foo; a6a=1"
         ]
@@ -2684,8 +2894,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x37 in param-list key",
+        "header_type": "list",
+        "name": "0x37 in parameterised list key",
         "raw": [
             "foo; a7a=1"
         ]
@@ -2699,8 +2909,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x38 in param-list key",
+        "header_type": "list",
+        "name": "0x38 in parameterised list key",
         "raw": [
             "foo; a8a=1"
         ]
@@ -2714,304 +2924,304 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x39 in param-list key",
+        "header_type": "list",
+        "name": "0x39 in parameterised list key",
         "raw": [
             "foo; a9a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3a in param-list key",
+        "name": "0x3a in parameterised list key",
         "raw": [
             "foo; a:a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3b in param-list key",
+        "name": "0x3b in parameterised list key",
         "raw": [
             "foo; a;a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3c in param-list key",
+        "name": "0x3c in parameterised list key",
         "raw": [
             "foo; a<a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3d in param-list key",
+        "name": "0x3d in parameterised list key",
         "raw": [
             "foo; a=a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3e in param-list key",
+        "name": "0x3e in parameterised list key",
         "raw": [
             "foo; a>a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3f in param-list key",
+        "name": "0x3f in parameterised list key",
         "raw": [
             "foo; a?a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x40 in param-list key",
+        "name": "0x40 in parameterised list key",
         "raw": [
             "foo; a@a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x41 in param-list key",
+        "name": "0x41 in parameterised list key",
         "raw": [
             "foo; aAa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x42 in param-list key",
+        "name": "0x42 in parameterised list key",
         "raw": [
             "foo; aBa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x43 in param-list key",
+        "name": "0x43 in parameterised list key",
         "raw": [
             "foo; aCa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x44 in param-list key",
+        "name": "0x44 in parameterised list key",
         "raw": [
             "foo; aDa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x45 in param-list key",
+        "name": "0x45 in parameterised list key",
         "raw": [
             "foo; aEa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x46 in param-list key",
+        "name": "0x46 in parameterised list key",
         "raw": [
             "foo; aFa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x47 in param-list key",
+        "name": "0x47 in parameterised list key",
         "raw": [
             "foo; aGa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x48 in param-list key",
+        "name": "0x48 in parameterised list key",
         "raw": [
             "foo; aHa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x49 in param-list key",
+        "name": "0x49 in parameterised list key",
         "raw": [
             "foo; aIa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4a in param-list key",
+        "name": "0x4a in parameterised list key",
         "raw": [
             "foo; aJa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4b in param-list key",
+        "name": "0x4b in parameterised list key",
         "raw": [
             "foo; aKa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4c in param-list key",
+        "name": "0x4c in parameterised list key",
         "raw": [
             "foo; aLa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4d in param-list key",
+        "name": "0x4d in parameterised list key",
         "raw": [
             "foo; aMa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4e in param-list key",
+        "name": "0x4e in parameterised list key",
         "raw": [
             "foo; aNa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4f in param-list key",
+        "name": "0x4f in parameterised list key",
         "raw": [
             "foo; aOa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x50 in param-list key",
+        "name": "0x50 in parameterised list key",
         "raw": [
             "foo; aPa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x51 in param-list key",
+        "name": "0x51 in parameterised list key",
         "raw": [
             "foo; aQa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x52 in param-list key",
+        "name": "0x52 in parameterised list key",
         "raw": [
             "foo; aRa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x53 in param-list key",
+        "name": "0x53 in parameterised list key",
         "raw": [
             "foo; aSa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x54 in param-list key",
+        "name": "0x54 in parameterised list key",
         "raw": [
             "foo; aTa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x55 in param-list key",
+        "name": "0x55 in parameterised list key",
         "raw": [
             "foo; aUa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x56 in param-list key",
+        "name": "0x56 in parameterised list key",
         "raw": [
             "foo; aVa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x57 in param-list key",
+        "name": "0x57 in parameterised list key",
         "raw": [
             "foo; aWa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x58 in param-list key",
+        "name": "0x58 in parameterised list key",
         "raw": [
             "foo; aXa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x59 in param-list key",
+        "name": "0x59 in parameterised list key",
         "raw": [
             "foo; aYa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5a in param-list key",
+        "name": "0x5a in parameterised list key",
         "raw": [
             "foo; aZa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5b in param-list key",
+        "name": "0x5b in parameterised list key",
         "raw": [
             "foo; a[a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5c in param-list key",
+        "name": "0x5c in parameterised list key",
         "raw": [
             "foo; a\\a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5d in param-list key",
+        "name": "0x5d in parameterised list key",
         "raw": [
             "foo; a]a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5e in param-list key",
+        "name": "0x5e in parameterised list key",
         "raw": [
             "foo; a^a=1"
         ]
@@ -3025,16 +3235,16 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x5f in param-list key",
+        "header_type": "list",
+        "name": "0x5f in parameterised list key",
         "raw": [
             "foo; a_a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x60 in param-list key",
+        "name": "0x60 in parameterised list key",
         "raw": [
             "foo; a`a=1"
         ]
@@ -3048,8 +3258,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x61 in param-list key",
+        "header_type": "list",
+        "name": "0x61 in parameterised list key",
         "raw": [
             "foo; aaa=1"
         ]
@@ -3063,8 +3273,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x62 in param-list key",
+        "header_type": "list",
+        "name": "0x62 in parameterised list key",
         "raw": [
             "foo; aba=1"
         ]
@@ -3078,8 +3288,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x63 in param-list key",
+        "header_type": "list",
+        "name": "0x63 in parameterised list key",
         "raw": [
             "foo; aca=1"
         ]
@@ -3093,8 +3303,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x64 in param-list key",
+        "header_type": "list",
+        "name": "0x64 in parameterised list key",
         "raw": [
             "foo; ada=1"
         ]
@@ -3108,8 +3318,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x65 in param-list key",
+        "header_type": "list",
+        "name": "0x65 in parameterised list key",
         "raw": [
             "foo; aea=1"
         ]
@@ -3123,8 +3333,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x66 in param-list key",
+        "header_type": "list",
+        "name": "0x66 in parameterised list key",
         "raw": [
             "foo; afa=1"
         ]
@@ -3138,8 +3348,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x67 in param-list key",
+        "header_type": "list",
+        "name": "0x67 in parameterised list key",
         "raw": [
             "foo; aga=1"
         ]
@@ -3153,8 +3363,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x68 in param-list key",
+        "header_type": "list",
+        "name": "0x68 in parameterised list key",
         "raw": [
             "foo; aha=1"
         ]
@@ -3168,8 +3378,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x69 in param-list key",
+        "header_type": "list",
+        "name": "0x69 in parameterised list key",
         "raw": [
             "foo; aia=1"
         ]
@@ -3183,8 +3393,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6a in param-list key",
+        "header_type": "list",
+        "name": "0x6a in parameterised list key",
         "raw": [
             "foo; aja=1"
         ]
@@ -3198,8 +3408,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6b in param-list key",
+        "header_type": "list",
+        "name": "0x6b in parameterised list key",
         "raw": [
             "foo; aka=1"
         ]
@@ -3213,8 +3423,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6c in param-list key",
+        "header_type": "list",
+        "name": "0x6c in parameterised list key",
         "raw": [
             "foo; ala=1"
         ]
@@ -3228,8 +3438,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6d in param-list key",
+        "header_type": "list",
+        "name": "0x6d in parameterised list key",
         "raw": [
             "foo; ama=1"
         ]
@@ -3243,8 +3453,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6e in param-list key",
+        "header_type": "list",
+        "name": "0x6e in parameterised list key",
         "raw": [
             "foo; ana=1"
         ]
@@ -3258,8 +3468,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6f in param-list key",
+        "header_type": "list",
+        "name": "0x6f in parameterised list key",
         "raw": [
             "foo; aoa=1"
         ]
@@ -3273,8 +3483,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x70 in param-list key",
+        "header_type": "list",
+        "name": "0x70 in parameterised list key",
         "raw": [
             "foo; apa=1"
         ]
@@ -3288,8 +3498,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x71 in param-list key",
+        "header_type": "list",
+        "name": "0x71 in parameterised list key",
         "raw": [
             "foo; aqa=1"
         ]
@@ -3303,8 +3513,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x72 in param-list key",
+        "header_type": "list",
+        "name": "0x72 in parameterised list key",
         "raw": [
             "foo; ara=1"
         ]
@@ -3318,8 +3528,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x73 in param-list key",
+        "header_type": "list",
+        "name": "0x73 in parameterised list key",
         "raw": [
             "foo; asa=1"
         ]
@@ -3333,8 +3543,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x74 in param-list key",
+        "header_type": "list",
+        "name": "0x74 in parameterised list key",
         "raw": [
             "foo; ata=1"
         ]
@@ -3348,8 +3558,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x75 in param-list key",
+        "header_type": "list",
+        "name": "0x75 in parameterised list key",
         "raw": [
             "foo; aua=1"
         ]
@@ -3363,8 +3573,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x76 in param-list key",
+        "header_type": "list",
+        "name": "0x76 in parameterised list key",
         "raw": [
             "foo; ava=1"
         ]
@@ -3378,8 +3588,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x77 in param-list key",
+        "header_type": "list",
+        "name": "0x77 in parameterised list key",
         "raw": [
             "foo; awa=1"
         ]
@@ -3393,8 +3603,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x78 in param-list key",
+        "header_type": "list",
+        "name": "0x78 in parameterised list key",
         "raw": [
             "foo; axa=1"
         ]
@@ -3408,8 +3618,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x79 in param-list key",
+        "header_type": "list",
+        "name": "0x79 in parameterised list key",
         "raw": [
             "foo; aya=1"
         ]
@@ -3423,120 +3633,120 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x7a in param-list key",
+        "header_type": "list",
+        "name": "0x7a in parameterised list key",
         "raw": [
             "foo; aza=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7b in param-list key",
+        "name": "0x7b in parameterised list key",
         "raw": [
             "foo; a{a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7c in param-list key",
+        "name": "0x7c in parameterised list key",
         "raw": [
             "foo; a|a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7d in param-list key",
+        "name": "0x7d in parameterised list key",
         "raw": [
             "foo; a}a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7e in param-list key",
+        "name": "0x7e in parameterised list key",
         "raw": [
             "foo; a~a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7f in param-list key",
+        "name": "0x7f in parameterised list key",
         "raw": [
             "foo; a\u007fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x00 starting a param-list key",
+        "name": "0x00 starting a parameterised list key",
         "raw": [
             "foo; \u0000a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x01 starting a param-list key",
+        "name": "0x01 starting a parameterised list key",
         "raw": [
             "foo; \u0001a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x02 starting a param-list key",
+        "name": "0x02 starting a parameterised list key",
         "raw": [
             "foo; \u0002a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x03 starting a param-list key",
+        "name": "0x03 starting a parameterised list key",
         "raw": [
             "foo; \u0003a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x04 starting a param-list key",
+        "name": "0x04 starting a parameterised list key",
         "raw": [
             "foo; \u0004a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x05 starting a param-list key",
+        "name": "0x05 starting a parameterised list key",
         "raw": [
             "foo; \u0005a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x06 starting a param-list key",
+        "name": "0x06 starting a parameterised list key",
         "raw": [
             "foo; \u0006a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x07 starting a param-list key",
+        "name": "0x07 starting a parameterised list key",
         "raw": [
             "foo; \u0007a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x08 starting a param-list key",
+        "name": "0x08 starting a parameterised list key",
         "raw": [
             "foo; \ba=1"
         ]
@@ -3550,184 +3760,184 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x09 starting a param-list key",
+        "header_type": "list",
+        "name": "0x09 starting a parameterised list key",
         "raw": [
             "foo; \ta=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0a starting a param-list key",
+        "name": "0x0a starting a parameterised list key",
         "raw": [
             "foo; \na=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0b starting a param-list key",
+        "name": "0x0b starting a parameterised list key",
         "raw": [
             "foo; \u000ba=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0c starting a param-list key",
+        "name": "0x0c starting a parameterised list key",
         "raw": [
             "foo; \fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0d starting a param-list key",
+        "name": "0x0d starting a parameterised list key",
         "raw": [
             "foo; \ra=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0e starting a param-list key",
+        "name": "0x0e starting a parameterised list key",
         "raw": [
             "foo; \u000ea=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x0f starting a param-list key",
+        "name": "0x0f starting a parameterised list key",
         "raw": [
             "foo; \u000fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x10 starting a param-list key",
+        "name": "0x10 starting a parameterised list key",
         "raw": [
             "foo; \u0010a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x11 starting a param-list key",
+        "name": "0x11 starting a parameterised list key",
         "raw": [
             "foo; \u0011a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x12 starting a param-list key",
+        "name": "0x12 starting a parameterised list key",
         "raw": [
             "foo; \u0012a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x13 starting a param-list key",
+        "name": "0x13 starting a parameterised list key",
         "raw": [
             "foo; \u0013a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x14 starting a param-list key",
+        "name": "0x14 starting a parameterised list key",
         "raw": [
             "foo; \u0014a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x15 starting a param-list key",
+        "name": "0x15 starting a parameterised list key",
         "raw": [
             "foo; \u0015a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x16 starting a param-list key",
+        "name": "0x16 starting a parameterised list key",
         "raw": [
             "foo; \u0016a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x17 starting a param-list key",
+        "name": "0x17 starting a parameterised list key",
         "raw": [
             "foo; \u0017a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x18 starting a param-list key",
+        "name": "0x18 starting a parameterised list key",
         "raw": [
             "foo; \u0018a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x19 starting a param-list key",
+        "name": "0x19 starting a parameterised list key",
         "raw": [
             "foo; \u0019a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1a starting a param-list key",
+        "name": "0x1a starting a parameterised list key",
         "raw": [
             "foo; \u001aa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1b starting a param-list key",
+        "name": "0x1b starting a parameterised list key",
         "raw": [
             "foo; \u001ba=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1c starting a param-list key",
+        "name": "0x1c starting a parameterised list key",
         "raw": [
             "foo; \u001ca=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1d starting a param-list key",
+        "name": "0x1d starting a parameterised list key",
         "raw": [
             "foo; \u001da=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1e starting a param-list key",
+        "name": "0x1e starting a parameterised list key",
         "raw": [
             "foo; \u001ea=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x1f starting a param-list key",
+        "name": "0x1f starting a parameterised list key",
         "raw": [
             "foo; \u001fa=1"
         ]
@@ -3741,520 +3951,520 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x20 starting a param-list key",
+        "header_type": "list",
+        "name": "0x20 starting a parameterised list key",
         "raw": [
             "foo;  a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x21 starting a param-list key",
+        "name": "0x21 starting a parameterised list key",
         "raw": [
             "foo; !a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x22 starting a param-list key",
+        "name": "0x22 starting a parameterised list key",
         "raw": [
             "foo; \"a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x23 starting a param-list key",
+        "name": "0x23 starting a parameterised list key",
         "raw": [
             "foo; #a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x24 starting a param-list key",
+        "name": "0x24 starting a parameterised list key",
         "raw": [
             "foo; $a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x25 starting a param-list key",
+        "name": "0x25 starting a parameterised list key",
         "raw": [
             "foo; %a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x26 starting a param-list key",
+        "name": "0x26 starting a parameterised list key",
         "raw": [
             "foo; &a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x27 starting a param-list key",
+        "name": "0x27 starting a parameterised list key",
         "raw": [
             "foo; 'a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x28 starting a param-list key",
+        "name": "0x28 starting a parameterised list key",
         "raw": [
             "foo; (a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x29 starting a param-list key",
+        "name": "0x29 starting a parameterised list key",
         "raw": [
             "foo; )a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2a starting a param-list key",
+        "name": "0x2a starting a parameterised list key",
         "raw": [
             "foo; *a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2b starting a param-list key",
+        "name": "0x2b starting a parameterised list key",
         "raw": [
             "foo; +a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2c starting a param-list key",
+        "name": "0x2c starting a parameterised list key",
         "raw": [
             "foo; ,a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2d starting a param-list key",
+        "name": "0x2d starting a parameterised list key",
         "raw": [
             "foo; -a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2e starting a param-list key",
+        "name": "0x2e starting a parameterised list key",
         "raw": [
             "foo; .a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x2f starting a param-list key",
+        "name": "0x2f starting a parameterised list key",
         "raw": [
             "foo; /a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x30 starting a param-list key",
+        "name": "0x30 starting a parameterised list key",
         "raw": [
             "foo; 0a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x31 starting a param-list key",
+        "name": "0x31 starting a parameterised list key",
         "raw": [
             "foo; 1a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x32 starting a param-list key",
+        "name": "0x32 starting a parameterised list key",
         "raw": [
             "foo; 2a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x33 starting a param-list key",
+        "name": "0x33 starting a parameterised list key",
         "raw": [
             "foo; 3a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x34 starting a param-list key",
+        "name": "0x34 starting a parameterised list key",
         "raw": [
             "foo; 4a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x35 starting a param-list key",
+        "name": "0x35 starting a parameterised list key",
         "raw": [
             "foo; 5a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x36 starting a param-list key",
+        "name": "0x36 starting a parameterised list key",
         "raw": [
             "foo; 6a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x37 starting a param-list key",
+        "name": "0x37 starting a parameterised list key",
         "raw": [
             "foo; 7a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x38 starting a param-list key",
+        "name": "0x38 starting a parameterised list key",
         "raw": [
             "foo; 8a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x39 starting a param-list key",
+        "name": "0x39 starting a parameterised list key",
         "raw": [
             "foo; 9a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3a starting a param-list key",
+        "name": "0x3a starting a parameterised list key",
         "raw": [
             "foo; :a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3b starting a param-list key",
+        "name": "0x3b starting a parameterised list key",
         "raw": [
             "foo; ;a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3c starting a param-list key",
+        "name": "0x3c starting a parameterised list key",
         "raw": [
             "foo; <a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3d starting a param-list key",
+        "name": "0x3d starting a parameterised list key",
         "raw": [
             "foo; =a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3e starting a param-list key",
+        "name": "0x3e starting a parameterised list key",
         "raw": [
             "foo; >a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x3f starting a param-list key",
+        "name": "0x3f starting a parameterised list key",
         "raw": [
             "foo; ?a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x40 starting a param-list key",
+        "name": "0x40 starting a parameterised list key",
         "raw": [
             "foo; @a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x41 starting a param-list key",
+        "name": "0x41 starting a parameterised list key",
         "raw": [
             "foo; Aa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x42 starting a param-list key",
+        "name": "0x42 starting a parameterised list key",
         "raw": [
             "foo; Ba=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x43 starting a param-list key",
+        "name": "0x43 starting a parameterised list key",
         "raw": [
             "foo; Ca=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x44 starting a param-list key",
+        "name": "0x44 starting a parameterised list key",
         "raw": [
             "foo; Da=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x45 starting a param-list key",
+        "name": "0x45 starting a parameterised list key",
         "raw": [
             "foo; Ea=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x46 starting a param-list key",
+        "name": "0x46 starting a parameterised list key",
         "raw": [
             "foo; Fa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x47 starting a param-list key",
+        "name": "0x47 starting a parameterised list key",
         "raw": [
             "foo; Ga=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x48 starting a param-list key",
+        "name": "0x48 starting a parameterised list key",
         "raw": [
             "foo; Ha=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x49 starting a param-list key",
+        "name": "0x49 starting a parameterised list key",
         "raw": [
             "foo; Ia=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4a starting a param-list key",
+        "name": "0x4a starting a parameterised list key",
         "raw": [
             "foo; Ja=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4b starting a param-list key",
+        "name": "0x4b starting a parameterised list key",
         "raw": [
             "foo; Ka=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4c starting a param-list key",
+        "name": "0x4c starting a parameterised list key",
         "raw": [
             "foo; La=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4d starting a param-list key",
+        "name": "0x4d starting a parameterised list key",
         "raw": [
             "foo; Ma=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4e starting a param-list key",
+        "name": "0x4e starting a parameterised list key",
         "raw": [
             "foo; Na=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x4f starting a param-list key",
+        "name": "0x4f starting a parameterised list key",
         "raw": [
             "foo; Oa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x50 starting a param-list key",
+        "name": "0x50 starting a parameterised list key",
         "raw": [
             "foo; Pa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x51 starting a param-list key",
+        "name": "0x51 starting a parameterised list key",
         "raw": [
             "foo; Qa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x52 starting a param-list key",
+        "name": "0x52 starting a parameterised list key",
         "raw": [
             "foo; Ra=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x53 starting a param-list key",
+        "name": "0x53 starting a parameterised list key",
         "raw": [
             "foo; Sa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x54 starting a param-list key",
+        "name": "0x54 starting a parameterised list key",
         "raw": [
             "foo; Ta=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x55 starting a param-list key",
+        "name": "0x55 starting a parameterised list key",
         "raw": [
             "foo; Ua=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x56 starting a param-list key",
+        "name": "0x56 starting a parameterised list key",
         "raw": [
             "foo; Va=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x57 starting a param-list key",
+        "name": "0x57 starting a parameterised list key",
         "raw": [
             "foo; Wa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x58 starting a param-list key",
+        "name": "0x58 starting a parameterised list key",
         "raw": [
             "foo; Xa=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x59 starting a param-list key",
+        "name": "0x59 starting a parameterised list key",
         "raw": [
             "foo; Ya=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5a starting a param-list key",
+        "name": "0x5a starting a parameterised list key",
         "raw": [
             "foo; Za=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5b starting a param-list key",
+        "name": "0x5b starting a parameterised list key",
         "raw": [
             "foo; [a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5c starting a param-list key",
+        "name": "0x5c starting a parameterised list key",
         "raw": [
             "foo; \\a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5d starting a param-list key",
+        "name": "0x5d starting a parameterised list key",
         "raw": [
             "foo; ]a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5e starting a param-list key",
+        "name": "0x5e starting a parameterised list key",
         "raw": [
             "foo; ^a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x5f starting a param-list key",
+        "name": "0x5f starting a parameterised list key",
         "raw": [
             "foo; _a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x60 starting a param-list key",
+        "name": "0x60 starting a parameterised list key",
         "raw": [
             "foo; `a=1"
         ]
@@ -4268,8 +4478,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x61 starting a param-list key",
+        "header_type": "list",
+        "name": "0x61 starting a parameterised list key",
         "raw": [
             "foo; aa=1"
         ]
@@ -4283,8 +4493,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x62 starting a param-list key",
+        "header_type": "list",
+        "name": "0x62 starting a parameterised list key",
         "raw": [
             "foo; ba=1"
         ]
@@ -4298,8 +4508,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x63 starting a param-list key",
+        "header_type": "list",
+        "name": "0x63 starting a parameterised list key",
         "raw": [
             "foo; ca=1"
         ]
@@ -4313,8 +4523,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x64 starting a param-list key",
+        "header_type": "list",
+        "name": "0x64 starting a parameterised list key",
         "raw": [
             "foo; da=1"
         ]
@@ -4328,8 +4538,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x65 starting a param-list key",
+        "header_type": "list",
+        "name": "0x65 starting a parameterised list key",
         "raw": [
             "foo; ea=1"
         ]
@@ -4343,8 +4553,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x66 starting a param-list key",
+        "header_type": "list",
+        "name": "0x66 starting a parameterised list key",
         "raw": [
             "foo; fa=1"
         ]
@@ -4358,8 +4568,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x67 starting a param-list key",
+        "header_type": "list",
+        "name": "0x67 starting a parameterised list key",
         "raw": [
             "foo; ga=1"
         ]
@@ -4373,8 +4583,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x68 starting a param-list key",
+        "header_type": "list",
+        "name": "0x68 starting a parameterised list key",
         "raw": [
             "foo; ha=1"
         ]
@@ -4388,8 +4598,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x69 starting a param-list key",
+        "header_type": "list",
+        "name": "0x69 starting a parameterised list key",
         "raw": [
             "foo; ia=1"
         ]
@@ -4403,8 +4613,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6a starting a param-list key",
+        "header_type": "list",
+        "name": "0x6a starting a parameterised list key",
         "raw": [
             "foo; ja=1"
         ]
@@ -4418,8 +4628,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6b starting a param-list key",
+        "header_type": "list",
+        "name": "0x6b starting a parameterised list key",
         "raw": [
             "foo; ka=1"
         ]
@@ -4433,8 +4643,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6c starting a param-list key",
+        "header_type": "list",
+        "name": "0x6c starting a parameterised list key",
         "raw": [
             "foo; la=1"
         ]
@@ -4448,8 +4658,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6d starting a param-list key",
+        "header_type": "list",
+        "name": "0x6d starting a parameterised list key",
         "raw": [
             "foo; ma=1"
         ]
@@ -4463,8 +4673,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6e starting a param-list key",
+        "header_type": "list",
+        "name": "0x6e starting a parameterised list key",
         "raw": [
             "foo; na=1"
         ]
@@ -4478,8 +4688,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x6f starting a param-list key",
+        "header_type": "list",
+        "name": "0x6f starting a parameterised list key",
         "raw": [
             "foo; oa=1"
         ]
@@ -4493,8 +4703,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x70 starting a param-list key",
+        "header_type": "list",
+        "name": "0x70 starting a parameterised list key",
         "raw": [
             "foo; pa=1"
         ]
@@ -4508,8 +4718,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x71 starting a param-list key",
+        "header_type": "list",
+        "name": "0x71 starting a parameterised list key",
         "raw": [
             "foo; qa=1"
         ]
@@ -4523,8 +4733,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x72 starting a param-list key",
+        "header_type": "list",
+        "name": "0x72 starting a parameterised list key",
         "raw": [
             "foo; ra=1"
         ]
@@ -4538,8 +4748,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x73 starting a param-list key",
+        "header_type": "list",
+        "name": "0x73 starting a parameterised list key",
         "raw": [
             "foo; sa=1"
         ]
@@ -4553,8 +4763,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x74 starting a param-list key",
+        "header_type": "list",
+        "name": "0x74 starting a parameterised list key",
         "raw": [
             "foo; ta=1"
         ]
@@ -4568,8 +4778,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x75 starting a param-list key",
+        "header_type": "list",
+        "name": "0x75 starting a parameterised list key",
         "raw": [
             "foo; ua=1"
         ]
@@ -4583,8 +4793,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x76 starting a param-list key",
+        "header_type": "list",
+        "name": "0x76 starting a parameterised list key",
         "raw": [
             "foo; va=1"
         ]
@@ -4598,8 +4808,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x77 starting a param-list key",
+        "header_type": "list",
+        "name": "0x77 starting a parameterised list key",
         "raw": [
             "foo; wa=1"
         ]
@@ -4613,8 +4823,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x78 starting a param-list key",
+        "header_type": "list",
+        "name": "0x78 starting a parameterised list key",
         "raw": [
             "foo; xa=1"
         ]
@@ -4628,8 +4838,8 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x79 starting a param-list key",
+        "header_type": "list",
+        "name": "0x79 starting a parameterised list key",
         "raw": [
             "foo; ya=1"
         ]
@@ -4643,48 +4853,48 @@
                 }
             ]
         ],
-        "header_type": "param-list",
-        "name": "0x7a starting a param-list key",
+        "header_type": "list",
+        "name": "0x7a starting a parameterised list key",
         "raw": [
             "foo; za=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7b starting a param-list key",
+        "name": "0x7b starting a parameterised list key",
         "raw": [
             "foo; {a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7c starting a param-list key",
+        "name": "0x7c starting a parameterised list key",
         "raw": [
             "foo; |a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7d starting a param-list key",
+        "name": "0x7d starting a parameterised list key",
         "raw": [
             "foo; }a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7e starting a param-list key",
+        "name": "0x7e starting a parameterised list key",
         "raw": [
             "foo; ~a=1"
         ]
     },
     {
-        "header_type": "param-list",
+        "header_type": "list",
         "must_fail": true,
-        "name": "0x7f starting a param-list key",
+        "name": "0x7f starting a parameterised list key",
         "raw": [
             "foo; \u007fa=1"
         ]

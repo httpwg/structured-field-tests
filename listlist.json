@@ -2,88 +2,44 @@
     {
       "name": "basic list of lists",
       "raw": ["(1 2), (42 43)"],
-      "header_type": "list-list",
-      "expected": [
-        [[1, 2], {}],
-        [[42, 43], {}]
-      ]
-    },
-    {
-      "name": "empty list of lists",
-      "raw": [""],
-      "header_type": "list-list",
-      "must_fail": true
+      "header_type": "list",
+      "expected": [[[1, 2], {}], [[42, 43], {}]]
     },
     {
       "name": "single item list of lists",
       "raw": ["(42)"],
-      "header_type": "list-list",
-      "expected": [
-        [[42], {}]
-      ]
+      "header_type": "list",
+      "expected": [[[42], {}]]
     },
     {
-      "name": "no whitespace list of lists",
-      "raw": ["(1),(42)"],
-      "header_type": "list-list",
-      "expected": [
-        [[1], {}],
-        [[42], {}]
+      "name": "empty item list of lists",
+      "raw": ["()"],
+      "header_type": "list",
+      "expected": [[[], {}]]
+    },
+    {
+      "name": "empty middle item list of lists",
+      "raw": ["(1),(),(42)"],
+      "header_type": "list",
+      "expected": [[[1], {}], [[], {}], [[42], {}]
       ]
     },
     {
       "name": "extra whitespace list of lists",
-      "raw": ["(1) , (42)"],
-      "header_type": "list-list",
-      "expected": [
-        [[1], {}],
-        [[42], {}]
-      ]
+      "raw": ["(1  42)"],
+      "header_type": "list",
+      "expected": [[[1, 42], {}]]
     },
     {
-      "name": "extra inner whitespace list of lists",
-      "raw": ["(1  2),(42  43)"],
-      "header_type": "list-list",
-      "expected": [
-        [[1, 2], {}],
-        [[42, 43], {}]
-      ]
-    },
-    {
-      "name": "two line list of lists",
-      "raw": ["(1)", "(42)"],
-      "header_type": "list-list",
-      "expected": [
-        [[1], {}],
-        [[42], {}]
-      ]
-    },
-    {
-      "name": "trailing comma list of lists",
-      "raw": ["(1 2), (42),"],
-      "header_type": "list-list",
+      "name": "no trailing parenthesis list of lists",
+      "raw": ["(1 42"],
+      "header_type": "list",
       "must_fail": true
     },
     {
-      "name": "unterminated final list of lists",
-      "raw": ["(1 2), (42 43"],
-      "header_type": "list-list",
-      "must_fail": true
-    },
-    {
-      "name": "unterminated intermediate list of lists",
+      "name": "no trailing parenthesis middle list of lists",
       "raw": ["(1 2, (42 43)"],
-      "header_type": "list-list",
+      "header_type": "list",
       "must_fail": true
-    },
-    {
-      "name": "empty item list of lists",
-      "raw": ["(1),(),(42)"],
-      "header_type": "list-list",
-      "expected": [
-        [[1], {}],
-        [[], {}],
-        [[42], {}]
-      ]
     }
 ]

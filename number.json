@@ -72,26 +72,32 @@
       "must_fail": true
     },
     {
-      "name": "long integer",
-      "raw": ["999999999999999"],
+      "name": "whitespace after sign",
+      "raw": ["- 42"],
       "header_type": "item",
-      "expected": 999999999999999
+      "must_fail": true
+    },
+    {
+      "name": "long integer",
+      "raw": ["123456789012345"],
+      "header_type": "item",
+      "expected": 123456789012345
     },
     {
       "name": "long negative integer",
-      "raw": ["-999999999999999"],
+      "raw": ["-123456789012345"],
       "header_type": "item",
-      "expected": -999999999999999
+      "expected": -123456789012345
     },
     {
       "name": "too long integer",
-      "raw": ["1000000000000000"],
+      "raw": ["1234567890123456"],
       "header_type": "item",
       "must_fail": true
     },
     {
       "name": "negative too long integer",
-      "raw": ["-1000000000000000"],
+      "raw": ["-1234567890123456"],
       "header_type": "item",
       "must_fail": true
     },
@@ -108,6 +114,24 @@
       "expected": -1.23
     },
     {
+      "name": "float, whitespace after decimal",
+      "raw": ["1. 23"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "float, whitespace before decimal",
+      "raw": ["1 .23"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "negative float, whitespace after sign",
+      "raw": ["- 1.23"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
       "name": "double decimal float",
       "raw": ["1.5.4"],
       "header_type": "item",
@@ -116,6 +140,30 @@
     {
       "name": "adjacent double decimal float",
       "raw": ["1..4"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "float with six fractional digits",
+      "raw": ["1.123456"],
+      "header_type": "item",
+      "expected": 1.123456
+    },
+    {
+      "name": "negative float with six fractional digits",
+      "raw": ["-1.123456"],
+      "header_type": "item",
+      "expected": -1.123456
+    },
+    {
+      "name": "float with seven fractional digits",
+      "raw": ["1.1234567"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "negative float with seven fractional digits",
+      "raw": ["-1.1234567"],
       "header_type": "item",
       "must_fail": true
     }
