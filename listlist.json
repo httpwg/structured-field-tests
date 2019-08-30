@@ -18,6 +18,13 @@
       "expected": [[[], {}]]
     },
     {
+      "name": "empty middle item list of lists",
+      "raw": ["(1),(),(42)"],
+      "header_type": "list",
+      "expected": [[[1], {}], [[], {}], [[42], {}]
+      ]
+    },
+    {
       "name": "extra whitespace list of lists",
       "raw": ["(1  42)"],
       "header_type": "list",
@@ -26,6 +33,12 @@
     {
       "name": "no trailing parenthesis list of lists",
       "raw": ["(1 42"],
+      "header_type": "list",
+      "must_fail": true
+    },
+    {
+      "name": "no trailing parenthesis middle list of lists",
+      "raw": ["(1 2, (42 43)"],
       "header_type": "list",
       "must_fail": true
     }
