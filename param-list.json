@@ -6,7 +6,8 @@
       "expected": [
         ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
         ["ghi", {"q": "9", "r": "w"}]
-      ]
+      ],
+      "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=\"9\";r=\"w\""]
     },
     {
       "name": "single item parameterised list",
@@ -23,7 +24,8 @@
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
-      ]
+      ],
+      "canonical": ["text/html, text/plain;q=0.5"]
     },
     {
       "name": "whitespace before = parameterised list",
@@ -44,7 +46,8 @@
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
-      ]
+      ],
+      "canonical": ["text/html, text/plain;q=0.5"]
     },
     {
       "name": "two lines parameterised list",
@@ -53,7 +56,8 @@
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5}]
-      ]
+      ],
+      "canonical": ["text/html, text/plain;q=0.5"]
     },
     {
       "name": "trailing comma parameterised list",

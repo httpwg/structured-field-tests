@@ -1,5 +1,8 @@
 [
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "1 digits of zero",
@@ -24,6 +27,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "2 digits of zero",
@@ -48,6 +54,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "3 digits of zero",
@@ -72,6 +81,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "4 digits of zero",
@@ -96,6 +108,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "5 digits of zero",
@@ -120,6 +135,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "6 digits of zero",
@@ -144,6 +162,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "7 digits of zero",
@@ -168,6 +189,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "8 digits of zero",
@@ -192,6 +216,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "9 digits of zero",
@@ -216,6 +243,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "10 digits of zero",
@@ -240,6 +270,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "11 digits of zero",
@@ -264,6 +297,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "12 digits of zero",
@@ -288,6 +324,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "13 digits of zero",
@@ -312,6 +351,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "14 digits of zero",
@@ -336,6 +378,9 @@
         ]
     },
     {
+        "canonical": [
+            "0"
+        ],
         "expected": 0,
         "header_type": "item",
         "name": "15 digits of zero",
@@ -360,6 +405,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "2 digit 0, 1 fractional small float",
@@ -368,6 +416,9 @@
         ]
     },
     {
+        "canonical": [
+            "1.0"
+        ],
         "expected": 1.0,
         "header_type": "item",
         "name": "2 digit, 1 fractional 0 float",
@@ -392,6 +443,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "3 digit 0, 1 fractional small float",
@@ -400,6 +454,9 @@
         ]
     },
     {
+        "canonical": [
+            "11.0"
+        ],
         "expected": 11.0,
         "header_type": "item",
         "name": "3 digit, 1 fractional 0 float",
@@ -424,6 +481,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "3 digit 0, 2 fractional small float",
@@ -432,6 +492,9 @@
         ]
     },
     {
+        "canonical": [
+            "1.0"
+        ],
         "expected": 1.0,
         "header_type": "item",
         "name": "3 digit, 2 fractional 0 float",
@@ -456,6 +519,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "4 digit 0, 1 fractional small float",
@@ -464,6 +530,9 @@
         ]
     },
     {
+        "canonical": [
+            "111.0"
+        ],
         "expected": 111.0,
         "header_type": "item",
         "name": "4 digit, 1 fractional 0 float",
@@ -488,6 +557,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "4 digit 0, 2 fractional small float",
@@ -496,6 +568,9 @@
         ]
     },
     {
+        "canonical": [
+            "11.0"
+        ],
         "expected": 11.0,
         "header_type": "item",
         "name": "4 digit, 2 fractional 0 float",
@@ -520,6 +595,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "4 digit 0, 3 fractional small float",
@@ -528,6 +606,9 @@
         ]
     },
     {
+        "canonical": [
+            "1.0"
+        ],
         "expected": 1.0,
         "header_type": "item",
         "name": "4 digit, 3 fractional 0 float",
@@ -552,6 +633,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "5 digit 0, 1 fractional small float",
@@ -560,6 +644,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111.0"
+        ],
         "expected": 1111.0,
         "header_type": "item",
         "name": "5 digit, 1 fractional 0 float",
@@ -584,6 +671,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "5 digit 0, 2 fractional small float",
@@ -592,6 +682,9 @@
         ]
     },
     {
+        "canonical": [
+            "111.0"
+        ],
         "expected": 111.0,
         "header_type": "item",
         "name": "5 digit, 2 fractional 0 float",
@@ -616,6 +709,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "5 digit 0, 3 fractional small float",
@@ -624,6 +720,9 @@
         ]
     },
     {
+        "canonical": [
+            "11.0"
+        ],
         "expected": 11.0,
         "header_type": "item",
         "name": "5 digit, 3 fractional 0 float",
@@ -648,6 +747,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "5 digit 0, 4 fractional small float",
@@ -656,6 +758,9 @@
         ]
     },
     {
+        "canonical": [
+            "1.0"
+        ],
         "expected": 1.0,
         "header_type": "item",
         "name": "5 digit, 4 fractional 0 float",
@@ -680,6 +785,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "6 digit 0, 1 fractional small float",
@@ -688,6 +796,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111.0"
+        ],
         "expected": 11111.0,
         "header_type": "item",
         "name": "6 digit, 1 fractional 0 float",
@@ -712,6 +823,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "6 digit 0, 2 fractional small float",
@@ -720,6 +834,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111.0"
+        ],
         "expected": 1111.0,
         "header_type": "item",
         "name": "6 digit, 2 fractional 0 float",
@@ -744,6 +861,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "6 digit 0, 3 fractional small float",
@@ -752,6 +872,9 @@
         ]
     },
     {
+        "canonical": [
+            "111.0"
+        ],
         "expected": 111.0,
         "header_type": "item",
         "name": "6 digit, 3 fractional 0 float",
@@ -776,6 +899,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "6 digit 0, 4 fractional small float",
@@ -784,6 +910,9 @@
         ]
     },
     {
+        "canonical": [
+            "11.0"
+        ],
         "expected": 11.0,
         "header_type": "item",
         "name": "6 digit, 4 fractional 0 float",
@@ -808,6 +937,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "6 digit 0, 5 fractional small float",
@@ -816,6 +948,9 @@
         ]
     },
     {
+        "canonical": [
+            "1.0"
+        ],
         "expected": 1.0,
         "header_type": "item",
         "name": "6 digit, 5 fractional 0 float",
@@ -840,6 +975,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "7 digit 0, 1 fractional small float",
@@ -848,6 +986,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111.0"
+        ],
         "expected": 111111.0,
         "header_type": "item",
         "name": "7 digit, 1 fractional 0 float",
@@ -872,6 +1013,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "7 digit 0, 2 fractional small float",
@@ -880,6 +1024,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111.0"
+        ],
         "expected": 11111.0,
         "header_type": "item",
         "name": "7 digit, 2 fractional 0 float",
@@ -904,6 +1051,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "7 digit 0, 3 fractional small float",
@@ -912,6 +1062,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111.0"
+        ],
         "expected": 1111.0,
         "header_type": "item",
         "name": "7 digit, 3 fractional 0 float",
@@ -936,6 +1089,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "7 digit 0, 4 fractional small float",
@@ -944,6 +1100,9 @@
         ]
     },
     {
+        "canonical": [
+            "111.0"
+        ],
         "expected": 111.0,
         "header_type": "item",
         "name": "7 digit, 4 fractional 0 float",
@@ -968,6 +1127,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "7 digit 0, 5 fractional small float",
@@ -976,6 +1138,9 @@
         ]
     },
     {
+        "canonical": [
+            "11.0"
+        ],
         "expected": 11.0,
         "header_type": "item",
         "name": "7 digit, 5 fractional 0 float",
@@ -1000,6 +1165,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "7 digit 0, 6 fractional small float",
@@ -1008,6 +1176,9 @@
         ]
     },
     {
+        "canonical": [
+            "1.0"
+        ],
         "expected": 1.0,
         "header_type": "item",
         "name": "7 digit, 6 fractional 0 float",
@@ -1032,6 +1203,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "8 digit 0, 1 fractional small float",
@@ -1040,6 +1214,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111.0"
+        ],
         "expected": 1111111.0,
         "header_type": "item",
         "name": "8 digit, 1 fractional 0 float",
@@ -1064,6 +1241,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "8 digit 0, 2 fractional small float",
@@ -1072,6 +1252,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111.0"
+        ],
         "expected": 111111.0,
         "header_type": "item",
         "name": "8 digit, 2 fractional 0 float",
@@ -1096,6 +1279,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "8 digit 0, 3 fractional small float",
@@ -1104,6 +1290,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111.0"
+        ],
         "expected": 11111.0,
         "header_type": "item",
         "name": "8 digit, 3 fractional 0 float",
@@ -1128,6 +1317,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "8 digit 0, 4 fractional small float",
@@ -1136,6 +1328,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111.0"
+        ],
         "expected": 1111.0,
         "header_type": "item",
         "name": "8 digit, 4 fractional 0 float",
@@ -1160,6 +1355,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "8 digit 0, 5 fractional small float",
@@ -1168,6 +1366,9 @@
         ]
     },
     {
+        "canonical": [
+            "111.0"
+        ],
         "expected": 111.0,
         "header_type": "item",
         "name": "8 digit, 5 fractional 0 float",
@@ -1192,6 +1393,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "8 digit 0, 6 fractional small float",
@@ -1200,6 +1404,9 @@
         ]
     },
     {
+        "canonical": [
+            "11.0"
+        ],
         "expected": 11.0,
         "header_type": "item",
         "name": "8 digit, 6 fractional 0 float",
@@ -1224,6 +1431,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "9 digit 0, 1 fractional small float",
@@ -1232,6 +1442,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111.0"
+        ],
         "expected": 11111111.0,
         "header_type": "item",
         "name": "9 digit, 1 fractional 0 float",
@@ -1256,6 +1469,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "9 digit 0, 2 fractional small float",
@@ -1264,6 +1480,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111.0"
+        ],
         "expected": 1111111.0,
         "header_type": "item",
         "name": "9 digit, 2 fractional 0 float",
@@ -1288,6 +1507,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "9 digit 0, 3 fractional small float",
@@ -1296,6 +1518,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111.0"
+        ],
         "expected": 111111.0,
         "header_type": "item",
         "name": "9 digit, 3 fractional 0 float",
@@ -1320,6 +1545,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "9 digit 0, 4 fractional small float",
@@ -1328,6 +1556,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111.0"
+        ],
         "expected": 11111.0,
         "header_type": "item",
         "name": "9 digit, 4 fractional 0 float",
@@ -1352,6 +1583,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "9 digit 0, 5 fractional small float",
@@ -1360,6 +1594,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111.0"
+        ],
         "expected": 1111.0,
         "header_type": "item",
         "name": "9 digit, 5 fractional 0 float",
@@ -1384,6 +1621,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "9 digit 0, 6 fractional small float",
@@ -1392,6 +1632,9 @@
         ]
     },
     {
+        "canonical": [
+            "111.0"
+        ],
         "expected": 111.0,
         "header_type": "item",
         "name": "9 digit, 6 fractional 0 float",
@@ -1416,6 +1659,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "10 digit 0, 1 fractional small float",
@@ -1424,6 +1670,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111.0"
+        ],
         "expected": 111111111.0,
         "header_type": "item",
         "name": "10 digit, 1 fractional 0 float",
@@ -1448,6 +1697,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "10 digit 0, 2 fractional small float",
@@ -1456,6 +1708,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111.0"
+        ],
         "expected": 11111111.0,
         "header_type": "item",
         "name": "10 digit, 2 fractional 0 float",
@@ -1480,6 +1735,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "10 digit 0, 3 fractional small float",
@@ -1488,6 +1746,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111.0"
+        ],
         "expected": 1111111.0,
         "header_type": "item",
         "name": "10 digit, 3 fractional 0 float",
@@ -1512,6 +1773,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "10 digit 0, 4 fractional small float",
@@ -1520,6 +1784,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111.0"
+        ],
         "expected": 111111.0,
         "header_type": "item",
         "name": "10 digit, 4 fractional 0 float",
@@ -1544,6 +1811,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "10 digit 0, 5 fractional small float",
@@ -1552,6 +1822,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111.0"
+        ],
         "expected": 11111.0,
         "header_type": "item",
         "name": "10 digit, 5 fractional 0 float",
@@ -1576,6 +1849,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "10 digit 0, 6 fractional small float",
@@ -1584,6 +1860,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111.0"
+        ],
         "expected": 1111.0,
         "header_type": "item",
         "name": "10 digit, 6 fractional 0 float",
@@ -1608,6 +1887,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "11 digit 0, 1 fractional small float",
@@ -1616,6 +1898,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111.0"
+        ],
         "expected": 1111111111.0,
         "header_type": "item",
         "name": "11 digit, 1 fractional 0 float",
@@ -1640,6 +1925,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "11 digit 0, 2 fractional small float",
@@ -1648,6 +1936,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111.0"
+        ],
         "expected": 111111111.0,
         "header_type": "item",
         "name": "11 digit, 2 fractional 0 float",
@@ -1672,6 +1963,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "11 digit 0, 3 fractional small float",
@@ -1680,6 +1974,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111.0"
+        ],
         "expected": 11111111.0,
         "header_type": "item",
         "name": "11 digit, 3 fractional 0 float",
@@ -1704,6 +2001,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "11 digit 0, 4 fractional small float",
@@ -1712,6 +2012,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111.0"
+        ],
         "expected": 1111111.0,
         "header_type": "item",
         "name": "11 digit, 4 fractional 0 float",
@@ -1736,6 +2039,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "11 digit 0, 5 fractional small float",
@@ -1744,6 +2050,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111.0"
+        ],
         "expected": 111111.0,
         "header_type": "item",
         "name": "11 digit, 5 fractional 0 float",
@@ -1768,6 +2077,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "11 digit 0, 6 fractional small float",
@@ -1776,6 +2088,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111.0"
+        ],
         "expected": 11111.0,
         "header_type": "item",
         "name": "11 digit, 6 fractional 0 float",
@@ -1800,6 +2115,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "12 digit 0, 1 fractional small float",
@@ -1808,6 +2126,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111111.0"
+        ],
         "expected": 11111111111.0,
         "header_type": "item",
         "name": "12 digit, 1 fractional 0 float",
@@ -1832,6 +2153,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "12 digit 0, 2 fractional small float",
@@ -1840,6 +2164,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111.0"
+        ],
         "expected": 1111111111.0,
         "header_type": "item",
         "name": "12 digit, 2 fractional 0 float",
@@ -1864,6 +2191,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "12 digit 0, 3 fractional small float",
@@ -1872,6 +2202,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111.0"
+        ],
         "expected": 111111111.0,
         "header_type": "item",
         "name": "12 digit, 3 fractional 0 float",
@@ -1896,6 +2229,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "12 digit 0, 4 fractional small float",
@@ -1904,6 +2240,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111.0"
+        ],
         "expected": 11111111.0,
         "header_type": "item",
         "name": "12 digit, 4 fractional 0 float",
@@ -1928,6 +2267,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "12 digit 0, 5 fractional small float",
@@ -1936,6 +2278,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111.0"
+        ],
         "expected": 1111111.0,
         "header_type": "item",
         "name": "12 digit, 5 fractional 0 float",
@@ -1960,6 +2305,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "12 digit 0, 6 fractional small float",
@@ -1968,6 +2316,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111.0"
+        ],
         "expected": 111111.0,
         "header_type": "item",
         "name": "12 digit, 6 fractional 0 float",
@@ -1992,6 +2343,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "13 digit 0, 1 fractional small float",
@@ -2000,6 +2354,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111111.0"
+        ],
         "expected": 111111111111.0,
         "header_type": "item",
         "name": "13 digit, 1 fractional 0 float",
@@ -2024,6 +2381,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "13 digit 0, 2 fractional small float",
@@ -2032,6 +2392,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111111.0"
+        ],
         "expected": 11111111111.0,
         "header_type": "item",
         "name": "13 digit, 2 fractional 0 float",
@@ -2056,6 +2419,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "13 digit 0, 3 fractional small float",
@@ -2064,6 +2430,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111.0"
+        ],
         "expected": 1111111111.0,
         "header_type": "item",
         "name": "13 digit, 3 fractional 0 float",
@@ -2088,6 +2457,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "13 digit 0, 4 fractional small float",
@@ -2096,6 +2468,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111.0"
+        ],
         "expected": 111111111.0,
         "header_type": "item",
         "name": "13 digit, 4 fractional 0 float",
@@ -2120,6 +2495,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "13 digit 0, 5 fractional small float",
@@ -2128,6 +2506,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111.0"
+        ],
         "expected": 11111111.0,
         "header_type": "item",
         "name": "13 digit, 5 fractional 0 float",
@@ -2152,6 +2533,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "13 digit 0, 6 fractional small float",
@@ -2160,6 +2544,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111.0"
+        ],
         "expected": 1111111.0,
         "header_type": "item",
         "name": "13 digit, 6 fractional 0 float",
@@ -2184,6 +2571,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "14 digit 0, 1 fractional small float",
@@ -2192,6 +2582,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111111.0"
+        ],
         "expected": 1111111111111.0,
         "header_type": "item",
         "name": "14 digit, 1 fractional 0 float",
@@ -2216,6 +2609,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "14 digit 0, 2 fractional small float",
@@ -2224,6 +2620,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111111.0"
+        ],
         "expected": 111111111111.0,
         "header_type": "item",
         "name": "14 digit, 2 fractional 0 float",
@@ -2248,6 +2647,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "14 digit 0, 3 fractional small float",
@@ -2256,6 +2658,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111111.0"
+        ],
         "expected": 11111111111.0,
         "header_type": "item",
         "name": "14 digit, 3 fractional 0 float",
@@ -2280,6 +2685,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "14 digit 0, 4 fractional small float",
@@ -2288,6 +2696,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111.0"
+        ],
         "expected": 1111111111.0,
         "header_type": "item",
         "name": "14 digit, 4 fractional 0 float",
@@ -2312,6 +2723,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "14 digit 0, 5 fractional small float",
@@ -2320,6 +2734,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111.0"
+        ],
         "expected": 111111111.0,
         "header_type": "item",
         "name": "14 digit, 5 fractional 0 float",
@@ -2344,6 +2761,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "14 digit 0, 6 fractional small float",
@@ -2352,6 +2772,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111.0"
+        ],
         "expected": 11111111.0,
         "header_type": "item",
         "name": "14 digit, 6 fractional 0 float",
@@ -2376,6 +2799,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1"
+        ],
         "expected": 0.1,
         "header_type": "item",
         "name": "15 digit 0, 1 fractional small float",
@@ -2384,6 +2810,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111111111.0"
+        ],
         "expected": 11111111111111.0,
         "header_type": "item",
         "name": "15 digit, 1 fractional 0 float",
@@ -2408,6 +2837,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11"
+        ],
         "expected": 0.11,
         "header_type": "item",
         "name": "15 digit 0, 2 fractional small float",
@@ -2416,6 +2848,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111111.0"
+        ],
         "expected": 1111111111111.0,
         "header_type": "item",
         "name": "15 digit, 2 fractional 0 float",
@@ -2440,6 +2875,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111"
+        ],
         "expected": 0.111,
         "header_type": "item",
         "name": "15 digit 0, 3 fractional small float",
@@ -2448,6 +2886,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111111.0"
+        ],
         "expected": 111111111111.0,
         "header_type": "item",
         "name": "15 digit, 3 fractional 0 float",
@@ -2472,6 +2913,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.1111"
+        ],
         "expected": 0.1111,
         "header_type": "item",
         "name": "15 digit 0, 4 fractional small float",
@@ -2480,6 +2924,9 @@
         ]
     },
     {
+        "canonical": [
+            "11111111111.0"
+        ],
         "expected": 11111111111.0,
         "header_type": "item",
         "name": "15 digit, 4 fractional 0 float",
@@ -2504,6 +2951,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.11111"
+        ],
         "expected": 0.11111,
         "header_type": "item",
         "name": "15 digit 0, 5 fractional small float",
@@ -2512,6 +2962,9 @@
         ]
     },
     {
+        "canonical": [
+            "1111111111.0"
+        ],
         "expected": 1111111111.0,
         "header_type": "item",
         "name": "15 digit, 5 fractional 0 float",
@@ -2536,6 +2989,9 @@
         ]
     },
     {
+        "canonical": [
+            "0.111111"
+        ],
         "expected": 0.111111,
         "header_type": "item",
         "name": "15 digit 0, 6 fractional small float",
@@ -2544,6 +3000,9 @@
         ]
     },
     {
+        "canonical": [
+            "111111111.0"
+        ],
         "expected": 111111111.0,
         "header_type": "item",
         "name": "15 digit, 6 fractional 0 float",

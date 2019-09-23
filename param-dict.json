@@ -15,13 +15,15 @@
       "header_type": "dictionary",
       "expected": {
           "a": ["b", {"q": 1.0}]
-      }
+      },
+      "canonical": ["a=b;q=1.0"]
     },
     {
       "name": "list item parameterised dictionary",
       "raw": ["a=(1 2); q=1.0"],
       "header_type": "dictionary",
-      "expected": {"a": [[1,2], {"q": 1.0}]}
+      "expected": {"a": [[1,2], {"q": 1.0}]},
+      "canonical": ["a=(1 2);q=1.0"]
     },
     {
       "name": "no whitespace parameterised dict",
@@ -30,7 +32,8 @@
       "expected": {
           "a": ["b", {"c": 1}],
           "d": ["e", {"f": 2}]
-      }
+      },
+      "canonical": ["a=b;c=1, d=e;f=2"]
     },
     {
       "name": "whitespace before = parameterised dict",
@@ -51,7 +54,8 @@
       "expected": {
           "a": ["b", {"c": 1}],
           "d": ["e", {"f": 2}]
-      }
+      },
+      "canonical": ["a=b;c=1, d=e;f=2"]
     },
     {
       "name": "two lines parameterised list",
@@ -60,7 +64,8 @@
       "expected": {
           "a": ["b", {"c": 1}],
           "d": ["e", {"f": 2}]
-      }
+      },
+      "canonical": ["a=b;c=1, d=e;f=2"]
     },
     {
       "name": "trailing comma parameterised list",

@@ -1096,6 +1096,9 @@
         ]
     },
     {
+        "canonical": [
+            "a"
+        ],
         "expected": "a",
         "header_type": "item",
         "name": "0x09 starting an token",
@@ -1280,6 +1283,9 @@
         ]
     },
     {
+        "canonical": [
+            "a"
+        ],
         "expected": "a",
         "header_type": "item",
         "name": "0x20 starting an token",

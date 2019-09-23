@@ -1291,6 +1291,9 @@
         ]
     },
     {
+        "canonical": [
+            "a=1"
+        ],
         "expected": {
             "a": [
                 1,
@@ -1480,6 +1483,9 @@
         ]
     },
     {
+        "canonical": [
+            "a=1"
+        ],
         "expected": {
             "a": [
                 1,
@@ -2719,6 +2725,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a*a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2750,6 +2759,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a-a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2781,6 +2793,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a0a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2796,6 +2811,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a1a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2811,6 +2829,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a2a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2826,6 +2847,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a3a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2841,6 +2865,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a4a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2856,6 +2883,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a5a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2871,6 +2901,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a6a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2886,6 +2919,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a7a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2901,6 +2937,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a8a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -2916,6 +2955,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a9a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3227,6 +3269,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a_a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3250,6 +3295,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aaa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3265,6 +3313,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aba=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3280,6 +3331,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aca=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3295,6 +3349,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ada=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3310,6 +3367,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aea=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3325,6 +3385,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;afa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3340,6 +3403,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aga=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3355,6 +3421,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aha=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3370,6 +3439,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aia=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3385,6 +3457,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aja=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3400,6 +3475,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aka=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3415,6 +3493,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ala=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3430,6 +3511,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ama=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3445,6 +3529,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ana=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3460,6 +3547,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aoa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3475,6 +3565,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;apa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3490,6 +3583,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aqa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3505,6 +3601,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ara=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3520,6 +3619,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;asa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3535,6 +3637,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ata=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3550,6 +3655,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aua=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3565,6 +3673,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ava=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3580,6 +3691,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;awa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3595,6 +3709,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;axa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3610,6 +3727,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aya=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3625,6 +3745,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aza=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3752,6 +3875,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -3943,6 +4069,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;a=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4470,6 +4599,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;aa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4485,6 +4617,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ba=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4500,6 +4635,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ca=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4515,6 +4653,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;da=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4530,6 +4671,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ea=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4545,6 +4689,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;fa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4560,6 +4707,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ga=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4575,6 +4725,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ha=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4590,6 +4743,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ia=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4605,6 +4761,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ja=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4620,6 +4779,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ka=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4635,6 +4797,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;la=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4650,6 +4815,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ma=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4665,6 +4833,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;na=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4680,6 +4851,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;oa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4695,6 +4869,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;pa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4710,6 +4887,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;qa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4725,6 +4905,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ra=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4740,6 +4923,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;sa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4755,6 +4941,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ta=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4770,6 +4959,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ua=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4785,6 +4977,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;va=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4800,6 +4995,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;wa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4815,6 +5013,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;xa=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4830,6 +5031,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;ya=1"
+        ],
         "expected": [
             [
                 "foo",
@@ -4845,6 +5049,9 @@
         ]
     },
     {
+        "canonical": [
+            "foo;za=1"
+        ],
         "expected": [
             [
                 "foo",
