@@ -76,6 +76,7 @@ for c in ALL_CHARS:
     }
     if c in WHITESPACE:
         test["expected"] = "a"  # whitespace is always stripped.
+        test["canonical"] = ["a"]
     elif c in allowed_token_start_chars:
         test["expected"] = "%sa" % chr(c)
     else:
@@ -109,6 +110,7 @@ for c in ALL_CHARS:
     }
     if c in WHITESPACE:
         test["expected"] = {"a": [1, {}]}  # whitespace is always stripped.
+        test["canonical"] = ["a=1"]
     elif c in allowed_key_start_chars:
         test["expected"] = {"%sa" % chr(c): [1, {}]}
     else:
@@ -125,6 +127,7 @@ for c in ALL_CHARS:
     if c in allowed_key_chars:
         key = "a%sa" % chr(c)
         test["expected"] = [["foo", {key: 1}]]
+        test["canonical"] = ["foo;a%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -138,8 +141,10 @@ for c in ALL_CHARS:
     }
     if c in WHITESPACE:
         test["expected"] = [["foo", {"a": 1}]]  # whitespace is always stripped.
+        test["canonical"] = ["foo;a=1"]
     elif c in allowed_key_start_chars:
         test["expected"] = [["foo", {"%sa" % chr(c): 1}]]
+        test["canonical"] = ["foo;%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -179,7 +184,7 @@ tests.append({
 param_list_members = 1024
 tests.append({
     "name": "large parameterised list",
-    "raw": [", ".join(["foo; a%s=1" % i for i in range(param_list_members)])],
+    "raw": [", ".join(["foo;a%s=1" % i for i in range(param_list_members)])],
     "header_type": "list",
     "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)]
 })
@@ -188,7 +193,7 @@ tests.append({
 param_members = 256
 tests.append({
     "name": "large params",
-    "raw": ["foo; %s" % "; ".join(["a%s=1" % i for i in range(param_members)])],
+    "raw": ["foo;%s" % ";".join(["a%s=1" % i for i in range(param_members)])],
     "header_type": "list",
     "expected": [["foo", {"a%s" % i: 1 for i in range(param_members)}]]
 })
@@ -196,7 +201,7 @@ tests.append({
 ## large param key
 tests.append({
     "name": "large param key",
-    "raw": ["foo; %s=1" % ("a" * key_length)],
+    "raw": ["foo;%s=1" % ("a" * key_length)],
     "header_type": "list",
     "expected": [["foo", {("a" * key_length): 1}]]
 })
@@ -238,7 +243,8 @@ for i in range(1, number_length + 1):
         "name": f"{i} digits of zero",
         "raw": ["0" * i],
         "header_type": "item",
-        "expected": 0
+        "expected": 0,
+        "canonical": ["0"]
     })
     tests.append({
         "name": f"{i} digit small integer",
@@ -262,13 +268,15 @@ for i in range(1, number_length + 1):
             "name": f"{i} digit 0, {j} fractional small float",
             "raw": ["0" * (i-j) + "." + "1" * j],
             "header_type": "item",
-            "expected": float("0" * (i-j) + "." + "1" * j)
+            "expected": float("0" * (i-j) + "." + "1" * j),
+            "canonical": ["0." + "1" * j]
         })
         tests.append({
             "name": f"{i} digit, {j} fractional 0 float",
             "raw": ["1" * (i-j) + "." + "0" * j],
             "header_type": "item",
-            "expected": float("1" * (i-j) + "." + "0" * j)
+            "expected": float("1" * (i-j) + "." + "0" * j),
+            "canonical": ["1" * (i-j) + ".0"]
         })
         tests.append({
             "name": f"{i} digit, {j} fractional small float",

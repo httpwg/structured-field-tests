@@ -13,6 +13,7 @@ object with the following members:
 - `expected`: The expected data structure after parsing (if successful). Required, unless `must_fail` is `true`.
 - `must_fail`: boolean indicating whether the test is required to fail. Defaults to `false`.
 - `can_fail`: boolean indicating whether failing this test is acceptable; for SHOULDs. Defaults to `false`.
+- `canonical`: An array of strings representing the canonical form of the header field value, if it is different from `raw`. Not applicable if `must_fail` is `true`.
 
 The `expected` data structure maps the types in Structured Headers to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
@@ -26,6 +27,10 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
 
 `primary_item` and `member` can be either a simple item, or a list.
+
+For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
+data structure can be serialized.  The expected result of this serialization is the `canonical`
+member if specified, or `raw` otherwise.
 
 ## Writing Tests
 

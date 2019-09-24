@@ -16,7 +16,8 @@
       "raw": ["*aGVsbG8*"],
       "header_type": "item",
       "expected": "NBSWY3DP",
-      "can_fail": true
+      "can_fail": true,
+      "canonical": ["*aGVsbG8=*"]
     },
     {
       "name": "bad end delimiter",
@@ -47,7 +48,8 @@
       "raw": ["*iZ==*"],
       "header_type": "item",
       "expected": "RE======",
-      "can_fail": true
+      "can_fail": true,
+      "canonical": ["*iQ==*"]
     },
     {
       "name": "non-ASCII binary",

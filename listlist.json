@@ -21,14 +21,15 @@
       "name": "empty middle item list of lists",
       "raw": ["(1),(),(42)"],
       "header_type": "list",
-      "expected": [[[1], {}], [[], {}], [[42], {}]
-      ]
+      "expected": [[[1], {}], [[], {}], [[42], {}]],
+      "canonical": ["(1), (), (42)"]
     },
     {
       "name": "extra whitespace list of lists",
       "raw": ["(1  42)"],
       "header_type": "list",
-      "expected": [[[1, 42], {}]]
+      "expected": [[[1, 42], {}]],
+      "canonical": ["(1 42)"]
     },
     {
       "name": "no trailing parenthesis list of lists",

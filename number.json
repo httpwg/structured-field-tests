@@ -15,13 +15,15 @@
       "name": "leading 0 zero",
       "raw": ["00"],
       "header_type": "item",
-      "expected": 0
+      "expected": 0,
+      "canonical": ["0"]
     },
     {
       "name": "negative zero",
       "raw": ["-0"],
       "header_type": "item",
-      "expected": 0
+      "expected": 0,
+      "canonical": ["0"]
     },
     {
       "name": "double negative zero",
@@ -39,19 +41,22 @@
       "name": "leading 0 integer",
       "raw": ["042"],
       "header_type": "item",
-      "expected": 42
+      "expected": 42,
+      "canonical": ["42"]
     },
     {
       "name": "leading 0 negative integer",
       "raw": ["-042"],
       "header_type": "item",
-      "expected": -42
+      "expected": -42,
+      "canonical": ["-42"]
     },
     {
       "name": "leading 0 zero",
       "raw": ["00"],
       "header_type": "item",
-      "expected": 0
+      "expected": 0,
+      "canonical": ["0"]
     },
     {
       "name": "comma",
