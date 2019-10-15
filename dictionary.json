@@ -21,13 +21,13 @@
       "name": "list item dictionary",
       "raw": ["a=(1 2)"],
       "header_type": "dictionary",
-      "expected": {"a": [[1,2], {}]}
+      "expected": {"a": [[[1, {}], [2, {}]], {}]}
     },
     {
       "name": "single list item dictionary",
       "raw": ["a=(1)"],
       "header_type": "dictionary",
-      "expected": {"a": [[1], {}]}
+      "expected": {"a": [[[1, {}]], {}]}
     },
     {
       "name": "empty list item dictionary",

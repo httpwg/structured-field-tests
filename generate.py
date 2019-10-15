@@ -32,7 +32,7 @@ for c in ALL_CHARS:
       "header_type": "item"
     }
     if c in allowed_string_chars:
-        test["expected"] = chr(c)
+        test["expected"] = [chr(c), {}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -45,7 +45,7 @@ for c in ALL_CHARS:
       "header_type": "item"
     }
     if c in escaped_string_chars:
-        test["expected"] = chr(c)
+        test["expected"] = [chr(c), {}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -62,7 +62,9 @@ for c in ALL_CHARS:
       "header_type": "item"
     }
     if c in allowed_token_chars:
-        test["expected"] = "a%sa" % chr(c)
+        test["expected"] = ["a%sa" % chr(c), {}]
+    elif c == 0x3b:
+        test["expected"] = ["a", {"a": None}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -75,10 +77,10 @@ for c in ALL_CHARS:
       "header_type": "item"
     }
     if c in WHITESPACE:
-        test["expected"] = "a"  # whitespace is always stripped.
+        test["expected"] = ["a", {}]  # whitespace is always stripped.
         test["canonical"] = ["a"]
     elif c in allowed_token_start_chars:
-        test["expected"] = "%sa" % chr(c)
+        test["expected"] = ["%sa" % chr(c), {}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -212,13 +214,13 @@ tests.append({
     "name": "large string",
     "raw": ["\"%s\"" % ("a" * string_length)],
     "header_type": "item",
-    "expected": "a" * string_length
+    "expected": ["a" * string_length, {}]
 })
 tests.append({
     "name": "large escaped string",
     "raw": ["\"%s\"" % ("\\\"" * string_length)],
     "header_type": "item",
-    "expected": "\"" * string_length
+    "expected": ["\"" * string_length, {}]
 })
 
 ## large tokens
@@ -227,7 +229,7 @@ tests.append({
     "name": "large token",
     "raw": ["%s" % ("a" * token_length)],
     "header_type": "item",
-    "expected": "a" * token_length
+    "expected": ["a" * token_length, {}]
 })
 
 write('large', tests)
@@ -243,20 +245,20 @@ for i in range(1, number_length + 1):
         "name": f"{i} digits of zero",
         "raw": ["0" * i],
         "header_type": "item",
-        "expected": 0,
+        "expected": [0, {}],
         "canonical": ["0"]
     })
     tests.append({
         "name": f"{i} digit small integer",
         "raw": ["1" * i],
         "header_type": "item",
-        "expected": int("1" * i)
+        "expected": [int("1" * i), {}]
     })
     tests.append({
         "name": f"{i} digit large integer",
         "raw": ["9" * i],
         "header_type": "item",
-        "expected": int("9" * i)
+        "expected": [int("9" * i), {}]
     })
 
 ## float sizes
@@ -268,27 +270,27 @@ for i in range(1, number_length + 1):
             "name": f"{i} digit 0, {j} fractional small float",
             "raw": ["0" * (i-j) + "." + "1" * j],
             "header_type": "item",
-            "expected": float("0" * (i-j) + "." + "1" * j),
+            "expected": [float("0" * (i-j) + "." + "1" * j), {}],
             "canonical": ["0." + "1" * j]
         })
         tests.append({
             "name": f"{i} digit, {j} fractional 0 float",
             "raw": ["1" * (i-j) + "." + "0" * j],
             "header_type": "item",
-            "expected": float("1" * (i-j) + "." + "0" * j),
+            "expected": [float("1" * (i-j) + "." + "0" * j), {}],
             "canonical": ["1" * (i-j) + ".0"]
         })
         tests.append({
             "name": f"{i} digit, {j} fractional small float",
             "raw": ["1" * (i-j) + "." + "1" * j],
             "header_type": "item",
-            "expected": float("1" * (i-j) + "." + "1" * j)
+            "expected": [float("1" * (i-j) + "." + "1" * j), {}]
         })
         tests.append({
             "name": f"{i} digit, {j} fractional large float",
             "raw": ["9" * (i-j) + "." + "9" * j],
             "header_type": "item",
-            "expected": float("9" * (i-j) + "." + "9" * j)
+            "expected": [float("9" * (i-j) + "." + "9" * j), {}]
         })
 
 tests.append({

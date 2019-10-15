@@ -256,7 +256,10 @@
         ]
     },
     {
-        "expected": " ",
+        "expected": [
+            " ",
+            {}
+        ],
         "header_type": "item",
         "name": "0x20 in string",
         "raw": [
@@ -264,7 +267,10 @@
         ]
     },
     {
-        "expected": "!",
+        "expected": [
+            "!",
+            {}
+        ],
         "header_type": "item",
         "name": "0x21 in string",
         "raw": [
@@ -280,7 +286,10 @@
         ]
     },
     {
-        "expected": "#",
+        "expected": [
+            "#",
+            {}
+        ],
         "header_type": "item",
         "name": "0x23 in string",
         "raw": [
@@ -288,7 +297,10 @@
         ]
     },
     {
-        "expected": "$",
+        "expected": [
+            "$",
+            {}
+        ],
         "header_type": "item",
         "name": "0x24 in string",
         "raw": [
@@ -296,7 +308,10 @@
         ]
     },
     {
-        "expected": "%",
+        "expected": [
+            "%",
+            {}
+        ],
         "header_type": "item",
         "name": "0x25 in string",
         "raw": [
@@ -304,7 +319,10 @@
         ]
     },
     {
-        "expected": "&",
+        "expected": [
+            "&",
+            {}
+        ],
         "header_type": "item",
         "name": "0x26 in string",
         "raw": [
@@ -312,7 +330,10 @@
         ]
     },
     {
-        "expected": "'",
+        "expected": [
+            "'",
+            {}
+        ],
         "header_type": "item",
         "name": "0x27 in string",
         "raw": [
@@ -320,7 +341,10 @@
         ]
     },
     {
-        "expected": "(",
+        "expected": [
+            "(",
+            {}
+        ],
         "header_type": "item",
         "name": "0x28 in string",
         "raw": [
@@ -328,7 +352,10 @@
         ]
     },
     {
-        "expected": ")",
+        "expected": [
+            ")",
+            {}
+        ],
         "header_type": "item",
         "name": "0x29 in string",
         "raw": [
@@ -336,7 +363,10 @@
         ]
     },
     {
-        "expected": "*",
+        "expected": [
+            "*",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2a in string",
         "raw": [
@@ -344,7 +374,10 @@
         ]
     },
     {
-        "expected": "+",
+        "expected": [
+            "+",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2b in string",
         "raw": [
@@ -352,7 +385,10 @@
         ]
     },
     {
-        "expected": ",",
+        "expected": [
+            ",",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2c in string",
         "raw": [
@@ -360,7 +396,10 @@
         ]
     },
     {
-        "expected": "-",
+        "expected": [
+            "-",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2d in string",
         "raw": [
@@ -368,7 +407,10 @@
         ]
     },
     {
-        "expected": ".",
+        "expected": [
+            ".",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2e in string",
         "raw": [
@@ -376,7 +418,10 @@
         ]
     },
     {
-        "expected": "/",
+        "expected": [
+            "/",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2f in string",
         "raw": [
@@ -384,7 +429,10 @@
         ]
     },
     {
-        "expected": "0",
+        "expected": [
+            "0",
+            {}
+        ],
         "header_type": "item",
         "name": "0x30 in string",
         "raw": [
@@ -392,7 +440,10 @@
         ]
     },
     {
-        "expected": "1",
+        "expected": [
+            "1",
+            {}
+        ],
         "header_type": "item",
         "name": "0x31 in string",
         "raw": [
@@ -400,7 +451,10 @@
         ]
     },
     {
-        "expected": "2",
+        "expected": [
+            "2",
+            {}
+        ],
         "header_type": "item",
         "name": "0x32 in string",
         "raw": [
@@ -408,7 +462,10 @@
         ]
     },
     {
-        "expected": "3",
+        "expected": [
+            "3",
+            {}
+        ],
         "header_type": "item",
         "name": "0x33 in string",
         "raw": [
@@ -416,7 +473,10 @@
         ]
     },
     {
-        "expected": "4",
+        "expected": [
+            "4",
+            {}
+        ],
         "header_type": "item",
         "name": "0x34 in string",
         "raw": [
@@ -424,7 +484,10 @@
         ]
     },
     {
-        "expected": "5",
+        "expected": [
+            "5",
+            {}
+        ],
         "header_type": "item",
         "name": "0x35 in string",
         "raw": [
@@ -432,7 +495,10 @@
         ]
     },
     {
-        "expected": "6",
+        "expected": [
+            "6",
+            {}
+        ],
         "header_type": "item",
         "name": "0x36 in string",
         "raw": [
@@ -440,7 +506,10 @@
         ]
     },
     {
-        "expected": "7",
+        "expected": [
+            "7",
+            {}
+        ],
         "header_type": "item",
         "name": "0x37 in string",
         "raw": [
@@ -448,7 +517,10 @@
         ]
     },
     {
-        "expected": "8",
+        "expected": [
+            "8",
+            {}
+        ],
         "header_type": "item",
         "name": "0x38 in string",
         "raw": [
@@ -456,7 +528,10 @@
         ]
     },
     {
-        "expected": "9",
+        "expected": [
+            "9",
+            {}
+        ],
         "header_type": "item",
         "name": "0x39 in string",
         "raw": [
@@ -464,7 +539,10 @@
         ]
     },
     {
-        "expected": ":",
+        "expected": [
+            ":",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3a in string",
         "raw": [
@@ -472,7 +550,10 @@
         ]
     },
     {
-        "expected": ";",
+        "expected": [
+            ";",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3b in string",
         "raw": [
@@ -480,7 +561,10 @@
         ]
     },
     {
-        "expected": "<",
+        "expected": [
+            "<",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3c in string",
         "raw": [
@@ -488,7 +572,10 @@
         ]
     },
     {
-        "expected": "=",
+        "expected": [
+            "=",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3d in string",
         "raw": [
@@ -496,7 +583,10 @@
         ]
     },
     {
-        "expected": ">",
+        "expected": [
+            ">",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3e in string",
         "raw": [
@@ -504,7 +594,10 @@
         ]
     },
     {
-        "expected": "?",
+        "expected": [
+            "?",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3f in string",
         "raw": [
@@ -512,7 +605,10 @@
         ]
     },
     {
-        "expected": "@",
+        "expected": [
+            "@",
+            {}
+        ],
         "header_type": "item",
         "name": "0x40 in string",
         "raw": [
@@ -520,7 +616,10 @@
         ]
     },
     {
-        "expected": "A",
+        "expected": [
+            "A",
+            {}
+        ],
         "header_type": "item",
         "name": "0x41 in string",
         "raw": [
@@ -528,7 +627,10 @@
         ]
     },
     {
-        "expected": "B",
+        "expected": [
+            "B",
+            {}
+        ],
         "header_type": "item",
         "name": "0x42 in string",
         "raw": [
@@ -536,7 +638,10 @@
         ]
     },
     {
-        "expected": "C",
+        "expected": [
+            "C",
+            {}
+        ],
         "header_type": "item",
         "name": "0x43 in string",
         "raw": [
@@ -544,7 +649,10 @@
         ]
     },
     {
-        "expected": "D",
+        "expected": [
+            "D",
+            {}
+        ],
         "header_type": "item",
         "name": "0x44 in string",
         "raw": [
@@ -552,7 +660,10 @@
         ]
     },
     {
-        "expected": "E",
+        "expected": [
+            "E",
+            {}
+        ],
         "header_type": "item",
         "name": "0x45 in string",
         "raw": [
@@ -560,7 +671,10 @@
         ]
     },
     {
-        "expected": "F",
+        "expected": [
+            "F",
+            {}
+        ],
         "header_type": "item",
         "name": "0x46 in string",
         "raw": [
@@ -568,7 +682,10 @@
         ]
     },
     {
-        "expected": "G",
+        "expected": [
+            "G",
+            {}
+        ],
         "header_type": "item",
         "name": "0x47 in string",
         "raw": [
@@ -576,7 +693,10 @@
         ]
     },
     {
-        "expected": "H",
+        "expected": [
+            "H",
+            {}
+        ],
         "header_type": "item",
         "name": "0x48 in string",
         "raw": [
@@ -584,7 +704,10 @@
         ]
     },
     {
-        "expected": "I",
+        "expected": [
+            "I",
+            {}
+        ],
         "header_type": "item",
         "name": "0x49 in string",
         "raw": [
@@ -592,7 +715,10 @@
         ]
     },
     {
-        "expected": "J",
+        "expected": [
+            "J",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4a in string",
         "raw": [
@@ -600,7 +726,10 @@
         ]
     },
     {
-        "expected": "K",
+        "expected": [
+            "K",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4b in string",
         "raw": [
@@ -608,7 +737,10 @@
         ]
     },
     {
-        "expected": "L",
+        "expected": [
+            "L",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4c in string",
         "raw": [
@@ -616,7 +748,10 @@
         ]
     },
     {
-        "expected": "M",
+        "expected": [
+            "M",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4d in string",
         "raw": [
@@ -624,7 +759,10 @@
         ]
     },
     {
-        "expected": "N",
+        "expected": [
+            "N",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4e in string",
         "raw": [
@@ -632,7 +770,10 @@
         ]
     },
     {
-        "expected": "O",
+        "expected": [
+            "O",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4f in string",
         "raw": [
@@ -640,7 +781,10 @@
         ]
     },
     {
-        "expected": "P",
+        "expected": [
+            "P",
+            {}
+        ],
         "header_type": "item",
         "name": "0x50 in string",
         "raw": [
@@ -648,7 +792,10 @@
         ]
     },
     {
-        "expected": "Q",
+        "expected": [
+            "Q",
+            {}
+        ],
         "header_type": "item",
         "name": "0x51 in string",
         "raw": [
@@ -656,7 +803,10 @@
         ]
     },
     {
-        "expected": "R",
+        "expected": [
+            "R",
+            {}
+        ],
         "header_type": "item",
         "name": "0x52 in string",
         "raw": [
@@ -664,7 +814,10 @@
         ]
     },
     {
-        "expected": "S",
+        "expected": [
+            "S",
+            {}
+        ],
         "header_type": "item",
         "name": "0x53 in string",
         "raw": [
@@ -672,7 +825,10 @@
         ]
     },
     {
-        "expected": "T",
+        "expected": [
+            "T",
+            {}
+        ],
         "header_type": "item",
         "name": "0x54 in string",
         "raw": [
@@ -680,7 +836,10 @@
         ]
     },
     {
-        "expected": "U",
+        "expected": [
+            "U",
+            {}
+        ],
         "header_type": "item",
         "name": "0x55 in string",
         "raw": [
@@ -688,7 +847,10 @@
         ]
     },
     {
-        "expected": "V",
+        "expected": [
+            "V",
+            {}
+        ],
         "header_type": "item",
         "name": "0x56 in string",
         "raw": [
@@ -696,7 +858,10 @@
         ]
     },
     {
-        "expected": "W",
+        "expected": [
+            "W",
+            {}
+        ],
         "header_type": "item",
         "name": "0x57 in string",
         "raw": [
@@ -704,7 +869,10 @@
         ]
     },
     {
-        "expected": "X",
+        "expected": [
+            "X",
+            {}
+        ],
         "header_type": "item",
         "name": "0x58 in string",
         "raw": [
@@ -712,7 +880,10 @@
         ]
     },
     {
-        "expected": "Y",
+        "expected": [
+            "Y",
+            {}
+        ],
         "header_type": "item",
         "name": "0x59 in string",
         "raw": [
@@ -720,7 +891,10 @@
         ]
     },
     {
-        "expected": "Z",
+        "expected": [
+            "Z",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5a in string",
         "raw": [
@@ -728,7 +902,10 @@
         ]
     },
     {
-        "expected": "[",
+        "expected": [
+            "[",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5b in string",
         "raw": [
@@ -744,7 +921,10 @@
         ]
     },
     {
-        "expected": "]",
+        "expected": [
+            "]",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5d in string",
         "raw": [
@@ -752,7 +932,10 @@
         ]
     },
     {
-        "expected": "^",
+        "expected": [
+            "^",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5e in string",
         "raw": [
@@ -760,7 +943,10 @@
         ]
     },
     {
-        "expected": "_",
+        "expected": [
+            "_",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5f in string",
         "raw": [
@@ -768,7 +954,10 @@
         ]
     },
     {
-        "expected": "`",
+        "expected": [
+            "`",
+            {}
+        ],
         "header_type": "item",
         "name": "0x60 in string",
         "raw": [
@@ -776,7 +965,10 @@
         ]
     },
     {
-        "expected": "a",
+        "expected": [
+            "a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x61 in string",
         "raw": [
@@ -784,7 +976,10 @@
         ]
     },
     {
-        "expected": "b",
+        "expected": [
+            "b",
+            {}
+        ],
         "header_type": "item",
         "name": "0x62 in string",
         "raw": [
@@ -792,7 +987,10 @@
         ]
     },
     {
-        "expected": "c",
+        "expected": [
+            "c",
+            {}
+        ],
         "header_type": "item",
         "name": "0x63 in string",
         "raw": [
@@ -800,7 +998,10 @@
         ]
     },
     {
-        "expected": "d",
+        "expected": [
+            "d",
+            {}
+        ],
         "header_type": "item",
         "name": "0x64 in string",
         "raw": [
@@ -808,7 +1009,10 @@
         ]
     },
     {
-        "expected": "e",
+        "expected": [
+            "e",
+            {}
+        ],
         "header_type": "item",
         "name": "0x65 in string",
         "raw": [
@@ -816,7 +1020,10 @@
         ]
     },
     {
-        "expected": "f",
+        "expected": [
+            "f",
+            {}
+        ],
         "header_type": "item",
         "name": "0x66 in string",
         "raw": [
@@ -824,7 +1031,10 @@
         ]
     },
     {
-        "expected": "g",
+        "expected": [
+            "g",
+            {}
+        ],
         "header_type": "item",
         "name": "0x67 in string",
         "raw": [
@@ -832,7 +1042,10 @@
         ]
     },
     {
-        "expected": "h",
+        "expected": [
+            "h",
+            {}
+        ],
         "header_type": "item",
         "name": "0x68 in string",
         "raw": [
@@ -840,7 +1053,10 @@
         ]
     },
     {
-        "expected": "i",
+        "expected": [
+            "i",
+            {}
+        ],
         "header_type": "item",
         "name": "0x69 in string",
         "raw": [
@@ -848,7 +1064,10 @@
         ]
     },
     {
-        "expected": "j",
+        "expected": [
+            "j",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6a in string",
         "raw": [
@@ -856,7 +1075,10 @@
         ]
     },
     {
-        "expected": "k",
+        "expected": [
+            "k",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6b in string",
         "raw": [
@@ -864,7 +1086,10 @@
         ]
     },
     {
-        "expected": "l",
+        "expected": [
+            "l",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6c in string",
         "raw": [
@@ -872,7 +1097,10 @@
         ]
     },
     {
-        "expected": "m",
+        "expected": [
+            "m",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6d in string",
         "raw": [
@@ -880,7 +1108,10 @@
         ]
     },
     {
-        "expected": "n",
+        "expected": [
+            "n",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6e in string",
         "raw": [
@@ -888,7 +1119,10 @@
         ]
     },
     {
-        "expected": "o",
+        "expected": [
+            "o",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6f in string",
         "raw": [
@@ -896,7 +1130,10 @@
         ]
     },
     {
-        "expected": "p",
+        "expected": [
+            "p",
+            {}
+        ],
         "header_type": "item",
         "name": "0x70 in string",
         "raw": [
@@ -904,7 +1141,10 @@
         ]
     },
     {
-        "expected": "q",
+        "expected": [
+            "q",
+            {}
+        ],
         "header_type": "item",
         "name": "0x71 in string",
         "raw": [
@@ -912,7 +1152,10 @@
         ]
     },
     {
-        "expected": "r",
+        "expected": [
+            "r",
+            {}
+        ],
         "header_type": "item",
         "name": "0x72 in string",
         "raw": [
@@ -920,7 +1163,10 @@
         ]
     },
     {
-        "expected": "s",
+        "expected": [
+            "s",
+            {}
+        ],
         "header_type": "item",
         "name": "0x73 in string",
         "raw": [
@@ -928,7 +1174,10 @@
         ]
     },
     {
-        "expected": "t",
+        "expected": [
+            "t",
+            {}
+        ],
         "header_type": "item",
         "name": "0x74 in string",
         "raw": [
@@ -936,7 +1185,10 @@
         ]
     },
     {
-        "expected": "u",
+        "expected": [
+            "u",
+            {}
+        ],
         "header_type": "item",
         "name": "0x75 in string",
         "raw": [
@@ -944,7 +1196,10 @@
         ]
     },
     {
-        "expected": "v",
+        "expected": [
+            "v",
+            {}
+        ],
         "header_type": "item",
         "name": "0x76 in string",
         "raw": [
@@ -952,7 +1207,10 @@
         ]
     },
     {
-        "expected": "w",
+        "expected": [
+            "w",
+            {}
+        ],
         "header_type": "item",
         "name": "0x77 in string",
         "raw": [
@@ -960,7 +1218,10 @@
         ]
     },
     {
-        "expected": "x",
+        "expected": [
+            "x",
+            {}
+        ],
         "header_type": "item",
         "name": "0x78 in string",
         "raw": [
@@ -968,7 +1229,10 @@
         ]
     },
     {
-        "expected": "y",
+        "expected": [
+            "y",
+            {}
+        ],
         "header_type": "item",
         "name": "0x79 in string",
         "raw": [
@@ -976,7 +1240,10 @@
         ]
     },
     {
-        "expected": "z",
+        "expected": [
+            "z",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7a in string",
         "raw": [
@@ -984,7 +1251,10 @@
         ]
     },
     {
-        "expected": "{",
+        "expected": [
+            "{",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7b in string",
         "raw": [
@@ -992,7 +1262,10 @@
         ]
     },
     {
-        "expected": "|",
+        "expected": [
+            "|",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7c in string",
         "raw": [
@@ -1000,7 +1273,10 @@
         ]
     },
     {
-        "expected": "}",
+        "expected": [
+            "}",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7d in string",
         "raw": [
@@ -1008,7 +1284,10 @@
         ]
     },
     {
-        "expected": "~",
+        "expected": [
+            "~",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7e in string",
         "raw": [
@@ -1296,7 +1575,10 @@
         ]
     },
     {
-        "expected": "\"",
+        "expected": [
+            "\"",
+            {}
+        ],
         "header_type": "item",
         "name": "0x22 in string",
         "raw": [
@@ -1760,7 +2042,10 @@
         ]
     },
     {
-        "expected": "\\",
+        "expected": [
+            "\\",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5c in string",
         "raw": [

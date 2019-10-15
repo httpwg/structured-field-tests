@@ -22,7 +22,7 @@
       "name": "list item parameterised dictionary",
       "raw": ["a=(1 2); q=1.0"],
       "header_type": "dictionary",
-      "expected": {"a": [[1,2], {"q": 1.0}]},
+      "expected": {"a": [[[1, {}], [2, {}]], {"q": 1.0}]},
       "canonical": ["a=(1 2);q=1.0"]
     },
     {
