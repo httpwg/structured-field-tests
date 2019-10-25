@@ -22,7 +22,7 @@
       "name": "list item parameterised dictionary",
       "raw": ["a=(1 2); q=1.0"],
       "header_type": "dictionary",
-      "expected": {"a": [[1,2], {"q": 1.0}]},
+      "expected": {"a": [[[1, {}], [2, {}]], {"q": 1.0}]},
       "canonical": ["a=(1 2);q=1.0"]
     },
     {
@@ -48,12 +48,27 @@
       "must_fail": true
     },
     {
+      "name": "whitespace before ; parameterised dict",
+      "raw": ["a=b ;q=0.5"],
+      "header_type": "dictionary",
+      "must_fail": true
+    },
+    {
+      "name": "whitespace after ; parameterised dict",
+      "raw": ["a=b; q=0.5"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": ["b", {"q": 0.5}]
+      },
+      "canonical": ["a=b;q=0.5"]
+    },
+    {
       "name": "extra whitespace parameterised dict",
-      "raw": ["a=b  ;  c=1  ,  d=e ; f=2"],
+      "raw": ["a=b;  c=1  ,  d=e; f=2; g=3"],
       "header_type": "dictionary",
       "expected": {
           "a": ["b", {"c": 1}],
-          "d": ["e", {"f": 2}]
+          "d": ["e", {"f": 2, "g": 3}]
       },
       "canonical": ["a=b;c=1, d=e;f=2"]
     },

@@ -40,14 +40,30 @@
       "must_fail": true
     },
     {
+      "name": "whitespace before ; parameterised list",
+      "raw": ["text/html, text/plain ;q=0.5"],
+      "header_type": "list",
+      "must_fail": true
+    },
+    {
+      "name": "whitespace after ; parameterised list",
+      "raw": ["text/html, text/plain; q=0.5"],
+      "header_type": "list",
+      "expected": [
+          ["text/html", {}],
+          ["text/plain", {"q": 0.5}]
+      ],
+      "canonical": ["text/html, text/plain;q=0.5"]
+    },
+    {
       "name": "extra whitespace parameterised list",
-      "raw": ["text/html  ,  text/plain ;  q=0.5"],
+      "raw": ["text/html  ,  text/plain;  q=0.5;  charset=\"utf-8\""],
       "header_type": "list",
       "expected": [
         ["text/html", {}],
-        ["text/plain", {"q": 0.5}]
+        ["text/plain", {"q": 0.5, "charset": "utf-8"}]
       ],
-      "canonical": ["text/html, text/plain;q=0.5"]
+      "canonical": ["text/html, text/plain;q=0.5;charset=\"utf-8\""]
     },
     {
       "name": "two lines parameterised list",

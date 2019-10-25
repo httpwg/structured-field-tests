@@ -296,7 +296,10 @@
         ]
     },
     {
-        "expected": "a%a",
+        "expected": [
+            "a%a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x25 in token",
         "raw": [
@@ -336,7 +339,10 @@
         ]
     },
     {
-        "expected": "a*a",
+        "expected": [
+            "a*a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2a in token",
         "raw": [
@@ -360,7 +366,10 @@
         ]
     },
     {
-        "expected": "a-a",
+        "expected": [
+            "a-a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2d in token",
         "raw": [
@@ -368,7 +377,10 @@
         ]
     },
     {
-        "expected": "a.a",
+        "expected": [
+            "a.a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2e in token",
         "raw": [
@@ -376,7 +388,10 @@
         ]
     },
     {
-        "expected": "a/a",
+        "expected": [
+            "a/a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x2f in token",
         "raw": [
@@ -384,7 +399,10 @@
         ]
     },
     {
-        "expected": "a0a",
+        "expected": [
+            "a0a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x30 in token",
         "raw": [
@@ -392,7 +410,10 @@
         ]
     },
     {
-        "expected": "a1a",
+        "expected": [
+            "a1a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x31 in token",
         "raw": [
@@ -400,7 +421,10 @@
         ]
     },
     {
-        "expected": "a2a",
+        "expected": [
+            "a2a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x32 in token",
         "raw": [
@@ -408,7 +432,10 @@
         ]
     },
     {
-        "expected": "a3a",
+        "expected": [
+            "a3a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x33 in token",
         "raw": [
@@ -416,7 +443,10 @@
         ]
     },
     {
-        "expected": "a4a",
+        "expected": [
+            "a4a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x34 in token",
         "raw": [
@@ -424,7 +454,10 @@
         ]
     },
     {
-        "expected": "a5a",
+        "expected": [
+            "a5a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x35 in token",
         "raw": [
@@ -432,7 +465,10 @@
         ]
     },
     {
-        "expected": "a6a",
+        "expected": [
+            "a6a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x36 in token",
         "raw": [
@@ -440,7 +476,10 @@
         ]
     },
     {
-        "expected": "a7a",
+        "expected": [
+            "a7a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x37 in token",
         "raw": [
@@ -448,7 +487,10 @@
         ]
     },
     {
-        "expected": "a8a",
+        "expected": [
+            "a8a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x38 in token",
         "raw": [
@@ -456,7 +498,10 @@
         ]
     },
     {
-        "expected": "a9a",
+        "expected": [
+            "a9a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x39 in token",
         "raw": [
@@ -464,7 +509,10 @@
         ]
     },
     {
-        "expected": "a:a",
+        "expected": [
+            "a:a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x3a in token",
         "raw": [
@@ -472,8 +520,13 @@
         ]
     },
     {
+        "expected": [
+            "a",
+            {
+                "a": null
+            }
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x3b in token",
         "raw": [
             "a;a"
@@ -520,7 +573,10 @@
         ]
     },
     {
-        "expected": "aAa",
+        "expected": [
+            "aAa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x41 in token",
         "raw": [
@@ -528,7 +584,10 @@
         ]
     },
     {
-        "expected": "aBa",
+        "expected": [
+            "aBa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x42 in token",
         "raw": [
@@ -536,7 +595,10 @@
         ]
     },
     {
-        "expected": "aCa",
+        "expected": [
+            "aCa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x43 in token",
         "raw": [
@@ -544,7 +606,10 @@
         ]
     },
     {
-        "expected": "aDa",
+        "expected": [
+            "aDa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x44 in token",
         "raw": [
@@ -552,7 +617,10 @@
         ]
     },
     {
-        "expected": "aEa",
+        "expected": [
+            "aEa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x45 in token",
         "raw": [
@@ -560,7 +628,10 @@
         ]
     },
     {
-        "expected": "aFa",
+        "expected": [
+            "aFa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x46 in token",
         "raw": [
@@ -568,7 +639,10 @@
         ]
     },
     {
-        "expected": "aGa",
+        "expected": [
+            "aGa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x47 in token",
         "raw": [
@@ -576,7 +650,10 @@
         ]
     },
     {
-        "expected": "aHa",
+        "expected": [
+            "aHa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x48 in token",
         "raw": [
@@ -584,7 +661,10 @@
         ]
     },
     {
-        "expected": "aIa",
+        "expected": [
+            "aIa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x49 in token",
         "raw": [
@@ -592,7 +672,10 @@
         ]
     },
     {
-        "expected": "aJa",
+        "expected": [
+            "aJa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4a in token",
         "raw": [
@@ -600,7 +683,10 @@
         ]
     },
     {
-        "expected": "aKa",
+        "expected": [
+            "aKa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4b in token",
         "raw": [
@@ -608,7 +694,10 @@
         ]
     },
     {
-        "expected": "aLa",
+        "expected": [
+            "aLa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4c in token",
         "raw": [
@@ -616,7 +705,10 @@
         ]
     },
     {
-        "expected": "aMa",
+        "expected": [
+            "aMa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4d in token",
         "raw": [
@@ -624,7 +716,10 @@
         ]
     },
     {
-        "expected": "aNa",
+        "expected": [
+            "aNa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4e in token",
         "raw": [
@@ -632,7 +727,10 @@
         ]
     },
     {
-        "expected": "aOa",
+        "expected": [
+            "aOa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4f in token",
         "raw": [
@@ -640,7 +738,10 @@
         ]
     },
     {
-        "expected": "aPa",
+        "expected": [
+            "aPa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x50 in token",
         "raw": [
@@ -648,7 +749,10 @@
         ]
     },
     {
-        "expected": "aQa",
+        "expected": [
+            "aQa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x51 in token",
         "raw": [
@@ -656,7 +760,10 @@
         ]
     },
     {
-        "expected": "aRa",
+        "expected": [
+            "aRa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x52 in token",
         "raw": [
@@ -664,7 +771,10 @@
         ]
     },
     {
-        "expected": "aSa",
+        "expected": [
+            "aSa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x53 in token",
         "raw": [
@@ -672,7 +782,10 @@
         ]
     },
     {
-        "expected": "aTa",
+        "expected": [
+            "aTa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x54 in token",
         "raw": [
@@ -680,7 +793,10 @@
         ]
     },
     {
-        "expected": "aUa",
+        "expected": [
+            "aUa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x55 in token",
         "raw": [
@@ -688,7 +804,10 @@
         ]
     },
     {
-        "expected": "aVa",
+        "expected": [
+            "aVa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x56 in token",
         "raw": [
@@ -696,7 +815,10 @@
         ]
     },
     {
-        "expected": "aWa",
+        "expected": [
+            "aWa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x57 in token",
         "raw": [
@@ -704,7 +826,10 @@
         ]
     },
     {
-        "expected": "aXa",
+        "expected": [
+            "aXa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x58 in token",
         "raw": [
@@ -712,7 +837,10 @@
         ]
     },
     {
-        "expected": "aYa",
+        "expected": [
+            "aYa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x59 in token",
         "raw": [
@@ -720,7 +848,10 @@
         ]
     },
     {
-        "expected": "aZa",
+        "expected": [
+            "aZa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5a in token",
         "raw": [
@@ -760,7 +891,10 @@
         ]
     },
     {
-        "expected": "a_a",
+        "expected": [
+            "a_a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5f in token",
         "raw": [
@@ -776,7 +910,10 @@
         ]
     },
     {
-        "expected": "aaa",
+        "expected": [
+            "aaa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x61 in token",
         "raw": [
@@ -784,7 +921,10 @@
         ]
     },
     {
-        "expected": "aba",
+        "expected": [
+            "aba",
+            {}
+        ],
         "header_type": "item",
         "name": "0x62 in token",
         "raw": [
@@ -792,7 +932,10 @@
         ]
     },
     {
-        "expected": "aca",
+        "expected": [
+            "aca",
+            {}
+        ],
         "header_type": "item",
         "name": "0x63 in token",
         "raw": [
@@ -800,7 +943,10 @@
         ]
     },
     {
-        "expected": "ada",
+        "expected": [
+            "ada",
+            {}
+        ],
         "header_type": "item",
         "name": "0x64 in token",
         "raw": [
@@ -808,7 +954,10 @@
         ]
     },
     {
-        "expected": "aea",
+        "expected": [
+            "aea",
+            {}
+        ],
         "header_type": "item",
         "name": "0x65 in token",
         "raw": [
@@ -816,7 +965,10 @@
         ]
     },
     {
-        "expected": "afa",
+        "expected": [
+            "afa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x66 in token",
         "raw": [
@@ -824,7 +976,10 @@
         ]
     },
     {
-        "expected": "aga",
+        "expected": [
+            "aga",
+            {}
+        ],
         "header_type": "item",
         "name": "0x67 in token",
         "raw": [
@@ -832,7 +987,10 @@
         ]
     },
     {
-        "expected": "aha",
+        "expected": [
+            "aha",
+            {}
+        ],
         "header_type": "item",
         "name": "0x68 in token",
         "raw": [
@@ -840,7 +998,10 @@
         ]
     },
     {
-        "expected": "aia",
+        "expected": [
+            "aia",
+            {}
+        ],
         "header_type": "item",
         "name": "0x69 in token",
         "raw": [
@@ -848,7 +1009,10 @@
         ]
     },
     {
-        "expected": "aja",
+        "expected": [
+            "aja",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6a in token",
         "raw": [
@@ -856,7 +1020,10 @@
         ]
     },
     {
-        "expected": "aka",
+        "expected": [
+            "aka",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6b in token",
         "raw": [
@@ -864,7 +1031,10 @@
         ]
     },
     {
-        "expected": "ala",
+        "expected": [
+            "ala",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6c in token",
         "raw": [
@@ -872,7 +1042,10 @@
         ]
     },
     {
-        "expected": "ama",
+        "expected": [
+            "ama",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6d in token",
         "raw": [
@@ -880,7 +1053,10 @@
         ]
     },
     {
-        "expected": "ana",
+        "expected": [
+            "ana",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6e in token",
         "raw": [
@@ -888,7 +1064,10 @@
         ]
     },
     {
-        "expected": "aoa",
+        "expected": [
+            "aoa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6f in token",
         "raw": [
@@ -896,7 +1075,10 @@
         ]
     },
     {
-        "expected": "apa",
+        "expected": [
+            "apa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x70 in token",
         "raw": [
@@ -904,7 +1086,10 @@
         ]
     },
     {
-        "expected": "aqa",
+        "expected": [
+            "aqa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x71 in token",
         "raw": [
@@ -912,7 +1097,10 @@
         ]
     },
     {
-        "expected": "ara",
+        "expected": [
+            "ara",
+            {}
+        ],
         "header_type": "item",
         "name": "0x72 in token",
         "raw": [
@@ -920,7 +1108,10 @@
         ]
     },
     {
-        "expected": "asa",
+        "expected": [
+            "asa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x73 in token",
         "raw": [
@@ -928,7 +1119,10 @@
         ]
     },
     {
-        "expected": "ata",
+        "expected": [
+            "ata",
+            {}
+        ],
         "header_type": "item",
         "name": "0x74 in token",
         "raw": [
@@ -936,7 +1130,10 @@
         ]
     },
     {
-        "expected": "aua",
+        "expected": [
+            "aua",
+            {}
+        ],
         "header_type": "item",
         "name": "0x75 in token",
         "raw": [
@@ -944,7 +1141,10 @@
         ]
     },
     {
-        "expected": "ava",
+        "expected": [
+            "ava",
+            {}
+        ],
         "header_type": "item",
         "name": "0x76 in token",
         "raw": [
@@ -952,7 +1152,10 @@
         ]
     },
     {
-        "expected": "awa",
+        "expected": [
+            "awa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x77 in token",
         "raw": [
@@ -960,7 +1163,10 @@
         ]
     },
     {
-        "expected": "axa",
+        "expected": [
+            "axa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x78 in token",
         "raw": [
@@ -968,7 +1174,10 @@
         ]
     },
     {
-        "expected": "aya",
+        "expected": [
+            "aya",
+            {}
+        ],
         "header_type": "item",
         "name": "0x79 in token",
         "raw": [
@@ -976,7 +1185,10 @@
         ]
     },
     {
-        "expected": "aza",
+        "expected": [
+            "aza",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7a in token",
         "raw": [
@@ -1099,7 +1311,10 @@
         "canonical": [
             "a"
         ],
-        "expected": "a",
+        "expected": [
+            "a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x09 starting an token",
         "raw": [
@@ -1286,7 +1501,10 @@
         "canonical": [
             "a"
         ],
-        "expected": "a",
+        "expected": [
+            "a",
+            {}
+        ],
         "header_type": "item",
         "name": "0x20 starting an token",
         "raw": [
@@ -1550,7 +1768,10 @@
         ]
     },
     {
-        "expected": "Aa",
+        "expected": [
+            "Aa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x41 starting an token",
         "raw": [
@@ -1558,7 +1779,10 @@
         ]
     },
     {
-        "expected": "Ba",
+        "expected": [
+            "Ba",
+            {}
+        ],
         "header_type": "item",
         "name": "0x42 starting an token",
         "raw": [
@@ -1566,7 +1790,10 @@
         ]
     },
     {
-        "expected": "Ca",
+        "expected": [
+            "Ca",
+            {}
+        ],
         "header_type": "item",
         "name": "0x43 starting an token",
         "raw": [
@@ -1574,7 +1801,10 @@
         ]
     },
     {
-        "expected": "Da",
+        "expected": [
+            "Da",
+            {}
+        ],
         "header_type": "item",
         "name": "0x44 starting an token",
         "raw": [
@@ -1582,7 +1812,10 @@
         ]
     },
     {
-        "expected": "Ea",
+        "expected": [
+            "Ea",
+            {}
+        ],
         "header_type": "item",
         "name": "0x45 starting an token",
         "raw": [
@@ -1590,7 +1823,10 @@
         ]
     },
     {
-        "expected": "Fa",
+        "expected": [
+            "Fa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x46 starting an token",
         "raw": [
@@ -1598,7 +1834,10 @@
         ]
     },
     {
-        "expected": "Ga",
+        "expected": [
+            "Ga",
+            {}
+        ],
         "header_type": "item",
         "name": "0x47 starting an token",
         "raw": [
@@ -1606,7 +1845,10 @@
         ]
     },
     {
-        "expected": "Ha",
+        "expected": [
+            "Ha",
+            {}
+        ],
         "header_type": "item",
         "name": "0x48 starting an token",
         "raw": [
@@ -1614,7 +1856,10 @@
         ]
     },
     {
-        "expected": "Ia",
+        "expected": [
+            "Ia",
+            {}
+        ],
         "header_type": "item",
         "name": "0x49 starting an token",
         "raw": [
@@ -1622,7 +1867,10 @@
         ]
     },
     {
-        "expected": "Ja",
+        "expected": [
+            "Ja",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4a starting an token",
         "raw": [
@@ -1630,7 +1878,10 @@
         ]
     },
     {
-        "expected": "Ka",
+        "expected": [
+            "Ka",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4b starting an token",
         "raw": [
@@ -1638,7 +1889,10 @@
         ]
     },
     {
-        "expected": "La",
+        "expected": [
+            "La",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4c starting an token",
         "raw": [
@@ -1646,7 +1900,10 @@
         ]
     },
     {
-        "expected": "Ma",
+        "expected": [
+            "Ma",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4d starting an token",
         "raw": [
@@ -1654,7 +1911,10 @@
         ]
     },
     {
-        "expected": "Na",
+        "expected": [
+            "Na",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4e starting an token",
         "raw": [
@@ -1662,7 +1922,10 @@
         ]
     },
     {
-        "expected": "Oa",
+        "expected": [
+            "Oa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x4f starting an token",
         "raw": [
@@ -1670,7 +1933,10 @@
         ]
     },
     {
-        "expected": "Pa",
+        "expected": [
+            "Pa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x50 starting an token",
         "raw": [
@@ -1678,7 +1944,10 @@
         ]
     },
     {
-        "expected": "Qa",
+        "expected": [
+            "Qa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x51 starting an token",
         "raw": [
@@ -1686,7 +1955,10 @@
         ]
     },
     {
-        "expected": "Ra",
+        "expected": [
+            "Ra",
+            {}
+        ],
         "header_type": "item",
         "name": "0x52 starting an token",
         "raw": [
@@ -1694,7 +1966,10 @@
         ]
     },
     {
-        "expected": "Sa",
+        "expected": [
+            "Sa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x53 starting an token",
         "raw": [
@@ -1702,7 +1977,10 @@
         ]
     },
     {
-        "expected": "Ta",
+        "expected": [
+            "Ta",
+            {}
+        ],
         "header_type": "item",
         "name": "0x54 starting an token",
         "raw": [
@@ -1710,7 +1988,10 @@
         ]
     },
     {
-        "expected": "Ua",
+        "expected": [
+            "Ua",
+            {}
+        ],
         "header_type": "item",
         "name": "0x55 starting an token",
         "raw": [
@@ -1718,7 +1999,10 @@
         ]
     },
     {
-        "expected": "Va",
+        "expected": [
+            "Va",
+            {}
+        ],
         "header_type": "item",
         "name": "0x56 starting an token",
         "raw": [
@@ -1726,7 +2010,10 @@
         ]
     },
     {
-        "expected": "Wa",
+        "expected": [
+            "Wa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x57 starting an token",
         "raw": [
@@ -1734,7 +2021,10 @@
         ]
     },
     {
-        "expected": "Xa",
+        "expected": [
+            "Xa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x58 starting an token",
         "raw": [
@@ -1742,7 +2032,10 @@
         ]
     },
     {
-        "expected": "Ya",
+        "expected": [
+            "Ya",
+            {}
+        ],
         "header_type": "item",
         "name": "0x59 starting an token",
         "raw": [
@@ -1750,7 +2043,10 @@
         ]
     },
     {
-        "expected": "Za",
+        "expected": [
+            "Za",
+            {}
+        ],
         "header_type": "item",
         "name": "0x5a starting an token",
         "raw": [
@@ -1806,7 +2102,10 @@
         ]
     },
     {
-        "expected": "aa",
+        "expected": [
+            "aa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x61 starting an token",
         "raw": [
@@ -1814,7 +2113,10 @@
         ]
     },
     {
-        "expected": "ba",
+        "expected": [
+            "ba",
+            {}
+        ],
         "header_type": "item",
         "name": "0x62 starting an token",
         "raw": [
@@ -1822,7 +2124,10 @@
         ]
     },
     {
-        "expected": "ca",
+        "expected": [
+            "ca",
+            {}
+        ],
         "header_type": "item",
         "name": "0x63 starting an token",
         "raw": [
@@ -1830,7 +2135,10 @@
         ]
     },
     {
-        "expected": "da",
+        "expected": [
+            "da",
+            {}
+        ],
         "header_type": "item",
         "name": "0x64 starting an token",
         "raw": [
@@ -1838,7 +2146,10 @@
         ]
     },
     {
-        "expected": "ea",
+        "expected": [
+            "ea",
+            {}
+        ],
         "header_type": "item",
         "name": "0x65 starting an token",
         "raw": [
@@ -1846,7 +2157,10 @@
         ]
     },
     {
-        "expected": "fa",
+        "expected": [
+            "fa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x66 starting an token",
         "raw": [
@@ -1854,7 +2168,10 @@
         ]
     },
     {
-        "expected": "ga",
+        "expected": [
+            "ga",
+            {}
+        ],
         "header_type": "item",
         "name": "0x67 starting an token",
         "raw": [
@@ -1862,7 +2179,10 @@
         ]
     },
     {
-        "expected": "ha",
+        "expected": [
+            "ha",
+            {}
+        ],
         "header_type": "item",
         "name": "0x68 starting an token",
         "raw": [
@@ -1870,7 +2190,10 @@
         ]
     },
     {
-        "expected": "ia",
+        "expected": [
+            "ia",
+            {}
+        ],
         "header_type": "item",
         "name": "0x69 starting an token",
         "raw": [
@@ -1878,7 +2201,10 @@
         ]
     },
     {
-        "expected": "ja",
+        "expected": [
+            "ja",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6a starting an token",
         "raw": [
@@ -1886,7 +2212,10 @@
         ]
     },
     {
-        "expected": "ka",
+        "expected": [
+            "ka",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6b starting an token",
         "raw": [
@@ -1894,7 +2223,10 @@
         ]
     },
     {
-        "expected": "la",
+        "expected": [
+            "la",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6c starting an token",
         "raw": [
@@ -1902,7 +2234,10 @@
         ]
     },
     {
-        "expected": "ma",
+        "expected": [
+            "ma",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6d starting an token",
         "raw": [
@@ -1910,7 +2245,10 @@
         ]
     },
     {
-        "expected": "na",
+        "expected": [
+            "na",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6e starting an token",
         "raw": [
@@ -1918,7 +2256,10 @@
         ]
     },
     {
-        "expected": "oa",
+        "expected": [
+            "oa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x6f starting an token",
         "raw": [
@@ -1926,7 +2267,10 @@
         ]
     },
     {
-        "expected": "pa",
+        "expected": [
+            "pa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x70 starting an token",
         "raw": [
@@ -1934,7 +2278,10 @@
         ]
     },
     {
-        "expected": "qa",
+        "expected": [
+            "qa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x71 starting an token",
         "raw": [
@@ -1942,7 +2289,10 @@
         ]
     },
     {
-        "expected": "ra",
+        "expected": [
+            "ra",
+            {}
+        ],
         "header_type": "item",
         "name": "0x72 starting an token",
         "raw": [
@@ -1950,7 +2300,10 @@
         ]
     },
     {
-        "expected": "sa",
+        "expected": [
+            "sa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x73 starting an token",
         "raw": [
@@ -1958,7 +2311,10 @@
         ]
     },
     {
-        "expected": "ta",
+        "expected": [
+            "ta",
+            {}
+        ],
         "header_type": "item",
         "name": "0x74 starting an token",
         "raw": [
@@ -1966,7 +2322,10 @@
         ]
     },
     {
-        "expected": "ua",
+        "expected": [
+            "ua",
+            {}
+        ],
         "header_type": "item",
         "name": "0x75 starting an token",
         "raw": [
@@ -1974,7 +2333,10 @@
         ]
     },
     {
-        "expected": "va",
+        "expected": [
+            "va",
+            {}
+        ],
         "header_type": "item",
         "name": "0x76 starting an token",
         "raw": [
@@ -1982,7 +2344,10 @@
         ]
     },
     {
-        "expected": "wa",
+        "expected": [
+            "wa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x77 starting an token",
         "raw": [
@@ -1990,7 +2355,10 @@
         ]
     },
     {
-        "expected": "xa",
+        "expected": [
+            "xa",
+            {}
+        ],
         "header_type": "item",
         "name": "0x78 starting an token",
         "raw": [
@@ -1998,7 +2366,10 @@
         ]
     },
     {
-        "expected": "ya",
+        "expected": [
+            "ya",
+            {}
+        ],
         "header_type": "item",
         "name": "0x79 starting an token",
         "raw": [
@@ -2006,7 +2377,10 @@
         ]
     },
     {
-        "expected": "za",
+        "expected": [
+            "za",
+            {}
+        ],
         "header_type": "item",
         "name": "0x7a starting an token",
         "raw": [

@@ -17,16 +17,17 @@ object with the following members:
 
 The `expected` data structure maps the types in Structured Headers to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
-* Dictionary: JSON object whose values are [member, parameters], where parameters is an object
-* List: JSON array of [primary_item, parameteters], where parameters is an object
-* List of Lists: JSON array of JSON arrays
-* Integer: JSON numbers; e.g. 1
-* Float: JSON numbers; e.g. 2.5
-* String: JSON string; e.g., "foo"
-* Token: JSON string; e.g., "bar"
-* Binary Content: **base32**-encoded string; e.g., "ZXW6==="
-
-`primary_item` and `member` can be either a simple item, or a list.
+* Dictionary: JSON object which maps [_member-name_ (Key), _member-value_ (Item or Inner-List)] pairs
+* List: JSON array, where each element is either an Item or Inner-List
+* Inner-List: JSON array with two elements, the list (a JSON array of Items) and Parameters
+* Item: JSON array with two elements, the Bare-Item and Parameters
+* Bare-Item: one of:
+   * Integer: JSON numbers; e.g. 1
+   * Float: JSON numbers; e.g. 2.5
+   * String: JSON string; e.g., "foo"
+   * Token: JSON string; e.g., "bar"
+   * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
+* Parameters: a JSON object which maps [_param-name_ (Key), _param-value_ (Bare-Item)] pairs
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
 data structure can be serialized.  The expected result of this serialization is the `canonical`
