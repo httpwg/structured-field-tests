@@ -42,5 +42,11 @@
       "raw": ["(1 2, (42 43)"],
       "header_type": "list",
       "must_fail": true
+    },
+    {
+      "name": "no spaces in inner-list",
+      "raw": ["(abc\"def\"?0123*dXZ3*xyz)"],
+      "header_type": "list",
+      "must_fail": true
     }
 ]
