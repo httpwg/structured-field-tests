@@ -70,7 +70,7 @@
           "a": ["b", {"c": 1}],
           "d": ["e", {"f": 2, "g": 3}]
       },
-      "canonical": ["a=b;c=1, d=e;f=2"]
+      "canonical": ["a=b;c=1, d=e;f=2;g=3"]
     },
     {
       "name": "two lines parameterised list",
