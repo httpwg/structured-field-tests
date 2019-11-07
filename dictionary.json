@@ -9,7 +9,8 @@
       "name": "empty dictionary",
       "raw": [""],
       "header_type": "dictionary",
-      "expected": {}
+      "expected": {},
+      "canonical": []
     },
     {
       "name": "single item dictionary",

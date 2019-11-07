@@ -31,7 +31,8 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
 data structure can be serialized.  The expected result of this serialization is the `canonical`
-member if specified, or `raw` otherwise.
+member if specified, or `raw` otherwise.  The canonical form of a List or Dictionary with no
+members is an empty array, to represent the field being omitted.
 
 ## Writing Tests
 
