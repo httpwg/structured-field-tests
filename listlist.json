@@ -26,10 +26,16 @@
     },
     {
       "name": "extra whitespace list of lists",
-      "raw": ["(1  42)"],
+      "raw": ["( \t 1 \t 42 \t )"],
       "header_type": "list",
       "expected": [[[[1,{}], [42,{}]], {}]],
       "canonical": ["(1 42)"]
+    },
+    {
+      "name": "wrong whitespace list of lists",
+      "raw": ["(1\t 42)"],
+      "header_type": "list",
+      "must_fail": true
     },
     {
       "name": "no trailing parenthesis list of lists",
