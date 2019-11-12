@@ -14,7 +14,30 @@ allowed_string_chars = (
 )
 escaped_string_chars = [0x22, 0x5C]
 allowed_token_chars = (
-    DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
+    DIGITS
+    + ALPHA
+    + [
+        ord(c)
+        for c in [
+            ":",
+            "/",
+            "!",
+            "#",
+            "$",
+            "%",
+            "&",
+            "'",
+            "*",
+            "+",
+            "-",
+            ".",
+            "^",
+            "_",
+            "`",
+            "|",
+            "~",
+        ]
+    ]
 )
 allowed_token_start_chars = ALPHA
 allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-", "*"]]
