@@ -5,7 +5,7 @@
       "header_type": "list",
       "expected": [
         ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
-        ["ghi", {"q": "9", "r": "w"}]
+        ["ghi", {"q": "9", "r": "+w"}]
       ],
       "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=\"9\";r=\"+w\""]
     },
