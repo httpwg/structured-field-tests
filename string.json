@@ -1,9 +1,9 @@
 [
     {
       "name": "basic string",
-      "raw": ["\"foo\""],
+      "raw": ["\"foo bar\""],
       "header_type": "item",
-      "expected": ["foo", {}]
+      "expected": ["foo bar", {}]
     },
     {
       "name": "empty string",

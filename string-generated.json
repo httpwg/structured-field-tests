@@ -2,7 +2,7 @@
     {
         "name": "0x00 in string",
         "raw": [
-            "\"\u0000\""
+            "\" \u0000 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -10,7 +10,7 @@
     {
         "name": "0x01 in string",
         "raw": [
-            "\"\u0001\""
+            "\" \u0001 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -18,7 +18,7 @@
     {
         "name": "0x02 in string",
         "raw": [
-            "\"\u0002\""
+            "\" \u0002 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -26,7 +26,7 @@
     {
         "name": "0x03 in string",
         "raw": [
-            "\"\u0003\""
+            "\" \u0003 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -34,7 +34,7 @@
     {
         "name": "0x04 in string",
         "raw": [
-            "\"\u0004\""
+            "\" \u0004 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -42,7 +42,7 @@
     {
         "name": "0x05 in string",
         "raw": [
-            "\"\u0005\""
+            "\" \u0005 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -50,7 +50,7 @@
     {
         "name": "0x06 in string",
         "raw": [
-            "\"\u0006\""
+            "\" \u0006 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -58,7 +58,7 @@
     {
         "name": "0x07 in string",
         "raw": [
-            "\"\u0007\""
+            "\" \u0007 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -66,7 +66,7 @@
     {
         "name": "0x08 in string",
         "raw": [
-            "\"\b\""
+            "\" \b \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -74,7 +74,7 @@
     {
         "name": "0x09 in string",
         "raw": [
-            "\"\t\""
+            "\" \t \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -82,7 +82,7 @@
     {
         "name": "0x0a in string",
         "raw": [
-            "\"\n\""
+            "\" \n \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -90,7 +90,7 @@
     {
         "name": "0x0b in string",
         "raw": [
-            "\"\u000b\""
+            "\" \u000b \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -98,7 +98,7 @@
     {
         "name": "0x0c in string",
         "raw": [
-            "\"\f\""
+            "\" \f \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -106,7 +106,7 @@
     {
         "name": "0x0d in string",
         "raw": [
-            "\"\r\""
+            "\" \r \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -114,7 +114,7 @@
     {
         "name": "0x0e in string",
         "raw": [
-            "\"\u000e\""
+            "\" \u000e \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -122,7 +122,7 @@
     {
         "name": "0x0f in string",
         "raw": [
-            "\"\u000f\""
+            "\" \u000f \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -130,7 +130,7 @@
     {
         "name": "0x10 in string",
         "raw": [
-            "\"\u0010\""
+            "\" \u0010 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -138,7 +138,7 @@
     {
         "name": "0x11 in string",
         "raw": [
-            "\"\u0011\""
+            "\" \u0011 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -146,7 +146,7 @@
     {
         "name": "0x12 in string",
         "raw": [
-            "\"\u0012\""
+            "\" \u0012 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -154,7 +154,7 @@
     {
         "name": "0x13 in string",
         "raw": [
-            "\"\u0013\""
+            "\" \u0013 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -162,7 +162,7 @@
     {
         "name": "0x14 in string",
         "raw": [
-            "\"\u0014\""
+            "\" \u0014 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -170,7 +170,7 @@
     {
         "name": "0x15 in string",
         "raw": [
-            "\"\u0015\""
+            "\" \u0015 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -178,7 +178,7 @@
     {
         "name": "0x16 in string",
         "raw": [
-            "\"\u0016\""
+            "\" \u0016 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -186,7 +186,7 @@
     {
         "name": "0x17 in string",
         "raw": [
-            "\"\u0017\""
+            "\" \u0017 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -194,7 +194,7 @@
     {
         "name": "0x18 in string",
         "raw": [
-            "\"\u0018\""
+            "\" \u0018 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -202,7 +202,7 @@
     {
         "name": "0x19 in string",
         "raw": [
-            "\"\u0019\""
+            "\" \u0019 \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -210,7 +210,7 @@
     {
         "name": "0x1a in string",
         "raw": [
-            "\"\u001a\""
+            "\" \u001a \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -218,7 +218,7 @@
     {
         "name": "0x1b in string",
         "raw": [
-            "\"\u001b\""
+            "\" \u001b \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -226,7 +226,7 @@
     {
         "name": "0x1c in string",
         "raw": [
-            "\"\u001c\""
+            "\" \u001c \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -234,7 +234,7 @@
     {
         "name": "0x1d in string",
         "raw": [
-            "\"\u001d\""
+            "\" \u001d \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -242,7 +242,7 @@
     {
         "name": "0x1e in string",
         "raw": [
-            "\"\u001e\""
+            "\" \u001e \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -250,7 +250,7 @@
     {
         "name": "0x1f in string",
         "raw": [
-            "\"\u001f\""
+            "\" \u001f \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -258,29 +258,29 @@
     {
         "name": "0x20 in string",
         "raw": [
-            "\" \""
+            "\"   \""
         ],
         "header_type": "item",
         "expected": [
-            " ",
+            "   ",
             {}
         ]
     },
     {
         "name": "0x21 in string",
         "raw": [
-            "\"!\""
+            "\" ! \""
         ],
         "header_type": "item",
         "expected": [
-            "!",
+            " ! ",
             {}
         ]
     },
     {
         "name": "0x22 in string",
         "raw": [
-            "\"\"\""
+            "\" \" \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -288,634 +288,634 @@
     {
         "name": "0x23 in string",
         "raw": [
-            "\"#\""
+            "\" # \""
         ],
         "header_type": "item",
         "expected": [
-            "#",
+            " # ",
             {}
         ]
     },
     {
         "name": "0x24 in string",
         "raw": [
-            "\"$\""
+            "\" $ \""
         ],
         "header_type": "item",
         "expected": [
-            "$",
+            " $ ",
             {}
         ]
     },
     {
         "name": "0x25 in string",
         "raw": [
-            "\"%\""
+            "\" % \""
         ],
         "header_type": "item",
         "expected": [
-            "%",
+            " % ",
             {}
         ]
     },
     {
         "name": "0x26 in string",
         "raw": [
-            "\"&\""
+            "\" & \""
         ],
         "header_type": "item",
         "expected": [
-            "&",
+            " & ",
             {}
         ]
     },
     {
         "name": "0x27 in string",
         "raw": [
-            "\"'\""
+            "\" ' \""
         ],
         "header_type": "item",
         "expected": [
-            "'",
+            " ' ",
             {}
         ]
     },
     {
         "name": "0x28 in string",
         "raw": [
-            "\"(\""
+            "\" ( \""
         ],
         "header_type": "item",
         "expected": [
-            "(",
+            " ( ",
             {}
         ]
     },
     {
         "name": "0x29 in string",
         "raw": [
-            "\")\""
+            "\" ) \""
         ],
         "header_type": "item",
         "expected": [
-            ")",
+            " ) ",
             {}
         ]
     },
     {
         "name": "0x2a in string",
         "raw": [
-            "\"*\""
+            "\" * \""
         ],
         "header_type": "item",
         "expected": [
-            "*",
+            " * ",
             {}
         ]
     },
     {
         "name": "0x2b in string",
         "raw": [
-            "\"+\""
+            "\" + \""
         ],
         "header_type": "item",
         "expected": [
-            "+",
+            " + ",
             {}
         ]
     },
     {
         "name": "0x2c in string",
         "raw": [
-            "\",\""
+            "\" , \""
         ],
         "header_type": "item",
         "expected": [
-            ",",
+            " , ",
             {}
         ]
     },
     {
         "name": "0x2d in string",
         "raw": [
-            "\"-\""
+            "\" - \""
         ],
         "header_type": "item",
         "expected": [
-            "-",
+            " - ",
             {}
         ]
     },
     {
         "name": "0x2e in string",
         "raw": [
-            "\".\""
+            "\" . \""
         ],
         "header_type": "item",
         "expected": [
-            ".",
+            " . ",
             {}
         ]
     },
     {
         "name": "0x2f in string",
         "raw": [
-            "\"/\""
+            "\" / \""
         ],
         "header_type": "item",
         "expected": [
-            "/",
+            " / ",
             {}
         ]
     },
     {
         "name": "0x30 in string",
         "raw": [
-            "\"0\""
+            "\" 0 \""
         ],
         "header_type": "item",
         "expected": [
-            "0",
+            " 0 ",
             {}
         ]
     },
     {
         "name": "0x31 in string",
         "raw": [
-            "\"1\""
+            "\" 1 \""
         ],
         "header_type": "item",
         "expected": [
-            "1",
+            " 1 ",
             {}
         ]
     },
     {
         "name": "0x32 in string",
         "raw": [
-            "\"2\""
+            "\" 2 \""
         ],
         "header_type": "item",
         "expected": [
-            "2",
+            " 2 ",
             {}
         ]
     },
     {
         "name": "0x33 in string",
         "raw": [
-            "\"3\""
+            "\" 3 \""
         ],
         "header_type": "item",
         "expected": [
-            "3",
+            " 3 ",
             {}
         ]
     },
     {
         "name": "0x34 in string",
         "raw": [
-            "\"4\""
+            "\" 4 \""
         ],
         "header_type": "item",
         "expected": [
-            "4",
+            " 4 ",
             {}
         ]
     },
     {
         "name": "0x35 in string",
         "raw": [
-            "\"5\""
+            "\" 5 \""
         ],
         "header_type": "item",
         "expected": [
-            "5",
+            " 5 ",
             {}
         ]
     },
     {
         "name": "0x36 in string",
         "raw": [
-            "\"6\""
+            "\" 6 \""
         ],
         "header_type": "item",
         "expected": [
-            "6",
+            " 6 ",
             {}
         ]
     },
     {
         "name": "0x37 in string",
         "raw": [
-            "\"7\""
+            "\" 7 \""
         ],
         "header_type": "item",
         "expected": [
-            "7",
+            " 7 ",
             {}
         ]
     },
     {
         "name": "0x38 in string",
         "raw": [
-            "\"8\""
+            "\" 8 \""
         ],
         "header_type": "item",
         "expected": [
-            "8",
+            " 8 ",
             {}
         ]
     },
     {
         "name": "0x39 in string",
         "raw": [
-            "\"9\""
+            "\" 9 \""
         ],
         "header_type": "item",
         "expected": [
-            "9",
+            " 9 ",
             {}
         ]
     },
     {
         "name": "0x3a in string",
         "raw": [
-            "\":\""
+            "\" : \""
         ],
         "header_type": "item",
         "expected": [
-            ":",
+            " : ",
             {}
         ]
     },
     {
         "name": "0x3b in string",
         "raw": [
-            "\";\""
+            "\" ; \""
         ],
         "header_type": "item",
         "expected": [
-            ";",
+            " ; ",
             {}
         ]
     },
     {
         "name": "0x3c in string",
         "raw": [
-            "\"<\""
+            "\" < \""
         ],
         "header_type": "item",
         "expected": [
-            "<",
+            " < ",
             {}
         ]
     },
     {
         "name": "0x3d in string",
         "raw": [
-            "\"=\""
+            "\" = \""
         ],
         "header_type": "item",
         "expected": [
-            "=",
+            " = ",
             {}
         ]
     },
     {
         "name": "0x3e in string",
         "raw": [
-            "\">\""
+            "\" > \""
         ],
         "header_type": "item",
         "expected": [
-            ">",
+            " > ",
             {}
         ]
     },
     {
         "name": "0x3f in string",
         "raw": [
-            "\"?\""
+            "\" ? \""
         ],
         "header_type": "item",
         "expected": [
-            "?",
+            " ? ",
             {}
         ]
     },
     {
         "name": "0x40 in string",
         "raw": [
-            "\"@\""
+            "\" @ \""
         ],
         "header_type": "item",
         "expected": [
-            "@",
+            " @ ",
             {}
         ]
     },
     {
         "name": "0x41 in string",
         "raw": [
-            "\"A\""
+            "\" A \""
         ],
         "header_type": "item",
         "expected": [
-            "A",
+            " A ",
             {}
         ]
     },
     {
         "name": "0x42 in string",
         "raw": [
-            "\"B\""
+            "\" B \""
         ],
         "header_type": "item",
         "expected": [
-            "B",
+            " B ",
             {}
         ]
     },
     {
         "name": "0x43 in string",
         "raw": [
-            "\"C\""
+            "\" C \""
         ],
         "header_type": "item",
         "expected": [
-            "C",
+            " C ",
             {}
         ]
     },
     {
         "name": "0x44 in string",
         "raw": [
-            "\"D\""
+            "\" D \""
         ],
         "header_type": "item",
         "expected": [
-            "D",
+            " D ",
             {}
         ]
     },
     {
         "name": "0x45 in string",
         "raw": [
-            "\"E\""
+            "\" E \""
         ],
         "header_type": "item",
         "expected": [
-            "E",
+            " E ",
             {}
         ]
     },
     {
         "name": "0x46 in string",
         "raw": [
-            "\"F\""
+            "\" F \""
         ],
         "header_type": "item",
         "expected": [
-            "F",
+            " F ",
             {}
         ]
     },
     {
         "name": "0x47 in string",
         "raw": [
-            "\"G\""
+            "\" G \""
         ],
         "header_type": "item",
         "expected": [
-            "G",
+            " G ",
             {}
         ]
     },
     {
         "name": "0x48 in string",
         "raw": [
-            "\"H\""
+            "\" H \""
         ],
         "header_type": "item",
         "expected": [
-            "H",
+            " H ",
             {}
         ]
     },
     {
         "name": "0x49 in string",
         "raw": [
-            "\"I\""
+            "\" I \""
         ],
         "header_type": "item",
         "expected": [
-            "I",
+            " I ",
             {}
         ]
     },
     {
         "name": "0x4a in string",
         "raw": [
-            "\"J\""
+            "\" J \""
         ],
         "header_type": "item",
         "expected": [
-            "J",
+            " J ",
             {}
         ]
     },
     {
         "name": "0x4b in string",
         "raw": [
-            "\"K\""
+            "\" K \""
         ],
         "header_type": "item",
         "expected": [
-            "K",
+            " K ",
             {}
         ]
     },
     {
         "name": "0x4c in string",
         "raw": [
-            "\"L\""
+            "\" L \""
         ],
         "header_type": "item",
         "expected": [
-            "L",
+            " L ",
             {}
         ]
     },
     {
         "name": "0x4d in string",
         "raw": [
-            "\"M\""
+            "\" M \""
         ],
         "header_type": "item",
         "expected": [
-            "M",
+            " M ",
             {}
         ]
     },
     {
         "name": "0x4e in string",
         "raw": [
-            "\"N\""
+            "\" N \""
         ],
         "header_type": "item",
         "expected": [
-            "N",
+            " N ",
             {}
         ]
     },
     {
         "name": "0x4f in string",
         "raw": [
-            "\"O\""
+            "\" O \""
         ],
         "header_type": "item",
         "expected": [
-            "O",
+            " O ",
             {}
         ]
     },
     {
         "name": "0x50 in string",
         "raw": [
-            "\"P\""
+            "\" P \""
         ],
         "header_type": "item",
         "expected": [
-            "P",
+            " P ",
             {}
         ]
     },
     {
         "name": "0x51 in string",
         "raw": [
-            "\"Q\""
+            "\" Q \""
         ],
         "header_type": "item",
         "expected": [
-            "Q",
+            " Q ",
             {}
         ]
     },
     {
         "name": "0x52 in string",
         "raw": [
-            "\"R\""
+            "\" R \""
         ],
         "header_type": "item",
         "expected": [
-            "R",
+            " R ",
             {}
         ]
     },
     {
         "name": "0x53 in string",
         "raw": [
-            "\"S\""
+            "\" S \""
         ],
         "header_type": "item",
         "expected": [
-            "S",
+            " S ",
             {}
         ]
     },
     {
         "name": "0x54 in string",
         "raw": [
-            "\"T\""
+            "\" T \""
         ],
         "header_type": "item",
         "expected": [
-            "T",
+            " T ",
             {}
         ]
     },
     {
         "name": "0x55 in string",
         "raw": [
-            "\"U\""
+            "\" U \""
         ],
         "header_type": "item",
         "expected": [
-            "U",
+            " U ",
             {}
         ]
     },
     {
         "name": "0x56 in string",
         "raw": [
-            "\"V\""
+            "\" V \""
         ],
         "header_type": "item",
         "expected": [
-            "V",
+            " V ",
             {}
         ]
     },
     {
         "name": "0x57 in string",
         "raw": [
-            "\"W\""
+            "\" W \""
         ],
         "header_type": "item",
         "expected": [
-            "W",
+            " W ",
             {}
         ]
     },
     {
         "name": "0x58 in string",
         "raw": [
-            "\"X\""
+            "\" X \""
         ],
         "header_type": "item",
         "expected": [
-            "X",
+            " X ",
             {}
         ]
     },
     {
         "name": "0x59 in string",
         "raw": [
-            "\"Y\""
+            "\" Y \""
         ],
         "header_type": "item",
         "expected": [
-            "Y",
+            " Y ",
             {}
         ]
     },
     {
         "name": "0x5a in string",
         "raw": [
-            "\"Z\""
+            "\" Z \""
         ],
         "header_type": "item",
         "expected": [
-            "Z",
+            " Z ",
             {}
         ]
     },
     {
         "name": "0x5b in string",
         "raw": [
-            "\"[\""
+            "\" [ \""
         ],
         "header_type": "item",
         "expected": [
-            "[",
+            " [ ",
             {}
         ]
     },
     {
         "name": "0x5c in string",
         "raw": [
-            "\"\\\""
+            "\" \\ \""
         ],
         "header_type": "item",
         "must_fail": true
@@ -923,381 +923,381 @@
     {
         "name": "0x5d in string",
         "raw": [
-            "\"]\""
+            "\" ] \""
         ],
         "header_type": "item",
         "expected": [
-            "]",
+            " ] ",
             {}
         ]
     },
     {
         "name": "0x5e in string",
         "raw": [
-            "\"^\""
+            "\" ^ \""
         ],
         "header_type": "item",
         "expected": [
-            "^",
+            " ^ ",
             {}
         ]
     },
     {
         "name": "0x5f in string",
         "raw": [
-            "\"_\""
+            "\" _ \""
         ],
         "header_type": "item",
         "expected": [
-            "_",
+            " _ ",
             {}
         ]
     },
     {
         "name": "0x60 in string",
         "raw": [
-            "\"`\""
+            "\" ` \""
         ],
         "header_type": "item",
         "expected": [
-            "`",
+            " ` ",
             {}
         ]
     },
     {
         "name": "0x61 in string",
         "raw": [
-            "\"a\""
+            "\" a \""
         ],
         "header_type": "item",
         "expected": [
-            "a",
+            " a ",
             {}
         ]
     },
     {
         "name": "0x62 in string",
         "raw": [
-            "\"b\""
+            "\" b \""
         ],
         "header_type": "item",
         "expected": [
-            "b",
+            " b ",
             {}
         ]
     },
     {
         "name": "0x63 in string",
         "raw": [
-            "\"c\""
+            "\" c \""
         ],
         "header_type": "item",
         "expected": [
-            "c",
+            " c ",
             {}
         ]
     },
     {
         "name": "0x64 in string",
         "raw": [
-            "\"d\""
+            "\" d \""
         ],
         "header_type": "item",
         "expected": [
-            "d",
+            " d ",
             {}
         ]
     },
     {
         "name": "0x65 in string",
         "raw": [
-            "\"e\""
+            "\" e \""
         ],
         "header_type": "item",
         "expected": [
-            "e",
+            " e ",
             {}
         ]
     },
     {
         "name": "0x66 in string",
         "raw": [
-            "\"f\""
+            "\" f \""
         ],
         "header_type": "item",
         "expected": [
-            "f",
+            " f ",
             {}
         ]
     },
     {
         "name": "0x67 in string",
         "raw": [
-            "\"g\""
+            "\" g \""
         ],
         "header_type": "item",
         "expected": [
-            "g",
+            " g ",
             {}
         ]
     },
     {
         "name": "0x68 in string",
         "raw": [
-            "\"h\""
+            "\" h \""
         ],
         "header_type": "item",
         "expected": [
-            "h",
+            " h ",
             {}
         ]
     },
     {
         "name": "0x69 in string",
         "raw": [
-            "\"i\""
+            "\" i \""
         ],
         "header_type": "item",
         "expected": [
-            "i",
+            " i ",
             {}
         ]
     },
     {
         "name": "0x6a in string",
         "raw": [
-            "\"j\""
+            "\" j \""
         ],
         "header_type": "item",
         "expected": [
-            "j",
+            " j ",
             {}
         ]
     },
     {
         "name": "0x6b in string",
         "raw": [
-            "\"k\""
+            "\" k \""
         ],
         "header_type": "item",
         "expected": [
-            "k",
+            " k ",
             {}
         ]
     },
     {
         "name": "0x6c in string",
         "raw": [
-            "\"l\""
+            "\" l \""
         ],
         "header_type": "item",
         "expected": [
-            "l",
+            " l ",
             {}
         ]
     },
     {
         "name": "0x6d in string",
         "raw": [
-            "\"m\""
+            "\" m \""
         ],
         "header_type": "item",
         "expected": [
-            "m",
+            " m ",
             {}
         ]
     },
     {
         "name": "0x6e in string",
         "raw": [
-            "\"n\""
+            "\" n \""
         ],
         "header_type": "item",
         "expected": [
-            "n",
+            " n ",
             {}
         ]
     },
     {
         "name": "0x6f in string",
         "raw": [
-            "\"o\""
+            "\" o \""
         ],
         "header_type": "item",
         "expected": [
-            "o",
+            " o ",
             {}
         ]
     },
     {
         "name": "0x70 in string",
         "raw": [
-            "\"p\""
+            "\" p \""
         ],
         "header_type": "item",
         "expected": [
-            "p",
+            " p ",
             {}
         ]
     },
     {
         "name": "0x71 in string",
         "raw": [
-            "\"q\""
+            "\" q \""
         ],
         "header_type": "item",
         "expected": [
-            "q",
+            " q ",
             {}
         ]
     },
     {
         "name": "0x72 in string",
         "raw": [
-            "\"r\""
+            "\" r \""
         ],
         "header_type": "item",
         "expected": [
-            "r",
+            " r ",
             {}
         ]
     },
     {
         "name": "0x73 in string",
         "raw": [
-            "\"s\""
+            "\" s \""
         ],
         "header_type": "item",
         "expected": [
-            "s",
+            " s ",
             {}
         ]
     },
     {
         "name": "0x74 in string",
         "raw": [
-            "\"t\""
+            "\" t \""
         ],
         "header_type": "item",
         "expected": [
-            "t",
+            " t ",
             {}
         ]
     },
     {
         "name": "0x75 in string",
         "raw": [
-            "\"u\""
+            "\" u \""
         ],
         "header_type": "item",
         "expected": [
-            "u",
+            " u ",
             {}
         ]
     },
     {
         "name": "0x76 in string",
         "raw": [
-            "\"v\""
+            "\" v \""
         ],
         "header_type": "item",
         "expected": [
-            "v",
+            " v ",
             {}
         ]
     },
     {
         "name": "0x77 in string",
         "raw": [
-            "\"w\""
+            "\" w \""
         ],
         "header_type": "item",
         "expected": [
-            "w",
+            " w ",
             {}
         ]
     },
     {
         "name": "0x78 in string",
         "raw": [
-            "\"x\""
+            "\" x \""
         ],
         "header_type": "item",
         "expected": [
-            "x",
+            " x ",
             {}
         ]
     },
     {
         "name": "0x79 in string",
         "raw": [
-            "\"y\""
+            "\" y \""
         ],
         "header_type": "item",
         "expected": [
-            "y",
+            " y ",
             {}
         ]
     },
     {
         "name": "0x7a in string",
         "raw": [
-            "\"z\""
+            "\" z \""
         ],
         "header_type": "item",
         "expected": [
-            "z",
+            " z ",
             {}
         ]
     },
     {
         "name": "0x7b in string",
         "raw": [
-            "\"{\""
+            "\" { \""
         ],
         "header_type": "item",
         "expected": [
-            "{",
+            " { ",
             {}
         ]
     },
     {
         "name": "0x7c in string",
         "raw": [
-            "\"|\""
+            "\" | \""
         ],
         "header_type": "item",
         "expected": [
-            "|",
+            " | ",
             {}
         ]
     },
     {
         "name": "0x7d in string",
         "raw": [
-            "\"}\""
+            "\" } \""
         ],
         "header_type": "item",
         "expected": [
-            "}",
+            " } ",
             {}
         ]
     },
     {
         "name": "0x7e in string",
         "raw": [
-            "\"~\""
+            "\" ~ \""
         ],
         "header_type": "item",
         "expected": [
-            "~",
+            " ~ ",
             {}
         ]
     },
     {
         "name": "0x7f in string",
         "raw": [
-            "\"\u007f\""
+            "\" \u007f \""
         ],
         "header_type": "item",
         "must_fail": true

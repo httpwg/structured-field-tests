@@ -1,13 +1,13 @@
 [
     {
       "name": "basic parameterised list",
-      "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=\"w\""],
+      "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=\"+w\""],
       "header_type": "list",
       "expected": [
         ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
         ["ghi", {"q": "9", "r": "w"}]
       ],
-      "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=\"9\";r=\"w\""]
+      "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=\"9\";r=\"+w\""]
     },
     {
       "name": "single item parameterised list",
@@ -57,13 +57,13 @@
     },
     {
       "name": "extra whitespace parameterised list",
-      "raw": ["text/html  ,  text/plain;  q=0.5;  charset=\"utf-8\""],
+      "raw": ["text/html  ,  text/plain;  q=0.5;  charset=utf-8"],
       "header_type": "list",
       "expected": [
         ["text/html", {}],
         ["text/plain", {"q": 0.5, "charset": "utf-8"}]
       ],
-      "canonical": ["text/html, text/plain;q=0.5;charset=\"utf-8\""]
+      "canonical": ["text/html, text/plain;q=0.5;charset=utf-8"]
     },
     {
       "name": "two lines parameterised list",

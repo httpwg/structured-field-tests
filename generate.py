@@ -57,11 +57,11 @@ tests = []
 for c in ALL_CHARS:
     test = {
         "name": "0x%02x in string" % c,
-        "raw": ['"%s"' % chr(c)],
+        "raw": ['" %s "' % chr(c)],
         "header_type": "item",
     }
     if c in allowed_string_chars:
-        test["expected"] = [chr(c), {}]
+        test["expected"] = [" %s " % chr(c), {}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -254,7 +254,7 @@ string_length = 1024
 tests.append(
     {
         "name": "large string",
-        "raw": ['"%s"' % ("a" * string_length)],
+        "raw": ['"%s"' % ("=" * string_length)],
         "header_type": "item",
         "expected": ["a" * string_length, {}],
     }
