@@ -2,24 +2,30 @@
 
 import json
 
-ALL_CHARS = range(0x00, 0x7f + 1)
+ALL_CHARS = range(0x00, 0x7F + 1)
 WHITESPACE = [0x09, 0x20]
 DIGITS = list(range(0x30, 0x39 + 1))
-LCALPHA = list(range(0x61, 0x7a + 1))
-UCALPHA = list(range(0x41, 0x5a + 1))
+LCALPHA = list(range(0x61, 0x7A + 1))
+UCALPHA = list(range(0x41, 0x5A + 1))
 ALPHA = LCALPHA + UCALPHA
 
-allowed_string_chars = [0x20, 0x21] + list(range(0x23, 0x5b + 1)) + list(range(0x5d, 0x7e + 1))
-escaped_string_chars = [0x22, 0x5c]
-allowed_token_chars = DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
+allowed_string_chars = (
+    [0x20, 0x21] + list(range(0x23, 0x5B + 1)) + list(range(0x5D, 0x7E + 1))
+)
+escaped_string_chars = [0x22, 0x5C]
+allowed_token_chars = (
+    DIGITS + ALPHA + [ord(c) for c in ["_", "-", ".", ":", "%", "*", "/"]]
+)
 allowed_token_start_chars = ALPHA
 allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-", "*"]]
 allowed_key_start_chars = LCALPHA
+
 
 def write(name, data):
     fh = open("%s-generated.json" % name, "w")
     json.dump(data, fh, indent=4, sort_keys=True)
     fh.close()
+
 
 ### strings
 tests = []
@@ -27,9 +33,9 @@ tests = []
 ## allowed characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in string" % c,
-      "raw": ["\"%s\"" % chr(c)],
-      "header_type": "item"
+        "name": "0x%02x in string" % c,
+        "raw": ['"%s"' % chr(c)],
+        "header_type": "item",
     }
     if c in allowed_string_chars:
         test["expected"] = [chr(c), {}]
@@ -40,16 +46,16 @@ for c in ALL_CHARS:
 ## escaped characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in string" % c,
-      "raw": ["\"\\%s\"" % chr(c)],
-      "header_type": "item"
+        "name": "0x%02x in string" % c,
+        "raw": ['"\\%s"' % chr(c)],
+        "header_type": "item",
     }
     if c in escaped_string_chars:
         test["expected"] = [chr(c), {}]
     else:
         test["must_fail"] = True
     tests.append(test)
-write('string', tests)
+write("string", tests)
 
 ### tokens
 tests = []
@@ -57,13 +63,13 @@ tests = []
 ## allowed characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in token" % c,
-      "raw": ["a%sa" % chr(c)],
-      "header_type": "item"
+        "name": "0x%02x in token" % c,
+        "raw": ["a%sa" % chr(c)],
+        "header_type": "item",
     }
     if c in allowed_token_chars:
         test["expected"] = ["a%sa" % chr(c), {}]
-    elif c == 0x3b:
+    elif c == 0x3B:
         test["expected"] = ["a", {"a": None}]
     else:
         test["must_fail"] = True
@@ -72,9 +78,9 @@ for c in ALL_CHARS:
 ## allowed starting characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x starting an token" % c,
-      "raw": ["%sa" % chr(c)],
-      "header_type": "item"
+        "name": "0x%02x starting an token" % c,
+        "raw": ["%sa" % chr(c)],
+        "header_type": "item",
     }
     if c in WHITESPACE:
         test["expected"] = ["a", {}]  # whitespace is always stripped.
@@ -84,7 +90,7 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
-write('token', tests)
+write("token", tests)
 
 ### keys
 tests = []
@@ -92,9 +98,9 @@ tests = []
 ## dictionary keys
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in dictionary key" % c,
-      "raw": ["a%sa=1" % chr(c)],
-      "header_type": "dictionary"
+        "name": "0x%02x in dictionary key" % c,
+        "raw": ["a%sa=1" % chr(c)],
+        "header_type": "dictionary",
     }
     if c in allowed_key_chars:
         key = "a%sa" % chr(c)
@@ -106,9 +112,9 @@ for c in ALL_CHARS:
 ## allowed dictionary key starting characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x starting an dictionary key" % c,
-      "raw": ["%sa=1" % chr(c)],
-      "header_type": "dictionary"
+        "name": "0x%02x starting an dictionary key" % c,
+        "raw": ["%sa=1" % chr(c)],
+        "header_type": "dictionary",
     }
     if c in WHITESPACE:
         test["expected"] = {"a": [1, {}]}  # whitespace is always stripped.
@@ -122,9 +128,9 @@ for c in ALL_CHARS:
 ## parameterised list keys
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x in parameterised list key" % c,
-      "raw": ["foo; a%sa=1" % chr(c)],
-      "header_type": "list"
+        "name": "0x%02x in parameterised list key" % c,
+        "raw": ["foo; a%sa=1" % chr(c)],
+        "header_type": "list",
     }
     if c in allowed_key_chars:
         key = "a%sa" % chr(c)
@@ -137,9 +143,9 @@ for c in ALL_CHARS:
 ## allowed parameterised list key starting characters
 for c in ALL_CHARS:
     test = {
-      "name": "0x%02x starting a parameterised list key" % c,
-      "raw": ["foo; %sa=1" % chr(c)],
-      "header_type": "list"
+        "name": "0x%02x starting a parameterised list key" % c,
+        "raw": ["foo; %sa=1" % chr(c)],
+        "header_type": "list",
     }
     if c in WHITESPACE:
         test["expected"] = [["foo", {"a": 1}]]  # whitespace is always stripped.
@@ -150,89 +156,107 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
-write('key', tests)
+write("key", tests)
 
 ### large types
 tests = []
 
 ## large dictionaries
 dict_members = 1024
-tests.append({
-    "name": "large dictionary",
-    "raw": [", ".join(["a%s=1" % i for i in range(dict_members)])],
-    "header_type": "dictionary",
-    "expected": {"a%s" % i: [1, {}] for i in range(dict_members)}
-})
+tests.append(
+    {
+        "name": "large dictionary",
+        "raw": [", ".join(["a%s=1" % i for i in range(dict_members)])],
+        "header_type": "dictionary",
+        "expected": {"a%s" % i: [1, {}] for i in range(dict_members)},
+    }
+)
 
 ## large dictionary key
 key_length = 64
-tests.append({
-    "name": "large dictionary key",
-    "raw": ["%s=1" % ("a" * key_length)],
-    "header_type": "dictionary",
-    "expected": {("a" * key_length): [1, {}]}
-})
+tests.append(
+    {
+        "name": "large dictionary key",
+        "raw": ["%s=1" % ("a" * key_length)],
+        "header_type": "dictionary",
+        "expected": {("a" * key_length): [1, {}]},
+    }
+)
 
 ## large lists
 list_members = 1024
-tests.append({
-    "name": "large list",
-    "raw": [", ".join(["a%s" % i for i in range(list_members)])],
-    "header_type": "list",
-    "expected": [["a%s" % i, {}] for i in range(list_members)]
-})
+tests.append(
+    {
+        "name": "large list",
+        "raw": [", ".join(["a%s" % i for i in range(list_members)])],
+        "header_type": "list",
+        "expected": [["a%s" % i, {}] for i in range(list_members)],
+    }
+)
 
 ## large parameterised lists
 param_list_members = 1024
-tests.append({
-    "name": "large parameterised list",
-    "raw": [", ".join(["foo;a%s=1" % i for i in range(param_list_members)])],
-    "header_type": "list",
-    "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)]
-})
+tests.append(
+    {
+        "name": "large parameterised list",
+        "raw": [", ".join(["foo;a%s=1" % i for i in range(param_list_members)])],
+        "header_type": "list",
+        "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)],
+    }
+)
 
 ## large number of params
 param_members = 256
-tests.append({
-    "name": "large params",
-    "raw": ["foo;%s" % ";".join(["a%s=1" % i for i in range(param_members)])],
-    "header_type": "list",
-    "expected": [["foo", {"a%s" % i: 1 for i in range(param_members)}]]
-})
+tests.append(
+    {
+        "name": "large params",
+        "raw": ["foo;%s" % ";".join(["a%s=1" % i for i in range(param_members)])],
+        "header_type": "list",
+        "expected": [["foo", {"a%s" % i: 1 for i in range(param_members)}]],
+    }
+)
 
 ## large param key
-tests.append({
-    "name": "large param key",
-    "raw": ["foo;%s=1" % ("a" * key_length)],
-    "header_type": "list",
-    "expected": [["foo", {("a" * key_length): 1}]]
-})
+tests.append(
+    {
+        "name": "large param key",
+        "raw": ["foo;%s=1" % ("a" * key_length)],
+        "header_type": "list",
+        "expected": [["foo", {("a" * key_length): 1}]],
+    }
+)
 
 ## large strings
 string_length = 1024
-tests.append({
-    "name": "large string",
-    "raw": ["\"%s\"" % ("a" * string_length)],
-    "header_type": "item",
-    "expected": ["a" * string_length, {}]
-})
-tests.append({
-    "name": "large escaped string",
-    "raw": ["\"%s\"" % ("\\\"" * string_length)],
-    "header_type": "item",
-    "expected": ["\"" * string_length, {}]
-})
+tests.append(
+    {
+        "name": "large string",
+        "raw": ['"%s"' % ("a" * string_length)],
+        "header_type": "item",
+        "expected": ["a" * string_length, {}],
+    }
+)
+tests.append(
+    {
+        "name": "large escaped string",
+        "raw": ['"%s"' % ('\\"' * string_length)],
+        "header_type": "item",
+        "expected": ['"' * string_length, {}],
+    }
+)
 
 ## large tokens
 token_length = 512
-tests.append({
-    "name": "large token",
-    "raw": ["%s" % ("a" * token_length)],
-    "header_type": "item",
-    "expected": ["a" * token_length, {}]
-})
+tests.append(
+    {
+        "name": "large token",
+        "raw": ["%s" % ("a" * token_length)],
+        "header_type": "item",
+        "expected": ["a" * token_length, {}],
+    }
+)
 
-write('large', tests)
+write("large", tests)
 
 
 ## Number types
@@ -241,83 +265,113 @@ tests = []
 ## integer sizes
 number_length = 15
 for i in range(1, number_length + 1):
-    tests.append({
-        "name": f"{i} digits of zero",
-        "raw": ["0" * i],
-        "header_type": "item",
-        "expected": [0, {}],
-        "canonical": ["0"]
-    })
-    tests.append({
-        "name": f"{i} digit small integer",
-        "raw": ["1" * i],
-        "header_type": "item",
-        "expected": [int("1" * i), {}]
-    })
-    tests.append({
-        "name": f"{i} digit large integer",
-        "raw": ["9" * i],
-        "header_type": "item",
-        "expected": [int("9" * i), {}]
-    })
+    tests.append(
+        {
+            "name": f"{i} digits of zero",
+            "raw": ["0" * i],
+            "header_type": "item",
+            "expected": [0, {}],
+            "canonical": ["0"],
+        }
+    )
+    tests.append(
+        {
+            "name": f"{i} digit small integer",
+            "raw": ["1" * i],
+            "header_type": "item",
+            "expected": [int("1" * i), {}],
+        }
+    )
+    tests.append(
+        {
+            "name": f"{i} digit large integer",
+            "raw": ["9" * i],
+            "header_type": "item",
+            "expected": [int("9" * i), {}],
+        }
+    )
 
 ## float sizes
 fractional_length = 6
 for i in range(1, number_length + 1):
     for j in range(1, fractional_length + 1):
-        if i < j + 1: continue
-        tests.append({
-            "name": f"{i} digit 0, {j} fractional small float",
-            "raw": ["0" * (i-j) + "." + "1" * j],
-            "header_type": "item",
-            "expected": [float("0" * (i-j) + "." + "1" * j), {}],
-            "canonical": ["0." + "1" * j]
-        })
-        tests.append({
-            "name": f"{i} digit, {j} fractional 0 float",
-            "raw": ["1" * (i-j) + "." + "0" * j],
-            "header_type": "item",
-            "expected": [float("1" * (i-j) + "." + "0" * j), {}],
-            "canonical": ["1" * (i-j) + ".0"]
-        })
-        tests.append({
-            "name": f"{i} digit, {j} fractional small float",
-            "raw": ["1" * (i-j) + "." + "1" * j],
-            "header_type": "item",
-            "expected": [float("1" * (i-j) + "." + "1" * j), {}]
-        })
-        tests.append({
-            "name": f"{i} digit, {j} fractional large float",
-            "raw": ["9" * (i-j) + "." + "9" * j],
-            "header_type": "item",
-            "expected": [float("9" * (i-j) + "." + "9" * j), {}]
-        })
+        if i < j + 1:
+            continue
+        tests.append(
+            {
+                "name": f"{i} digit 0, {j} fractional small float",
+                "raw": ["0" * (i - j) + "." + "1" * j],
+                "header_type": "item",
+                "expected": [float("0" * (i - j) + "." + "1" * j), {}],
+                "canonical": ["0." + "1" * j],
+            }
+        )
+        tests.append(
+            {
+                "name": f"{i} digit, {j} fractional 0 float",
+                "raw": ["1" * (i - j) + "." + "0" * j],
+                "header_type": "item",
+                "expected": [float("1" * (i - j) + "." + "0" * j), {}],
+                "canonical": ["1" * (i - j) + ".0"],
+            }
+        )
+        tests.append(
+            {
+                "name": f"{i} digit, {j} fractional small float",
+                "raw": ["1" * (i - j) + "." + "1" * j],
+                "header_type": "item",
+                "expected": [float("1" * (i - j) + "." + "1" * j), {}],
+            }
+        )
+        tests.append(
+            {
+                "name": f"{i} digit, {j} fractional large float",
+                "raw": ["9" * (i - j) + "." + "9" * j],
+                "header_type": "item",
+                "expected": [float("9" * (i - j) + "." + "9" * j), {}],
+            }
+        )
 
-tests.append({
-    "name": f"too many digit 0 float",
-    "raw": ["0" * (number_length) + "." + "0"],
-    "header_type": "item",
-    "must_fail": True
-})
-tests.append({
-    "name": f"too many fractional digits 0 float",
-    "raw": ["0" * (number_length - fractional_length) + "." + "0" * (fractional_length + 1)],
-    "header_type": "item",
-    "must_fail": True
-})
-tests.append({
-    "name": f"too many digit 9 float",
-    "raw": ["9" * (number_length) + "." + "9"],
-    "header_type": "item",
-    "must_fail": True
-})
-tests.append({
-    "name": f"too many fractional digits 9 float",
-    "raw": ["9" * (number_length - fractional_length) + "." + "9" * (fractional_length + 1)],
-    "header_type": "item",
-    "must_fail": True
-})
+tests.append(
+    {
+        "name": f"too many digit 0 float",
+        "raw": ["0" * (number_length) + "." + "0"],
+        "header_type": "item",
+        "must_fail": True,
+    }
+)
+tests.append(
+    {
+        "name": f"too many fractional digits 0 float",
+        "raw": [
+            "0" * (number_length - fractional_length)
+            + "."
+            + "0" * (fractional_length + 1)
+        ],
+        "header_type": "item",
+        "must_fail": True,
+    }
+)
+tests.append(
+    {
+        "name": f"too many digit 9 float",
+        "raw": ["9" * (number_length) + "." + "9"],
+        "header_type": "item",
+        "must_fail": True,
+    }
+)
+tests.append(
+    {
+        "name": f"too many fractional digits 9 float",
+        "raw": [
+            "9" * (number_length - fractional_length)
+            + "."
+            + "9" * (fractional_length + 1)
+        ],
+        "header_type": "item",
+        "must_fail": True,
+    }
+)
 
 
-
-write('number', tests)
+write("number", tests)
