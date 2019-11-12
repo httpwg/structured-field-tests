@@ -14,7 +14,7 @@
       "raw": ["a=b; q=1.0"],
       "header_type": "dictionary",
       "expected": {
-          "a": ["b", {"q": 1.0}]
+          "a": [{"__type": "token", "value": "b"}, {"q": 1.0}]
       },
       "canonical": ["a=b;q=1.0"]
     },
@@ -30,8 +30,8 @@
       "raw": ["a=b;c=1,d=e;f=2"],
       "header_type": "dictionary",
       "expected": {
-          "a": ["b", {"c": 1}],
-          "d": ["e", {"f": 2}]
+          "a": [{"__type": "token", "value": "b"}, {"c": 1}],
+          "d": [{"__type": "token", "value": "e"}, {"f": 2}]
       },
       "canonical": ["a=b;c=1, d=e;f=2"]
     },
@@ -58,7 +58,7 @@
       "raw": ["a=b; q=0.5"],
       "header_type": "dictionary",
       "expected": {
-          "a": ["b", {"q": 0.5}]
+          "a": [{"__type": "token", "value": "b"}, {"q": 0.5}]
       },
       "canonical": ["a=b;q=0.5"]
     },
@@ -67,8 +67,8 @@
       "raw": ["a=b;  c=1  ,  d=e; f=2; g=3"],
       "header_type": "dictionary",
       "expected": {
-          "a": ["b", {"c": 1}],
-          "d": ["e", {"f": 2, "g": 3}]
+          "a": [{"__type": "token", "value": "b"}, {"c": 1}],
+          "d": [{"__type": "token", "value": "e"}, {"f": 2, "g": 3}]
       },
       "canonical": ["a=b;c=1, d=e;f=2;g=3"]
     },
@@ -77,8 +77,8 @@
       "raw": ["a=b;c=1", "d=e;f=2"],
       "header_type": "dictionary",
       "expected": {
-          "a": ["b", {"c": 1}],
-          "d": ["e", {"f": 2}]
+          "a": [{"__type": "token", "value": "b"}, {"c": 1}],
+          "d": [{"__type": "token", "value": "e"}, {"f": 2}]
       },
       "canonical": ["a=b;c=1, d=e;f=2"]
     },

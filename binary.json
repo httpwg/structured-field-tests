@@ -3,19 +3,25 @@
       "name": "basic binary",
       "raw": ["*aGVsbG8=*"],
       "header_type": "item",
-      "expected": ["NBSWY3DP", {}]
+      "expected": [
+          {"__type": "binary", "value": "NBSWY3DP"},
+          {}]
     },
     {
       "name": "empty binary",
       "raw": ["**"],
       "header_type": "item",
-      "expected": ["", {}]
+      "expected": [
+          {"__type": "binary", "value": ""},
+          {}]
     },
     {
       "name": "bad paddding",
       "raw": ["*aGVsbG8*"],
       "header_type": "item",
-      "expected": ["NBSWY3DP", {}],
+      "expected": [
+          {"__type": "binary", "value": "NBSWY3DP"},
+          {}],
       "can_fail": true,
       "canonical": ["*aGVsbG8=*"]
     },
@@ -47,7 +53,9 @@
       "name": "non-zero pad bits",
       "raw": ["*iZ==*"],
       "header_type": "item",
-      "expected": ["RE======", {}],
+      "expected": [
+          {"__type": "binary", "value": "RE======"},
+          {}],
       "can_fail": true,
       "canonical": ["*iQ==*"]
     },
@@ -55,7 +63,9 @@
       "name": "non-ASCII binary",
       "raw": ["*/+Ah*"],
       "header_type": "item",
-      "expected": ["77QCC===", {}]
+      "expected": [
+          {"__type": "binary", "value": "77QCC==="},
+          {}]
     },
     {
       "name": "base64url binary",

@@ -91,9 +91,9 @@ for c in ALL_CHARS:
         "header_type": "item",
     }
     if c in allowed_token_chars:
-        test["expected"] = ["a%sa" % chr(c), {}]
+        test["expected"] = [{"__type": "token", "value": "a%sa" % chr(c)}, {}]
     elif c == 0x3B:
-        test["expected"] = ["a", {"a": None}]
+        test["expected"] = [{"__type": "token", "value": "a"}, {"a": None}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -106,10 +106,13 @@ for c in ALL_CHARS:
         "header_type": "item",
     }
     if c in WHITESPACE:
-        test["expected"] = ["a", {}]  # whitespace is always stripped.
+        test["expected"] = [
+            {"__type": "token", "value": "a"},
+            {},
+        ]  # whitespace is always stripped.
         test["canonical"] = ["a"]
     elif c in allowed_token_start_chars:
-        test["expected"] = ["%sa" % chr(c), {}]
+        test["expected"] = [{"__type": "token", "value": "%sa" % chr(c)}, {}]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -157,7 +160,7 @@ for c in ALL_CHARS:
     }
     if c in allowed_key_chars:
         key = "a%sa" % chr(c)
-        test["expected"] = [["foo", {key: 1}]]
+        test["expected"] = [[{"__type": "token", "value": "foo"}, {key: 1}]]
         test["canonical"] = ["foo;a%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
@@ -171,10 +174,12 @@ for c in ALL_CHARS:
         "header_type": "list",
     }
     if c in WHITESPACE:
-        test["expected"] = [["foo", {"a": 1}]]  # whitespace is always stripped.
+        test["expected"] = [
+            [{"__type": "token", "value": "foo"}, {"a": 1}]
+        ]  # whitespace is always stripped.
         test["canonical"] = ["foo;a=1"]
     elif c in allowed_key_start_chars:
-        test["expected"] = [["foo", {"%sa" % chr(c): 1}]]
+        test["expected"] = [[{"__type": "token", "value": "foo"}, {"%sa" % chr(c): 1}]]
         test["canonical"] = ["foo;%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
@@ -213,7 +218,9 @@ tests.append(
         "name": "large list",
         "raw": [", ".join(["a%s" % i for i in range(list_members)])],
         "header_type": "list",
-        "expected": [["a%s" % i, {}] for i in range(list_members)],
+        "expected": [
+            [{"__type": "token", "value": "a%s" % i}, {}] for i in range(list_members)
+        ],
     }
 )
 
@@ -224,7 +231,10 @@ tests.append(
         "name": "large parameterised list",
         "raw": [", ".join(["foo;a%s=1" % i for i in range(param_list_members)])],
         "header_type": "list",
-        "expected": [["foo", {"a%s" % i: 1}] for i in range(param_list_members)],
+        "expected": [
+            [{"__type": "token", "value": "foo"}, {"a%s" % i: 1}]
+            for i in range(param_list_members)
+        ],
     }
 )
 
@@ -235,7 +245,12 @@ tests.append(
         "name": "large params",
         "raw": ["foo;%s" % ";".join(["a%s=1" % i for i in range(param_members)])],
         "header_type": "list",
-        "expected": [["foo", {"a%s" % i: 1 for i in range(param_members)}]],
+        "expected": [
+            [
+                {"__type": "token", "value": "foo"},
+                {"a%s" % i: 1 for i in range(param_members)},
+            ]
+        ],
     }
 )
 
@@ -245,7 +260,7 @@ tests.append(
         "name": "large param key",
         "raw": ["foo;%s=1" % ("a" * key_length)],
         "header_type": "list",
-        "expected": [["foo", {("a" * key_length): 1}]],
+        "expected": [[{"__type": "token", "value": "foo"}, {("a" * key_length): 1}]],
     }
 )
 
@@ -275,7 +290,7 @@ tests.append(
         "name": "large token",
         "raw": ["%s" % ("a" * token_length)],
         "header_type": "item",
-        "expected": ["a" * token_length, {}],
+        "expected": [{"__type": "token", "value": "a" * token_length}, {}],
     }
 )
 
