@@ -46,7 +46,7 @@ allowed_key_start_chars = LCALPHA
 
 def write(name, data):
     fh = open("%s-generated.json" % name, "w")
-    json.dump(data, fh, indent=4, sort_keys=True)
+    json.dump(data, fh, indent=4)
     fh.close()
 
 
