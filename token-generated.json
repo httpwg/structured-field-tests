@@ -264,8 +264,11 @@
         ]
     },
     {
+        "expected": [
+            "a!a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x21 in token",
         "raw": [
             "a!a"
@@ -280,16 +283,22 @@
         ]
     },
     {
+        "expected": [
+            "a#a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x23 in token",
         "raw": [
             "a#a"
         ]
     },
     {
+        "expected": [
+            "a$a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x24 in token",
         "raw": [
             "a$a"
@@ -307,16 +316,22 @@
         ]
     },
     {
+        "expected": [
+            "a&a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x26 in token",
         "raw": [
             "a&a"
         ]
     },
     {
+        "expected": [
+            "a'a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x27 in token",
         "raw": [
             "a'a"
@@ -350,8 +365,11 @@
         ]
     },
     {
+        "expected": [
+            "a+a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x2b in token",
         "raw": [
             "a+a"
@@ -883,8 +901,11 @@
         ]
     },
     {
+        "expected": [
+            "a^a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x5e in token",
         "raw": [
             "a^a"
@@ -902,8 +923,11 @@
         ]
     },
     {
+        "expected": [
+            "a`a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x60 in token",
         "raw": [
             "a`a"
@@ -1204,8 +1228,11 @@
         ]
     },
     {
+        "expected": [
+            "a|a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x7c in token",
         "raw": [
             "a|a"
@@ -1220,8 +1247,11 @@
         ]
     },
     {
+        "expected": [
+            "a~a",
+            {}
+        ],
         "header_type": "item",
-        "must_fail": true,
         "name": "0x7e in token",
         "raw": [
             "a~a"
