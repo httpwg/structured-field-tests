@@ -256,7 +256,7 @@ tests.append(
         "name": "large string",
         "raw": ['"%s"' % ("=" * string_length)],
         "header_type": "item",
-        "expected": ["a" * string_length, {}],
+        "expected": ["=" * string_length, {}],
     }
 )
 tests.append(
