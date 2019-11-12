@@ -1,13 +1,13 @@
 [
     {
       "name": "basic parameterised list",
-      "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=\"9\";r=\"+w\""],
+      "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=9;r=\"+w\""],
       "header_type": "list",
       "expected": [
         ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
-        ["ghi", {"q": "9", "r": "+w"}]
+        ["ghi", {"q": 9, "r": "+w"}]
       ],
-      "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=\"9\";r=\"+w\""]
+      "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=9;r=\"+w\""]
     },
     {
       "name": "single item parameterised list",

@@ -1,12 +1,12 @@
 [
     {
       "name": "basic parameterised dict",
-      "raw": ["abc=123;a=1;b=2, def=456, ghi=789;q=\"9\";r=\"w\""],
+      "raw": ["abc=123;a=1;b=2, def=456, ghi=789;q=9;r=\"+w\""],
       "header_type": "dictionary",
       "expected": {
         "abc": [123, {"a": 1, "b": 2}],
         "def": [456, {}],
-        "ghi": [789, {"q": "9", "r": "w"}]
+        "ghi": [789, {"q": 9, "r": "+w"}]
     }
     },
     {
