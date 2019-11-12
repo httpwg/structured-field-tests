@@ -141,7 +141,7 @@
       "raw": ["12345678901234.1"],
       "header_type": "item",
       "expected": [12345678901234.1, {}]
-    }
+    },
     {
       "name": "double decimal float",
       "raw": ["1.5.4"],
