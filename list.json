@@ -15,6 +15,7 @@
     {
       "name": "leading SP list",
       "raw": ["  42, 43"],
+      "canonical": ["42, 43"],
       "header_type": "list",
       "expected": [[42, {}], [43, {}]]
     },
