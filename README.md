@@ -25,14 +25,34 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
    * Integer: JSON numbers; e.g. 1
    * Float: JSON numbers; e.g. 2.5
    * String: JSON string; e.g., "foo"
-   * Token: JSON string; e.g., "bar"
-   * Binary Content: **base32**-encoded string; e.g., "ZXW6==="
+   * Token: `token` __type Object (see below)
+   * Binary Content: `binary` __type Object (see below)
 * Parameters: a JSON object which maps [_param-name_ (Key), _param-value_ (Bare-Item)] pairs
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
 data structure can be serialized.  The expected result of this serialization is the `canonical`
 member if specified, or `raw` otherwise.  The canonical form of a List or Dictionary with no
 members is an empty array, to represent the field being omitted.
+
+
+### __type Objects
+
+Because JSON doesn't natively accommodate some data types that Structured Headers does, the `expected` member uses an object with a `__type` member and a `value` member to represent these values. 
+
+For example:
+
+~~~
+{
+  "__type": "token",
+  "value": "foo"
+}
+~~~
+
+... carries a "foo" token. The following types are defined:
+
+* `token`: carries a Token as a JSON string; e.g., "bar"
+* `binary`: carries Binary Content as a **base32**-encoded JSON string; e.g., "ZXW6==="
+
 
 ## Writing Tests
 
