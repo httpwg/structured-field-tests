@@ -4,8 +4,8 @@
       "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=9;r=\"+w\""],
       "header_type": "list",
       "expected": [
-        ["abc_123", {"a": 1, "b": 2, "cdef_456": null}],
-        ["ghi", {"q": 9, "r": "+w"}]
+        [{"__type": "token", "value": "abc_123"}, {"a": 1, "b": 2, "cdef_456": null}],
+        [{"__type": "token", "value": "ghi"}, {"q": 9, "r": "+w"}]
       ],
       "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=9;r=\"+w\""]
     },
@@ -61,7 +61,9 @@
       "header_type": "list",
       "expected": [
         [{"__type": "token", "value": "text/html"}, {}],
-        [{"__type": "token", "value": "text/plain"}, {"q": 0.5, "charset": "utf-8"}]
+        [{"__type": "token", "value": "text/plain"},
+           {"q": 0.5, "charset": {"__type": "token", "value": "utf-8"}
+        }]
       ],
       "canonical": ["text/html, text/plain;q=0.5;charset=utf-8"]
     },
