@@ -13,6 +13,12 @@
       "canonical": []
     },
     {
+      "name": "leading SP list",
+      "raw": ["  42, 43"],
+      "header_type": "list",
+      "expected": [[42, {}], [43, {}]]
+    },
+    {
       "name": "single item list",
       "raw": ["42"],
       "header_type": "list",
