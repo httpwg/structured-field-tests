@@ -270,7 +270,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a!a",
+            {
+                "__type": "token",
+                "value": "a!a"
+            },
             {}
         ]
     },
@@ -289,7 +292,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a#a",
+            {
+                "__type": "token",
+                "value": "a#a"
+            },
             {}
         ]
     },
@@ -300,7 +306,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a$a",
+            {
+                "__type": "token",
+                "value": "a$a"
+            },
             {}
         ]
     },
@@ -311,7 +320,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a%a",
+            {
+                "__type": "token",
+                "value": "a%a"
+            },
             {}
         ]
     },
@@ -322,7 +334,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a&a",
+            {
+                "__type": "token",
+                "value": "a&a"
+            },
             {}
         ]
     },
@@ -333,7 +348,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a'a",
+            {
+                "__type": "token",
+                "value": "a'a"
+            },
             {}
         ]
     },
@@ -360,7 +378,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a*a",
+            {
+                "__type": "token",
+                "value": "a*a"
+            },
             {}
         ]
     },
@@ -371,7 +392,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a+a",
+            {
+                "__type": "token",
+                "value": "a+a"
+            },
             {}
         ]
     },
@@ -390,7 +414,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a-a",
+            {
+                "__type": "token",
+                "value": "a-a"
+            },
             {}
         ]
     },
@@ -401,7 +428,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a.a",
+            {
+                "__type": "token",
+                "value": "a.a"
+            },
             {}
         ]
     },
@@ -412,7 +442,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a/a",
+            {
+                "__type": "token",
+                "value": "a/a"
+            },
             {}
         ]
     },
@@ -423,7 +456,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a0a",
+            {
+                "__type": "token",
+                "value": "a0a"
+            },
             {}
         ]
     },
@@ -434,7 +470,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a1a",
+            {
+                "__type": "token",
+                "value": "a1a"
+            },
             {}
         ]
     },
@@ -445,7 +484,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a2a",
+            {
+                "__type": "token",
+                "value": "a2a"
+            },
             {}
         ]
     },
@@ -456,7 +498,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a3a",
+            {
+                "__type": "token",
+                "value": "a3a"
+            },
             {}
         ]
     },
@@ -467,7 +512,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a4a",
+            {
+                "__type": "token",
+                "value": "a4a"
+            },
             {}
         ]
     },
@@ -478,7 +526,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a5a",
+            {
+                "__type": "token",
+                "value": "a5a"
+            },
             {}
         ]
     },
@@ -489,7 +540,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a6a",
+            {
+                "__type": "token",
+                "value": "a6a"
+            },
             {}
         ]
     },
@@ -500,7 +554,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a7a",
+            {
+                "__type": "token",
+                "value": "a7a"
+            },
             {}
         ]
     },
@@ -511,7 +568,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a8a",
+            {
+                "__type": "token",
+                "value": "a8a"
+            },
             {}
         ]
     },
@@ -522,7 +582,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a9a",
+            {
+                "__type": "token",
+                "value": "a9a"
+            },
             {}
         ]
     },
@@ -533,7 +596,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a:a",
+            {
+                "__type": "token",
+                "value": "a:a"
+            },
             {}
         ]
     },
@@ -544,7 +610,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a",
+            {
+                "__type": "token",
+                "value": "a"
+            },
             {
                 "a": null
             }
@@ -597,7 +666,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aAa",
+            {
+                "__type": "token",
+                "value": "aAa"
+            },
             {}
         ]
     },
@@ -608,7 +680,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aBa",
+            {
+                "__type": "token",
+                "value": "aBa"
+            },
             {}
         ]
     },
@@ -619,7 +694,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aCa",
+            {
+                "__type": "token",
+                "value": "aCa"
+            },
             {}
         ]
     },
@@ -630,7 +708,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aDa",
+            {
+                "__type": "token",
+                "value": "aDa"
+            },
             {}
         ]
     },
@@ -641,7 +722,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aEa",
+            {
+                "__type": "token",
+                "value": "aEa"
+            },
             {}
         ]
     },
@@ -652,7 +736,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aFa",
+            {
+                "__type": "token",
+                "value": "aFa"
+            },
             {}
         ]
     },
@@ -663,7 +750,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aGa",
+            {
+                "__type": "token",
+                "value": "aGa"
+            },
             {}
         ]
     },
@@ -674,7 +764,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aHa",
+            {
+                "__type": "token",
+                "value": "aHa"
+            },
             {}
         ]
     },
@@ -685,7 +778,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aIa",
+            {
+                "__type": "token",
+                "value": "aIa"
+            },
             {}
         ]
     },
@@ -696,7 +792,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aJa",
+            {
+                "__type": "token",
+                "value": "aJa"
+            },
             {}
         ]
     },
@@ -707,7 +806,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aKa",
+            {
+                "__type": "token",
+                "value": "aKa"
+            },
             {}
         ]
     },
@@ -718,7 +820,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aLa",
+            {
+                "__type": "token",
+                "value": "aLa"
+            },
             {}
         ]
     },
@@ -729,7 +834,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aMa",
+            {
+                "__type": "token",
+                "value": "aMa"
+            },
             {}
         ]
     },
@@ -740,7 +848,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aNa",
+            {
+                "__type": "token",
+                "value": "aNa"
+            },
             {}
         ]
     },
@@ -751,7 +862,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aOa",
+            {
+                "__type": "token",
+                "value": "aOa"
+            },
             {}
         ]
     },
@@ -762,7 +876,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aPa",
+            {
+                "__type": "token",
+                "value": "aPa"
+            },
             {}
         ]
     },
@@ -773,7 +890,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aQa",
+            {
+                "__type": "token",
+                "value": "aQa"
+            },
             {}
         ]
     },
@@ -784,7 +904,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aRa",
+            {
+                "__type": "token",
+                "value": "aRa"
+            },
             {}
         ]
     },
@@ -795,7 +918,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aSa",
+            {
+                "__type": "token",
+                "value": "aSa"
+            },
             {}
         ]
     },
@@ -806,7 +932,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aTa",
+            {
+                "__type": "token",
+                "value": "aTa"
+            },
             {}
         ]
     },
@@ -817,7 +946,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aUa",
+            {
+                "__type": "token",
+                "value": "aUa"
+            },
             {}
         ]
     },
@@ -828,7 +960,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aVa",
+            {
+                "__type": "token",
+                "value": "aVa"
+            },
             {}
         ]
     },
@@ -839,7 +974,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aWa",
+            {
+                "__type": "token",
+                "value": "aWa"
+            },
             {}
         ]
     },
@@ -850,7 +988,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aXa",
+            {
+                "__type": "token",
+                "value": "aXa"
+            },
             {}
         ]
     },
@@ -861,7 +1002,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aYa",
+            {
+                "__type": "token",
+                "value": "aYa"
+            },
             {}
         ]
     },
@@ -872,7 +1016,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aZa",
+            {
+                "__type": "token",
+                "value": "aZa"
+            },
             {}
         ]
     },
@@ -907,7 +1054,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a^a",
+            {
+                "__type": "token",
+                "value": "a^a"
+            },
             {}
         ]
     },
@@ -918,7 +1068,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a_a",
+            {
+                "__type": "token",
+                "value": "a_a"
+            },
             {}
         ]
     },
@@ -929,7 +1082,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a`a",
+            {
+                "__type": "token",
+                "value": "a`a"
+            },
             {}
         ]
     },
@@ -940,7 +1096,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aaa",
+            {
+                "__type": "token",
+                "value": "aaa"
+            },
             {}
         ]
     },
@@ -951,7 +1110,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aba",
+            {
+                "__type": "token",
+                "value": "aba"
+            },
             {}
         ]
     },
@@ -962,7 +1124,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aca",
+            {
+                "__type": "token",
+                "value": "aca"
+            },
             {}
         ]
     },
@@ -973,7 +1138,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ada",
+            {
+                "__type": "token",
+                "value": "ada"
+            },
             {}
         ]
     },
@@ -984,7 +1152,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aea",
+            {
+                "__type": "token",
+                "value": "aea"
+            },
             {}
         ]
     },
@@ -995,7 +1166,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "afa",
+            {
+                "__type": "token",
+                "value": "afa"
+            },
             {}
         ]
     },
@@ -1006,7 +1180,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aga",
+            {
+                "__type": "token",
+                "value": "aga"
+            },
             {}
         ]
     },
@@ -1017,7 +1194,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aha",
+            {
+                "__type": "token",
+                "value": "aha"
+            },
             {}
         ]
     },
@@ -1028,7 +1208,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aia",
+            {
+                "__type": "token",
+                "value": "aia"
+            },
             {}
         ]
     },
@@ -1039,7 +1222,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aja",
+            {
+                "__type": "token",
+                "value": "aja"
+            },
             {}
         ]
     },
@@ -1050,7 +1236,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aka",
+            {
+                "__type": "token",
+                "value": "aka"
+            },
             {}
         ]
     },
@@ -1061,7 +1250,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ala",
+            {
+                "__type": "token",
+                "value": "ala"
+            },
             {}
         ]
     },
@@ -1072,7 +1264,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ama",
+            {
+                "__type": "token",
+                "value": "ama"
+            },
             {}
         ]
     },
@@ -1083,7 +1278,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ana",
+            {
+                "__type": "token",
+                "value": "ana"
+            },
             {}
         ]
     },
@@ -1094,7 +1292,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aoa",
+            {
+                "__type": "token",
+                "value": "aoa"
+            },
             {}
         ]
     },
@@ -1105,7 +1306,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "apa",
+            {
+                "__type": "token",
+                "value": "apa"
+            },
             {}
         ]
     },
@@ -1116,7 +1320,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aqa",
+            {
+                "__type": "token",
+                "value": "aqa"
+            },
             {}
         ]
     },
@@ -1127,7 +1334,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ara",
+            {
+                "__type": "token",
+                "value": "ara"
+            },
             {}
         ]
     },
@@ -1138,7 +1348,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "asa",
+            {
+                "__type": "token",
+                "value": "asa"
+            },
             {}
         ]
     },
@@ -1149,7 +1362,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ata",
+            {
+                "__type": "token",
+                "value": "ata"
+            },
             {}
         ]
     },
@@ -1160,7 +1376,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aua",
+            {
+                "__type": "token",
+                "value": "aua"
+            },
             {}
         ]
     },
@@ -1171,7 +1390,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ava",
+            {
+                "__type": "token",
+                "value": "ava"
+            },
             {}
         ]
     },
@@ -1182,7 +1404,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "awa",
+            {
+                "__type": "token",
+                "value": "awa"
+            },
             {}
         ]
     },
@@ -1193,7 +1418,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "axa",
+            {
+                "__type": "token",
+                "value": "axa"
+            },
             {}
         ]
     },
@@ -1204,7 +1432,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aya",
+            {
+                "__type": "token",
+                "value": "aya"
+            },
             {}
         ]
     },
@@ -1215,7 +1446,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aza",
+            {
+                "__type": "token",
+                "value": "aza"
+            },
             {}
         ]
     },
@@ -1234,7 +1468,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a|a",
+            {
+                "__type": "token",
+                "value": "a|a"
+            },
             {}
         ]
     },
@@ -1253,7 +1490,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a~a",
+            {
+                "__type": "token",
+                "value": "a~a"
+            },
             {}
         ]
     },
@@ -1344,7 +1584,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a",
+            {
+                "__type": "token",
+                "value": "a"
+            },
             {}
         ],
         "canonical": [
@@ -1534,7 +1777,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "a",
+            {
+                "__type": "token",
+                "value": "a"
+            },
             {}
         ],
         "canonical": [
@@ -1804,7 +2050,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Aa",
+            {
+                "__type": "token",
+                "value": "Aa"
+            },
             {}
         ]
     },
@@ -1815,7 +2064,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ba",
+            {
+                "__type": "token",
+                "value": "Ba"
+            },
             {}
         ]
     },
@@ -1826,7 +2078,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ca",
+            {
+                "__type": "token",
+                "value": "Ca"
+            },
             {}
         ]
     },
@@ -1837,7 +2092,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Da",
+            {
+                "__type": "token",
+                "value": "Da"
+            },
             {}
         ]
     },
@@ -1848,7 +2106,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ea",
+            {
+                "__type": "token",
+                "value": "Ea"
+            },
             {}
         ]
     },
@@ -1859,7 +2120,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Fa",
+            {
+                "__type": "token",
+                "value": "Fa"
+            },
             {}
         ]
     },
@@ -1870,7 +2134,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ga",
+            {
+                "__type": "token",
+                "value": "Ga"
+            },
             {}
         ]
     },
@@ -1881,7 +2148,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ha",
+            {
+                "__type": "token",
+                "value": "Ha"
+            },
             {}
         ]
     },
@@ -1892,7 +2162,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ia",
+            {
+                "__type": "token",
+                "value": "Ia"
+            },
             {}
         ]
     },
@@ -1903,7 +2176,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ja",
+            {
+                "__type": "token",
+                "value": "Ja"
+            },
             {}
         ]
     },
@@ -1914,7 +2190,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ka",
+            {
+                "__type": "token",
+                "value": "Ka"
+            },
             {}
         ]
     },
@@ -1925,7 +2204,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "La",
+            {
+                "__type": "token",
+                "value": "La"
+            },
             {}
         ]
     },
@@ -1936,7 +2218,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ma",
+            {
+                "__type": "token",
+                "value": "Ma"
+            },
             {}
         ]
     },
@@ -1947,7 +2232,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Na",
+            {
+                "__type": "token",
+                "value": "Na"
+            },
             {}
         ]
     },
@@ -1958,7 +2246,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Oa",
+            {
+                "__type": "token",
+                "value": "Oa"
+            },
             {}
         ]
     },
@@ -1969,7 +2260,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Pa",
+            {
+                "__type": "token",
+                "value": "Pa"
+            },
             {}
         ]
     },
@@ -1980,7 +2274,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Qa",
+            {
+                "__type": "token",
+                "value": "Qa"
+            },
             {}
         ]
     },
@@ -1991,7 +2288,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ra",
+            {
+                "__type": "token",
+                "value": "Ra"
+            },
             {}
         ]
     },
@@ -2002,7 +2302,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Sa",
+            {
+                "__type": "token",
+                "value": "Sa"
+            },
             {}
         ]
     },
@@ -2013,7 +2316,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ta",
+            {
+                "__type": "token",
+                "value": "Ta"
+            },
             {}
         ]
     },
@@ -2024,7 +2330,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ua",
+            {
+                "__type": "token",
+                "value": "Ua"
+            },
             {}
         ]
     },
@@ -2035,7 +2344,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Va",
+            {
+                "__type": "token",
+                "value": "Va"
+            },
             {}
         ]
     },
@@ -2046,7 +2358,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Wa",
+            {
+                "__type": "token",
+                "value": "Wa"
+            },
             {}
         ]
     },
@@ -2057,7 +2372,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Xa",
+            {
+                "__type": "token",
+                "value": "Xa"
+            },
             {}
         ]
     },
@@ -2068,7 +2386,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Ya",
+            {
+                "__type": "token",
+                "value": "Ya"
+            },
             {}
         ]
     },
@@ -2079,7 +2400,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "Za",
+            {
+                "__type": "token",
+                "value": "Za"
+            },
             {}
         ]
     },
@@ -2138,7 +2462,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "aa",
+            {
+                "__type": "token",
+                "value": "aa"
+            },
             {}
         ]
     },
@@ -2149,7 +2476,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ba",
+            {
+                "__type": "token",
+                "value": "ba"
+            },
             {}
         ]
     },
@@ -2160,7 +2490,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ca",
+            {
+                "__type": "token",
+                "value": "ca"
+            },
             {}
         ]
     },
@@ -2171,7 +2504,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "da",
+            {
+                "__type": "token",
+                "value": "da"
+            },
             {}
         ]
     },
@@ -2182,7 +2518,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ea",
+            {
+                "__type": "token",
+                "value": "ea"
+            },
             {}
         ]
     },
@@ -2193,7 +2532,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "fa",
+            {
+                "__type": "token",
+                "value": "fa"
+            },
             {}
         ]
     },
@@ -2204,7 +2546,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ga",
+            {
+                "__type": "token",
+                "value": "ga"
+            },
             {}
         ]
     },
@@ -2215,7 +2560,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ha",
+            {
+                "__type": "token",
+                "value": "ha"
+            },
             {}
         ]
     },
@@ -2226,7 +2574,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ia",
+            {
+                "__type": "token",
+                "value": "ia"
+            },
             {}
         ]
     },
@@ -2237,7 +2588,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ja",
+            {
+                "__type": "token",
+                "value": "ja"
+            },
             {}
         ]
     },
@@ -2248,7 +2602,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ka",
+            {
+                "__type": "token",
+                "value": "ka"
+            },
             {}
         ]
     },
@@ -2259,7 +2616,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "la",
+            {
+                "__type": "token",
+                "value": "la"
+            },
             {}
         ]
     },
@@ -2270,7 +2630,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ma",
+            {
+                "__type": "token",
+                "value": "ma"
+            },
             {}
         ]
     },
@@ -2281,7 +2644,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "na",
+            {
+                "__type": "token",
+                "value": "na"
+            },
             {}
         ]
     },
@@ -2292,7 +2658,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "oa",
+            {
+                "__type": "token",
+                "value": "oa"
+            },
             {}
         ]
     },
@@ -2303,7 +2672,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "pa",
+            {
+                "__type": "token",
+                "value": "pa"
+            },
             {}
         ]
     },
@@ -2314,7 +2686,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "qa",
+            {
+                "__type": "token",
+                "value": "qa"
+            },
             {}
         ]
     },
@@ -2325,7 +2700,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ra",
+            {
+                "__type": "token",
+                "value": "ra"
+            },
             {}
         ]
     },
@@ -2336,7 +2714,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "sa",
+            {
+                "__type": "token",
+                "value": "sa"
+            },
             {}
         ]
     },
@@ -2347,7 +2728,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ta",
+            {
+                "__type": "token",
+                "value": "ta"
+            },
             {}
         ]
     },
@@ -2358,7 +2742,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ua",
+            {
+                "__type": "token",
+                "value": "ua"
+            },
             {}
         ]
     },
@@ -2369,7 +2756,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "va",
+            {
+                "__type": "token",
+                "value": "va"
+            },
             {}
         ]
     },
@@ -2380,7 +2770,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "wa",
+            {
+                "__type": "token",
+                "value": "wa"
+            },
             {}
         ]
     },
@@ -2391,7 +2784,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "xa",
+            {
+                "__type": "token",
+                "value": "xa"
+            },
             {}
         ]
     },
@@ -2402,7 +2798,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "ya",
+            {
+                "__type": "token",
+                "value": "ya"
+            },
             {}
         ]
     },
@@ -2413,7 +2812,10 @@
         ],
         "header_type": "item",
         "expected": [
-            "za",
+            {
+                "__type": "token",
+                "value": "za"
+            },
             {}
         ]
     },

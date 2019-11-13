@@ -2732,7 +2732,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a*a": 1
                 }
@@ -2766,7 +2769,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a-a": 1
                 }
@@ -2800,7 +2806,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a0a": 1
                 }
@@ -2818,7 +2827,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a1a": 1
                 }
@@ -2836,7 +2848,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a2a": 1
                 }
@@ -2854,7 +2869,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a3a": 1
                 }
@@ -2872,7 +2890,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a4a": 1
                 }
@@ -2890,7 +2911,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a5a": 1
                 }
@@ -2908,7 +2932,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a6a": 1
                 }
@@ -2926,7 +2953,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a7a": 1
                 }
@@ -2944,7 +2974,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a8a": 1
                 }
@@ -2962,7 +2995,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a9a": 1
                 }
@@ -3276,7 +3312,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a_a": 1
                 }
@@ -3302,7 +3341,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aaa": 1
                 }
@@ -3320,7 +3362,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aba": 1
                 }
@@ -3338,7 +3383,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aca": 1
                 }
@@ -3356,7 +3404,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ada": 1
                 }
@@ -3374,7 +3425,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aea": 1
                 }
@@ -3392,7 +3446,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "afa": 1
                 }
@@ -3410,7 +3467,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aga": 1
                 }
@@ -3428,7 +3488,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aha": 1
                 }
@@ -3446,7 +3509,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aia": 1
                 }
@@ -3464,7 +3530,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aja": 1
                 }
@@ -3482,7 +3551,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aka": 1
                 }
@@ -3500,7 +3572,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ala": 1
                 }
@@ -3518,7 +3593,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ama": 1
                 }
@@ -3536,7 +3614,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ana": 1
                 }
@@ -3554,7 +3635,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aoa": 1
                 }
@@ -3572,7 +3656,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "apa": 1
                 }
@@ -3590,7 +3677,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aqa": 1
                 }
@@ -3608,7 +3698,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ara": 1
                 }
@@ -3626,7 +3719,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "asa": 1
                 }
@@ -3644,7 +3740,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ata": 1
                 }
@@ -3662,7 +3761,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aua": 1
                 }
@@ -3680,7 +3782,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ava": 1
                 }
@@ -3698,7 +3803,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "awa": 1
                 }
@@ -3716,7 +3824,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "axa": 1
                 }
@@ -3734,7 +3845,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aya": 1
                 }
@@ -3752,7 +3866,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aza": 1
                 }
@@ -3882,7 +3999,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a": 1
                 }
@@ -4076,7 +4196,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "a": 1
                 }
@@ -4606,7 +4729,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "aa": 1
                 }
@@ -4624,7 +4750,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ba": 1
                 }
@@ -4642,7 +4771,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ca": 1
                 }
@@ -4660,7 +4792,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "da": 1
                 }
@@ -4678,7 +4813,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ea": 1
                 }
@@ -4696,7 +4834,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "fa": 1
                 }
@@ -4714,7 +4855,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ga": 1
                 }
@@ -4732,7 +4876,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ha": 1
                 }
@@ -4750,7 +4897,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ia": 1
                 }
@@ -4768,7 +4918,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ja": 1
                 }
@@ -4786,7 +4939,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ka": 1
                 }
@@ -4804,7 +4960,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "la": 1
                 }
@@ -4822,7 +4981,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ma": 1
                 }
@@ -4840,7 +5002,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "na": 1
                 }
@@ -4858,7 +5023,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "oa": 1
                 }
@@ -4876,7 +5044,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "pa": 1
                 }
@@ -4894,7 +5065,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "qa": 1
                 }
@@ -4912,7 +5086,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ra": 1
                 }
@@ -4930,7 +5107,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "sa": 1
                 }
@@ -4948,7 +5128,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ta": 1
                 }
@@ -4966,7 +5149,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ua": 1
                 }
@@ -4984,7 +5170,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "va": 1
                 }
@@ -5002,7 +5191,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "wa": 1
                 }
@@ -5020,7 +5212,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "xa": 1
                 }
@@ -5038,7 +5233,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "ya": 1
                 }
@@ -5056,7 +5254,10 @@
         "header_type": "list",
         "expected": [
             [
-                "foo",
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
                 {
                     "za": 1
                 }
