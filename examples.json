@@ -3,7 +3,8 @@
     "name": "Foo-Example",
     "raw": ["2; foourl=\"https://foo.example.com/\""],
     "header_type": "item",
-    "expected": [2, {"foourl": "https://foo.example.com/"}]
+    "expected": [2, {"foourl": "https://foo.example.com/"}],
+    "canonical": ["2;foourl=\"https://foo.example.com/\""]
   },
   {
     "name": "Example-StrListHeader",
@@ -45,7 +46,8 @@
       [[
           ["bar", {}], ["baz", {}]
       ], {"lvl": 1}]
-    ]
+    ],
+    "canonical": ["(\"foo\";a=1;b=2);lvl=5, (\"bar\" \"baz\");lvl=1"]
   },
 
   {
@@ -61,7 +63,8 @@
         ],
         {"q": "9", "r": {"__type": "token", "value": "w"}}
       ]
-    ]
+    ],
+    "canonical": ["abc;a=1;b=2;cde_456, (ghi;jk=4 l);q=\"9\";r=w"]
   },
 
   {
@@ -113,7 +116,8 @@
     "name": "Example-IntItemHeader (params)",
     "raw": ["5; foo=bar"],
     "header_type": "item",
-    "expected": [5, {"foo": {"__type": "token", "value": "bar"}}]
+    "expected": [5, {"foo": {"__type": "token", "value": "bar"}}],
+    "canonical": ["5;foo=bar"]
   },
   {
     "name": "Example-IntegerHeader",
@@ -166,6 +170,7 @@
     "expected": [
       [{"__type": "token", "value": "foo"}, {"url": "https://example.net", "context": 123}],
       [{"__type": "token", "value": "bar"}, {"url": "https://example.org", "context": 456}]
-    ]
+    ],
+    "canonical": ["foo;url=\"https://example.net\";context=123, bar;url=\"https://example.org\";context=456"]
   }
 ]
