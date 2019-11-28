@@ -18,6 +18,22 @@
       ]
     },
     {
+        "name": "missing parameter value parameterised list",
+        "raw": ["text/html;a;q=1.0"],
+        "header_type": "list",
+        "expected": [
+          [{"__type": "token", "value": "text/html"}, {"a": null, "q": 1.0}]
+        ]
+    },
+    {
+        "name": "missing terminal parameter value parameterised list",
+        "raw": ["text/html;q=1.0;a"],
+        "header_type": "list",
+        "expected": [
+          [{"__type": "token", "value": "text/html"}, {"q": 1.0, "a": null}]
+        ]
+    },
+    {
       "name": "no whitespace parameterised list",
       "raw": ["text/html,text/plain;q=0.5"],
       "header_type": "list",

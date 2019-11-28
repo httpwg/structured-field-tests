@@ -26,6 +26,22 @@
       "canonical": ["a=(1 2);q=1.0"]
     },
     {
+      "name": "missing parameter value parameterised dict",
+      "raw": ["a=3;c;d=5"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": [3, {"c": null, "d": 5}]
+      }
+    },
+    {
+      "name": "terminal missing parameter value parameterised dict",
+      "raw": ["a=3;c=5;d"],
+      "header_type": "dictionary",
+      "expected": {
+          "a": [3, {"c": 5, "d": null}]
+      }
+    },
+    {
       "name": "no whitespace parameterised dict",
       "raw": ["a=b;c=1,d=e;f=2"],
       "header_type": "dictionary",
