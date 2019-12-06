@@ -615,7 +615,7 @@
                 "value": "a"
             },
             {
-                "a": null
+                "a": true
             }
         ]
     },

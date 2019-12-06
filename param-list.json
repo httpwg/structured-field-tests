@@ -4,7 +4,7 @@
       "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=9;r=\"+w\""],
       "header_type": "list",
       "expected": [
-        [{"__type": "token", "value": "abc_123"}, {"a": 1, "b": 2, "cdef_456": null}],
+        [{"__type": "token", "value": "abc_123"}, {"a": 1, "b": 2, "cdef_456": true}],
         [{"__type": "token", "value": "ghi"}, {"q": 9, "r": "+w"}]
       ],
       "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=9;r=\"+w\""]
@@ -22,7 +22,7 @@
         "raw": ["text/html;a;q=1.0"],
         "header_type": "list",
         "expected": [
-          [{"__type": "token", "value": "text/html"}, {"a": null, "q": 1.0}]
+          [{"__type": "token", "value": "text/html"}, {"a": true, "q": 1.0}]
         ]
     },
     {
@@ -30,7 +30,7 @@
         "raw": ["text/html;q=1.0;a"],
         "header_type": "list",
         "expected": [
-          [{"__type": "token", "value": "text/html"}, {"q": 1.0, "a": null}]
+          [{"__type": "token", "value": "text/html"}, {"q": 1.0, "a": true}]
         ]
     },
     {
