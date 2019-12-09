@@ -93,7 +93,7 @@ for c in ALL_CHARS:
     if c in allowed_token_chars:
         test["expected"] = [{"__type": "token", "value": "a%sa" % chr(c)}, {}]
     elif c == 0x3B:
-        test["expected"] = [{"__type": "token", "value": "a"}, {"a": None}]
+        test["expected"] = [{"__type": "token", "value": "a"}, {"a": True}]
     else:
         test["must_fail"] = True
     tests.append(test)

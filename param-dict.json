@@ -30,7 +30,7 @@
       "raw": ["a=3;c;d=5"],
       "header_type": "dictionary",
       "expected": {
-          "a": [3, {"c": null, "d": 5}]
+          "a": [3, {"c": true, "d": 5}]
       }
     },
     {
@@ -38,7 +38,7 @@
       "raw": ["a=3;c=5;d"],
       "header_type": "dictionary",
       "expected": {
-          "a": [3, {"c": 5, "d": null}]
+          "a": [3, {"c": 5, "d": true}]
       }
     },
     {

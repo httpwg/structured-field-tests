@@ -55,7 +55,7 @@
     "raw": ["abc;a=1;b=2; cde_456, (ghi;jk=4 l);q=\"9\";r=w"],
     "header_type": "list",
     "expected": [
-      [{"__type": "token", "value": "abc"}, {"a": 1, "b": 2, "cde_456": null}],
+      [{"__type": "token", "value": "abc"}, {"a": 1, "b": 2, "cde_456": true}],
       [
         [
           [{"__type": "token", "value": "ghi"}, {"jk": 4}],
