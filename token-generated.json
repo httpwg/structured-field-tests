@@ -1865,7 +1865,13 @@
             "*a"
         ],
         "header_type": "item",
-        "must_fail": true
+        "expected": [
+            {
+                "__type": "token",
+                "value": "*a"
+            },
+            {}
+        ]
     },
     {
         "name": "0x2b starting an token",

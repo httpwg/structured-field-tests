@@ -69,7 +69,7 @@
 
   {
     "name": "Example-DictHeader",
-    "raw": ["en=\"Applepie\", da=*w4ZibGV0w6ZydGU=*"],
+    "raw": ["en=\"Applepie\", da=:w4ZibGV0w6ZydGU=:"],
     "header_type": "dictionary",
     "expected": {
       "en": ["Applepie", {}],
@@ -139,7 +139,7 @@
   },
   {
     "name": "Example-BinaryHdr",
-    "raw": ["*cHJldGVuZCB0aGlzIGlzIGJpbmFyeSBjb250ZW50Lg==*"],
+    "raw": [":cHJldGVuZCB0aGlzIGlzIGJpbmFyeSBjb250ZW50Lg==:"],
     "header_type": "item",
     "expected": [{"__type": "binary", "value": "OBZGK5DFNZSCA5DINFZSA2LTEBRGS3TBOJ4SAY3PNZ2GK3TUFY======"}, {}]
   },
