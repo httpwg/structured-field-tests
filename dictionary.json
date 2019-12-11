@@ -92,7 +92,7 @@
       "expected": {"a": [true,{}], "b": [2, {}]}
     },
     {
-      "name": "end value dictionary",
+      "name": "end missing value dictionary",
       "raw": ["a=1, b"],
       "header_type": "dictionary",
       "expected": {"a": [1,{}], "b": [true, {}]}
@@ -102,6 +102,13 @@
       "raw": ["a=1, b=?1;foo=9, c=3"],
       "header_type": "dictionary",
       "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]}
+    },
+    {
+        "name": "missing value with params dictionary, irregular serialisation",
+        "raw": ["a=1, b;foo=9, c=3"],
+        "canonical": ["a=1, b=?1;foo=9, c=3"],
+        "header_type": "dictionary",
+        "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]}
     },
     {
       "name": "trailing comma dictionary",
