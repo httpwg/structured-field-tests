@@ -86,6 +86,12 @@
       "expected": {"a": [1,{}], "b": [true, {}], "c": [3, {}]}
     },
     {
+      "name": "all missing value dictionary",
+      "raw": ["a, b, c"],
+      "header_type": "dictionary",
+      "expected": {"a": [true,{}], "b": [true, {}], "c": [true, {}]}
+    },
+    {
       "name": "start missing value dictionary",
       "raw": ["a, b=2"],
       "header_type": "dictionary",
