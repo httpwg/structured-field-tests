@@ -80,6 +80,43 @@
       "canonical": ["a=1, b=2"]
     },
     {
+      "name": "missing value dictionary",
+      "raw": ["a=1, b, c=3"],
+      "header_type": "dictionary",
+      "expected": {"a": [1,{}], "b": [true, {}], "c": [3, {}]}
+    },
+    {
+      "name": "all missing value dictionary",
+      "raw": ["a, b, c"],
+      "header_type": "dictionary",
+      "expected": {"a": [true,{}], "b": [true, {}], "c": [true, {}]}
+    },
+    {
+      "name": "start missing value dictionary",
+      "raw": ["a, b=2"],
+      "header_type": "dictionary",
+      "expected": {"a": [true,{}], "b": [2, {}]}
+    },
+    {
+      "name": "end missing value dictionary",
+      "raw": ["a=1, b"],
+      "header_type": "dictionary",
+      "expected": {"a": [1,{}], "b": [true, {}]}
+    },
+    {
+      "name": "missing value with params dictionary",
+      "raw": ["a=1, b=?1;foo=9, c=3"],
+      "header_type": "dictionary",
+      "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]}
+    },
+    {
+        "name": "missing value with params dictionary, irregular serialisation",
+        "raw": ["a=1, b;foo=9, c=3"],
+        "canonical": ["a=1, b=?1;foo=9, c=3"],
+        "header_type": "dictionary",
+        "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]}
+    },
+    {
       "name": "trailing comma dictionary",
       "raw": ["a=1, b=2,"],
       "header_type": "dictionary",
