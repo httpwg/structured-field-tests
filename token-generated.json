@@ -1583,16 +1583,7 @@
             "\ta"
         ],
         "header_type": "item",
-        "expected": [
-            {
-                "__type": "token",
-                "value": "a"
-            },
-            {}
-        ],
-        "canonical": [
-            "a"
-        ]
+        "must_fail": true
     },
     {
         "name": "0x0a starting an token",
