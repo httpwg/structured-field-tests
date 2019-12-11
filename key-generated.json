@@ -1296,15 +1296,7 @@
             "\ta=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a": [
-                1,
-                {}
-            ]
-        },
-        "canonical": [
-            "a=1"
-        ]
+        "must_fail": true
     },
     {
         "name": "0x0a starting an dictionary key",
@@ -3997,20 +3989,7 @@
             "foo; \ta=1"
         ],
         "header_type": "list",
-        "expected": [
-            [
-                {
-                    "__type": "token",
-                    "value": "foo"
-                },
-                {
-                    "a": 1
-                }
-            ]
-        ],
-        "canonical": [
-            "foo;a=1"
-        ]
+        "must_fail": true
     },
     {
         "name": "0x0a starting a parameterised list key",

@@ -3,7 +3,7 @@
 import json
 
 ALL_CHARS = range(0x00, 0x7F + 1)
-WHITESPACE = [0x09, 0x20]
+WHITESPACE = [0x20]
 DIGITS = list(range(0x30, 0x39 + 1))
 LCALPHA = list(range(0x61, 0x7A + 1))
 UCALPHA = list(range(0x41, 0x5A + 1))
