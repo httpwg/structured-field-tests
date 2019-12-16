@@ -177,5 +177,17 @@
       "raw": ["-1.1234"],
       "header_type": "item",
       "must_fail": true
+    },
+    {
+      "name": "decimal with thirteen integer digits",
+      "raw": ["1234567890123.0"],
+      "header_type": "item",
+      "must_fail": true
+    },
+    {
+      "name": "negative decimal with thirteen integer digits",
+      "raw": ["-1234567890123.0"],
+      "header_type": "item",
+      "must_fail": true
     }
 ]
