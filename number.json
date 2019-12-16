@@ -107,74 +107,74 @@
       "must_fail": true
     },
     {
-      "name": "simple float",
+      "name": "simple decimal",
       "raw": ["1.23"],
       "header_type": "item",
       "expected": [1.23, {}]
     },
     {
-      "name": "negative float",
+      "name": "negative decimal",
       "raw": ["-1.23"],
       "header_type": "item",
       "expected": [-1.23, {}]
     },
     {
-      "name": "float, whitespace after decimal",
+      "name": "decimal, whitespace after decimal",
       "raw": ["1. 23"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "float, whitespace before decimal",
+      "name": "decimal, whitespace before decimal",
       "raw": ["1 .23"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "negative float, whitespace after sign",
+      "name": "negative decimal, whitespace after sign",
       "raw": ["- 1.23"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "tricky precision float",
-      "raw": ["12345678901234.1"],
+      "name": "tricky precision decimal",
+      "raw": ["123456789012.1"],
       "header_type": "item",
-      "expected": [12345678901234.1, {}]
+      "expected": [123456789012.1, {}]
     },
     {
-      "name": "double decimal float",
+      "name": "double decimal decimal",
       "raw": ["1.5.4"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "adjacent double decimal float",
+      "name": "adjacent double decimal decimal",
       "raw": ["1..4"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "float with six fractional digits",
-      "raw": ["1.123456"],
+      "name": "decimal with three fractional digits",
+      "raw": ["1.123"],
       "header_type": "item",
-      "expected": [1.123456, {}]
+      "expected": [1.123, {}]
     },
     {
-      "name": "negative float with six fractional digits",
-      "raw": ["-1.123456"],
+      "name": "negative decimal with three fractional digits",
+      "raw": ["-1.123"],
       "header_type": "item",
-      "expected": [-1.123456, {}]
+      "expected": [-1.123, {}]
     },
     {
-      "name": "float with seven fractional digits",
-      "raw": ["1.1234567"],
+      "name": "decimal with four fractional digits",
+      "raw": ["1.1234"],
       "header_type": "item",
       "must_fail": true
     },
     {
-      "name": "negative float with seven fractional digits",
-      "raw": ["-1.1234567"],
+      "name": "negative decimal with four fractional digits",
+      "raw": ["-1.1234"],
       "header_type": "item",
       "must_fail": true
     }
