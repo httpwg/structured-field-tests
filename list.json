@@ -40,6 +40,12 @@
       "canonical": ["1, 42"]
     },
     {
+      "name": "tab separated list",
+      "raw": ["1\t,\t42"],
+      "header_type": "list",
+      "must_fail": true
+    },
+    {
       "name": "two line list",
       "raw": ["1", "42"],
       "header_type": "list",

@@ -54,6 +54,12 @@
       "canonical": ["a=1, b=2"]
     },
     {
+      "name": "tab separated dictionary",
+      "raw": ["a=1\t,\tb=2"],
+      "header_type": "list",
+      "must_fail": true
+    },
+    {
       "name": "leading whitespace dictionary",
       "raw": ["     a=1 ,  b=2"],
       "header_type": "dictionary",
