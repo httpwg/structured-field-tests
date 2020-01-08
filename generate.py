@@ -329,50 +329,50 @@ for i in range(1, number_length + 1):
         }
     )
 
-## float sizes
-fractional_length = 6
-for i in range(1, number_length + 1):
+## decimal sizes
+integer_length = 12
+fractional_length = 3
+for i in range(1, integer_length + 1):
     for j in range(1, fractional_length + 1):
-        if i < j + 1:
-            continue
+        k = i + j
         tests.append(
             {
-                "name": f"{i} digit 0, {j} fractional small float",
-                "raw": ["0" * (i - j) + "." + "1" * j],
+                "name": f"{k} digit 0, {j} fractional small decimal",
+                "raw": ["0" * i + "." + "1" * j],
                 "header_type": "item",
-                "expected": [float("0" * (i - j) + "." + "1" * j), {}],
+                "expected": [float("0" * i + "." + "1" * j), {}],
                 "canonical": ["0." + "1" * j],
             }
         )
         tests.append(
             {
-                "name": f"{i} digit, {j} fractional 0 float",
-                "raw": ["1" * (i - j) + "." + "0" * j],
+                "name": f"{k} digit, {j} fractional 0 decimal",
+                "raw": ["1" * i + "." + "0" * j],
                 "header_type": "item",
-                "expected": [float("1" * (i - j) + "." + "0" * j), {}],
-                "canonical": ["1" * (i - j) + ".0"],
+                "expected": [float("1" * i + "." + "0" * j), {}],
+                "canonical": ["1" * i + ".0"],
             }
         )
         tests.append(
             {
-                "name": f"{i} digit, {j} fractional small float",
-                "raw": ["1" * (i - j) + "." + "1" * j],
+                "name": f"{k} digit, {j} fractional small decimal",
+                "raw": ["1" * i + "." + "1" * j],
                 "header_type": "item",
-                "expected": [float("1" * (i - j) + "." + "1" * j), {}],
+                "expected": [float("1" * i + "." + "1" * j), {}],
             }
         )
         tests.append(
             {
-                "name": f"{i} digit, {j} fractional large float",
-                "raw": ["9" * (i - j) + "." + "9" * j],
+                "name": f"{k} digit, {j} fractional large decimal",
+                "raw": ["9" * i + "." + "9" * j],
                 "header_type": "item",
-                "expected": [float("9" * (i - j) + "." + "9" * j), {}],
+                "expected": [float("9" * i + "." + "9" * j), {}],
             }
         )
 
 tests.append(
     {
-        "name": f"too many digit 0 float",
+        "name": f"too many digit 0 decimal",
         "raw": ["0" * (number_length) + "." + "0"],
         "header_type": "item",
         "must_fail": True,
@@ -380,7 +380,7 @@ tests.append(
 )
 tests.append(
     {
-        "name": f"too many fractional digits 0 float",
+        "name": f"too many fractional digits 0 decimal",
         "raw": [
             "0" * (number_length - fractional_length)
             + "."
@@ -392,7 +392,7 @@ tests.append(
 )
 tests.append(
     {
-        "name": f"too many digit 9 float",
+        "name": f"too many digit 9 decimal",
         "raw": ["9" * (number_length) + "." + "9"],
         "header_type": "item",
         "must_fail": True,
@@ -400,7 +400,7 @@ tests.append(
 )
 tests.append(
     {
-        "name": f"too many fractional digits 9 float",
+        "name": f"too many fractional digits 9 decimal",
         "raw": [
             "9" * (number_length - fractional_length)
             + "."
