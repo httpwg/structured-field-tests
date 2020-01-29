@@ -78,21 +78,25 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+write("string", tests)
 
-## serialization failures
+### string serialization failures
+tests = []
+
+## unallowed characters
 for c in ALL_CHARS:
     if c in allowed_string_chars:
         continue
     if c in escaped_string_chars:
         continue
     test = {
-        "name": "0x%02x in string - serialize" % c,
+        "name": "0x%02x in string - serialise only" % c,
         "expected": ["%s" % chr(c), {}],
         "header_type": "item",
         "must_fail": True,
     }
     tests.append(test)
-write("string", tests)
+write("string-serialize", tests)
 
 ### tokens
 tests = []
@@ -130,29 +134,35 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+write("token", tests)
 
-## serialization failures
+### token serialization failures
+tests = []
+
+## unallowed characters
 for c in ALL_CHARS:
     if c in allowed_token_chars:
         continue
     test = {
-        "name": "0x%02x in token - serialize" % c,
+        "name": "0x%02x in token - serialise only" % c,
         "header_type": "item",
         "expected": [{"__type": "token", "value": "a%sa" % chr(c)}, {}],
         "must_fail": True,
     }
     tests.append(test)
+
+## unallowed starting characters
 for c in ALL_CHARS:
     if c in allowed_token_start_chars:
       continue
     test = {
-        "name": "0x%02x starting a token - serialize" % c,
+        "name": "0x%02x starting a token - serialise only" % c,
         "header_type": "item",
         "expected": [{"__type": "token", "value": "%sa" % chr(c)}, {}],
         "must_fail": True,
     }
     tests.append(test)
-write("token", tests)
+write("token-serialize", tests)
 
 ### keys
 tests = []
@@ -171,18 +181,6 @@ for c in ALL_CHARS:
         test["must_fail"] = True
     tests.append(test)
 
-# serialization failures
-for c in ALL_CHARS:
-    if c in allowed_key_chars:
-        continue
-    test = {
-        "name": "0x%02x in dictionary key - serialize" % c,
-        "expected": {"a%sa" % chr(c): [1, {}]},
-        "header_type": "dictionary",
-        "must_fail": True,
-    }
-    tests.append(test)
-
 ## allowed dictionary key starting characters
 for c in ALL_CHARS:
     test = {
@@ -199,18 +197,6 @@ for c in ALL_CHARS:
         test["must_fail"] = True
     tests.append(test)
 
-# serialization failures
-for c in ALL_CHARS:
-    if c in allowed_key_start_chars:
-        continue
-    test = {
-        "name": "0x%02x starting an dictionary key - serialize" % c,
-        "header_type": "dictionary",
-        "expected": {"%sa" % chr(c): [1, {}]},
-        "must_fail": True,
-    }
-    tests.append(test)
-
 ## parameterised list keys
 for c in ALL_CHARS:
     test = {
@@ -224,18 +210,6 @@ for c in ALL_CHARS:
         test["canonical"] = ["foo;a%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
-    tests.append(test)
-
-# serialization failures
-for c in ALL_CHARS:
-    if c in allowed_key_chars:
-        continue
-    test = {
-        "name": "0x%02x in parameterised list key - serialize" % c,
-        "header_type": "list",
-        "expected": [[{"__type": "token", "value": "foo"}, {"a%sa" % chr(c): 1}]],
-        "must_fail": True,
-    }
     tests.append(test)
 
 ## allowed parameterised list key starting characters
@@ -256,8 +230,48 @@ for c in ALL_CHARS:
     else:
         test["must_fail"] = True
     tests.append(test)
+write("key", tests)
 
-# serialization failures
+### key serialization failures
+tests = []
+
+## bad dictionary keys
+for c in ALL_CHARS:
+    if c in allowed_key_chars:
+        continue
+    test = {
+        "name": "0x%02x in dictionary key - serialise only" % c,
+        "expected": {"a%sa" % chr(c): [1, {}]},
+        "header_type": "dictionary",
+        "must_fail": True,
+    }
+    tests.append(test)
+
+## bad dictionary key starting characters
+for c in ALL_CHARS:
+    if c in allowed_key_start_chars:
+        continue
+    test = {
+        "name": "0x%02x starting an dictionary key - serialise only" % c,
+        "header_type": "dictionary",
+        "expected": {"%sa" % chr(c): [1, {}]},
+        "must_fail": True,
+    }
+    tests.append(test)
+
+## bad parameterised list keys
+for c in ALL_CHARS:
+    if c in allowed_key_chars:
+        continue
+    test = {
+        "name": "0x%02x in parameterised list key - serialise only" % c,
+        "header_type": "list",
+        "expected": [[{"__type": "token", "value": "foo"}, {"a%sa" % chr(c): 1}]],
+        "must_fail": True,
+    }
+    tests.append(test)
+
+# bad parameterised list key starting characters
 for c in ALL_CHARS:
     if c in allowed_key_start_chars:
         continue
@@ -268,7 +282,7 @@ for c in ALL_CHARS:
         "must_fail": True,
     }
     tests.append(test)
-write("key", tests)
+write("key-serialize", tests)
 
 ### large types
 tests = []
