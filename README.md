@@ -34,6 +34,9 @@ data structure can be serialized.  The expected result of this serialization is 
 member if specified, or `raw` otherwise.  The canonical form of a List or Dictionary with no
 members is an empty array, to represent the field being omitted.
 
+Any test record without a `raw` element can be used to test serialization of an invalid or
+non-canonical value.  The `expected` structure (as defined above) should serialize to the
+`canonical` form, unless `must_fail` is `true` -- in which case the value cannot be serialized.
 
 ### __type Objects
 
