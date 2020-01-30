@@ -48,6 +48,13 @@
     "header_type": "item",
     "expected": [-0.0025, {}],
     "canonical": ["-0.002"]
+  },
+
+  {
+    "name": "decimal round up to integer part - serialize",
+    "header_type": "item",
+    "expected": [9.9995, {}],
+    "canonical": ["10.0"]
   }
 ]
 
