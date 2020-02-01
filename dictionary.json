@@ -135,9 +135,10 @@
     },
     {
       "name": "duplicate key dictionary",
-      "raw": ["a=1,b=2,a=1"],
+      "raw": ["a=1,b=2,a=3"],
       "header_type": "dictionary",
-      "must_fail": true
+      "expected": {"a": [3, {}], "b": [2, {}]},
+      "canonical": ["a=3, b=2"]
     },
     {
       "name": "numeric key dictionary",
