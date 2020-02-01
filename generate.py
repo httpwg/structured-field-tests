@@ -128,7 +128,10 @@ for c in ALL_CHARS:
         "raw": ["a%sa=1" % chr(c)],
         "header_type": "dictionary",
     }
-    if c in allowed_key_chars:
+    if c == 0x2C:
+        test["expected"] = {"a": [1, {}]}
+        test["canonical"] = ["a=1"]
+    elif c in allowed_key_chars:
         key = "a%sa" % chr(c)
         test["expected"] = {key: [1, {}]}
     else:
@@ -158,7 +161,10 @@ for c in ALL_CHARS:
         "raw": ["foo; a%sa=1" % chr(c)],
         "header_type": "list",
     }
-    if c in allowed_key_chars:
+    if c == 0x3B:
+        test["expected"] = [[{"__type": "token", "value": "foo"}, {"a": 1}]]
+        test["canonical"] = ["foo;a=1"]
+    elif c in allowed_key_chars:
         key = "a%sa" % chr(c)
         test["expected"] = [[{"__type": "token", "value": "foo"}, {key: 1}]]
         test["canonical"] = ["foo;a%sa=1" % chr(c)]
