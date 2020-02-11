@@ -362,7 +362,15 @@
             "a,a=1"
         ],
         "header_type": "dictionary",
-        "must_fail": true
+        "expected": {
+            "a": [
+                1,
+                {}
+            ]
+        },
+        "canonical": [
+            "a=1"
+        ]
     },
     {
         "name": "0x2d in dictionary key",
@@ -3032,7 +3040,20 @@
             "foo; a;a=1"
         ],
         "header_type": "list",
-        "must_fail": true
+        "expected": [
+            [
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
+                {
+                    "a": 1
+                }
+            ]
+        ],
+        "canonical": [
+            "foo;a=1"
+        ]
     },
     {
         "name": "0x3c in parameterised list key",
