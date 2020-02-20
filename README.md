@@ -30,13 +30,14 @@ The `expected` data structure maps the types in Structured Headers to [JSON](htt
 * Parameters: a JSON object which maps [_param-name_ (Key), _param-value_ (Bare-Item)] pairs
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
-data structure can be serialized.  The expected result of this serialization is the `canonical`
+data structure can be serialised.  The expected result of this serialisation is the `canonical`
 member if specified, or `raw` otherwise.  The canonical form of a List or Dictionary with no
 members is an empty array, to represent the field being omitted.
 
-Any test record without a `raw` element can be used to test serialization of an invalid or
-non-canonical value.  The `expected` structure (as defined above) should serialize to the
-`canonical` form, unless `must_fail` is `true` -- in which case the value cannot be serialized.
+Test cases in the `serialisation-tests` directory can be used to test serialisation of an invalid
+or non-canonical value.  The `expected` structure (as defined above) should serialise to the
+`canonical` form, unless `must_fail` is `true` -- in which case the value cannot be serialised.
+These cases do not have a `raw` element.
 
 ### __type Objects
 

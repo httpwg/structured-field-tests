@@ -80,7 +80,7 @@ for c in ALL_CHARS:
     tests.append(test)
 write("string", tests)
 
-### string serialization failures
+### string serialisation failures
 tests = []
 
 ## unallowed characters
@@ -96,7 +96,7 @@ for c in ALL_CHARS:
         "must_fail": True,
     }
     tests.append(test)
-write("string-serialize", tests)
+write("serialisation-tests/string", tests)
 
 ### tokens
 tests = []
@@ -136,7 +136,7 @@ for c in ALL_CHARS:
     tests.append(test)
 write("token", tests)
 
-### token serialization failures
+### token serialisation failures
 tests = []
 
 ## unallowed characters
@@ -162,7 +162,7 @@ for c in ALL_CHARS:
         "must_fail": True,
     }
     tests.append(test)
-write("token-serialize", tests)
+write("serialisation-tests/token", tests)
 
 ### keys
 tests = []
@@ -232,7 +232,7 @@ for c in ALL_CHARS:
     tests.append(test)
 write("key", tests)
 
-### key serialization failures
+### key serialisation failures
 tests = []
 
 ## bad dictionary keys
@@ -282,7 +282,7 @@ for c in ALL_CHARS:
         "must_fail": True,
     }
     tests.append(test)
-write("key-serialize", tests)
+write("serialisation-tests/key", tests)
 
 ### large types
 tests = []
