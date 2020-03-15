@@ -41,7 +41,7 @@ allowed_token_chars = (
 )
 allowed_token_start_chars = ALPHA + [ord("*")]
 allowed_key_chars = DIGITS + LCALPHA + [ord(c) for c in ["_", "-", ".", "*"]]
-allowed_key_start_chars = LCALPHA
+allowed_key_start_chars = LCALPHA + [ord("*")]
 
 
 def write(name, data):
