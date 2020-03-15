@@ -1581,7 +1581,12 @@
             "*a=1"
         ],
         "header_type": "dictionary",
-        "must_fail": true
+        "expected": {
+            "*a": [
+                1,
+                {}
+            ]
+        }
     },
     {
         "name": "0x2b starting an dictionary key",
@@ -4305,7 +4310,20 @@
             "foo; *a=1"
         ],
         "header_type": "list",
-        "must_fail": true
+        "expected": [
+            [
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
+                {
+                    "*a": 1
+                }
+            ]
+        ],
+        "canonical": [
+            "foo;*a=1"
+        ]
     },
     {
         "name": "0x2b starting a parameterised list key",

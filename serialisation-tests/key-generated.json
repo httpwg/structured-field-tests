@@ -1430,17 +1430,6 @@
         "must_fail": true
     },
     {
-        "name": "0x2a starting an dictionary key - serialise only",
-        "header_type": "dictionary",
-        "expected": {
-            "*a": [
-                1,
-                {}
-            ]
-        },
-        "must_fail": true
-    },
-    {
         "name": "0x2b starting an dictionary key - serialise only",
         "header_type": "dictionary",
         "expected": {
@@ -4164,22 +4153,6 @@
                 },
                 {
                     ")a": 1
-                }
-            ]
-        ],
-        "must_fail": true
-    },
-    {
-        "name": "0x2a starting a parameterised list key",
-        "header_type": "list",
-        "expected": [
-            [
-                {
-                    "__type": "token",
-                    "value": "foo"
-                },
-                {
-                    "*a": 1
                 }
             ]
         ],
