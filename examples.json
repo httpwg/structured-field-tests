@@ -85,7 +85,7 @@
       "name": "Example-DictHeader",
       "raw": "a=?0, b, c; foo=bar",
       "header_type": "dictionary",
-      "expected": {"a": [false, {}], "b": [true, {}], "c": [true, {"__type": "string", "foo": "bar"}]}
+      "expected": {"a": [false, {}], "b": [true, {}], "c": [true, {"foo": "bar"}]}
   },
   {
     "name": "Example-DictListHeader",
