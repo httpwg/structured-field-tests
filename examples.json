@@ -66,7 +66,12 @@
     ],
     "canonical": ["abc;a=1;b=2;cde_456, (ghi;jk=4 l);q=\"9\";r=w"]
   },
-
+  {
+      "name": "Example-IntHeader",
+      "raw": "1; a; b=?0",
+      "header_type": "item",
+      "expected": [1, {"a": true, "b": false}]
+  },
   {
     "name": "Example-DictHeader",
     "raw": ["en=\"Applepie\", da=:w4ZibGV0w6ZydGU=:"],
@@ -75,6 +80,12 @@
       "en": ["Applepie", {}],
       "da": [{"__type": "binary", "value": "YODGE3DFOTB2M4TUMU======"}, {}]
     }
+  },
+  {
+      "name": "Example-DictHeader",
+      "raw": "a=?0, b, c; foo=bar",
+      "header_type": "dictionary",
+      "expected": {"a": [false, {}], "b": [true, {}], "c": [true, {"__type": "string", "foo": "bar"}]}
   },
   {
     "name": "Example-DictListHeader",
