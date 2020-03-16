@@ -68,7 +68,7 @@
   },
   {
       "name": "Example-IntHeader",
-      "raw": "1; a; b=?0",
+      "raw": ["1; a; b=?0"],
       "header_type": "item",
       "expected": [1, {"a": true, "b": false}]
   },
@@ -83,7 +83,7 @@
   },
   {
       "name": "Example-DictHeader",
-      "raw": "a=?0, b, c; foo=bar",
+      "raw": ["a=?0, b, c; foo=bar"],
       "header_type": "dictionary",
       "expected": {"a": [false, {}], "b": [true, {}], "c": [true, {"foo": "bar"}]}
   },
