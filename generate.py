@@ -177,6 +177,8 @@ for c in ALL_CHARS:
     if c == 0x2C:
         test["expected"] = {"a": [1, {}]}
         test["canonical"] = ["a=1"]
+    elif c == 0x3B:
+        test["expected"] = {"a": [True, {"a": 1}]}
     elif c in allowed_key_chars:
         key = "a%sa" % chr(c)
         test["expected"] = {key: [1, {}]}

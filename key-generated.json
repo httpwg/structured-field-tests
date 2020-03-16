@@ -550,7 +550,14 @@
             "a;a=1"
         ],
         "header_type": "dictionary",
-        "must_fail": true
+        "expected": {
+            "a": [
+                true,
+                {
+                    "a": 1
+                }
+            ]
+        }
     },
     {
         "name": "0x3c in dictionary key",
