@@ -70,7 +70,8 @@
       "name": "Example-IntHeader",
       "raw": ["1; a; b=?0"],
       "header_type": "item",
-      "expected": [1, {"a": true, "b": false}]
+      "expected": [1, {"a": true, "b": false}],
+      "canonical": ["1;a;b=?0"]
   },
   {
     "name": "Example-DictHeader",
@@ -87,8 +88,8 @@
       "header_type": "dictionary",
       "expected": {"a": [false, {}], "b": [true, {}], "c": [
           true, {"foo": {"__type": "token", "value": "bar"}}
-      ]
-     }
+      ]},
+      "canonical": ["a=?0, b, c;foo=bar"]
   },
   {
     "name": "Example-DictListHeader",
