@@ -17,6 +17,24 @@
     ]
   },
   {
+    "name": "Example-Hdr (list on one line)",
+    "raw": ["foo, bar"],
+    "header_type": "list",
+    "expected": [
+      [{"__type":"token", "value":"foo"}, {}],
+      [{"__type":"token", "value":"bar"}, {}]
+    ]
+  },
+  {
+    "name": "Example-Hdr (list on two lines)",
+    "raw": ["foo", "bar"],
+    "header_type": "list",
+    "expected": [
+      [{"__type":"token", "value":"foo"}, {}],
+      [{"__type":"token", "value":"bar"}, {}]
+    ]
+  },
+  {
     "name": "Example-StrListListHeader",
     "raw": ["(\"foo\" \"bar\"), (\"baz\"), (\"bat\" \"one\"), ()"],
     "header_type": "list",
@@ -105,7 +123,7 @@
   },
   {
     "name": "Example-MixDict",
-    "raw": ["a=(1 2), b=3, c=4;aa=bb, d=(5 6);valid=?1"],
+    "raw": ["a=(1 2), b=3, c=4;aa=bb, d=(5 6);valid"],
     "header_type": "dictionary",
     "expected": {
       "a": [[
@@ -120,6 +138,24 @@
       ], {"valid": true}]
     },
     "canonical": ["a=(1 2), b=3, c=4;aa=bb, d=(5 6);valid"]
+  },
+  {
+    "name": "Example-Hdr (dictionary on one line)",
+    "raw": ["foo=1, bar=2"],
+    "header_type": "dictionary",
+    "expected": {
+      "foo": [1, {}],
+      "bar": [2, {}]
+    }
+  },
+  {
+    "name": "Example-Hdr (dictionary on two lines)",
+    "raw": ["foo=1", "bar=2"],
+    "header_type": "dictionary",
+    "expected": {
+      "foo": [1, {}],
+      "bar": [2, {}]
+    }
   },
 
   {
@@ -164,29 +200,5 @@
     "raw": ["?1"],
     "header_type": "item",
     "expected": [true, {}]
-  },
-
-  {
-    "name": "Example-Thing",
-    "raw": ["name=\"Widget\", cost=89.2, descriptions=(foo bar)"],
-    "header_type": "dictionary",
-    "expected": {
-      "name": ["Widget", {}],
-      "cost": [89.2, {}],
-      "descriptions": [[
-        [{"__type": "token", "value": "foo"}, {}],
-        [{"__type": "token", "value": "bar"}, {}]
-      ], {}]
-    }
-  },
-  {
-    "name": "Example-Description",
-    "raw": ["foo; url=\"https://example.net\"; context=123, bar; url=\"https://example.org\"; context=456"],
-    "header_type": "list",
-    "expected": [
-      [{"__type": "token", "value": "foo"}, {"url": "https://example.net", "context": 123}],
-      [{"__type": "token", "value": "bar"}, {"url": "https://example.org", "context": 456}]
-    ],
-    "canonical": ["foo;url=\"https://example.net\";context=123, bar;url=\"https://example.org\";context=456"]
   }
 ]
