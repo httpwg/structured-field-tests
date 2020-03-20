@@ -32,7 +32,8 @@
     "expected": [
       [{"__type":"token", "value":"foo"}, {}],
       [{"__type":"token", "value":"bar"}, {}]
-    ]
+    ],
+    "canonical": ["foo, bar"]
   },
   {
     "name": "Example-StrListListHeader",
@@ -155,7 +156,8 @@
     "expected": {
       "foo": [1, {}],
       "bar": [2, {}]
-    }
+    },
+    "canonical": ["foo=1, bar=2"]
   },
 
   {
