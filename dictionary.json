@@ -116,6 +116,13 @@
       "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]}
     },
     {
+      "name": "explicit true value with params dictionary",
+      "raw": ["a=1, b=?1;foo=9, c=3"],
+      "header_type": "dictionary",
+      "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]},
+      "canonical": ["a=1, b;foo=9, c=3"]
+    },
+    {
       "name": "trailing comma dictionary",
       "raw": ["a=1, b=2,"],
       "header_type": "dictionary",
