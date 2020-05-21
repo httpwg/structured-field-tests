@@ -43,7 +43,8 @@
       "name": "tab separated list",
       "raw": ["1\t,\t42"],
       "header_type": "list",
-      "must_fail": true
+      "expected": [[1, {}], [42, {}]],
+      "canonical": ["1, 42"]
     },
     {
       "name": "two line list",
