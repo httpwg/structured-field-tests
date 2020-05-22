@@ -8,14 +8,14 @@ Each test file is a JSON document that contains an array of test records. A test
 object with the following members:
 
 - `name`: A string describing the test
-- `raw`: An array of strings, each representing a header field value received
+- `raw`: An array of strings, each representing a field value received
 - `header_type`: One of "item", "list", "dictionary"
 - `expected`: The expected data structure after parsing (if successful). Required, unless `must_fail` is `true`.
 - `must_fail`: boolean indicating whether the test is required to fail. Defaults to `false`.
 - `can_fail`: boolean indicating whether failing this test is acceptable; for SHOULDs. Defaults to `false`.
-- `canonical`: An array of strings representing the canonical form of the header field value, if it is different from `raw`. Not applicable if `must_fail` is `true`.
+- `canonical`: An array of strings representing the canonical form of the field value, if it is different from `raw`. Not applicable if `must_fail` is `true`.
 
-The `expected` data structure maps the types in Structured Headers to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
+The `expected` data structure maps the types in Structured Fields to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
 * Dictionary: JSON object which maps [_member-name_ (Key), _member-value_ (Item or Inner-List)] pairs
 * List: JSON array, where each element is either an Item or Inner-List
@@ -41,7 +41,7 @@ These cases do not have a `raw` element.
 
 ### __type Objects
 
-Because JSON doesn't natively accommodate some data types that Structured Headers does, the `expected` member uses an object with a `__type` member and a `value` member to represent these values. 
+Because JSON doesn't natively accommodate some data types that Structured Fields does, the `expected` member uses an object with a `__type` member and a `value` member to represent these values. 
 
 For example:
 
