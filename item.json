@@ -7,14 +7,14 @@
     },
     {
       "name": "leading space",
-      "raw": ["  1"],
+      "raw": [" \t 1"],
       "header_type": "item",
       "expected": [1, {}],
       "canonical": ["1"]
     },
     {
       "name": "trailing space",
-      "raw": ["1  "],
+      "raw": ["1 \t "],
       "header_type": "item",
       "expected": [1, {}],
       "canonical": ["1"]
