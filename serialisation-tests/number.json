@@ -14,13 +14,13 @@
     {
         "name": "too big postive decimal - serialize",
         "header_type": "item",
-        "expected": [1000000000000.0, {}],
+        "expected": [1000000000000.1, {}],
         "must_fail": true
     },
     {
         "name": "too big negative decimal - serialize",
         "header_type": "item",
-        "expected": [-1000000000000.0, {}],
+        "expected": [-1000000000000.1, {}],
         "must_fail": true
     },
     {
