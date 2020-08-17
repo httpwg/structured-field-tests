@@ -3,26 +3,26 @@
         "name": "basic integer",
         "raw": ["42"],
         "header_type": "item",
-        "expected": [42, {}]
+        "expected": [42, []]
     },
     {
         "name": "zero integer",
         "raw": ["0"],
         "header_type": "item",
-        "expected": [0, {}]
+        "expected": [0, []]
     },
     {
         "name": "leading 0 zero",
         "raw": ["00"],
         "header_type": "item",
-        "expected": [0, {}],
+        "expected": [0, []],
         "canonical": ["0"]
     },
     {
         "name": "negative zero",
         "raw": ["-0"],
         "header_type": "item",
-        "expected": [0, {}],
+        "expected": [0, []],
         "canonical": ["0"]
     },
     {
@@ -35,27 +35,27 @@
         "name": "negative integer",
         "raw": ["-42"],
         "header_type": "item",
-        "expected": [-42, {}]
+        "expected": [-42, []]
     },
     {
         "name": "leading 0 integer",
         "raw": ["042"],
         "header_type": "item",
-        "expected": [42, {}],
+        "expected": [42, []],
         "canonical": ["42"]
     },
     {
         "name": "leading 0 negative integer",
         "raw": ["-042"],
         "header_type": "item",
-        "expected": [-42, {}],
+        "expected": [-42, []],
         "canonical": ["-42"]
     },
     {
         "name": "leading 0 zero",
         "raw": ["00"],
         "header_type": "item",
-        "expected": [0, {}],
+        "expected": [0, []],
         "canonical": ["0"]
     },
     {
@@ -86,13 +86,13 @@
         "name": "long integer",
         "raw": ["123456789012345"],
         "header_type": "item",
-        "expected": [123456789012345, {}]
+        "expected": [123456789012345, []]
     },
     {
         "name": "long negative integer",
         "raw": ["-123456789012345"],
         "header_type": "item",
-        "expected": [-123456789012345, {}]
+        "expected": [-123456789012345, []]
     },
     {
         "name": "too long integer",
@@ -110,13 +110,13 @@
         "name": "simple decimal",
         "raw": ["1.23"],
         "header_type": "item",
-        "expected": [1.23, {}]
+        "expected": [1.23, []]
     },
     {
         "name": "negative decimal",
         "raw": ["-1.23"],
         "header_type": "item",
-        "expected": [-1.23, {}]
+        "expected": [-1.23, []]
     },
     {
         "name": "decimal, whitespace after decimal",
@@ -140,7 +140,7 @@
         "name": "tricky precision decimal",
         "raw": ["123456789012.1"],
         "header_type": "item",
-        "expected": [123456789012.1, {}]
+        "expected": [123456789012.1, []]
     },
     {
         "name": "double decimal decimal",
@@ -158,13 +158,13 @@
         "name": "decimal with three fractional digits",
         "raw": ["1.123"],
         "header_type": "item",
-        "expected": [1.123, {}]
+        "expected": [1.123, []]
     },
     {
         "name": "negative decimal with three fractional digits",
         "raw": ["-1.123"],
         "header_type": "item",
-        "expected": [-1.123, {}]
+        "expected": [-1.123, []]
     },
     {
         "name": "decimal with four fractional digits",

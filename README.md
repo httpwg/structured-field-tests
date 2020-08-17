@@ -17,9 +17,9 @@ object with the following members:
 
 The `expected` data structure maps the types in Structured Fields to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
-* Dictionary: JSON object which maps [_member-name_ (Key), _member-value_ (Item or Inner-List)] pairs
+* Dictionary: JSON array of arrays with two elements, the member name and the member value
 * List: JSON array, where each element is either an Item or Inner-List
-* Inner-List: JSON array with two elements, the list (a JSON array of Items) and Parameters
+* Inner-List: JSON array of arrays with two elements, the list (a JSON array of Items) and Parameters
 * Item: JSON array with two elements, the Bare-Item and Parameters
 * Bare-Item: one of:
    * Integer: JSON numbers; e.g. 1
@@ -27,7 +27,7 @@ The `expected` data structure maps the types in Structured Fields to [JSON](http
    * String: JSON string; e.g., "foo"
    * Token: `token` __type Object (see below)
    * Binary Content: `binary` __type Object (see below)
-* Parameters: a JSON object which maps [_param-name_ (Key), _param-value_ (Bare-Item)] pairs
+* Parameters: JSON array of arrays with two element, the param name and the param value
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
 data structure can be serialised.  The expected result of this serialisation is the `canonical`

@@ -61,7 +61,7 @@ for c in ALL_CHARS:
         "header_type": "item",
     }
     if c in allowed_string_chars:
-        test["expected"] = [" %s " % chr(c), {}]
+        test["expected"] = [" %s " % chr(c), []]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -74,7 +74,7 @@ for c in ALL_CHARS:
         "header_type": "item",
     }
     if c in escaped_string_chars:
-        test["expected"] = [chr(c), {}]
+        test["expected"] = [chr(c), []]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -91,7 +91,7 @@ for c in ALL_CHARS:
         continue
     test = {
         "name": "0x%02x in string - serialise only" % c,
-        "expected": ["%s" % chr(c), {}],
+        "expected": ["%s" % chr(c), []],
         "header_type": "item",
         "must_fail": True,
     }
@@ -109,9 +109,9 @@ for c in ALL_CHARS:
         "header_type": "item",
     }
     if c in allowed_token_chars:
-        test["expected"] = [{"__type": "token", "value": "a%sa" % chr(c)}, {}]
+        test["expected"] = [{"__type": "token", "value": "a%sa" % chr(c)}, []]
     elif c == 0x3B:
-        test["expected"] = [{"__type": "token", "value": "a"}, {"a": True}]
+        test["expected"] = [{"__type": "token", "value": "a"}, [["a", True]]]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -126,11 +126,11 @@ for c in ALL_CHARS:
     if c in WHITESPACE:
         test["expected"] = [
             {"__type": "token", "value": "a"},
-            {},
+            [],
         ]  # whitespace is always stripped.
         test["canonical"] = ["a"]
     elif c in allowed_token_start_chars:
-        test["expected"] = [{"__type": "token", "value": "%sa" % chr(c)}, {}]
+        test["expected"] = [{"__type": "token", "value": "%sa" % chr(c)}, []]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -146,7 +146,7 @@ for c in ALL_CHARS:
     test = {
         "name": "0x%02x in token - serialise only" % c,
         "header_type": "item",
-        "expected": [{"__type": "token", "value": "a%sa" % chr(c)}, {}],
+        "expected": [{"__type": "token", "value": "a%sa" % chr(c)}, []],
         "must_fail": True,
     }
     tests.append(test)
@@ -158,7 +158,7 @@ for c in ALL_CHARS:
     test = {
         "name": "0x%02x starting a token - serialise only" % c,
         "header_type": "item",
-        "expected": [{"__type": "token", "value": "%sa" % chr(c)}, {}],
+        "expected": [{"__type": "token", "value": "%sa" % chr(c)}, []],
         "must_fail": True,
     }
     tests.append(test)
@@ -175,13 +175,13 @@ for c in ALL_CHARS:
         "header_type": "dictionary",
     }
     if c == 0x2C:
-        test["expected"] = {"a": [1, {}]}
+        test["expected"] = [["a", [1, []]]]
         test["canonical"] = ["a=1"]
     elif c == 0x3B:
-        test["expected"] = {"a": [True, {"a": 1}]}
+        test["expected"] = [["a", [True, [["a", 1]]]]]
     elif c in allowed_key_chars:
         key = "a%sa" % chr(c)
-        test["expected"] = {key: [1, {}]}
+        test["expected"] = [[key, [1, []]]]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -194,10 +194,10 @@ for c in ALL_CHARS:
         "header_type": "dictionary",
     }
     if c in WHITESPACE:
-        test["expected"] = {"a": [1, {}]}  # whitespace is always stripped.
+        test["expected"] = [["a", [1, []]]]  # whitespace is always stripped.
         test["canonical"] = ["a=1"]
     elif c in allowed_key_start_chars:
-        test["expected"] = {"%sa" % chr(c): [1, {}]}
+        test["expected"] = [["%sa" % chr(c), [1, []]]]
     else:
         test["must_fail"] = True
     tests.append(test)
@@ -210,11 +210,11 @@ for c in ALL_CHARS:
         "header_type": "list",
     }
     if c == 0x3B:
-        test["expected"] = [[{"__type": "token", "value": "foo"}, {"a": 1}]]
+        test["expected"] = [[{"__type": "token", "value": "foo"}, [["a", 1]]]]
         test["canonical"] = ["foo;a=1"]
     elif c in allowed_key_chars:
         key = "a%sa" % chr(c)
-        test["expected"] = [[{"__type": "token", "value": "foo"}, {key: 1}]]
+        test["expected"] = [[{"__type": "token", "value": "foo"}, [[key, 1]]]]
         test["canonical"] = ["foo;a%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
@@ -229,11 +229,11 @@ for c in ALL_CHARS:
     }
     if c in WHITESPACE:
         test["expected"] = [
-            [{"__type": "token", "value": "foo"}, {"a": 1}]
+            [{"__type": "token", "value": "foo"}, [["a", 1]]]
         ]  # whitespace is always stripped.
         test["canonical"] = ["foo;a=1"]
     elif c in allowed_key_start_chars:
-        test["expected"] = [[{"__type": "token", "value": "foo"}, {"%sa" % chr(c): 1}]]
+        test["expected"] = [[{"__type": "token", "value": "foo"}, [["%sa" % chr(c), 1]]]]
         test["canonical"] = ["foo;%sa=1" % chr(c)]
     else:
         test["must_fail"] = True
@@ -249,7 +249,7 @@ for c in ALL_CHARS:
         continue
     test = {
         "name": "0x%02x in dictionary key - serialise only" % c,
-        "expected": {"a%sa" % chr(c): [1, {}]},
+        "expected": [["a%sa" % chr(c), [1, []]]],
         "header_type": "dictionary",
         "must_fail": True,
     }
@@ -262,7 +262,7 @@ for c in ALL_CHARS:
     test = {
         "name": "0x%02x starting an dictionary key - serialise only" % c,
         "header_type": "dictionary",
-        "expected": {"%sa" % chr(c): [1, {}]},
+        "expected": [["%sa" % chr(c), [1, []]]],
         "must_fail": True,
     }
     tests.append(test)
@@ -274,7 +274,7 @@ for c in ALL_CHARS:
     test = {
         "name": "0x%02x in parameterised list key - serialise only" % c,
         "header_type": "list",
-        "expected": [[{"__type": "token", "value": "foo"}, {"a%sa" % chr(c): 1}]],
+        "expected": [[{"__type": "token", "value": "foo"}, [["a%sa" % chr(c), 1]]]],
         "must_fail": True,
     }
     tests.append(test)
@@ -286,7 +286,7 @@ for c in ALL_CHARS:
     test = {
         "name": "0x%02x starting a parameterised list key" % c,
         "header_type": "list",
-        "expected": [[{"__type": "token", "value": "foo"}, {"%sa" % chr(c): 1}]],
+        "expected": [[{"__type": "token", "value": "foo"}, [["%sa" % chr(c), 1]]]],
         "must_fail": True,
     }
     tests.append(test)
@@ -302,7 +302,7 @@ tests.append(
         "name": "large dictionary",
         "raw": [", ".join(["a%s=1" % i for i in range(dict_members)])],
         "header_type": "dictionary",
-        "expected": {"a%s" % i: [1, {}] for i in range(dict_members)},
+        "expected": [["a%s" % i, [1, []]] for i in range(dict_members)],
     }
 )
 
@@ -313,7 +313,7 @@ tests.append(
         "name": "large dictionary key",
         "raw": ["%s=1" % ("a" * key_length)],
         "header_type": "dictionary",
-        "expected": {("a" * key_length): [1, {}]},
+        "expected": [[("a" * key_length), [1, []]]],
     }
 )
 
@@ -325,7 +325,7 @@ tests.append(
         "raw": [", ".join(["a%s" % i for i in range(list_members)])],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "a%s" % i}, {}] for i in range(list_members)
+            [{"__type": "token", "value": "a%s" % i}, []] for i in range(list_members)
         ],
     }
 )
@@ -338,7 +338,7 @@ tests.append(
         "raw": [", ".join(["foo;a%s=1" % i for i in range(param_list_members)])],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "foo"}, {"a%s" % i: 1}]
+            [{"__type": "token", "value": "foo"}, [["a%s" % i, 1]]]
             for i in range(param_list_members)
         ],
     }
@@ -354,7 +354,7 @@ tests.append(
         "expected": [
             [
                 {"__type": "token", "value": "foo"},
-                {"a%s" % i: 1 for i in range(param_members)},
+                [["a%s" % i, 1] for i in range(param_members)],
             ]
         ],
     }
@@ -366,7 +366,7 @@ tests.append(
         "name": "large param key",
         "raw": ["foo;%s=1" % ("a" * key_length)],
         "header_type": "list",
-        "expected": [[{"__type": "token", "value": "foo"}, {("a" * key_length): 1}]],
+        "expected": [[{"__type": "token", "value": "foo"}, [[("a" * key_length), 1]]]],
     }
 )
 
@@ -377,7 +377,7 @@ tests.append(
         "name": "large string",
         "raw": ['"%s"' % ("=" * string_length)],
         "header_type": "item",
-        "expected": ["=" * string_length, {}],
+        "expected": ["=" * string_length, []],
     }
 )
 tests.append(
@@ -385,7 +385,7 @@ tests.append(
         "name": "large escaped string",
         "raw": ['"%s"' % ('\\"' * string_length)],
         "header_type": "item",
-        "expected": ['"' * string_length, {}],
+        "expected": ['"' * string_length, []],
     }
 )
 
@@ -396,7 +396,7 @@ tests.append(
         "name": "large token",
         "raw": ["%s" % ("a" * token_length)],
         "header_type": "item",
-        "expected": [{"__type": "token", "value": "a" * token_length}, {}],
+        "expected": [{"__type": "token", "value": "a" * token_length}, []],
     }
 )
 
@@ -414,7 +414,7 @@ for i in range(1, number_length + 1):
             "name": f"{i} digits of zero",
             "raw": ["0" * i],
             "header_type": "item",
-            "expected": [0, {}],
+            "expected": [0, []],
             "canonical": ["0"],
         }
     )
@@ -423,7 +423,7 @@ for i in range(1, number_length + 1):
             "name": f"{i} digit small integer",
             "raw": ["1" * i],
             "header_type": "item",
-            "expected": [int("1" * i), {}],
+            "expected": [int("1" * i), []],
         }
     )
     tests.append(
@@ -431,7 +431,7 @@ for i in range(1, number_length + 1):
             "name": f"{i} digit large integer",
             "raw": ["9" * i],
             "header_type": "item",
-            "expected": [int("9" * i), {}],
+            "expected": [int("9" * i), []],
         }
     )
 
@@ -446,7 +446,7 @@ for i in range(1, integer_length + 1):
                 "name": f"{k} digit 0, {j} fractional small decimal",
                 "raw": ["0" * i + "." + "1" * j],
                 "header_type": "item",
-                "expected": [float("0" * i + "." + "1" * j), {}],
+                "expected": [float("0" * i + "." + "1" * j), []],
                 "canonical": ["0." + "1" * j],
             }
         )
@@ -455,7 +455,7 @@ for i in range(1, integer_length + 1):
                 "name": f"{k} digit, {j} fractional 0 decimal",
                 "raw": ["1" * i + "." + "0" * j],
                 "header_type": "item",
-                "expected": [float("1" * i + "." + "0" * j), {}],
+                "expected": [float("1" * i + "." + "0" * j), []],
                 "canonical": ["1" * i + ".0"],
             }
         )
@@ -464,7 +464,7 @@ for i in range(1, integer_length + 1):
                 "name": f"{k} digit, {j} fractional small decimal",
                 "raw": ["1" * i + "." + "1" * j],
                 "header_type": "item",
-                "expected": [float("1" * i + "." + "1" * j), {}],
+                "expected": [float("1" * i + "." + "1" * j), []],
             }
         )
         tests.append(
@@ -472,7 +472,7 @@ for i in range(1, integer_length + 1):
                 "name": f"{k} digit, {j} fractional large decimal",
                 "raw": ["9" * i + "." + "9" * j],
                 "header_type": "item",
-                "expected": [float("9" * i + "." + "9" * j), {}],
+                "expected": [float("9" * i + "." + "9" * j), []],
             }
         )
 

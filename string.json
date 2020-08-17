@@ -3,25 +3,25 @@
         "name": "basic string",
         "raw": ["\"foo bar\""],
         "header_type": "item",
-        "expected": ["foo bar", {}]
+        "expected": ["foo bar", []]
     },
     {
         "name": "empty string",
         "raw": ["\"\""],
         "header_type": "item",
-        "expected": ["", {}]
+        "expected": ["", []]
     },
     {
         "name": "long string",
         "raw": ["\"foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo \""],
         "header_type": "item",
-        "expected": ["foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo ", {}]
+        "expected": ["foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo foo ", []]
     },
     {
         "name": "whitespace string",
         "raw": ["\"   \""],
         "header_type": "item",
-        "expected": ["   ", {}]
+        "expected": ["   ", []]
     },
     {
         "name": "non-ascii string",
@@ -57,7 +57,7 @@
         "name": "string quoting",
         "raw": ["\"foo \\\"bar\\\" \\\\ baz\""],
         "header_type": "item",
-        "expected": ["foo \"bar\" \\ baz", {}]
+        "expected": ["foo \"bar\" \\ baz", []]
     },
     {
         "name": "bad string quoting",

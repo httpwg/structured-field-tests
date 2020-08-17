@@ -3,68 +3,68 @@
         "name": "basic dictionary",
         "raw": ["en=\"Applepie\", da=:w4ZibGV0w6ZydGUK:"],
         "header_type": "dictionary",
-        "expected": {"en": ["Applepie", {}], "da": [
+        "expected": [["en", ["Applepie", []]], ["da", [
             {"__type": "binary", "value": "YODGE3DFOTB2M4TUMUFA===="},
-            {}]
-        }
+            []]
+        ]]
     },
     {
         "name": "empty dictionary",
         "raw": [""],
         "header_type": "dictionary",
-        "expected": {},
+        "expected": [],
         "canonical": []
     },
     {
         "name": "single item dictionary",
         "raw": ["a=1"],
         "header_type": "dictionary",
-        "expected": {"a": [1, {}]}
+        "expected": [["a", [1, []]]]
     },
     {
         "name": "list item dictionary",
         "raw": ["a=(1 2)"],
         "header_type": "dictionary",
-        "expected": {"a": [[[1, {}], [2, {}]], {}]}
+        "expected": [["a", [[[1, []], [2, []]], []]]]
     },
     {
         "name": "single list item dictionary",
         "raw": ["a=(1)"],
         "header_type": "dictionary",
-        "expected": {"a": [[[1, {}]], {}]}
+        "expected": [["a", [[[1, []]], []]]]
     },
     {
         "name": "empty list item dictionary",
         "raw": ["a=()"],
         "header_type": "dictionary",
-        "expected": {"a": [[], {}]}
+        "expected": [["a", [[], []]]]
     },
     {
         "name": "no whitespace dictionary",
         "raw": ["a=1,b=2"],
         "header_type": "dictionary",
-        "expected": {"a": [1, {}], "b": [2, {}]},
+        "expected": [["a", [1, []]], ["b", [2, []]]],
         "canonical": ["a=1, b=2"]
     },
     {
         "name": "extra whitespace dictionary",
         "raw": ["a=1 ,  b=2"],
         "header_type": "dictionary",
-        "expected": {"a": [1, {}], "b": [2, {}]},
+        "expected": [["a", [1, []]], ["b", [2, []]]],
         "canonical": ["a=1, b=2"]
     },
     {
         "name": "tab separated dictionary",
         "raw": ["a=1\t,\tb=2"],
         "header_type": "dictionary",
-        "expected": {"a": [1, {}], "b": [2, {}]},
+        "expected": [["a", [1, []]], ["b", [2, []]]],
         "canonical": ["a=1, b=2"]
     },
     {
         "name": "leading whitespace dictionary",
         "raw": ["     a=1 ,  b=2"],
         "header_type": "dictionary",
-        "expected": {"a": [1, {}], "b": [2, {}]},
+        "expected": [["a", [1, []]], ["b", [2, []]]],
         "canonical": ["a=1, b=2"]
     },
     {
@@ -83,44 +83,44 @@
         "name": "two lines dictionary",
         "raw": ["a=1", "b=2"],
         "header_type": "dictionary",
-        "expected": {"a": [1, {}], "b": [2, {}]},
+        "expected": [["a", [1, []]], ["b", [2, []]]],
         "canonical": ["a=1, b=2"]
     },
     {
         "name": "missing value dictionary",
         "raw": ["a=1, b, c=3"],
         "header_type": "dictionary",
-        "expected": {"a": [1,{}], "b": [true, {}], "c": [3, {}]}
+        "expected": [["a", [1, []]], ["b", [true, []]], ["c", [3, []]]]
     },
     {
         "name": "all missing value dictionary",
         "raw": ["a, b, c"],
         "header_type": "dictionary",
-        "expected": {"a": [true,{}], "b": [true, {}], "c": [true, {}]}
+        "expected": [["a", [true, []]], ["b", [true, []]], ["c", [true, []]]]
     },
     {
         "name": "start missing value dictionary",
         "raw": ["a, b=2"],
         "header_type": "dictionary",
-        "expected": {"a": [true,{}], "b": [2, {}]}
+        "expected": [["a", [true, []]], ["b", [2, []]]]
     },
     {
         "name": "end missing value dictionary",
         "raw": ["a=1, b"],
         "header_type": "dictionary",
-        "expected": {"a": [1,{}], "b": [true, {}]}
+        "expected": [["a", [1, []]], ["b", [true, []]]]
     },
     {
         "name": "missing value with params dictionary",
         "raw": ["a=1, b;foo=9, c=3"],
         "header_type": "dictionary",
-        "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]}
+        "expected": [["a", [1, []]], ["b", [true, [["foo", 9]]]], ["c", [3, []]]]
     },
     {
         "name": "explicit true value with params dictionary",
         "raw": ["a=1, b=?1;foo=9, c=3"],
         "header_type": "dictionary",
-        "expected": {"a": [1,{}], "b": [true, {"foo": 9}], "c": [3, {}]},
+        "expected": [["a", [1, []]], ["b", [true, [["foo", 9]]]], ["c", [3, []]]],
         "canonical": ["a=1, b;foo=9, c=3"]
     },
     {
@@ -139,7 +139,7 @@
         "name": "duplicate key dictionary",
         "raw": ["a=1,b=2,a=3"],
         "header_type": "dictionary",
-        "expected": {"a": [3, {}], "b": [2, {}]},
+        "expected": [["a", [3, []]], ["b", [2, []]]],
         "canonical": ["a=3, b=2"]
     },
     {

@@ -3,32 +3,32 @@
         "name": "basic list of lists",
         "raw": ["(1 2), (42 43)"],
         "header_type": "list",
-        "expected": [[[[1,{}], [2,{}]], {}], [[[42,{}], [43,{}]], {}]]
+        "expected": [[[[1, []], [2, []]], []], [[[42, []], [43, []]], []]]
     },
     {
         "name": "single item list of lists",
         "raw": ["(42)"],
         "header_type": "list",
-        "expected": [[[[42,{}]], {}]]
+        "expected": [[[[42, []]], []]]
     },
     {
         "name": "empty item list of lists",
         "raw": ["()"],
         "header_type": "list",
-        "expected": [[[], {}]]
+        "expected": [[[], []]]
     },
     {
         "name": "empty middle item list of lists",
         "raw": ["(1),(),(42)"],
         "header_type": "list",
-        "expected": [[[[1,{}]], {}], [[], {}], [[[42,{}]], {}]],
+        "expected": [[[[1, []]], []], [[], []], [[[42, []]], []]],
         "canonical": ["(1), (), (42)"]
     },
     {
         "name": "extra whitespace list of lists",
         "raw": ["(  1  42  )"],
         "header_type": "list",
-        "expected": [[[[1,{}], [42,{}]], {}]],
+        "expected": [[[[1, []], [42, []]], []]],
         "canonical": ["(1 42)"]
     },
     {

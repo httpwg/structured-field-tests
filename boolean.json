@@ -3,13 +3,13 @@
         "name": "basic true boolean",
         "raw": ["?1"],
         "header_type": "item",
-        "expected": [true, {}]
+        "expected": [true, []]
     },
     {
         "name": "basic false boolean",
         "raw": ["?0"],
         "header_type": "item",
-        "expected": [false, {}]
+        "expected": [false, []]
     },
     {
         "name": "unknown boolean",

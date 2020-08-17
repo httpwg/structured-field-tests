@@ -5,7 +5,7 @@
         "header_type": "item",
         "expected": [
             {"__type": "binary", "value": "NBSWY3DP"},
-            {}]
+            []]
     },
     {
         "name": "empty binary",
@@ -13,7 +13,7 @@
         "header_type": "item",
         "expected": [
             {"__type": "binary", "value": ""},
-            {}]
+            []]
     },
     {
         "name": "bad paddding",
@@ -21,7 +21,7 @@
         "header_type": "item",
         "expected": [
             {"__type": "binary", "value": "NBSWY3DP"},
-            {}],
+            []],
         "can_fail": true,
         "canonical": [":aGVsbG8=:"]
     },
@@ -55,7 +55,7 @@
         "header_type": "item",
         "expected": [
             {"__type": "binary", "value": "RE======"},
-            {}],
+            []],
         "can_fail": true,
         "canonical": [":iQ==:"]
     },
@@ -65,7 +65,7 @@
         "header_type": "item",
         "expected": [
             {"__type": "binary", "value": "77QCC==="},
-            {}]
+            []]
     },
     {
         "name": "base64url binary",

@@ -1,2081 +1,2648 @@
 [
     {
         "name": "0x00 in dictionary key - serialise only",
-        "expected": {
-            "a\u0000a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0000a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x01 in dictionary key - serialise only",
-        "expected": {
-            "a\u0001a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0001a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x02 in dictionary key - serialise only",
-        "expected": {
-            "a\u0002a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0002a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x03 in dictionary key - serialise only",
-        "expected": {
-            "a\u0003a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0003a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x04 in dictionary key - serialise only",
-        "expected": {
-            "a\u0004a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0004a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x05 in dictionary key - serialise only",
-        "expected": {
-            "a\u0005a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0005a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x06 in dictionary key - serialise only",
-        "expected": {
-            "a\u0006a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0006a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x07 in dictionary key - serialise only",
-        "expected": {
-            "a\u0007a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0007a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x08 in dictionary key - serialise only",
-        "expected": {
-            "a\ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x09 in dictionary key - serialise only",
-        "expected": {
-            "a\ta": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\ta",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x0a in dictionary key - serialise only",
-        "expected": {
-            "a\na": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\na",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x0b in dictionary key - serialise only",
-        "expected": {
-            "a\u000ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u000ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x0c in dictionary key - serialise only",
-        "expected": {
-            "a\fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x0d in dictionary key - serialise only",
-        "expected": {
-            "a\ra": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\ra",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x0e in dictionary key - serialise only",
-        "expected": {
-            "a\u000ea": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u000ea",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x0f in dictionary key - serialise only",
-        "expected": {
-            "a\u000fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u000fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x10 in dictionary key - serialise only",
-        "expected": {
-            "a\u0010a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0010a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x11 in dictionary key - serialise only",
-        "expected": {
-            "a\u0011a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0011a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x12 in dictionary key - serialise only",
-        "expected": {
-            "a\u0012a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0012a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x13 in dictionary key - serialise only",
-        "expected": {
-            "a\u0013a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0013a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x14 in dictionary key - serialise only",
-        "expected": {
-            "a\u0014a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0014a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x15 in dictionary key - serialise only",
-        "expected": {
-            "a\u0015a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0015a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x16 in dictionary key - serialise only",
-        "expected": {
-            "a\u0016a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0016a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x17 in dictionary key - serialise only",
-        "expected": {
-            "a\u0017a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0017a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x18 in dictionary key - serialise only",
-        "expected": {
-            "a\u0018a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0018a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x19 in dictionary key - serialise only",
-        "expected": {
-            "a\u0019a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u0019a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x1a in dictionary key - serialise only",
-        "expected": {
-            "a\u001aa": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u001aa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x1b in dictionary key - serialise only",
-        "expected": {
-            "a\u001ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u001ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x1c in dictionary key - serialise only",
-        "expected": {
-            "a\u001ca": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u001ca",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x1d in dictionary key - serialise only",
-        "expected": {
-            "a\u001da": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u001da",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x1e in dictionary key - serialise only",
-        "expected": {
-            "a\u001ea": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u001ea",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x1f in dictionary key - serialise only",
-        "expected": {
-            "a\u001fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u001fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x20 in dictionary key - serialise only",
-        "expected": {
-            "a a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x21 in dictionary key - serialise only",
-        "expected": {
-            "a!a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a!a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x22 in dictionary key - serialise only",
-        "expected": {
-            "a\"a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\"a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x23 in dictionary key - serialise only",
-        "expected": {
-            "a#a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a#a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x24 in dictionary key - serialise only",
-        "expected": {
-            "a$a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a$a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x25 in dictionary key - serialise only",
-        "expected": {
-            "a%a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a%a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x26 in dictionary key - serialise only",
-        "expected": {
-            "a&a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a&a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x27 in dictionary key - serialise only",
-        "expected": {
-            "a'a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a'a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x28 in dictionary key - serialise only",
-        "expected": {
-            "a(a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a(a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x29 in dictionary key - serialise only",
-        "expected": {
-            "a)a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a)a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x2b in dictionary key - serialise only",
-        "expected": {
-            "a+a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a+a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x2c in dictionary key - serialise only",
-        "expected": {
-            "a,a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a,a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x2f in dictionary key - serialise only",
-        "expected": {
-            "a/a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a/a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x3a in dictionary key - serialise only",
-        "expected": {
-            "a:a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a:a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x3b in dictionary key - serialise only",
-        "expected": {
-            "a;a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a;a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x3c in dictionary key - serialise only",
-        "expected": {
-            "a<a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a<a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x3d in dictionary key - serialise only",
-        "expected": {
-            "a=a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a=a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x3e in dictionary key - serialise only",
-        "expected": {
-            "a>a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a>a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x3f in dictionary key - serialise only",
-        "expected": {
-            "a?a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a?a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x40 in dictionary key - serialise only",
-        "expected": {
-            "a@a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a@a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x41 in dictionary key - serialise only",
-        "expected": {
-            "aAa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aAa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x42 in dictionary key - serialise only",
-        "expected": {
-            "aBa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aBa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x43 in dictionary key - serialise only",
-        "expected": {
-            "aCa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aCa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x44 in dictionary key - serialise only",
-        "expected": {
-            "aDa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aDa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x45 in dictionary key - serialise only",
-        "expected": {
-            "aEa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aEa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x46 in dictionary key - serialise only",
-        "expected": {
-            "aFa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aFa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x47 in dictionary key - serialise only",
-        "expected": {
-            "aGa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aGa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x48 in dictionary key - serialise only",
-        "expected": {
-            "aHa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aHa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x49 in dictionary key - serialise only",
-        "expected": {
-            "aIa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aIa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x4a in dictionary key - serialise only",
-        "expected": {
-            "aJa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aJa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x4b in dictionary key - serialise only",
-        "expected": {
-            "aKa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aKa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x4c in dictionary key - serialise only",
-        "expected": {
-            "aLa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aLa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x4d in dictionary key - serialise only",
-        "expected": {
-            "aMa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aMa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x4e in dictionary key - serialise only",
-        "expected": {
-            "aNa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aNa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x4f in dictionary key - serialise only",
-        "expected": {
-            "aOa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aOa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x50 in dictionary key - serialise only",
-        "expected": {
-            "aPa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aPa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x51 in dictionary key - serialise only",
-        "expected": {
-            "aQa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aQa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x52 in dictionary key - serialise only",
-        "expected": {
-            "aRa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aRa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x53 in dictionary key - serialise only",
-        "expected": {
-            "aSa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aSa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x54 in dictionary key - serialise only",
-        "expected": {
-            "aTa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aTa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x55 in dictionary key - serialise only",
-        "expected": {
-            "aUa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aUa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x56 in dictionary key - serialise only",
-        "expected": {
-            "aVa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aVa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x57 in dictionary key - serialise only",
-        "expected": {
-            "aWa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aWa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x58 in dictionary key - serialise only",
-        "expected": {
-            "aXa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aXa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x59 in dictionary key - serialise only",
-        "expected": {
-            "aYa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aYa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x5a in dictionary key - serialise only",
-        "expected": {
-            "aZa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aZa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x5b in dictionary key - serialise only",
-        "expected": {
-            "a[a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a[a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x5c in dictionary key - serialise only",
-        "expected": {
-            "a\\a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\\a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x5d in dictionary key - serialise only",
-        "expected": {
-            "a]a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a]a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x5e in dictionary key - serialise only",
-        "expected": {
-            "a^a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a^a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x60 in dictionary key - serialise only",
-        "expected": {
-            "a`a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a`a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x7b in dictionary key - serialise only",
-        "expected": {
-            "a{a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a{a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x7c in dictionary key - serialise only",
-        "expected": {
-            "a|a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a|a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x7d in dictionary key - serialise only",
-        "expected": {
-            "a}a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a}a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x7e in dictionary key - serialise only",
-        "expected": {
-            "a~a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a~a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x7f in dictionary key - serialise only",
-        "expected": {
-            "a\u007fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "a\u007fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "header_type": "dictionary",
         "must_fail": true
     },
     {
         "name": "0x00 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0000a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0000a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x01 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0001a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0001a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x02 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0002a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0002a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x03 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0003a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0003a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x04 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0004a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0004a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x05 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0005a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0005a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x06 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0006a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0006a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x07 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0007a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0007a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x08 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "\ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x09 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\ta": [
-                1,
-                {}
+        "expected": [
+            [
+                "\ta",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x0a starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\na": [
-                1,
-                {}
+        "expected": [
+            [
+                "\na",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x0b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u000ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u000ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x0c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "\fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x0d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\ra": [
-                1,
-                {}
+        "expected": [
+            [
+                "\ra",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x0e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u000ea": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u000ea",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x0f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u000fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u000fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x10 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0010a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0010a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x11 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0011a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0011a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x12 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0012a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0012a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x13 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0013a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0013a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x14 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0014a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0014a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x15 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0015a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0015a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x16 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0016a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0016a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x17 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0017a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0017a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x18 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0018a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0018a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x19 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u0019a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u0019a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x1a starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u001aa": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u001aa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x1b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u001ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u001ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x1c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u001ca": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u001ca",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x1d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u001da": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u001da",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x1e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u001ea": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u001ea",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x1f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u001fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u001fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x20 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            " a": [
-                1,
-                {}
+        "expected": [
+            [
+                " a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x21 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "!a": [
-                1,
-                {}
+        "expected": [
+            [
+                "!a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x22 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\"a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\"a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x23 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "#a": [
-                1,
-                {}
+        "expected": [
+            [
+                "#a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x24 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "$a": [
-                1,
-                {}
+        "expected": [
+            [
+                "$a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x25 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "%a": [
-                1,
-                {}
+        "expected": [
+            [
+                "%a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x26 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "&a": [
-                1,
-                {}
+        "expected": [
+            [
+                "&a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x27 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "'a": [
-                1,
-                {}
+        "expected": [
+            [
+                "'a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x28 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "(a": [
-                1,
-                {}
+        "expected": [
+            [
+                "(a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x29 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            ")a": [
-                1,
-                {}
+        "expected": [
+            [
+                ")a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x2b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "+a": [
-                1,
-                {}
+        "expected": [
+            [
+                "+a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x2c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            ",a": [
-                1,
-                {}
+        "expected": [
+            [
+                ",a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x2d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "-a": [
-                1,
-                {}
+        "expected": [
+            [
+                "-a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x2e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            ".a": [
-                1,
-                {}
+        "expected": [
+            [
+                ".a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x2f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "/a": [
-                1,
-                {}
+        "expected": [
+            [
+                "/a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x30 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "0a": [
-                1,
-                {}
+        "expected": [
+            [
+                "0a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x31 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "1a": [
-                1,
-                {}
+        "expected": [
+            [
+                "1a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x32 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "2a": [
-                1,
-                {}
+        "expected": [
+            [
+                "2a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x33 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "3a": [
-                1,
-                {}
+        "expected": [
+            [
+                "3a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x34 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "4a": [
-                1,
-                {}
+        "expected": [
+            [
+                "4a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x35 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "5a": [
-                1,
-                {}
+        "expected": [
+            [
+                "5a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x36 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "6a": [
-                1,
-                {}
+        "expected": [
+            [
+                "6a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x37 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "7a": [
-                1,
-                {}
+        "expected": [
+            [
+                "7a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x38 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "8a": [
-                1,
-                {}
+        "expected": [
+            [
+                "8a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x39 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "9a": [
-                1,
-                {}
+        "expected": [
+            [
+                "9a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x3a starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            ":a": [
-                1,
-                {}
+        "expected": [
+            [
+                ":a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x3b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            ";a": [
-                1,
-                {}
+        "expected": [
+            [
+                ";a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x3c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "<a": [
-                1,
-                {}
+        "expected": [
+            [
+                "<a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x3d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "=a": [
-                1,
-                {}
+        "expected": [
+            [
+                "=a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x3e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            ">a": [
-                1,
-                {}
+        "expected": [
+            [
+                ">a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x3f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "?a": [
-                1,
-                {}
+        "expected": [
+            [
+                "?a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x40 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "@a": [
-                1,
-                {}
+        "expected": [
+            [
+                "@a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x41 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Aa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Aa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x42 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x43 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ca": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ca",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x44 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Da": [
-                1,
-                {}
+        "expected": [
+            [
+                "Da",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x45 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ea": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ea",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x46 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x47 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ga": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ga",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x48 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ha": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ha",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x49 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ia": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ia",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x4a starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ja": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ja",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x4b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ka": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ka",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x4c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "La": [
-                1,
-                {}
+        "expected": [
+            [
+                "La",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x4d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ma": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ma",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x4e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Na": [
-                1,
-                {}
+        "expected": [
+            [
+                "Na",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x4f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Oa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Oa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x50 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Pa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Pa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x51 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Qa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Qa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x52 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ra": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ra",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x53 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Sa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Sa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x54 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ta": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ta",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x55 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ua": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ua",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x56 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Va": [
-                1,
-                {}
+        "expected": [
+            [
+                "Va",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x57 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Wa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Wa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x58 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Xa": [
-                1,
-                {}
+        "expected": [
+            [
+                "Xa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x59 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Ya": [
-                1,
-                {}
+        "expected": [
+            [
+                "Ya",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x5a starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "Za": [
-                1,
-                {}
+        "expected": [
+            [
+                "Za",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x5b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "[a": [
-                1,
-                {}
+        "expected": [
+            [
+                "[a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x5c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\\a": [
-                1,
-                {}
+        "expected": [
+            [
+                "\\a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x5d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "]a": [
-                1,
-                {}
+        "expected": [
+            [
+                "]a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x5e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "^a": [
-                1,
-                {}
+        "expected": [
+            [
+                "^a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x5f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "_a": [
-                1,
-                {}
+        "expected": [
+            [
+                "_a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x60 starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "`a": [
-                1,
-                {}
+        "expected": [
+            [
+                "`a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x7b starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "{a": [
-                1,
-                {}
+        "expected": [
+            [
+                "{a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x7c starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "|a": [
-                1,
-                {}
+        "expected": [
+            [
+                "|a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x7d starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "}a": [
-                1,
-                {}
+        "expected": [
+            [
+                "}a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x7e starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "~a": [
-                1,
-                {}
+        "expected": [
+            [
+                "~a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
         "name": "0x7f starting an dictionary key - serialise only",
         "header_type": "dictionary",
-        "expected": {
-            "\u007fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "\u007fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "must_fail": true
     },
     {
@@ -2087,9 +2654,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0000a": 1
-                }
+                [
+                    [
+                        "a\u0000a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2103,9 +2673,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0001a": 1
-                }
+                [
+                    [
+                        "a\u0001a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2119,9 +2692,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0002a": 1
-                }
+                [
+                    [
+                        "a\u0002a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2135,9 +2711,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0003a": 1
-                }
+                [
+                    [
+                        "a\u0003a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2151,9 +2730,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0004a": 1
-                }
+                [
+                    [
+                        "a\u0004a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2167,9 +2749,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0005a": 1
-                }
+                [
+                    [
+                        "a\u0005a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2183,9 +2768,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0006a": 1
-                }
+                [
+                    [
+                        "a\u0006a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2199,9 +2787,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0007a": 1
-                }
+                [
+                    [
+                        "a\u0007a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2215,9 +2806,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\ba": 1
-                }
+                [
+                    [
+                        "a\ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2231,9 +2825,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\ta": 1
-                }
+                [
+                    [
+                        "a\ta",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2247,9 +2844,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\na": 1
-                }
+                [
+                    [
+                        "a\na",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2263,9 +2863,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u000ba": 1
-                }
+                [
+                    [
+                        "a\u000ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2279,9 +2882,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\fa": 1
-                }
+                [
+                    [
+                        "a\fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2295,9 +2901,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\ra": 1
-                }
+                [
+                    [
+                        "a\ra",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2311,9 +2920,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u000ea": 1
-                }
+                [
+                    [
+                        "a\u000ea",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2327,9 +2939,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u000fa": 1
-                }
+                [
+                    [
+                        "a\u000fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2343,9 +2958,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0010a": 1
-                }
+                [
+                    [
+                        "a\u0010a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2359,9 +2977,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0011a": 1
-                }
+                [
+                    [
+                        "a\u0011a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2375,9 +2996,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0012a": 1
-                }
+                [
+                    [
+                        "a\u0012a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2391,9 +3015,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0013a": 1
-                }
+                [
+                    [
+                        "a\u0013a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2407,9 +3034,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0014a": 1
-                }
+                [
+                    [
+                        "a\u0014a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2423,9 +3053,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0015a": 1
-                }
+                [
+                    [
+                        "a\u0015a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2439,9 +3072,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0016a": 1
-                }
+                [
+                    [
+                        "a\u0016a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2455,9 +3091,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0017a": 1
-                }
+                [
+                    [
+                        "a\u0017a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2471,9 +3110,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0018a": 1
-                }
+                [
+                    [
+                        "a\u0018a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2487,9 +3129,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u0019a": 1
-                }
+                [
+                    [
+                        "a\u0019a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2503,9 +3148,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u001aa": 1
-                }
+                [
+                    [
+                        "a\u001aa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2519,9 +3167,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u001ba": 1
-                }
+                [
+                    [
+                        "a\u001ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2535,9 +3186,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u001ca": 1
-                }
+                [
+                    [
+                        "a\u001ca",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2551,9 +3205,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u001da": 1
-                }
+                [
+                    [
+                        "a\u001da",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2567,9 +3224,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u001ea": 1
-                }
+                [
+                    [
+                        "a\u001ea",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2583,9 +3243,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u001fa": 1
-                }
+                [
+                    [
+                        "a\u001fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2599,9 +3262,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a a": 1
-                }
+                [
+                    [
+                        "a a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2615,9 +3281,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a!a": 1
-                }
+                [
+                    [
+                        "a!a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2631,9 +3300,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\"a": 1
-                }
+                [
+                    [
+                        "a\"a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2647,9 +3319,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a#a": 1
-                }
+                [
+                    [
+                        "a#a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2663,9 +3338,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a$a": 1
-                }
+                [
+                    [
+                        "a$a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2679,9 +3357,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a%a": 1
-                }
+                [
+                    [
+                        "a%a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2695,9 +3376,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a&a": 1
-                }
+                [
+                    [
+                        "a&a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2711,9 +3395,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a'a": 1
-                }
+                [
+                    [
+                        "a'a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2727,9 +3414,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a(a": 1
-                }
+                [
+                    [
+                        "a(a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2743,9 +3433,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a)a": 1
-                }
+                [
+                    [
+                        "a)a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2759,9 +3452,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a+a": 1
-                }
+                [
+                    [
+                        "a+a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2775,9 +3471,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a,a": 1
-                }
+                [
+                    [
+                        "a,a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2791,9 +3490,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a/a": 1
-                }
+                [
+                    [
+                        "a/a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2807,9 +3509,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a:a": 1
-                }
+                [
+                    [
+                        "a:a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2823,9 +3528,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a;a": 1
-                }
+                [
+                    [
+                        "a;a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2839,9 +3547,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a<a": 1
-                }
+                [
+                    [
+                        "a<a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2855,9 +3566,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a=a": 1
-                }
+                [
+                    [
+                        "a=a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2871,9 +3585,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a>a": 1
-                }
+                [
+                    [
+                        "a>a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2887,9 +3604,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a?a": 1
-                }
+                [
+                    [
+                        "a?a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2903,9 +3623,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a@a": 1
-                }
+                [
+                    [
+                        "a@a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2919,9 +3642,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aAa": 1
-                }
+                [
+                    [
+                        "aAa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2935,9 +3661,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aBa": 1
-                }
+                [
+                    [
+                        "aBa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2951,9 +3680,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aCa": 1
-                }
+                [
+                    [
+                        "aCa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2967,9 +3699,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aDa": 1
-                }
+                [
+                    [
+                        "aDa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2983,9 +3718,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aEa": 1
-                }
+                [
+                    [
+                        "aEa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -2999,9 +3737,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aFa": 1
-                }
+                [
+                    [
+                        "aFa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3015,9 +3756,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aGa": 1
-                }
+                [
+                    [
+                        "aGa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3031,9 +3775,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aHa": 1
-                }
+                [
+                    [
+                        "aHa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3047,9 +3794,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aIa": 1
-                }
+                [
+                    [
+                        "aIa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3063,9 +3813,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aJa": 1
-                }
+                [
+                    [
+                        "aJa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3079,9 +3832,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aKa": 1
-                }
+                [
+                    [
+                        "aKa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3095,9 +3851,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aLa": 1
-                }
+                [
+                    [
+                        "aLa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3111,9 +3870,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aMa": 1
-                }
+                [
+                    [
+                        "aMa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3127,9 +3889,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aNa": 1
-                }
+                [
+                    [
+                        "aNa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3143,9 +3908,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aOa": 1
-                }
+                [
+                    [
+                        "aOa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3159,9 +3927,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aPa": 1
-                }
+                [
+                    [
+                        "aPa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3175,9 +3946,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aQa": 1
-                }
+                [
+                    [
+                        "aQa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3191,9 +3965,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aRa": 1
-                }
+                [
+                    [
+                        "aRa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3207,9 +3984,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aSa": 1
-                }
+                [
+                    [
+                        "aSa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3223,9 +4003,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aTa": 1
-                }
+                [
+                    [
+                        "aTa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3239,9 +4022,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aUa": 1
-                }
+                [
+                    [
+                        "aUa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3255,9 +4041,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aVa": 1
-                }
+                [
+                    [
+                        "aVa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3271,9 +4060,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aWa": 1
-                }
+                [
+                    [
+                        "aWa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3287,9 +4079,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aXa": 1
-                }
+                [
+                    [
+                        "aXa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3303,9 +4098,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aYa": 1
-                }
+                [
+                    [
+                        "aYa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3319,9 +4117,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aZa": 1
-                }
+                [
+                    [
+                        "aZa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3335,9 +4136,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a[a": 1
-                }
+                [
+                    [
+                        "a[a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3351,9 +4155,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\\a": 1
-                }
+                [
+                    [
+                        "a\\a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3367,9 +4174,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a]a": 1
-                }
+                [
+                    [
+                        "a]a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3383,9 +4193,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a^a": 1
-                }
+                [
+                    [
+                        "a^a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3399,9 +4212,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a`a": 1
-                }
+                [
+                    [
+                        "a`a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3415,9 +4231,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a{a": 1
-                }
+                [
+                    [
+                        "a{a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3431,9 +4250,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a|a": 1
-                }
+                [
+                    [
+                        "a|a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3447,9 +4269,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a}a": 1
-                }
+                [
+                    [
+                        "a}a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3463,9 +4288,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a~a": 1
-                }
+                [
+                    [
+                        "a~a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3479,9 +4307,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a\u007fa": 1
-                }
+                [
+                    [
+                        "a\u007fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3495,9 +4326,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0000a": 1
-                }
+                [
+                    [
+                        "\u0000a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3511,9 +4345,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0001a": 1
-                }
+                [
+                    [
+                        "\u0001a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3527,9 +4364,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0002a": 1
-                }
+                [
+                    [
+                        "\u0002a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3543,9 +4383,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0003a": 1
-                }
+                [
+                    [
+                        "\u0003a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3559,9 +4402,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0004a": 1
-                }
+                [
+                    [
+                        "\u0004a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3575,9 +4421,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0005a": 1
-                }
+                [
+                    [
+                        "\u0005a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3591,9 +4440,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0006a": 1
-                }
+                [
+                    [
+                        "\u0006a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3607,9 +4459,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0007a": 1
-                }
+                [
+                    [
+                        "\u0007a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3623,9 +4478,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\ba": 1
-                }
+                [
+                    [
+                        "\ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3639,9 +4497,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\ta": 1
-                }
+                [
+                    [
+                        "\ta",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3655,9 +4516,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\na": 1
-                }
+                [
+                    [
+                        "\na",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3671,9 +4535,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u000ba": 1
-                }
+                [
+                    [
+                        "\u000ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3687,9 +4554,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\fa": 1
-                }
+                [
+                    [
+                        "\fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3703,9 +4573,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\ra": 1
-                }
+                [
+                    [
+                        "\ra",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3719,9 +4592,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u000ea": 1
-                }
+                [
+                    [
+                        "\u000ea",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3735,9 +4611,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u000fa": 1
-                }
+                [
+                    [
+                        "\u000fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3751,9 +4630,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0010a": 1
-                }
+                [
+                    [
+                        "\u0010a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3767,9 +4649,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0011a": 1
-                }
+                [
+                    [
+                        "\u0011a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3783,9 +4668,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0012a": 1
-                }
+                [
+                    [
+                        "\u0012a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3799,9 +4687,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0013a": 1
-                }
+                [
+                    [
+                        "\u0013a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3815,9 +4706,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0014a": 1
-                }
+                [
+                    [
+                        "\u0014a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3831,9 +4725,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0015a": 1
-                }
+                [
+                    [
+                        "\u0015a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3847,9 +4744,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0016a": 1
-                }
+                [
+                    [
+                        "\u0016a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3863,9 +4763,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0017a": 1
-                }
+                [
+                    [
+                        "\u0017a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3879,9 +4782,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0018a": 1
-                }
+                [
+                    [
+                        "\u0018a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3895,9 +4801,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u0019a": 1
-                }
+                [
+                    [
+                        "\u0019a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3911,9 +4820,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u001aa": 1
-                }
+                [
+                    [
+                        "\u001aa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3927,9 +4839,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u001ba": 1
-                }
+                [
+                    [
+                        "\u001ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3943,9 +4858,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u001ca": 1
-                }
+                [
+                    [
+                        "\u001ca",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3959,9 +4877,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u001da": 1
-                }
+                [
+                    [
+                        "\u001da",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3975,9 +4896,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u001ea": 1
-                }
+                [
+                    [
+                        "\u001ea",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -3991,9 +4915,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u001fa": 1
-                }
+                [
+                    [
+                        "\u001fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4007,9 +4934,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    " a": 1
-                }
+                [
+                    [
+                        " a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4023,9 +4953,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "!a": 1
-                }
+                [
+                    [
+                        "!a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4039,9 +4972,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\"a": 1
-                }
+                [
+                    [
+                        "\"a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4055,9 +4991,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "#a": 1
-                }
+                [
+                    [
+                        "#a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4071,9 +5010,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "$a": 1
-                }
+                [
+                    [
+                        "$a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4087,9 +5029,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "%a": 1
-                }
+                [
+                    [
+                        "%a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4103,9 +5048,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "&a": 1
-                }
+                [
+                    [
+                        "&a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4119,9 +5067,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "'a": 1
-                }
+                [
+                    [
+                        "'a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4135,9 +5086,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "(a": 1
-                }
+                [
+                    [
+                        "(a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4151,9 +5105,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    ")a": 1
-                }
+                [
+                    [
+                        ")a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4167,9 +5124,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "+a": 1
-                }
+                [
+                    [
+                        "+a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4183,9 +5143,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    ",a": 1
-                }
+                [
+                    [
+                        ",a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4199,9 +5162,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "-a": 1
-                }
+                [
+                    [
+                        "-a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4215,9 +5181,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    ".a": 1
-                }
+                [
+                    [
+                        ".a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4231,9 +5200,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "/a": 1
-                }
+                [
+                    [
+                        "/a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4247,9 +5219,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "0a": 1
-                }
+                [
+                    [
+                        "0a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4263,9 +5238,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "1a": 1
-                }
+                [
+                    [
+                        "1a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4279,9 +5257,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "2a": 1
-                }
+                [
+                    [
+                        "2a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4295,9 +5276,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "3a": 1
-                }
+                [
+                    [
+                        "3a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4311,9 +5295,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "4a": 1
-                }
+                [
+                    [
+                        "4a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4327,9 +5314,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "5a": 1
-                }
+                [
+                    [
+                        "5a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4343,9 +5333,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "6a": 1
-                }
+                [
+                    [
+                        "6a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4359,9 +5352,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "7a": 1
-                }
+                [
+                    [
+                        "7a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4375,9 +5371,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "8a": 1
-                }
+                [
+                    [
+                        "8a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4391,9 +5390,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "9a": 1
-                }
+                [
+                    [
+                        "9a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4407,9 +5409,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    ":a": 1
-                }
+                [
+                    [
+                        ":a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4423,9 +5428,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    ";a": 1
-                }
+                [
+                    [
+                        ";a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4439,9 +5447,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "<a": 1
-                }
+                [
+                    [
+                        "<a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4455,9 +5466,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "=a": 1
-                }
+                [
+                    [
+                        "=a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4471,9 +5485,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    ">a": 1
-                }
+                [
+                    [
+                        ">a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4487,9 +5504,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "?a": 1
-                }
+                [
+                    [
+                        "?a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4503,9 +5523,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "@a": 1
-                }
+                [
+                    [
+                        "@a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4519,9 +5542,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Aa": 1
-                }
+                [
+                    [
+                        "Aa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4535,9 +5561,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ba": 1
-                }
+                [
+                    [
+                        "Ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4551,9 +5580,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ca": 1
-                }
+                [
+                    [
+                        "Ca",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4567,9 +5599,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Da": 1
-                }
+                [
+                    [
+                        "Da",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4583,9 +5618,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ea": 1
-                }
+                [
+                    [
+                        "Ea",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4599,9 +5637,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Fa": 1
-                }
+                [
+                    [
+                        "Fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4615,9 +5656,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ga": 1
-                }
+                [
+                    [
+                        "Ga",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4631,9 +5675,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ha": 1
-                }
+                [
+                    [
+                        "Ha",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4647,9 +5694,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ia": 1
-                }
+                [
+                    [
+                        "Ia",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4663,9 +5713,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ja": 1
-                }
+                [
+                    [
+                        "Ja",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4679,9 +5732,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ka": 1
-                }
+                [
+                    [
+                        "Ka",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4695,9 +5751,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "La": 1
-                }
+                [
+                    [
+                        "La",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4711,9 +5770,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ma": 1
-                }
+                [
+                    [
+                        "Ma",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4727,9 +5789,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Na": 1
-                }
+                [
+                    [
+                        "Na",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4743,9 +5808,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Oa": 1
-                }
+                [
+                    [
+                        "Oa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4759,9 +5827,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Pa": 1
-                }
+                [
+                    [
+                        "Pa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4775,9 +5846,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Qa": 1
-                }
+                [
+                    [
+                        "Qa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4791,9 +5865,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ra": 1
-                }
+                [
+                    [
+                        "Ra",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4807,9 +5884,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Sa": 1
-                }
+                [
+                    [
+                        "Sa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4823,9 +5903,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ta": 1
-                }
+                [
+                    [
+                        "Ta",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4839,9 +5922,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ua": 1
-                }
+                [
+                    [
+                        "Ua",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4855,9 +5941,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Va": 1
-                }
+                [
+                    [
+                        "Va",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4871,9 +5960,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Wa": 1
-                }
+                [
+                    [
+                        "Wa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4887,9 +5979,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Xa": 1
-                }
+                [
+                    [
+                        "Xa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4903,9 +5998,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Ya": 1
-                }
+                [
+                    [
+                        "Ya",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4919,9 +6017,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "Za": 1
-                }
+                [
+                    [
+                        "Za",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4935,9 +6036,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "[a": 1
-                }
+                [
+                    [
+                        "[a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4951,9 +6055,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\\a": 1
-                }
+                [
+                    [
+                        "\\a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4967,9 +6074,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "]a": 1
-                }
+                [
+                    [
+                        "]a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4983,9 +6093,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "^a": 1
-                }
+                [
+                    [
+                        "^a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -4999,9 +6112,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "_a": 1
-                }
+                [
+                    [
+                        "_a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -5015,9 +6131,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "`a": 1
-                }
+                [
+                    [
+                        "`a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -5031,9 +6150,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "{a": 1
-                }
+                [
+                    [
+                        "{a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -5047,9 +6169,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "|a": 1
-                }
+                [
+                    [
+                        "|a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -5063,9 +6188,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "}a": 1
-                }
+                [
+                    [
+                        "}a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -5079,9 +6207,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "~a": 1
-                }
+                [
+                    [
+                        "~a",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true
@@ -5095,9 +6226,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "\u007fa": 1
-                }
+                [
+                    [
+                        "\u007fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "must_fail": true

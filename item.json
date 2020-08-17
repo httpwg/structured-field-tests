@@ -21,14 +21,14 @@
         "name": "leading and trailing space",
         "raw": ["  1  "],
         "header_type": "item",
-        "expected": [1, {}],
+        "expected": [1, []],
         "canonical": ["1"]
     },
     {
         "name": "leading and trailing whitespace",
         "raw": ["     1  "],
         "header_type": "item",
-        "expected": [1, {}],
+        "expected": [1, []],
         "canonical": ["1"]
     }
 ]
