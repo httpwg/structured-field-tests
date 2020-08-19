@@ -4,8 +4,8 @@
         "raw": ["abc_123;a=1;b=2; cdef_456, ghi;q=9;r=\"+w\""],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "abc_123"}, {"a": 1, "b": 2, "cdef_456": true}],
-            [{"__type": "token", "value": "ghi"}, {"q": 9, "r": "+w"}]
+            [{"__type": "token", "value": "abc_123"}, [["a", 1], ["b", 2], ["cdef_456", true]]],
+            [{"__type": "token", "value": "ghi"}, [["q", 9], ["r", "+w"]]]
         ],
         "canonical": ["abc_123;a=1;b=2;cdef_456, ghi;q=9;r=\"+w\""]
     },
@@ -14,7 +14,7 @@
         "raw": ["text/html;q=1.0"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {"q": 1.0}]
+            [{"__type": "token", "value": "text/html"}, [["q", 1.0]]]
         ]
     },
     {
@@ -22,7 +22,7 @@
         "raw": ["text/html;a;q=1.0"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {"a": true, "q": 1.0}]
+            [{"__type": "token", "value": "text/html"}, [["a", true], ["q", 1.0]]]
         ]
     },
     {
@@ -30,7 +30,7 @@
         "raw": ["text/html;q=1.0;a"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {"q": 1.0, "a": true}]
+            [{"__type": "token", "value": "text/html"}, [["q", 1.0], ["a", true]]]
         ]
     },
     {
@@ -38,8 +38,8 @@
         "raw": ["text/html,text/plain;q=0.5"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {}],
-            [{"__type": "token", "value": "text/plain"}, {"q": 0.5}]
+            [{"__type": "token", "value": "text/html"}, []],
+            [{"__type": "token", "value": "text/plain"}, [["q", 0.5]]]
         ],
         "canonical": ["text/html, text/plain;q=0.5"]
     },
@@ -66,8 +66,8 @@
         "raw": ["text/html, text/plain; q=0.5"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {}],
-            [{"__type": "token", "value": "text/plain"}, {"q": 0.5}]
+            [{"__type": "token", "value": "text/html"}, []],
+            [{"__type": "token", "value": "text/plain"}, [["q", 0.5]]]
         ],
         "canonical": ["text/html, text/plain;q=0.5"]
     },
@@ -76,10 +76,10 @@
         "raw": ["text/html  ,  text/plain;  q=0.5;  charset=utf-8"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {}],
+            [{"__type": "token", "value": "text/html"}, []],
             [{"__type": "token", "value": "text/plain"},
-               {"q": 0.5, "charset": {"__type": "token", "value": "utf-8"}
-            }]
+               [["q", 0.5], ["charset", {"__type": "token", "value": "utf-8"}
+            ]]]
         ],
         "canonical": ["text/html, text/plain;q=0.5;charset=utf-8"]
     },
@@ -88,8 +88,8 @@
         "raw": ["text/html", "text/plain;q=0.5"],
         "header_type": "list",
         "expected": [
-            [{"__type": "token", "value": "text/html"}, {}],
-            [{"__type": "token", "value": "text/plain"}, {"q": 0.5}]
+            [{"__type": "token", "value": "text/html"}, []],
+            [{"__type": "token", "value": "text/plain"}, [["q", 0.5]]]
         ],
         "canonical": ["text/html, text/plain;q=0.5"]
     },

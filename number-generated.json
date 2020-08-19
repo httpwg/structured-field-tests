@@ -7,7 +7,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -21,7 +21,7 @@
         "header_type": "item",
         "expected": [
             1,
-            {}
+            []
         ]
     },
     {
@@ -32,7 +32,7 @@
         "header_type": "item",
         "expected": [
             9,
-            {}
+            []
         ]
     },
     {
@@ -43,7 +43,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -57,7 +57,7 @@
         "header_type": "item",
         "expected": [
             11,
-            {}
+            []
         ]
     },
     {
@@ -68,7 +68,7 @@
         "header_type": "item",
         "expected": [
             99,
-            {}
+            []
         ]
     },
     {
@@ -79,7 +79,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -93,7 +93,7 @@
         "header_type": "item",
         "expected": [
             111,
-            {}
+            []
         ]
     },
     {
@@ -104,7 +104,7 @@
         "header_type": "item",
         "expected": [
             999,
-            {}
+            []
         ]
     },
     {
@@ -115,7 +115,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -129,7 +129,7 @@
         "header_type": "item",
         "expected": [
             1111,
-            {}
+            []
         ]
     },
     {
@@ -140,7 +140,7 @@
         "header_type": "item",
         "expected": [
             9999,
-            {}
+            []
         ]
     },
     {
@@ -151,7 +151,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -165,7 +165,7 @@
         "header_type": "item",
         "expected": [
             11111,
-            {}
+            []
         ]
     },
     {
@@ -176,7 +176,7 @@
         "header_type": "item",
         "expected": [
             99999,
-            {}
+            []
         ]
     },
     {
@@ -187,7 +187,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -201,7 +201,7 @@
         "header_type": "item",
         "expected": [
             111111,
-            {}
+            []
         ]
     },
     {
@@ -212,7 +212,7 @@
         "header_type": "item",
         "expected": [
             999999,
-            {}
+            []
         ]
     },
     {
@@ -223,7 +223,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -237,7 +237,7 @@
         "header_type": "item",
         "expected": [
             1111111,
-            {}
+            []
         ]
     },
     {
@@ -248,7 +248,7 @@
         "header_type": "item",
         "expected": [
             9999999,
-            {}
+            []
         ]
     },
     {
@@ -259,7 +259,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -273,7 +273,7 @@
         "header_type": "item",
         "expected": [
             11111111,
-            {}
+            []
         ]
     },
     {
@@ -284,7 +284,7 @@
         "header_type": "item",
         "expected": [
             99999999,
-            {}
+            []
         ]
     },
     {
@@ -295,7 +295,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -309,7 +309,7 @@
         "header_type": "item",
         "expected": [
             111111111,
-            {}
+            []
         ]
     },
     {
@@ -320,7 +320,7 @@
         "header_type": "item",
         "expected": [
             999999999,
-            {}
+            []
         ]
     },
     {
@@ -331,7 +331,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -345,7 +345,7 @@
         "header_type": "item",
         "expected": [
             1111111111,
-            {}
+            []
         ]
     },
     {
@@ -356,7 +356,7 @@
         "header_type": "item",
         "expected": [
             9999999999,
-            {}
+            []
         ]
     },
     {
@@ -367,7 +367,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -381,7 +381,7 @@
         "header_type": "item",
         "expected": [
             11111111111,
-            {}
+            []
         ]
     },
     {
@@ -392,7 +392,7 @@
         "header_type": "item",
         "expected": [
             99999999999,
-            {}
+            []
         ]
     },
     {
@@ -403,7 +403,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -417,7 +417,7 @@
         "header_type": "item",
         "expected": [
             111111111111,
-            {}
+            []
         ]
     },
     {
@@ -428,7 +428,7 @@
         "header_type": "item",
         "expected": [
             999999999999,
-            {}
+            []
         ]
     },
     {
@@ -439,7 +439,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -453,7 +453,7 @@
         "header_type": "item",
         "expected": [
             1111111111111,
-            {}
+            []
         ]
     },
     {
@@ -464,7 +464,7 @@
         "header_type": "item",
         "expected": [
             9999999999999,
-            {}
+            []
         ]
     },
     {
@@ -475,7 +475,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -489,7 +489,7 @@
         "header_type": "item",
         "expected": [
             11111111111111,
-            {}
+            []
         ]
     },
     {
@@ -500,7 +500,7 @@
         "header_type": "item",
         "expected": [
             99999999999999,
-            {}
+            []
         ]
     },
     {
@@ -511,7 +511,7 @@
         "header_type": "item",
         "expected": [
             0,
-            {}
+            []
         ],
         "canonical": [
             "0"
@@ -525,7 +525,7 @@
         "header_type": "item",
         "expected": [
             111111111111111,
-            {}
+            []
         ]
     },
     {
@@ -536,7 +536,7 @@
         "header_type": "item",
         "expected": [
             999999999999999,
-            {}
+            []
         ]
     },
     {
@@ -547,7 +547,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -561,7 +561,7 @@
         "header_type": "item",
         "expected": [
             1.0,
-            {}
+            []
         ],
         "canonical": [
             "1.0"
@@ -575,7 +575,7 @@
         "header_type": "item",
         "expected": [
             1.1,
-            {}
+            []
         ]
     },
     {
@@ -586,7 +586,7 @@
         "header_type": "item",
         "expected": [
             9.9,
-            {}
+            []
         ]
     },
     {
@@ -597,7 +597,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -611,7 +611,7 @@
         "header_type": "item",
         "expected": [
             1.0,
-            {}
+            []
         ],
         "canonical": [
             "1.0"
@@ -625,7 +625,7 @@
         "header_type": "item",
         "expected": [
             1.11,
-            {}
+            []
         ]
     },
     {
@@ -636,7 +636,7 @@
         "header_type": "item",
         "expected": [
             9.99,
-            {}
+            []
         ]
     },
     {
@@ -647,7 +647,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -661,7 +661,7 @@
         "header_type": "item",
         "expected": [
             1.0,
-            {}
+            []
         ],
         "canonical": [
             "1.0"
@@ -675,7 +675,7 @@
         "header_type": "item",
         "expected": [
             1.111,
-            {}
+            []
         ]
     },
     {
@@ -686,7 +686,7 @@
         "header_type": "item",
         "expected": [
             9.999,
-            {}
+            []
         ]
     },
     {
@@ -697,7 +697,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -711,7 +711,7 @@
         "header_type": "item",
         "expected": [
             11.0,
-            {}
+            []
         ],
         "canonical": [
             "11.0"
@@ -725,7 +725,7 @@
         "header_type": "item",
         "expected": [
             11.1,
-            {}
+            []
         ]
     },
     {
@@ -736,7 +736,7 @@
         "header_type": "item",
         "expected": [
             99.9,
-            {}
+            []
         ]
     },
     {
@@ -747,7 +747,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -761,7 +761,7 @@
         "header_type": "item",
         "expected": [
             11.0,
-            {}
+            []
         ],
         "canonical": [
             "11.0"
@@ -775,7 +775,7 @@
         "header_type": "item",
         "expected": [
             11.11,
-            {}
+            []
         ]
     },
     {
@@ -786,7 +786,7 @@
         "header_type": "item",
         "expected": [
             99.99,
-            {}
+            []
         ]
     },
     {
@@ -797,7 +797,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -811,7 +811,7 @@
         "header_type": "item",
         "expected": [
             11.0,
-            {}
+            []
         ],
         "canonical": [
             "11.0"
@@ -825,7 +825,7 @@
         "header_type": "item",
         "expected": [
             11.111,
-            {}
+            []
         ]
     },
     {
@@ -836,7 +836,7 @@
         "header_type": "item",
         "expected": [
             99.999,
-            {}
+            []
         ]
     },
     {
@@ -847,7 +847,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -861,7 +861,7 @@
         "header_type": "item",
         "expected": [
             111.0,
-            {}
+            []
         ],
         "canonical": [
             "111.0"
@@ -875,7 +875,7 @@
         "header_type": "item",
         "expected": [
             111.1,
-            {}
+            []
         ]
     },
     {
@@ -886,7 +886,7 @@
         "header_type": "item",
         "expected": [
             999.9,
-            {}
+            []
         ]
     },
     {
@@ -897,7 +897,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -911,7 +911,7 @@
         "header_type": "item",
         "expected": [
             111.0,
-            {}
+            []
         ],
         "canonical": [
             "111.0"
@@ -925,7 +925,7 @@
         "header_type": "item",
         "expected": [
             111.11,
-            {}
+            []
         ]
     },
     {
@@ -936,7 +936,7 @@
         "header_type": "item",
         "expected": [
             999.99,
-            {}
+            []
         ]
     },
     {
@@ -947,7 +947,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -961,7 +961,7 @@
         "header_type": "item",
         "expected": [
             111.0,
-            {}
+            []
         ],
         "canonical": [
             "111.0"
@@ -975,7 +975,7 @@
         "header_type": "item",
         "expected": [
             111.111,
-            {}
+            []
         ]
     },
     {
@@ -986,7 +986,7 @@
         "header_type": "item",
         "expected": [
             999.999,
-            {}
+            []
         ]
     },
     {
@@ -997,7 +997,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1011,7 +1011,7 @@
         "header_type": "item",
         "expected": [
             1111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111.0"
@@ -1025,7 +1025,7 @@
         "header_type": "item",
         "expected": [
             1111.1,
-            {}
+            []
         ]
     },
     {
@@ -1036,7 +1036,7 @@
         "header_type": "item",
         "expected": [
             9999.9,
-            {}
+            []
         ]
     },
     {
@@ -1047,7 +1047,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1061,7 +1061,7 @@
         "header_type": "item",
         "expected": [
             1111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111.0"
@@ -1075,7 +1075,7 @@
         "header_type": "item",
         "expected": [
             1111.11,
-            {}
+            []
         ]
     },
     {
@@ -1086,7 +1086,7 @@
         "header_type": "item",
         "expected": [
             9999.99,
-            {}
+            []
         ]
     },
     {
@@ -1097,7 +1097,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -1111,7 +1111,7 @@
         "header_type": "item",
         "expected": [
             1111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111.0"
@@ -1125,7 +1125,7 @@
         "header_type": "item",
         "expected": [
             1111.111,
-            {}
+            []
         ]
     },
     {
@@ -1136,7 +1136,7 @@
         "header_type": "item",
         "expected": [
             9999.999,
-            {}
+            []
         ]
     },
     {
@@ -1147,7 +1147,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1161,7 +1161,7 @@
         "header_type": "item",
         "expected": [
             11111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111.0"
@@ -1175,7 +1175,7 @@
         "header_type": "item",
         "expected": [
             11111.1,
-            {}
+            []
         ]
     },
     {
@@ -1186,7 +1186,7 @@
         "header_type": "item",
         "expected": [
             99999.9,
-            {}
+            []
         ]
     },
     {
@@ -1197,7 +1197,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1211,7 +1211,7 @@
         "header_type": "item",
         "expected": [
             11111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111.0"
@@ -1225,7 +1225,7 @@
         "header_type": "item",
         "expected": [
             11111.11,
-            {}
+            []
         ]
     },
     {
@@ -1236,7 +1236,7 @@
         "header_type": "item",
         "expected": [
             99999.99,
-            {}
+            []
         ]
     },
     {
@@ -1247,7 +1247,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -1261,7 +1261,7 @@
         "header_type": "item",
         "expected": [
             11111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111.0"
@@ -1275,7 +1275,7 @@
         "header_type": "item",
         "expected": [
             11111.111,
-            {}
+            []
         ]
     },
     {
@@ -1286,7 +1286,7 @@
         "header_type": "item",
         "expected": [
             99999.999,
-            {}
+            []
         ]
     },
     {
@@ -1297,7 +1297,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1311,7 +1311,7 @@
         "header_type": "item",
         "expected": [
             111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111.0"
@@ -1325,7 +1325,7 @@
         "header_type": "item",
         "expected": [
             111111.1,
-            {}
+            []
         ]
     },
     {
@@ -1336,7 +1336,7 @@
         "header_type": "item",
         "expected": [
             999999.9,
-            {}
+            []
         ]
     },
     {
@@ -1347,7 +1347,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1361,7 +1361,7 @@
         "header_type": "item",
         "expected": [
             111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111.0"
@@ -1375,7 +1375,7 @@
         "header_type": "item",
         "expected": [
             111111.11,
-            {}
+            []
         ]
     },
     {
@@ -1386,7 +1386,7 @@
         "header_type": "item",
         "expected": [
             999999.99,
-            {}
+            []
         ]
     },
     {
@@ -1397,7 +1397,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -1411,7 +1411,7 @@
         "header_type": "item",
         "expected": [
             111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111.0"
@@ -1425,7 +1425,7 @@
         "header_type": "item",
         "expected": [
             111111.111,
-            {}
+            []
         ]
     },
     {
@@ -1436,7 +1436,7 @@
         "header_type": "item",
         "expected": [
             999999.999,
-            {}
+            []
         ]
     },
     {
@@ -1447,7 +1447,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1461,7 +1461,7 @@
         "header_type": "item",
         "expected": [
             1111111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111111.0"
@@ -1475,7 +1475,7 @@
         "header_type": "item",
         "expected": [
             1111111.1,
-            {}
+            []
         ]
     },
     {
@@ -1486,7 +1486,7 @@
         "header_type": "item",
         "expected": [
             9999999.9,
-            {}
+            []
         ]
     },
     {
@@ -1497,7 +1497,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1511,7 +1511,7 @@
         "header_type": "item",
         "expected": [
             1111111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111111.0"
@@ -1525,7 +1525,7 @@
         "header_type": "item",
         "expected": [
             1111111.11,
-            {}
+            []
         ]
     },
     {
@@ -1536,7 +1536,7 @@
         "header_type": "item",
         "expected": [
             9999999.99,
-            {}
+            []
         ]
     },
     {
@@ -1547,7 +1547,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -1561,7 +1561,7 @@
         "header_type": "item",
         "expected": [
             1111111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111111.0"
@@ -1575,7 +1575,7 @@
         "header_type": "item",
         "expected": [
             1111111.111,
-            {}
+            []
         ]
     },
     {
@@ -1586,7 +1586,7 @@
         "header_type": "item",
         "expected": [
             9999999.999,
-            {}
+            []
         ]
     },
     {
@@ -1597,7 +1597,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1611,7 +1611,7 @@
         "header_type": "item",
         "expected": [
             11111111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111111.0"
@@ -1625,7 +1625,7 @@
         "header_type": "item",
         "expected": [
             11111111.1,
-            {}
+            []
         ]
     },
     {
@@ -1636,7 +1636,7 @@
         "header_type": "item",
         "expected": [
             99999999.9,
-            {}
+            []
         ]
     },
     {
@@ -1647,7 +1647,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1661,7 +1661,7 @@
         "header_type": "item",
         "expected": [
             11111111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111111.0"
@@ -1675,7 +1675,7 @@
         "header_type": "item",
         "expected": [
             11111111.11,
-            {}
+            []
         ]
     },
     {
@@ -1686,7 +1686,7 @@
         "header_type": "item",
         "expected": [
             99999999.99,
-            {}
+            []
         ]
     },
     {
@@ -1697,7 +1697,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -1711,7 +1711,7 @@
         "header_type": "item",
         "expected": [
             11111111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111111.0"
@@ -1725,7 +1725,7 @@
         "header_type": "item",
         "expected": [
             11111111.111,
-            {}
+            []
         ]
     },
     {
@@ -1736,7 +1736,7 @@
         "header_type": "item",
         "expected": [
             99999999.999,
-            {}
+            []
         ]
     },
     {
@@ -1747,7 +1747,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1761,7 +1761,7 @@
         "header_type": "item",
         "expected": [
             111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111111.0"
@@ -1775,7 +1775,7 @@
         "header_type": "item",
         "expected": [
             111111111.1,
-            {}
+            []
         ]
     },
     {
@@ -1786,7 +1786,7 @@
         "header_type": "item",
         "expected": [
             999999999.9,
-            {}
+            []
         ]
     },
     {
@@ -1797,7 +1797,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1811,7 +1811,7 @@
         "header_type": "item",
         "expected": [
             111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111111.0"
@@ -1825,7 +1825,7 @@
         "header_type": "item",
         "expected": [
             111111111.11,
-            {}
+            []
         ]
     },
     {
@@ -1836,7 +1836,7 @@
         "header_type": "item",
         "expected": [
             999999999.99,
-            {}
+            []
         ]
     },
     {
@@ -1847,7 +1847,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -1861,7 +1861,7 @@
         "header_type": "item",
         "expected": [
             111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111111.0"
@@ -1875,7 +1875,7 @@
         "header_type": "item",
         "expected": [
             111111111.111,
-            {}
+            []
         ]
     },
     {
@@ -1886,7 +1886,7 @@
         "header_type": "item",
         "expected": [
             999999999.999,
-            {}
+            []
         ]
     },
     {
@@ -1897,7 +1897,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -1911,7 +1911,7 @@
         "header_type": "item",
         "expected": [
             1111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111111111.0"
@@ -1925,7 +1925,7 @@
         "header_type": "item",
         "expected": [
             1111111111.1,
-            {}
+            []
         ]
     },
     {
@@ -1936,7 +1936,7 @@
         "header_type": "item",
         "expected": [
             9999999999.9,
-            {}
+            []
         ]
     },
     {
@@ -1947,7 +1947,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -1961,7 +1961,7 @@
         "header_type": "item",
         "expected": [
             1111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111111111.0"
@@ -1975,7 +1975,7 @@
         "header_type": "item",
         "expected": [
             1111111111.11,
-            {}
+            []
         ]
     },
     {
@@ -1986,7 +1986,7 @@
         "header_type": "item",
         "expected": [
             9999999999.99,
-            {}
+            []
         ]
     },
     {
@@ -1997,7 +1997,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -2011,7 +2011,7 @@
         "header_type": "item",
         "expected": [
             1111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "1111111111.0"
@@ -2025,7 +2025,7 @@
         "header_type": "item",
         "expected": [
             1111111111.111,
-            {}
+            []
         ]
     },
     {
@@ -2036,7 +2036,7 @@
         "header_type": "item",
         "expected": [
             9999999999.999,
-            {}
+            []
         ]
     },
     {
@@ -2047,7 +2047,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -2061,7 +2061,7 @@
         "header_type": "item",
         "expected": [
             11111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111111111.0"
@@ -2075,7 +2075,7 @@
         "header_type": "item",
         "expected": [
             11111111111.1,
-            {}
+            []
         ]
     },
     {
@@ -2086,7 +2086,7 @@
         "header_type": "item",
         "expected": [
             99999999999.9,
-            {}
+            []
         ]
     },
     {
@@ -2097,7 +2097,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -2111,7 +2111,7 @@
         "header_type": "item",
         "expected": [
             11111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111111111.0"
@@ -2125,7 +2125,7 @@
         "header_type": "item",
         "expected": [
             11111111111.11,
-            {}
+            []
         ]
     },
     {
@@ -2136,7 +2136,7 @@
         "header_type": "item",
         "expected": [
             99999999999.99,
-            {}
+            []
         ]
     },
     {
@@ -2147,7 +2147,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -2161,7 +2161,7 @@
         "header_type": "item",
         "expected": [
             11111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "11111111111.0"
@@ -2175,7 +2175,7 @@
         "header_type": "item",
         "expected": [
             11111111111.111,
-            {}
+            []
         ]
     },
     {
@@ -2186,7 +2186,7 @@
         "header_type": "item",
         "expected": [
             99999999999.999,
-            {}
+            []
         ]
     },
     {
@@ -2197,7 +2197,7 @@
         "header_type": "item",
         "expected": [
             0.1,
-            {}
+            []
         ],
         "canonical": [
             "0.1"
@@ -2211,7 +2211,7 @@
         "header_type": "item",
         "expected": [
             111111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111111111.0"
@@ -2225,7 +2225,7 @@
         "header_type": "item",
         "expected": [
             111111111111.1,
-            {}
+            []
         ]
     },
     {
@@ -2236,7 +2236,7 @@
         "header_type": "item",
         "expected": [
             999999999999.9,
-            {}
+            []
         ]
     },
     {
@@ -2247,7 +2247,7 @@
         "header_type": "item",
         "expected": [
             0.11,
-            {}
+            []
         ],
         "canonical": [
             "0.11"
@@ -2261,7 +2261,7 @@
         "header_type": "item",
         "expected": [
             111111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111111111.0"
@@ -2275,7 +2275,7 @@
         "header_type": "item",
         "expected": [
             111111111111.11,
-            {}
+            []
         ]
     },
     {
@@ -2286,7 +2286,7 @@
         "header_type": "item",
         "expected": [
             999999999999.99,
-            {}
+            []
         ]
     },
     {
@@ -2297,7 +2297,7 @@
         "header_type": "item",
         "expected": [
             0.111,
-            {}
+            []
         ],
         "canonical": [
             "0.111"
@@ -2311,7 +2311,7 @@
         "header_type": "item",
         "expected": [
             111111111111.0,
-            {}
+            []
         ],
         "canonical": [
             "111111111111.0"
@@ -2325,7 +2325,7 @@
         "header_type": "item",
         "expected": [
             111111111111.111,
-            {}
+            []
         ]
     },
     {
@@ -2336,7 +2336,7 @@
         "header_type": "item",
         "expected": [
             999999999999.999,
-            {}
+            []
         ]
     },
     {

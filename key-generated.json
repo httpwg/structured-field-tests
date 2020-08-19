@@ -341,12 +341,15 @@
             "a*a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a*a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a*a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x2b in dictionary key",
@@ -362,12 +365,15 @@
             "a,a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "canonical": [
             "a=1"
         ]
@@ -378,12 +384,15 @@
             "a-a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a-a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a-a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x2e in dictionary key",
@@ -391,12 +400,15 @@
             "a.a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a.a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a.a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x2f in dictionary key",
@@ -412,12 +424,15 @@
             "a0a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a0a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a0a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x31 in dictionary key",
@@ -425,12 +440,15 @@
             "a1a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a1a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a1a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x32 in dictionary key",
@@ -438,12 +456,15 @@
             "a2a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a2a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a2a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x33 in dictionary key",
@@ -451,12 +472,15 @@
             "a3a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a3a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a3a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x34 in dictionary key",
@@ -464,12 +488,15 @@
             "a4a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a4a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a4a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x35 in dictionary key",
@@ -477,12 +504,15 @@
             "a5a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a5a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a5a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x36 in dictionary key",
@@ -490,12 +520,15 @@
             "a6a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a6a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a6a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x37 in dictionary key",
@@ -503,12 +536,15 @@
             "a7a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a7a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a7a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x38 in dictionary key",
@@ -516,12 +552,15 @@
             "a8a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a8a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a8a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x39 in dictionary key",
@@ -529,12 +568,15 @@
             "a9a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a9a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a9a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x3a in dictionary key",
@@ -550,14 +592,20 @@
             "a;a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a": [
-                true,
-                {
-                    "a": 1
-                }
+        "expected": [
+            [
+                "a",
+                [
+                    true,
+                    [
+                        [
+                            "a",
+                            1
+                        ]
+                    ]
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x3c in dictionary key",
@@ -845,12 +893,15 @@
             "a_a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a_a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a_a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x60 in dictionary key",
@@ -866,12 +917,15 @@
             "aaa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aaa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aaa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x62 in dictionary key",
@@ -879,12 +933,15 @@
             "aba=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aba": [
-                1,
-                {}
+        "expected": [
+            [
+                "aba",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x63 in dictionary key",
@@ -892,12 +949,15 @@
             "aca=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aca": [
-                1,
-                {}
+        "expected": [
+            [
+                "aca",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x64 in dictionary key",
@@ -905,12 +965,15 @@
             "ada=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ada": [
-                1,
-                {}
+        "expected": [
+            [
+                "ada",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x65 in dictionary key",
@@ -918,12 +981,15 @@
             "aea=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aea": [
-                1,
-                {}
+        "expected": [
+            [
+                "aea",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x66 in dictionary key",
@@ -931,12 +997,15 @@
             "afa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "afa": [
-                1,
-                {}
+        "expected": [
+            [
+                "afa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x67 in dictionary key",
@@ -944,12 +1013,15 @@
             "aga=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aga": [
-                1,
-                {}
+        "expected": [
+            [
+                "aga",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x68 in dictionary key",
@@ -957,12 +1029,15 @@
             "aha=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aha": [
-                1,
-                {}
+        "expected": [
+            [
+                "aha",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x69 in dictionary key",
@@ -970,12 +1045,15 @@
             "aia=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aia": [
-                1,
-                {}
+        "expected": [
+            [
+                "aia",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6a in dictionary key",
@@ -983,12 +1061,15 @@
             "aja=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aja": [
-                1,
-                {}
+        "expected": [
+            [
+                "aja",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6b in dictionary key",
@@ -996,12 +1077,15 @@
             "aka=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aka": [
-                1,
-                {}
+        "expected": [
+            [
+                "aka",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6c in dictionary key",
@@ -1009,12 +1093,15 @@
             "ala=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ala": [
-                1,
-                {}
+        "expected": [
+            [
+                "ala",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6d in dictionary key",
@@ -1022,12 +1109,15 @@
             "ama=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ama": [
-                1,
-                {}
+        "expected": [
+            [
+                "ama",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6e in dictionary key",
@@ -1035,12 +1125,15 @@
             "ana=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ana": [
-                1,
-                {}
+        "expected": [
+            [
+                "ana",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6f in dictionary key",
@@ -1048,12 +1141,15 @@
             "aoa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aoa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aoa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x70 in dictionary key",
@@ -1061,12 +1157,15 @@
             "apa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "apa": [
-                1,
-                {}
+        "expected": [
+            [
+                "apa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x71 in dictionary key",
@@ -1074,12 +1173,15 @@
             "aqa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aqa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aqa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x72 in dictionary key",
@@ -1087,12 +1189,15 @@
             "ara=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ara": [
-                1,
-                {}
+        "expected": [
+            [
+                "ara",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x73 in dictionary key",
@@ -1100,12 +1205,15 @@
             "asa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "asa": [
-                1,
-                {}
+        "expected": [
+            [
+                "asa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x74 in dictionary key",
@@ -1113,12 +1221,15 @@
             "ata=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ata": [
-                1,
-                {}
+        "expected": [
+            [
+                "ata",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x75 in dictionary key",
@@ -1126,12 +1237,15 @@
             "aua=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aua": [
-                1,
-                {}
+        "expected": [
+            [
+                "aua",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x76 in dictionary key",
@@ -1139,12 +1253,15 @@
             "ava=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ava": [
-                1,
-                {}
+        "expected": [
+            [
+                "ava",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x77 in dictionary key",
@@ -1152,12 +1269,15 @@
             "awa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "awa": [
-                1,
-                {}
+        "expected": [
+            [
+                "awa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x78 in dictionary key",
@@ -1165,12 +1285,15 @@
             "axa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "axa": [
-                1,
-                {}
+        "expected": [
+            [
+                "axa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x79 in dictionary key",
@@ -1178,12 +1301,15 @@
             "aya=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aya": [
-                1,
-                {}
+        "expected": [
+            [
+                "aya",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x7a in dictionary key",
@@ -1191,12 +1317,15 @@
             "aza=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aza": [
-                1,
-                {}
+        "expected": [
+            [
+                "aza",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x7b in dictionary key",
@@ -1500,12 +1629,15 @@
             " a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "a": [
-                1,
-                {}
+        "expected": [
+            [
+                "a",
+                [
+                    1,
+                    []
+                ]
             ]
-        },
+        ],
         "canonical": [
             "a=1"
         ]
@@ -1588,12 +1720,15 @@
             "*a=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "*a": [
-                1,
-                {}
+        "expected": [
+            [
+                "*a",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x2b starting an dictionary key",
@@ -2033,12 +2168,15 @@
             "aa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "aa": [
-                1,
-                {}
+        "expected": [
+            [
+                "aa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x62 starting an dictionary key",
@@ -2046,12 +2184,15 @@
             "ba=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ba": [
-                1,
-                {}
+        "expected": [
+            [
+                "ba",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x63 starting an dictionary key",
@@ -2059,12 +2200,15 @@
             "ca=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ca": [
-                1,
-                {}
+        "expected": [
+            [
+                "ca",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x64 starting an dictionary key",
@@ -2072,12 +2216,15 @@
             "da=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "da": [
-                1,
-                {}
+        "expected": [
+            [
+                "da",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x65 starting an dictionary key",
@@ -2085,12 +2232,15 @@
             "ea=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ea": [
-                1,
-                {}
+        "expected": [
+            [
+                "ea",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x66 starting an dictionary key",
@@ -2098,12 +2248,15 @@
             "fa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "fa": [
-                1,
-                {}
+        "expected": [
+            [
+                "fa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x67 starting an dictionary key",
@@ -2111,12 +2264,15 @@
             "ga=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ga": [
-                1,
-                {}
+        "expected": [
+            [
+                "ga",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x68 starting an dictionary key",
@@ -2124,12 +2280,15 @@
             "ha=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ha": [
-                1,
-                {}
+        "expected": [
+            [
+                "ha",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x69 starting an dictionary key",
@@ -2137,12 +2296,15 @@
             "ia=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ia": [
-                1,
-                {}
+        "expected": [
+            [
+                "ia",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6a starting an dictionary key",
@@ -2150,12 +2312,15 @@
             "ja=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ja": [
-                1,
-                {}
+        "expected": [
+            [
+                "ja",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6b starting an dictionary key",
@@ -2163,12 +2328,15 @@
             "ka=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ka": [
-                1,
-                {}
+        "expected": [
+            [
+                "ka",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6c starting an dictionary key",
@@ -2176,12 +2344,15 @@
             "la=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "la": [
-                1,
-                {}
+        "expected": [
+            [
+                "la",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6d starting an dictionary key",
@@ -2189,12 +2360,15 @@
             "ma=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ma": [
-                1,
-                {}
+        "expected": [
+            [
+                "ma",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6e starting an dictionary key",
@@ -2202,12 +2376,15 @@
             "na=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "na": [
-                1,
-                {}
+        "expected": [
+            [
+                "na",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x6f starting an dictionary key",
@@ -2215,12 +2392,15 @@
             "oa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "oa": [
-                1,
-                {}
+        "expected": [
+            [
+                "oa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x70 starting an dictionary key",
@@ -2228,12 +2408,15 @@
             "pa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "pa": [
-                1,
-                {}
+        "expected": [
+            [
+                "pa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x71 starting an dictionary key",
@@ -2241,12 +2424,15 @@
             "qa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "qa": [
-                1,
-                {}
+        "expected": [
+            [
+                "qa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x72 starting an dictionary key",
@@ -2254,12 +2440,15 @@
             "ra=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ra": [
-                1,
-                {}
+        "expected": [
+            [
+                "ra",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x73 starting an dictionary key",
@@ -2267,12 +2456,15 @@
             "sa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "sa": [
-                1,
-                {}
+        "expected": [
+            [
+                "sa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x74 starting an dictionary key",
@@ -2280,12 +2472,15 @@
             "ta=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ta": [
-                1,
-                {}
+        "expected": [
+            [
+                "ta",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x75 starting an dictionary key",
@@ -2293,12 +2488,15 @@
             "ua=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ua": [
-                1,
-                {}
+        "expected": [
+            [
+                "ua",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x76 starting an dictionary key",
@@ -2306,12 +2504,15 @@
             "va=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "va": [
-                1,
-                {}
+        "expected": [
+            [
+                "va",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x77 starting an dictionary key",
@@ -2319,12 +2520,15 @@
             "wa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "wa": [
-                1,
-                {}
+        "expected": [
+            [
+                "wa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x78 starting an dictionary key",
@@ -2332,12 +2536,15 @@
             "xa=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "xa": [
-                1,
-                {}
+        "expected": [
+            [
+                "xa",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x79 starting an dictionary key",
@@ -2345,12 +2552,15 @@
             "ya=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "ya": [
-                1,
-                {}
+        "expected": [
+            [
+                "ya",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x7a starting an dictionary key",
@@ -2358,12 +2568,15 @@
             "za=1"
         ],
         "header_type": "dictionary",
-        "expected": {
-            "za": [
-                1,
-                {}
+        "expected": [
+            [
+                "za",
+                [
+                    1,
+                    []
+                ]
             ]
-        }
+        ]
     },
     {
         "name": "0x7b starting an dictionary key",
@@ -2753,9 +2966,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a*a": 1
-                }
+                [
+                    [
+                        "a*a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2790,9 +3006,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a-a": 1
-                }
+                [
+                    [
+                        "a-a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2811,9 +3030,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a.a": 1
-                }
+                [
+                    [
+                        "a.a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2840,9 +3062,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a0a": 1
-                }
+                [
+                    [
+                        "a0a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2861,9 +3086,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a1a": 1
-                }
+                [
+                    [
+                        "a1a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2882,9 +3110,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a2a": 1
-                }
+                [
+                    [
+                        "a2a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2903,9 +3134,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a3a": 1
-                }
+                [
+                    [
+                        "a3a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2924,9 +3158,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a4a": 1
-                }
+                [
+                    [
+                        "a4a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2945,9 +3182,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a5a": 1
-                }
+                [
+                    [
+                        "a5a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2966,9 +3206,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a6a": 1
-                }
+                [
+                    [
+                        "a6a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -2987,9 +3230,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a7a": 1
-                }
+                [
+                    [
+                        "a7a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3008,9 +3254,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a8a": 1
-                }
+                [
+                    [
+                        "a8a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3029,9 +3278,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a9a": 1
-                }
+                [
+                    [
+                        "a9a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3058,9 +3310,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a": 1
-                }
+                [
+                    [
+                        "a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3359,9 +3614,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a_a": 1
-                }
+                [
+                    [
+                        "a_a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3388,9 +3646,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aaa": 1
-                }
+                [
+                    [
+                        "aaa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3409,9 +3670,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aba": 1
-                }
+                [
+                    [
+                        "aba",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3430,9 +3694,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aca": 1
-                }
+                [
+                    [
+                        "aca",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3451,9 +3718,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ada": 1
-                }
+                [
+                    [
+                        "ada",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3472,9 +3742,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aea": 1
-                }
+                [
+                    [
+                        "aea",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3493,9 +3766,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "afa": 1
-                }
+                [
+                    [
+                        "afa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3514,9 +3790,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aga": 1
-                }
+                [
+                    [
+                        "aga",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3535,9 +3814,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aha": 1
-                }
+                [
+                    [
+                        "aha",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3556,9 +3838,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aia": 1
-                }
+                [
+                    [
+                        "aia",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3577,9 +3862,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aja": 1
-                }
+                [
+                    [
+                        "aja",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3598,9 +3886,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aka": 1
-                }
+                [
+                    [
+                        "aka",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3619,9 +3910,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ala": 1
-                }
+                [
+                    [
+                        "ala",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3640,9 +3934,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ama": 1
-                }
+                [
+                    [
+                        "ama",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3661,9 +3958,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ana": 1
-                }
+                [
+                    [
+                        "ana",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3682,9 +3982,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aoa": 1
-                }
+                [
+                    [
+                        "aoa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3703,9 +4006,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "apa": 1
-                }
+                [
+                    [
+                        "apa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3724,9 +4030,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aqa": 1
-                }
+                [
+                    [
+                        "aqa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3745,9 +4054,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ara": 1
-                }
+                [
+                    [
+                        "ara",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3766,9 +4078,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "asa": 1
-                }
+                [
+                    [
+                        "asa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3787,9 +4102,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ata": 1
-                }
+                [
+                    [
+                        "ata",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3808,9 +4126,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aua": 1
-                }
+                [
+                    [
+                        "aua",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3829,9 +4150,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ava": 1
-                }
+                [
+                    [
+                        "ava",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3850,9 +4174,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "awa": 1
-                }
+                [
+                    [
+                        "awa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3871,9 +4198,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "axa": 1
-                }
+                [
+                    [
+                        "axa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3892,9 +4222,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aya": 1
-                }
+                [
+                    [
+                        "aya",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -3913,9 +4246,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aza": 1
-                }
+                [
+                    [
+                        "aza",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4230,9 +4566,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "a": 1
-                }
+                [
+                    [
+                        "a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4323,9 +4662,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "*a": 1
-                }
+                [
+                    [
+                        "*a",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4776,9 +5118,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "aa": 1
-                }
+                [
+                    [
+                        "aa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4797,9 +5142,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ba": 1
-                }
+                [
+                    [
+                        "ba",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4818,9 +5166,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ca": 1
-                }
+                [
+                    [
+                        "ca",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4839,9 +5190,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "da": 1
-                }
+                [
+                    [
+                        "da",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4860,9 +5214,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ea": 1
-                }
+                [
+                    [
+                        "ea",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4881,9 +5238,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "fa": 1
-                }
+                [
+                    [
+                        "fa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4902,9 +5262,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ga": 1
-                }
+                [
+                    [
+                        "ga",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4923,9 +5286,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ha": 1
-                }
+                [
+                    [
+                        "ha",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4944,9 +5310,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ia": 1
-                }
+                [
+                    [
+                        "ia",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4965,9 +5334,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ja": 1
-                }
+                [
+                    [
+                        "ja",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -4986,9 +5358,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ka": 1
-                }
+                [
+                    [
+                        "ka",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5007,9 +5382,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "la": 1
-                }
+                [
+                    [
+                        "la",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5028,9 +5406,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ma": 1
-                }
+                [
+                    [
+                        "ma",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5049,9 +5430,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "na": 1
-                }
+                [
+                    [
+                        "na",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5070,9 +5454,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "oa": 1
-                }
+                [
+                    [
+                        "oa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5091,9 +5478,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "pa": 1
-                }
+                [
+                    [
+                        "pa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5112,9 +5502,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "qa": 1
-                }
+                [
+                    [
+                        "qa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5133,9 +5526,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ra": 1
-                }
+                [
+                    [
+                        "ra",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5154,9 +5550,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "sa": 1
-                }
+                [
+                    [
+                        "sa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5175,9 +5574,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ta": 1
-                }
+                [
+                    [
+                        "ta",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5196,9 +5598,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ua": 1
-                }
+                [
+                    [
+                        "ua",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5217,9 +5622,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "va": 1
-                }
+                [
+                    [
+                        "va",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5238,9 +5646,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "wa": 1
-                }
+                [
+                    [
+                        "wa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5259,9 +5670,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "xa": 1
-                }
+                [
+                    [
+                        "xa",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5280,9 +5694,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "ya": 1
-                }
+                [
+                    [
+                        "ya",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
@@ -5301,9 +5718,12 @@
                     "__type": "token",
                     "value": "foo"
                 },
-                {
-                    "za": 1
-                }
+                [
+                    [
+                        "za",
+                        1
+                    ]
+                ]
             ]
         ],
         "canonical": [
