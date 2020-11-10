@@ -69,7 +69,7 @@ for c in ALL_CHARS:
 ## escaped characters
 for c in ALL_CHARS:
     test = {
-        "name": "0x%02x in string" % c,
+        "name": "Escaped 0x%02x in string" % c,
         "raw": ['"\\%s"' % chr(c)],
         "header_type": "item",
     }
