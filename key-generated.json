@@ -1,5 +1,21 @@
 [
     {
+        "name": "0x2a for dictionary key",
+        "raw": [
+            "*=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "*",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
         "name": "0x00 in dictionary key",
         "raw": [
             "a\u0000a=1"
