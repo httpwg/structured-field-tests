@@ -167,6 +167,15 @@ write("serialisation-tests/token", tests)
 ### keys
 tests = []
 
+tests.append(
+    {
+        "name": "0x2a for dictionary key",
+        "raw": ["*=1"],
+        "header_type": "dictionary",
+        "expected": [["*",[1,[]]]]
+    }
+)
+
 ## dictionary keys
 for c in ALL_CHARS:
     test = {
