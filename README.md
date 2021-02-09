@@ -1,6 +1,6 @@
 # Structured Field Tests
 
-These are test cases for implementations of [Structured Fields for HTTP](http://httpwg.org/http-extensions/draft-ietf-httpbis-header-structure.html). They currently test draft 17 of the specification.
+These are test cases for implementations of [Structured Fields for HTTP](https://httpwg.org/specs/rfc8941.html).
 
 ## Test Format
 
