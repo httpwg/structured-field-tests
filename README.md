@@ -64,4 +64,6 @@ All tests should have a descriptive name. Tests should be as simple as possible 
 required to test a specific piece of behavior. If you want to test interacting behaviors, create
 tests for each behavior as well as the interaction.
 
+If a test file ends in `-generated.json`, please modify `generate.py` *and* re-generate the tests in your PR.
+
 Please feel free to contribute!
