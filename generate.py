@@ -167,6 +167,22 @@ write("serialisation-tests/token", tests)
 ### keys
 tests = []
 
+## single-character dictionary keys
+for c in ALL_CHARS:
+    test = {
+        "name": "0x%02x as a single-character dictionary key" % c,
+        "raw": ["%s=1" % chr(c)],
+        "header_type": "dictionary",
+    }
+    if c in WHITESPACE:
+        test["raw"] = ["=1"] # whitespace is always stripped.
+        test["must_fail"] = True
+    elif c in allowed_key_start_chars:
+        test["expected"] = [["%s" % chr(c), [1, []]]]
+    else:
+        test["must_fail"] = True
+    tests.append(test)
+
 ## dictionary keys
 for c in ALL_CHARS:
     test = {

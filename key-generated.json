@@ -1,5 +1,1245 @@
 [
     {
+        "name": "0x00 as a single-character dictionary key",
+        "raw": [
+            "\u0000=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x01 as a single-character dictionary key",
+        "raw": [
+            "\u0001=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x02 as a single-character dictionary key",
+        "raw": [
+            "\u0002=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x03 as a single-character dictionary key",
+        "raw": [
+            "\u0003=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x04 as a single-character dictionary key",
+        "raw": [
+            "\u0004=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x05 as a single-character dictionary key",
+        "raw": [
+            "\u0005=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x06 as a single-character dictionary key",
+        "raw": [
+            "\u0006=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x07 as a single-character dictionary key",
+        "raw": [
+            "\u0007=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x08 as a single-character dictionary key",
+        "raw": [
+            "\b=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x09 as a single-character dictionary key",
+        "raw": [
+            "\t=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x0a as a single-character dictionary key",
+        "raw": [
+            "\n=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x0b as a single-character dictionary key",
+        "raw": [
+            "\u000b=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x0c as a single-character dictionary key",
+        "raw": [
+            "\f=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x0d as a single-character dictionary key",
+        "raw": [
+            "\r=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x0e as a single-character dictionary key",
+        "raw": [
+            "\u000e=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x0f as a single-character dictionary key",
+        "raw": [
+            "\u000f=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x10 as a single-character dictionary key",
+        "raw": [
+            "\u0010=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x11 as a single-character dictionary key",
+        "raw": [
+            "\u0011=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x12 as a single-character dictionary key",
+        "raw": [
+            "\u0012=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x13 as a single-character dictionary key",
+        "raw": [
+            "\u0013=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x14 as a single-character dictionary key",
+        "raw": [
+            "\u0014=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x15 as a single-character dictionary key",
+        "raw": [
+            "\u0015=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x16 as a single-character dictionary key",
+        "raw": [
+            "\u0016=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x17 as a single-character dictionary key",
+        "raw": [
+            "\u0017=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x18 as a single-character dictionary key",
+        "raw": [
+            "\u0018=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x19 as a single-character dictionary key",
+        "raw": [
+            "\u0019=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x1a as a single-character dictionary key",
+        "raw": [
+            "\u001a=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x1b as a single-character dictionary key",
+        "raw": [
+            "\u001b=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x1c as a single-character dictionary key",
+        "raw": [
+            "\u001c=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x1d as a single-character dictionary key",
+        "raw": [
+            "\u001d=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x1e as a single-character dictionary key",
+        "raw": [
+            "\u001e=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x1f as a single-character dictionary key",
+        "raw": [
+            "\u001f=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x20 as a single-character dictionary key",
+        "raw": [
+            "=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x21 as a single-character dictionary key",
+        "raw": [
+            "!=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x22 as a single-character dictionary key",
+        "raw": [
+            "\"=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x23 as a single-character dictionary key",
+        "raw": [
+            "#=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x24 as a single-character dictionary key",
+        "raw": [
+            "$=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x25 as a single-character dictionary key",
+        "raw": [
+            "%=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x26 as a single-character dictionary key",
+        "raw": [
+            "&=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x27 as a single-character dictionary key",
+        "raw": [
+            "'=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x28 as a single-character dictionary key",
+        "raw": [
+            "(=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x29 as a single-character dictionary key",
+        "raw": [
+            ")=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x2a as a single-character dictionary key",
+        "raw": [
+            "*=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "*",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x2b as a single-character dictionary key",
+        "raw": [
+            "+=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x2c as a single-character dictionary key",
+        "raw": [
+            ",=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x2d as a single-character dictionary key",
+        "raw": [
+            "-=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x2e as a single-character dictionary key",
+        "raw": [
+            ".=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x2f as a single-character dictionary key",
+        "raw": [
+            "/=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x30 as a single-character dictionary key",
+        "raw": [
+            "0=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x31 as a single-character dictionary key",
+        "raw": [
+            "1=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x32 as a single-character dictionary key",
+        "raw": [
+            "2=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x33 as a single-character dictionary key",
+        "raw": [
+            "3=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x34 as a single-character dictionary key",
+        "raw": [
+            "4=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x35 as a single-character dictionary key",
+        "raw": [
+            "5=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x36 as a single-character dictionary key",
+        "raw": [
+            "6=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x37 as a single-character dictionary key",
+        "raw": [
+            "7=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x38 as a single-character dictionary key",
+        "raw": [
+            "8=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x39 as a single-character dictionary key",
+        "raw": [
+            "9=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x3a as a single-character dictionary key",
+        "raw": [
+            ":=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x3b as a single-character dictionary key",
+        "raw": [
+            ";=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x3c as a single-character dictionary key",
+        "raw": [
+            "<=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x3d as a single-character dictionary key",
+        "raw": [
+            "==1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x3e as a single-character dictionary key",
+        "raw": [
+            ">=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x3f as a single-character dictionary key",
+        "raw": [
+            "?=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x40 as a single-character dictionary key",
+        "raw": [
+            "@=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x41 as a single-character dictionary key",
+        "raw": [
+            "A=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x42 as a single-character dictionary key",
+        "raw": [
+            "B=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x43 as a single-character dictionary key",
+        "raw": [
+            "C=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x44 as a single-character dictionary key",
+        "raw": [
+            "D=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x45 as a single-character dictionary key",
+        "raw": [
+            "E=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x46 as a single-character dictionary key",
+        "raw": [
+            "F=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x47 as a single-character dictionary key",
+        "raw": [
+            "G=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x48 as a single-character dictionary key",
+        "raw": [
+            "H=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x49 as a single-character dictionary key",
+        "raw": [
+            "I=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x4a as a single-character dictionary key",
+        "raw": [
+            "J=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x4b as a single-character dictionary key",
+        "raw": [
+            "K=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x4c as a single-character dictionary key",
+        "raw": [
+            "L=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x4d as a single-character dictionary key",
+        "raw": [
+            "M=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x4e as a single-character dictionary key",
+        "raw": [
+            "N=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x4f as a single-character dictionary key",
+        "raw": [
+            "O=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x50 as a single-character dictionary key",
+        "raw": [
+            "P=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x51 as a single-character dictionary key",
+        "raw": [
+            "Q=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x52 as a single-character dictionary key",
+        "raw": [
+            "R=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x53 as a single-character dictionary key",
+        "raw": [
+            "S=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x54 as a single-character dictionary key",
+        "raw": [
+            "T=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x55 as a single-character dictionary key",
+        "raw": [
+            "U=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x56 as a single-character dictionary key",
+        "raw": [
+            "V=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x57 as a single-character dictionary key",
+        "raw": [
+            "W=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x58 as a single-character dictionary key",
+        "raw": [
+            "X=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x59 as a single-character dictionary key",
+        "raw": [
+            "Y=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x5a as a single-character dictionary key",
+        "raw": [
+            "Z=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x5b as a single-character dictionary key",
+        "raw": [
+            "[=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x5c as a single-character dictionary key",
+        "raw": [
+            "\\=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x5d as a single-character dictionary key",
+        "raw": [
+            "]=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x5e as a single-character dictionary key",
+        "raw": [
+            "^=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x5f as a single-character dictionary key",
+        "raw": [
+            "_=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x60 as a single-character dictionary key",
+        "raw": [
+            "`=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x61 as a single-character dictionary key",
+        "raw": [
+            "a=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "a",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x62 as a single-character dictionary key",
+        "raw": [
+            "b=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "b",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x63 as a single-character dictionary key",
+        "raw": [
+            "c=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "c",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x64 as a single-character dictionary key",
+        "raw": [
+            "d=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "d",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x65 as a single-character dictionary key",
+        "raw": [
+            "e=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "e",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x66 as a single-character dictionary key",
+        "raw": [
+            "f=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "f",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x67 as a single-character dictionary key",
+        "raw": [
+            "g=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "g",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x68 as a single-character dictionary key",
+        "raw": [
+            "h=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "h",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x69 as a single-character dictionary key",
+        "raw": [
+            "i=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "i",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x6a as a single-character dictionary key",
+        "raw": [
+            "j=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "j",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x6b as a single-character dictionary key",
+        "raw": [
+            "k=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "k",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x6c as a single-character dictionary key",
+        "raw": [
+            "l=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "l",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x6d as a single-character dictionary key",
+        "raw": [
+            "m=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "m",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x6e as a single-character dictionary key",
+        "raw": [
+            "n=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "n",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x6f as a single-character dictionary key",
+        "raw": [
+            "o=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "o",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x70 as a single-character dictionary key",
+        "raw": [
+            "p=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "p",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x71 as a single-character dictionary key",
+        "raw": [
+            "q=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "q",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x72 as a single-character dictionary key",
+        "raw": [
+            "r=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "r",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x73 as a single-character dictionary key",
+        "raw": [
+            "s=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "s",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x74 as a single-character dictionary key",
+        "raw": [
+            "t=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "t",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x75 as a single-character dictionary key",
+        "raw": [
+            "u=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "u",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x76 as a single-character dictionary key",
+        "raw": [
+            "v=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "v",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x77 as a single-character dictionary key",
+        "raw": [
+            "w=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "w",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x78 as a single-character dictionary key",
+        "raw": [
+            "x=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "x",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x79 as a single-character dictionary key",
+        "raw": [
+            "y=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "y",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x7a as a single-character dictionary key",
+        "raw": [
+            "z=1"
+        ],
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "z",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ]
+    },
+    {
+        "name": "0x7b as a single-character dictionary key",
+        "raw": [
+            "{=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x7c as a single-character dictionary key",
+        "raw": [
+            "|=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x7d as a single-character dictionary key",
+        "raw": [
+            "}=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x7e as a single-character dictionary key",
+        "raw": [
+            "~=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
+        "name": "0x7f as a single-character dictionary key",
+        "raw": [
+            "\u007f=1"
+        ],
+        "header_type": "dictionary",
+        "must_fail": true
+    },
+    {
         "name": "0x00 in dictionary key",
         "raw": [
             "a\u0000a=1"
