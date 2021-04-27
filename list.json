@@ -64,5 +64,11 @@
         "raw": ["1,,42"],
         "header_type": "list",
         "must_fail": true
+    },
+    {
+        "name": "empty item list (multiple field lines)",
+        "raw": ["1","","42"],
+        "header_type": "list",
+        "must_fail": true
     }
 ]
