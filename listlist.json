@@ -54,5 +54,11 @@
         "raw": ["(abc\"def\"?0123*dXZ3*xyz)"],
         "header_type": "list",
         "must_fail": true
+    },
+    {
+        "name": "no closing parenthesis",
+        "raw": ["("],
+        "header_type": "list",
+        "must_fail": true
     }
 ]
