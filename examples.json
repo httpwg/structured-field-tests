@@ -102,7 +102,7 @@
         ]
     },
     {
-        "name": "Example-DictHeader",
+        "name": "Example-DictHeader (boolean values)",
         "raw": ["a=?0, b, c; foo=bar"],
         "header_type": "dictionary",
         "expected": [
