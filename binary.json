@@ -16,7 +16,7 @@
             []]
     },
     {
-        "name": "bad paddding",
+        "name": "bad padding",
         "raw": [":aGVsbG8:"],
         "header_type": "item",
         "expected": [
