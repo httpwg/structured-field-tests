@@ -1,6 +1,6 @@
 [
     {
-        "name": "too big postive integer - serialize",
+        "name": "too big positive integer - serialize",
         "header_type": "item",
         "expected": [1000000000000000, []],
         "must_fail": true
@@ -12,7 +12,7 @@
         "must_fail": true
     },
     {
-        "name": "too big postive decimal - serialize",
+        "name": "too big positive decimal - serialize",
         "header_type": "item",
         "expected": [1000000000000.1, []],
         "must_fail": true
