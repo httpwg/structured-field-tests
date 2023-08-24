@@ -27,6 +27,8 @@ The `expected` data structure maps the types in Structured Fields to [JSON](http
    * String: JSON string; e.g., "foo"
    * Token: `token` __type Object (see below)
    * Binary Content: `binary` __type Object (see below)
+   * Date: `date` __type Object (see below)
+   * Display String: `displaystring` __type Object (see below)
 * Parameters: JSON array of arrays with two element, the param name and the param value
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
@@ -41,7 +43,7 @@ These cases do not have a `raw` element.
 
 ### __type Objects
 
-Because JSON doesn't natively accommodate some data types that Structured Fields does, the `expected` member uses an object with a `__type` member and a `value` member to represent these values. 
+Because JSON doesn't natively accommodate some data types that Structured Fields does, the `expected` member uses an object with a `__type` member and a `value` member to represent these values.
 
 For example:
 
@@ -56,6 +58,8 @@ For example:
 
 * `token`: carries a Token as a JSON string; e.g., "bar"
 * `binary`: carries Binary Content as a **base32**-encoded JSON string; e.g., "ZXW6==="
+* `date`: Carries a Date as a JSON integer; e.g., 1692859242
+* `displaystring`: Carries a Display String as a JSON string; e.g. "Füü"
 
 
 ## Writing Tests
