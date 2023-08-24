@@ -31,13 +31,13 @@
     },
     {
         "name": "tab in string",
-        "raw": ["\"\\t\""],
+        "raw": ["\"\t\""],
         "header_type": "item",
         "must_fail": true
     },
     {
         "name": "newline in string",
-        "raw": ["\" \\n \""],
+        "raw": ["\" \n \""],
         "header_type": "item",
         "must_fail": true
     },
