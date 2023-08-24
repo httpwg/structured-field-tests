@@ -3,31 +3,32 @@
         "name": "basic display string (ascii content)",
         "raw": ["%\"foo bar\""],
         "header_type": "item",
-        "expected": ["foo bar", []]
+        "expected": [{"__type": "displaystring", "value": "foo bar"}, []]
     },
     {
         "name": "non-ascii display string (uppercase escaping)",
         "raw": ["%\"f%C3%BC%C3%BC\""],
+        "canonical": ["%\"f%c3%bc%c3%bc\""],
         "header_type": "item",
-        "expected": ["füü", []]
+        "expected": [{"__type": "displaystring", "value": "füü"}, []]
     },
     {
-        "name": "non-ascii display string (lowerrcase escaping)",
+        "name": "non-ascii display string (lowercase escaping)",
         "raw": ["%\"f%c3%bc%c3%bc\""],
         "header_type": "item",
-        "expected": ["füü", []]
+        "expected": [{"__type": "displaystring", "value": "füü"}, []]
     },
     {
         "name": "tab in display string",
-        "raw": ["%\"\\t\""],
+        "raw": ["%\"\t\""],
         "header_type": "item",
-        "expected": ["\t", []]
+        "must_fail": true
     },
     {
         "name": "newline in display string",
-        "raw": ["%\" \\n \""],
+        "raw": ["%\"\n\""],
         "header_type": "item",
-        "expected": [" \n ", []]
+        "must_fail": true
     },
     {
         "name": "single quoted display string",
@@ -43,13 +44,13 @@
     },
     {
         "name": "display string quoting",
-        "raw": ["\"foo %25bar%25 \\ baz\""],
+        "raw": ["%\"foo %22bar%22 \\ baz\""],
         "header_type": "item",
-        "expected": ["foo \"bar\" \\ baz", []]
+        "expected": [{"__type": "displaystring", "value": "foo \"bar\" \\ baz"}, []]
     },
     {
         "name": "bad display string escaping",
-        "raw": ["\"foo %a"],
+        "raw": ["%\"foo %a"],
         "header_type": "item",
         "must_fail": true
     }
