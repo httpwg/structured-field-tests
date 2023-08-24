@@ -1,0 +1,56 @@
+[
+    {
+        "name": "basic display string (ascii content)",
+        "raw": ["%\"foo bar\""],
+        "header_type": "item",
+        "expected": ["foo bar", []]
+    },
+    {
+        "name": "non-ascii display string (uppercase escaping)",
+        "raw": ["%\"f%C3%BC%C3%BC\""],
+        "header_type": "item",
+        "expected": ["füü", []]
+    },
+    {
+        "name": "non-ascii display string (lowerrcase escaping)",
+        "raw": ["%\"f%c3%bc%c3%bc\""],
+        "header_type": "item",
+        "expected": ["füü", []]
+    },
+    {
+        "name": "tab in display string",
+        "raw": ["%\"\\t\""],
+        "header_type": "item",
+        "expected": ["\t", []]
+    },
+    {
+        "name": "newline in display string",
+        "raw": ["%\" \\n \""],
+        "header_type": "item",
+        "expected": [" \n ", []]
+    },
+    {
+        "name": "single quoted display string",
+        "raw": ["%'foo'"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "unbalanced display string",
+        "raw": ["%\"foo"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "display string quoting",
+        "raw": ["\"foo %25bar%25 \\ baz\""],
+        "header_type": "item",
+        "expected": ["foo \"bar\" \\ baz", []]
+    },
+    {
+        "name": "bad display string escaping",
+        "raw": ["\"foo %a"],
+        "header_type": "item",
+        "must_fail": true
+    }
+]
