@@ -10,7 +10,7 @@
         "raw": ["%\"f%C3%BC%C3%BC\""],
         "canonical": ["%\"f%c3%bc%c3%bc\""],
         "header_type": "item",
-        "expected": [{"__type": "displaystring", "value": "füü"}, []]
+        "must_fail": true
     },
     {
         "name": "non-ascii display string (lowercase escaping)",
