@@ -77,5 +77,11 @@
         "raw": ["%\"%f0%28%8c%28\""],
         "header_type": "item",
         "must_fail": true
+    },
+    {
+        "name": "BOM in display string",
+        "raw": ["%\"BOM: %ef%bb%bf\""],
+        "header_type": "item",
+        "expected": [{"__type": "displaystring", "value": "BOM: \uFEFF"}, []]
     }
 ]
