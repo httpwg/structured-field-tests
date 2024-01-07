@@ -27,6 +27,7 @@ The `expected` data structure maps the types in Structured Fields to [JSON](http
    * String: JSON string; e.g., "foo"
    * Token: `token` __type Object (see below)
    * Binary Content: `binary` __type Object (see below)
+   * Boolean: JSON boolean; e.g., true
    * Date: `date` __type Object (see below)
    * Display String: `displaystring` __type Object (see below)
 * Parameters: JSON array of arrays with two element, the param name and the param value
