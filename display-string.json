@@ -6,6 +6,12 @@
         "expected": [{"__type": "displaystring", "value": "foo bar"}, []]
     },
     {
+        "name": "all printable ascii",
+        "raw": ["%\" !%22#$%25&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\""],
+        "header_type": "item",
+        "expected": [{"__type": "displaystring", "value": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"}, []]
+    },
+    {
         "name": "non-ascii display string (uppercase escaping)",
         "raw": ["%\"f%C3%BC%C3%BC\""],
         "canonical": ["%\"f%c3%bc%c3%bc\""],
@@ -33,6 +39,18 @@
     {
         "name": "single quoted display string",
         "raw": ["%'foo'"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "unquoted display string",
+        "raw": ["%foo"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "display string missing initial quote",
+        "raw": ["%foo\""],
         "header_type": "item",
         "must_fail": true
     },
