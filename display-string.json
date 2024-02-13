@@ -85,6 +85,12 @@
         "must_fail": true
     },
     {
+        "name": "bad display string utf-8 (invalid hex)",
+        "raw": ["%\"%g0%1w\""],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "bad display string utf-8 (invalid 3-byte seq)",
         "raw": ["%\"%e2%28%a1\""],
         "header_type": "item",
