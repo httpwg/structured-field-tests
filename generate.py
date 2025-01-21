@@ -119,7 +119,7 @@ for c in ALL_CHARS:
 ## allowed starting characters
 for c in ALL_CHARS:
     test = {
-        "name": "0x%02x starting an token" % c,
+        "name": "0x%02x starting a token" % c,
         "raw": ["%sa" % chr(c)],
         "header_type": "item",
     }
@@ -205,7 +205,7 @@ for c in ALL_CHARS:
 ## allowed dictionary key starting characters
 for c in ALL_CHARS:
     test = {
-        "name": "0x%02x starting an dictionary key" % c,
+        "name": "0x%02x starting a dictionary key" % c,
         "raw": ["%sa=1" % chr(c)],
         "header_type": "dictionary",
     }
@@ -276,7 +276,7 @@ for c in ALL_CHARS:
     if c in allowed_key_start_chars:
         continue
     test = {
-        "name": "0x%02x starting an dictionary key - serialise only" % c,
+        "name": "0x%02x starting a dictionary key - serialise only" % c,
         "header_type": "dictionary",
         "expected": [["%sa" % chr(c), [1, []]]],
         "must_fail": True,

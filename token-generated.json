@@ -1509,7 +1509,7 @@
         "must_fail": true
     },
     {
-        "name": "0x00 starting an token",
+        "name": "0x00 starting a token",
         "raw": [
             "\u0000a"
         ],
@@ -1517,7 +1517,7 @@
         "must_fail": true
     },
     {
-        "name": "0x01 starting an token",
+        "name": "0x01 starting a token",
         "raw": [
             "\u0001a"
         ],
@@ -1525,7 +1525,7 @@
         "must_fail": true
     },
     {
-        "name": "0x02 starting an token",
+        "name": "0x02 starting a token",
         "raw": [
             "\u0002a"
         ],
@@ -1533,7 +1533,7 @@
         "must_fail": true
     },
     {
-        "name": "0x03 starting an token",
+        "name": "0x03 starting a token",
         "raw": [
             "\u0003a"
         ],
@@ -1541,7 +1541,7 @@
         "must_fail": true
     },
     {
-        "name": "0x04 starting an token",
+        "name": "0x04 starting a token",
         "raw": [
             "\u0004a"
         ],
@@ -1549,7 +1549,7 @@
         "must_fail": true
     },
     {
-        "name": "0x05 starting an token",
+        "name": "0x05 starting a token",
         "raw": [
             "\u0005a"
         ],
@@ -1557,7 +1557,7 @@
         "must_fail": true
     },
     {
-        "name": "0x06 starting an token",
+        "name": "0x06 starting a token",
         "raw": [
             "\u0006a"
         ],
@@ -1565,7 +1565,7 @@
         "must_fail": true
     },
     {
-        "name": "0x07 starting an token",
+        "name": "0x07 starting a token",
         "raw": [
             "\u0007a"
         ],
@@ -1573,7 +1573,7 @@
         "must_fail": true
     },
     {
-        "name": "0x08 starting an token",
+        "name": "0x08 starting a token",
         "raw": [
             "\ba"
         ],
@@ -1581,7 +1581,7 @@
         "must_fail": true
     },
     {
-        "name": "0x09 starting an token",
+        "name": "0x09 starting a token",
         "raw": [
             "\ta"
         ],
@@ -1589,7 +1589,7 @@
         "must_fail": true
     },
     {
-        "name": "0x0a starting an token",
+        "name": "0x0a starting a token",
         "raw": [
             "\na"
         ],
@@ -1597,7 +1597,7 @@
         "must_fail": true
     },
     {
-        "name": "0x0b starting an token",
+        "name": "0x0b starting a token",
         "raw": [
             "\u000ba"
         ],
@@ -1605,7 +1605,7 @@
         "must_fail": true
     },
     {
-        "name": "0x0c starting an token",
+        "name": "0x0c starting a token",
         "raw": [
             "\fa"
         ],
@@ -1613,7 +1613,7 @@
         "must_fail": true
     },
     {
-        "name": "0x0d starting an token",
+        "name": "0x0d starting a token",
         "raw": [
             "\ra"
         ],
@@ -1621,7 +1621,7 @@
         "must_fail": true
     },
     {
-        "name": "0x0e starting an token",
+        "name": "0x0e starting a token",
         "raw": [
             "\u000ea"
         ],
@@ -1629,7 +1629,7 @@
         "must_fail": true
     },
     {
-        "name": "0x0f starting an token",
+        "name": "0x0f starting a token",
         "raw": [
             "\u000fa"
         ],
@@ -1637,7 +1637,7 @@
         "must_fail": true
     },
     {
-        "name": "0x10 starting an token",
+        "name": "0x10 starting a token",
         "raw": [
             "\u0010a"
         ],
@@ -1645,7 +1645,7 @@
         "must_fail": true
     },
     {
-        "name": "0x11 starting an token",
+        "name": "0x11 starting a token",
         "raw": [
             "\u0011a"
         ],
@@ -1653,7 +1653,7 @@
         "must_fail": true
     },
     {
-        "name": "0x12 starting an token",
+        "name": "0x12 starting a token",
         "raw": [
             "\u0012a"
         ],
@@ -1661,7 +1661,7 @@
         "must_fail": true
     },
     {
-        "name": "0x13 starting an token",
+        "name": "0x13 starting a token",
         "raw": [
             "\u0013a"
         ],
@@ -1669,7 +1669,7 @@
         "must_fail": true
     },
     {
-        "name": "0x14 starting an token",
+        "name": "0x14 starting a token",
         "raw": [
             "\u0014a"
         ],
@@ -1677,7 +1677,7 @@
         "must_fail": true
     },
     {
-        "name": "0x15 starting an token",
+        "name": "0x15 starting a token",
         "raw": [
             "\u0015a"
         ],
@@ -1685,7 +1685,7 @@
         "must_fail": true
     },
     {
-        "name": "0x16 starting an token",
+        "name": "0x16 starting a token",
         "raw": [
             "\u0016a"
         ],
@@ -1693,7 +1693,7 @@
         "must_fail": true
     },
     {
-        "name": "0x17 starting an token",
+        "name": "0x17 starting a token",
         "raw": [
             "\u0017a"
         ],
@@ -1701,7 +1701,7 @@
         "must_fail": true
     },
     {
-        "name": "0x18 starting an token",
+        "name": "0x18 starting a token",
         "raw": [
             "\u0018a"
         ],
@@ -1709,7 +1709,7 @@
         "must_fail": true
     },
     {
-        "name": "0x19 starting an token",
+        "name": "0x19 starting a token",
         "raw": [
             "\u0019a"
         ],
@@ -1717,7 +1717,7 @@
         "must_fail": true
     },
     {
-        "name": "0x1a starting an token",
+        "name": "0x1a starting a token",
         "raw": [
             "\u001aa"
         ],
@@ -1725,7 +1725,7 @@
         "must_fail": true
     },
     {
-        "name": "0x1b starting an token",
+        "name": "0x1b starting a token",
         "raw": [
             "\u001ba"
         ],
@@ -1733,7 +1733,7 @@
         "must_fail": true
     },
     {
-        "name": "0x1c starting an token",
+        "name": "0x1c starting a token",
         "raw": [
             "\u001ca"
         ],
@@ -1741,7 +1741,7 @@
         "must_fail": true
     },
     {
-        "name": "0x1d starting an token",
+        "name": "0x1d starting a token",
         "raw": [
             "\u001da"
         ],
@@ -1749,7 +1749,7 @@
         "must_fail": true
     },
     {
-        "name": "0x1e starting an token",
+        "name": "0x1e starting a token",
         "raw": [
             "\u001ea"
         ],
@@ -1757,7 +1757,7 @@
         "must_fail": true
     },
     {
-        "name": "0x1f starting an token",
+        "name": "0x1f starting a token",
         "raw": [
             "\u001fa"
         ],
@@ -1765,7 +1765,7 @@
         "must_fail": true
     },
     {
-        "name": "0x20 starting an token",
+        "name": "0x20 starting a token",
         "raw": [
             " a"
         ],
@@ -1782,7 +1782,7 @@
         ]
     },
     {
-        "name": "0x21 starting an token",
+        "name": "0x21 starting a token",
         "raw": [
             "!a"
         ],
@@ -1790,7 +1790,7 @@
         "must_fail": true
     },
     {
-        "name": "0x22 starting an token",
+        "name": "0x22 starting a token",
         "raw": [
             "\"a"
         ],
@@ -1798,7 +1798,7 @@
         "must_fail": true
     },
     {
-        "name": "0x23 starting an token",
+        "name": "0x23 starting a token",
         "raw": [
             "#a"
         ],
@@ -1806,7 +1806,7 @@
         "must_fail": true
     },
     {
-        "name": "0x24 starting an token",
+        "name": "0x24 starting a token",
         "raw": [
             "$a"
         ],
@@ -1814,7 +1814,7 @@
         "must_fail": true
     },
     {
-        "name": "0x25 starting an token",
+        "name": "0x25 starting a token",
         "raw": [
             "%a"
         ],
@@ -1822,7 +1822,7 @@
         "must_fail": true
     },
     {
-        "name": "0x26 starting an token",
+        "name": "0x26 starting a token",
         "raw": [
             "&a"
         ],
@@ -1830,7 +1830,7 @@
         "must_fail": true
     },
     {
-        "name": "0x27 starting an token",
+        "name": "0x27 starting a token",
         "raw": [
             "'a"
         ],
@@ -1838,7 +1838,7 @@
         "must_fail": true
     },
     {
-        "name": "0x28 starting an token",
+        "name": "0x28 starting a token",
         "raw": [
             "(a"
         ],
@@ -1846,7 +1846,7 @@
         "must_fail": true
     },
     {
-        "name": "0x29 starting an token",
+        "name": "0x29 starting a token",
         "raw": [
             ")a"
         ],
@@ -1854,7 +1854,7 @@
         "must_fail": true
     },
     {
-        "name": "0x2a starting an token",
+        "name": "0x2a starting a token",
         "raw": [
             "*a"
         ],
@@ -1868,7 +1868,7 @@
         ]
     },
     {
-        "name": "0x2b starting an token",
+        "name": "0x2b starting a token",
         "raw": [
             "+a"
         ],
@@ -1876,7 +1876,7 @@
         "must_fail": true
     },
     {
-        "name": "0x2c starting an token",
+        "name": "0x2c starting a token",
         "raw": [
             ",a"
         ],
@@ -1884,7 +1884,7 @@
         "must_fail": true
     },
     {
-        "name": "0x2d starting an token",
+        "name": "0x2d starting a token",
         "raw": [
             "-a"
         ],
@@ -1892,7 +1892,7 @@
         "must_fail": true
     },
     {
-        "name": "0x2e starting an token",
+        "name": "0x2e starting a token",
         "raw": [
             ".a"
         ],
@@ -1900,7 +1900,7 @@
         "must_fail": true
     },
     {
-        "name": "0x2f starting an token",
+        "name": "0x2f starting a token",
         "raw": [
             "/a"
         ],
@@ -1908,7 +1908,7 @@
         "must_fail": true
     },
     {
-        "name": "0x30 starting an token",
+        "name": "0x30 starting a token",
         "raw": [
             "0a"
         ],
@@ -1916,7 +1916,7 @@
         "must_fail": true
     },
     {
-        "name": "0x31 starting an token",
+        "name": "0x31 starting a token",
         "raw": [
             "1a"
         ],
@@ -1924,7 +1924,7 @@
         "must_fail": true
     },
     {
-        "name": "0x32 starting an token",
+        "name": "0x32 starting a token",
         "raw": [
             "2a"
         ],
@@ -1932,7 +1932,7 @@
         "must_fail": true
     },
     {
-        "name": "0x33 starting an token",
+        "name": "0x33 starting a token",
         "raw": [
             "3a"
         ],
@@ -1940,7 +1940,7 @@
         "must_fail": true
     },
     {
-        "name": "0x34 starting an token",
+        "name": "0x34 starting a token",
         "raw": [
             "4a"
         ],
@@ -1948,7 +1948,7 @@
         "must_fail": true
     },
     {
-        "name": "0x35 starting an token",
+        "name": "0x35 starting a token",
         "raw": [
             "5a"
         ],
@@ -1956,7 +1956,7 @@
         "must_fail": true
     },
     {
-        "name": "0x36 starting an token",
+        "name": "0x36 starting a token",
         "raw": [
             "6a"
         ],
@@ -1964,7 +1964,7 @@
         "must_fail": true
     },
     {
-        "name": "0x37 starting an token",
+        "name": "0x37 starting a token",
         "raw": [
             "7a"
         ],
@@ -1972,7 +1972,7 @@
         "must_fail": true
     },
     {
-        "name": "0x38 starting an token",
+        "name": "0x38 starting a token",
         "raw": [
             "8a"
         ],
@@ -1980,7 +1980,7 @@
         "must_fail": true
     },
     {
-        "name": "0x39 starting an token",
+        "name": "0x39 starting a token",
         "raw": [
             "9a"
         ],
@@ -1988,7 +1988,7 @@
         "must_fail": true
     },
     {
-        "name": "0x3a starting an token",
+        "name": "0x3a starting a token",
         "raw": [
             ":a"
         ],
@@ -1996,7 +1996,7 @@
         "must_fail": true
     },
     {
-        "name": "0x3b starting an token",
+        "name": "0x3b starting a token",
         "raw": [
             ";a"
         ],
@@ -2004,7 +2004,7 @@
         "must_fail": true
     },
     {
-        "name": "0x3c starting an token",
+        "name": "0x3c starting a token",
         "raw": [
             "<a"
         ],
@@ -2012,7 +2012,7 @@
         "must_fail": true
     },
     {
-        "name": "0x3d starting an token",
+        "name": "0x3d starting a token",
         "raw": [
             "=a"
         ],
@@ -2020,7 +2020,7 @@
         "must_fail": true
     },
     {
-        "name": "0x3e starting an token",
+        "name": "0x3e starting a token",
         "raw": [
             ">a"
         ],
@@ -2028,7 +2028,7 @@
         "must_fail": true
     },
     {
-        "name": "0x3f starting an token",
+        "name": "0x3f starting a token",
         "raw": [
             "?a"
         ],
@@ -2036,7 +2036,7 @@
         "must_fail": true
     },
     {
-        "name": "0x40 starting an token",
+        "name": "0x40 starting a token",
         "raw": [
             "@a"
         ],
@@ -2044,7 +2044,7 @@
         "must_fail": true
     },
     {
-        "name": "0x41 starting an token",
+        "name": "0x41 starting a token",
         "raw": [
             "Aa"
         ],
@@ -2058,7 +2058,7 @@
         ]
     },
     {
-        "name": "0x42 starting an token",
+        "name": "0x42 starting a token",
         "raw": [
             "Ba"
         ],
@@ -2072,7 +2072,7 @@
         ]
     },
     {
-        "name": "0x43 starting an token",
+        "name": "0x43 starting a token",
         "raw": [
             "Ca"
         ],
@@ -2086,7 +2086,7 @@
         ]
     },
     {
-        "name": "0x44 starting an token",
+        "name": "0x44 starting a token",
         "raw": [
             "Da"
         ],
@@ -2100,7 +2100,7 @@
         ]
     },
     {
-        "name": "0x45 starting an token",
+        "name": "0x45 starting a token",
         "raw": [
             "Ea"
         ],
@@ -2114,7 +2114,7 @@
         ]
     },
     {
-        "name": "0x46 starting an token",
+        "name": "0x46 starting a token",
         "raw": [
             "Fa"
         ],
@@ -2128,7 +2128,7 @@
         ]
     },
     {
-        "name": "0x47 starting an token",
+        "name": "0x47 starting a token",
         "raw": [
             "Ga"
         ],
@@ -2142,7 +2142,7 @@
         ]
     },
     {
-        "name": "0x48 starting an token",
+        "name": "0x48 starting a token",
         "raw": [
             "Ha"
         ],
@@ -2156,7 +2156,7 @@
         ]
     },
     {
-        "name": "0x49 starting an token",
+        "name": "0x49 starting a token",
         "raw": [
             "Ia"
         ],
@@ -2170,7 +2170,7 @@
         ]
     },
     {
-        "name": "0x4a starting an token",
+        "name": "0x4a starting a token",
         "raw": [
             "Ja"
         ],
@@ -2184,7 +2184,7 @@
         ]
     },
     {
-        "name": "0x4b starting an token",
+        "name": "0x4b starting a token",
         "raw": [
             "Ka"
         ],
@@ -2198,7 +2198,7 @@
         ]
     },
     {
-        "name": "0x4c starting an token",
+        "name": "0x4c starting a token",
         "raw": [
             "La"
         ],
@@ -2212,7 +2212,7 @@
         ]
     },
     {
-        "name": "0x4d starting an token",
+        "name": "0x4d starting a token",
         "raw": [
             "Ma"
         ],
@@ -2226,7 +2226,7 @@
         ]
     },
     {
-        "name": "0x4e starting an token",
+        "name": "0x4e starting a token",
         "raw": [
             "Na"
         ],
@@ -2240,7 +2240,7 @@
         ]
     },
     {
-        "name": "0x4f starting an token",
+        "name": "0x4f starting a token",
         "raw": [
             "Oa"
         ],
@@ -2254,7 +2254,7 @@
         ]
     },
     {
-        "name": "0x50 starting an token",
+        "name": "0x50 starting a token",
         "raw": [
             "Pa"
         ],
@@ -2268,7 +2268,7 @@
         ]
     },
     {
-        "name": "0x51 starting an token",
+        "name": "0x51 starting a token",
         "raw": [
             "Qa"
         ],
@@ -2282,7 +2282,7 @@
         ]
     },
     {
-        "name": "0x52 starting an token",
+        "name": "0x52 starting a token",
         "raw": [
             "Ra"
         ],
@@ -2296,7 +2296,7 @@
         ]
     },
     {
-        "name": "0x53 starting an token",
+        "name": "0x53 starting a token",
         "raw": [
             "Sa"
         ],
@@ -2310,7 +2310,7 @@
         ]
     },
     {
-        "name": "0x54 starting an token",
+        "name": "0x54 starting a token",
         "raw": [
             "Ta"
         ],
@@ -2324,7 +2324,7 @@
         ]
     },
     {
-        "name": "0x55 starting an token",
+        "name": "0x55 starting a token",
         "raw": [
             "Ua"
         ],
@@ -2338,7 +2338,7 @@
         ]
     },
     {
-        "name": "0x56 starting an token",
+        "name": "0x56 starting a token",
         "raw": [
             "Va"
         ],
@@ -2352,7 +2352,7 @@
         ]
     },
     {
-        "name": "0x57 starting an token",
+        "name": "0x57 starting a token",
         "raw": [
             "Wa"
         ],
@@ -2366,7 +2366,7 @@
         ]
     },
     {
-        "name": "0x58 starting an token",
+        "name": "0x58 starting a token",
         "raw": [
             "Xa"
         ],
@@ -2380,7 +2380,7 @@
         ]
     },
     {
-        "name": "0x59 starting an token",
+        "name": "0x59 starting a token",
         "raw": [
             "Ya"
         ],
@@ -2394,7 +2394,7 @@
         ]
     },
     {
-        "name": "0x5a starting an token",
+        "name": "0x5a starting a token",
         "raw": [
             "Za"
         ],
@@ -2408,7 +2408,7 @@
         ]
     },
     {
-        "name": "0x5b starting an token",
+        "name": "0x5b starting a token",
         "raw": [
             "[a"
         ],
@@ -2416,7 +2416,7 @@
         "must_fail": true
     },
     {
-        "name": "0x5c starting an token",
+        "name": "0x5c starting a token",
         "raw": [
             "\\a"
         ],
@@ -2424,7 +2424,7 @@
         "must_fail": true
     },
     {
-        "name": "0x5d starting an token",
+        "name": "0x5d starting a token",
         "raw": [
             "]a"
         ],
@@ -2432,7 +2432,7 @@
         "must_fail": true
     },
     {
-        "name": "0x5e starting an token",
+        "name": "0x5e starting a token",
         "raw": [
             "^a"
         ],
@@ -2440,7 +2440,7 @@
         "must_fail": true
     },
     {
-        "name": "0x5f starting an token",
+        "name": "0x5f starting a token",
         "raw": [
             "_a"
         ],
@@ -2448,7 +2448,7 @@
         "must_fail": true
     },
     {
-        "name": "0x60 starting an token",
+        "name": "0x60 starting a token",
         "raw": [
             "`a"
         ],
@@ -2456,7 +2456,7 @@
         "must_fail": true
     },
     {
-        "name": "0x61 starting an token",
+        "name": "0x61 starting a token",
         "raw": [
             "aa"
         ],
@@ -2470,7 +2470,7 @@
         ]
     },
     {
-        "name": "0x62 starting an token",
+        "name": "0x62 starting a token",
         "raw": [
             "ba"
         ],
@@ -2484,7 +2484,7 @@
         ]
     },
     {
-        "name": "0x63 starting an token",
+        "name": "0x63 starting a token",
         "raw": [
             "ca"
         ],
@@ -2498,7 +2498,7 @@
         ]
     },
     {
-        "name": "0x64 starting an token",
+        "name": "0x64 starting a token",
         "raw": [
             "da"
         ],
@@ -2512,7 +2512,7 @@
         ]
     },
     {
-        "name": "0x65 starting an token",
+        "name": "0x65 starting a token",
         "raw": [
             "ea"
         ],
@@ -2526,7 +2526,7 @@
         ]
     },
     {
-        "name": "0x66 starting an token",
+        "name": "0x66 starting a token",
         "raw": [
             "fa"
         ],
@@ -2540,7 +2540,7 @@
         ]
     },
     {
-        "name": "0x67 starting an token",
+        "name": "0x67 starting a token",
         "raw": [
             "ga"
         ],
@@ -2554,7 +2554,7 @@
         ]
     },
     {
-        "name": "0x68 starting an token",
+        "name": "0x68 starting a token",
         "raw": [
             "ha"
         ],
@@ -2568,7 +2568,7 @@
         ]
     },
     {
-        "name": "0x69 starting an token",
+        "name": "0x69 starting a token",
         "raw": [
             "ia"
         ],
@@ -2582,7 +2582,7 @@
         ]
     },
     {
-        "name": "0x6a starting an token",
+        "name": "0x6a starting a token",
         "raw": [
             "ja"
         ],
@@ -2596,7 +2596,7 @@
         ]
     },
     {
-        "name": "0x6b starting an token",
+        "name": "0x6b starting a token",
         "raw": [
             "ka"
         ],
@@ -2610,7 +2610,7 @@
         ]
     },
     {
-        "name": "0x6c starting an token",
+        "name": "0x6c starting a token",
         "raw": [
             "la"
         ],
@@ -2624,7 +2624,7 @@
         ]
     },
     {
-        "name": "0x6d starting an token",
+        "name": "0x6d starting a token",
         "raw": [
             "ma"
         ],
@@ -2638,7 +2638,7 @@
         ]
     },
     {
-        "name": "0x6e starting an token",
+        "name": "0x6e starting a token",
         "raw": [
             "na"
         ],
@@ -2652,7 +2652,7 @@
         ]
     },
     {
-        "name": "0x6f starting an token",
+        "name": "0x6f starting a token",
         "raw": [
             "oa"
         ],
@@ -2666,7 +2666,7 @@
         ]
     },
     {
-        "name": "0x70 starting an token",
+        "name": "0x70 starting a token",
         "raw": [
             "pa"
         ],
@@ -2680,7 +2680,7 @@
         ]
     },
     {
-        "name": "0x71 starting an token",
+        "name": "0x71 starting a token",
         "raw": [
             "qa"
         ],
@@ -2694,7 +2694,7 @@
         ]
     },
     {
-        "name": "0x72 starting an token",
+        "name": "0x72 starting a token",
         "raw": [
             "ra"
         ],
@@ -2708,7 +2708,7 @@
         ]
     },
     {
-        "name": "0x73 starting an token",
+        "name": "0x73 starting a token",
         "raw": [
             "sa"
         ],
@@ -2722,7 +2722,7 @@
         ]
     },
     {
-        "name": "0x74 starting an token",
+        "name": "0x74 starting a token",
         "raw": [
             "ta"
         ],
@@ -2736,7 +2736,7 @@
         ]
     },
     {
-        "name": "0x75 starting an token",
+        "name": "0x75 starting a token",
         "raw": [
             "ua"
         ],
@@ -2750,7 +2750,7 @@
         ]
     },
     {
-        "name": "0x76 starting an token",
+        "name": "0x76 starting a token",
         "raw": [
             "va"
         ],
@@ -2764,7 +2764,7 @@
         ]
     },
     {
-        "name": "0x77 starting an token",
+        "name": "0x77 starting a token",
         "raw": [
             "wa"
         ],
@@ -2778,7 +2778,7 @@
         ]
     },
     {
-        "name": "0x78 starting an token",
+        "name": "0x78 starting a token",
         "raw": [
             "xa"
         ],
@@ -2792,7 +2792,7 @@
         ]
     },
     {
-        "name": "0x79 starting an token",
+        "name": "0x79 starting a token",
         "raw": [
             "ya"
         ],
@@ -2806,7 +2806,7 @@
         ]
     },
     {
-        "name": "0x7a starting an token",
+        "name": "0x7a starting a token",
         "raw": [
             "za"
         ],
@@ -2820,7 +2820,7 @@
         ]
     },
     {
-        "name": "0x7b starting an token",
+        "name": "0x7b starting a token",
         "raw": [
             "{a"
         ],
@@ -2828,7 +2828,7 @@
         "must_fail": true
     },
     {
-        "name": "0x7c starting an token",
+        "name": "0x7c starting a token",
         "raw": [
             "|a"
         ],
@@ -2836,7 +2836,7 @@
         "must_fail": true
     },
     {
-        "name": "0x7d starting an token",
+        "name": "0x7d starting a token",
         "raw": [
             "}a"
         ],
@@ -2844,7 +2844,7 @@
         "must_fail": true
     },
     {
-        "name": "0x7e starting an token",
+        "name": "0x7e starting a token",
         "raw": [
             "~a"
         ],
@@ -2852,7 +2852,7 @@
         "must_fail": true
     },
     {
-        "name": "0x7f starting an token",
+        "name": "0x7f starting a token",
         "raw": [
             "\u007fa"
         ],
