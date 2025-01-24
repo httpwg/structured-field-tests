@@ -16,6 +16,18 @@
             []]
     },
     {
+        "name": "padding at beginning",
+        "raw": [":=aGVsbG8=:"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "padding in middle",
+        "raw": [":a=GVsbG8=:"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "bad padding",
         "raw": [":aGVsbG8:"],
         "header_type": "item",
