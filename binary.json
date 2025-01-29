@@ -26,6 +26,12 @@
         "canonical": [":aGVsbG8=:"]
     },
     {
+        "name": "bad padding dot",
+        "raw": [":aGVsbG8.:"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "bad end delimiter",
         "raw": [":aGVsbG8="],
         "header_type": "item",
