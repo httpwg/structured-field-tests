@@ -38,6 +38,12 @@
         "must_fail": true
     },
     {
+        "name": "all whitespace",
+        "raw": [":    :"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "extra chars",
         "raw": [":aGVsbG!8=:"],
         "header_type": "item",
