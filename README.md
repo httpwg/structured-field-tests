@@ -1,6 +1,6 @@
 # Structured Field Tests
 
-These are test cases for implementations of [Structured Fields for HTTP](https://httpwg.org/specs/rfc8941.html).
+These are test cases for implementations of [Structured Fields for HTTP](https://httpwg.org/specs/rfc9651.html).
 
 ## Test Format
 
