@@ -182,5 +182,26 @@
         "raw": ["-1234567890123.0"],
         "header_type": "item",
         "must_fail": true
+    },
+    {
+        "name": "decimal with 1 significant digit and 1 insignificant digit",
+        "raw": ["1.20"],
+        "header_type": "item",
+        "expected": [1.2, []],
+        "canonical": ["1.2"]
+    },
+    {
+        "name": "decimal with 1 significant digit and 2 insignificant digits",
+        "raw": ["1.200"],
+        "header_type": "item",
+        "expected": [1.2, []],
+        "canonical": ["1.2"]
+    },
+    {
+        "name": "decimal with 2 significant digits and 1 insignificant digit",
+        "raw": ["1.230"],
+        "header_type": "item",
+        "expected": [1.23, []],
+        "canonical": ["1.23"]
     }
 ]
