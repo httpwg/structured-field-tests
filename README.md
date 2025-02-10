@@ -58,7 +58,7 @@ For example:
 ... carries a "foo" token. The following types are defined:
 
 * `token`: carries a Token as a JSON string; e.g., "bar"
-* `binary`: carries Binary Content as a **base32**-encoded JSON string; e.g., "ZXW6==="
+* `binary`: carries Binary Content as a **[base32](https://www.rfc-editor.org/rfc/rfc4648.html#section-6)**-encoded JSON string; e.g., "ZXW6==="
 * `date`: Carries a Date as a JSON integer; e.g., 1692859242
 * `displaystring`: Carries a Display String as a JSON string; e.g. "Füü"
 
