@@ -25,6 +25,12 @@
         "expected": [{"__type": "displaystring", "value": "füü"}, []]
     },
     {
+        "name": "non-ascii display string (unescaped)",
+        "raw": ["%\"füü\""],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "tab in display string",
         "raw": ["%\"\t\""],
         "header_type": "item",
