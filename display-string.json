@@ -113,5 +113,12 @@
         "raw": ["%\"BOM: %ef%bb%bf\""],
         "header_type": "item",
         "expected": [{"__type": "displaystring", "value": "BOM: \uFEFF"}, []]
+    },
+    {
+        "name": "two lines display string",
+        "raw": ["%\"foo", "bar\""],
+        "header_type": "item",
+        "can_fail": "true",
+        "expected": [{"__type": "displaystring", "value": "foo, bar"}, []]
     }
 ]
