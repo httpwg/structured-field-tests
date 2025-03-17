@@ -429,6 +429,18 @@ tests.append(
     }
 )
 
+## large inner lists
+inner_list_members = 256
+tests.append(
+    {
+        "name": "large inner list",
+        "raw": ["(%s)" % " ".join([str(i) for i in range(inner_list_members)])],
+        "header_type": "list",
+        "expected": [[[[i, []] for i in range(inner_list_members)], []]],
+    }
+)
+
+
 write("large", tests)
 
 
