@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import base64
 import json
 
 ALL_CHARS = range(0x00, 0x7F + 1)
@@ -415,6 +416,30 @@ tests.append(
         "expected": [{"__type": "token", "value": "a" * token_length}, []],
     }
 )
+
+## large byte sequences
+byte_sequence_length = 16384
+byte_sequence = b"a" * byte_sequence_length
+tests.append(
+    {
+        "name": "large byte sequence",
+        "raw": [":%s:" % base64.standard_b64encode(byte_sequence).decode('ascii')],
+        "header_type": "item",
+        "expected": [{"__type": "binary", "value": base64.b32encode(byte_sequence).decode('ascii')}, []],
+    }
+)
+
+## large inner lists
+inner_list_members = 256
+tests.append(
+    {
+        "name": "large inner list",
+        "raw": ["(%s)" % " ".join([str(i) for i in range(inner_list_members)])],
+        "header_type": "list",
+        "expected": [[[[i, []] for i in range(inner_list_members)], []]],
+    }
+)
+
 
 write("large", tests)
 
