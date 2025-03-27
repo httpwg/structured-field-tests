@@ -76,5 +76,12 @@
         "raw": ["\"foo \\"],
         "header_type": "item",
         "must_fail": true
+    },
+    {
+        "name": "two lines string",
+        "raw": ["\"foo", "bar\""],
+        "header_type": "item",
+        "can_fail": "true",
+        "expected": ["foo, bar", []]
     }
 ]
