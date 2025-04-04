@@ -118,7 +118,7 @@
         "name": "two lines display string",
         "raw": ["%\"foo", "bar\""],
         "header_type": "item",
-        "can_fail": "true",
+        "can_fail": true,
         "expected": [{"__type": "displaystring", "value": "foo, bar"}, []]
     }
 ]
