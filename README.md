@@ -42,6 +42,8 @@ or non-canonical value.  The `expected` structure (as defined above) should seri
 `canonical` form, unless `must_fail` is `true` -- in which case the value cannot be serialised.
 These cases do not have a `raw` element.
 
+[JSON Schemas](https://json-schema.org/) for these formats are provided in the `schemas` directory.
+
 ### __type Objects
 
 Because JSON doesn't natively accommodate some data types that Structured Fields does, the `expected` member uses an object with a `__type` member and a `value` member to represent these values.

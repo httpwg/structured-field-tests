@@ -14,7 +14,6 @@
     {
         "name": "non-ascii display string (uppercase escaping)",
         "raw": ["%\"f%C3%BC%C3%BC\""],
-        "canonical": ["%\"f%c3%bc%c3%bc\""],
         "header_type": "item",
         "must_fail": true
     },

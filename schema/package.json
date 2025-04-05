@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "config": {
+        "ajv_args": "--strict -r expected.schema.json"
+    },
+    "scripts": {
+        "test": "npm run validate-parse && npm run validate-serialize",
+        "validate-parse": "ajv validate $npm_package_config_ajv_args -s parse.schema.json ../*.json",
+        "validate-serialize": "ajv validate $npm_package_config_ajv_args -s serialize.schema.json ../serialisation-tests/*.json"
+    },
+    "dependencies": {
+        "@jirutka/ajv-cli": "^6.0.0"
+    }
+}
