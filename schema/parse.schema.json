@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/httpwg/structured-field-tests/schema/parse.schema.json",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": { "type": "string" },
+            "raw": { "$ref": "#/$defs/string_array" }
+        },
+        "required": ["name", "raw"],
+        "unevaluatedProperties": false,
+        "if": {
+            "properties": {
+                "must_fail": { "const": true }
+            },
+            "required": ["must_fail"]
+        },
+        "then": {
+            "properties": {
+                "header_type": { "enum": ["item", "list", "dictionary"] }
+            },
+            "required": ["header_type"]
+        },
+        "else": {
+            "$ref": "https://github.com/httpwg/structured-field-tests/schema/expected.schema.json",
+            "properties": {
+                "can_fail": { "type": "boolean" },
+                "canonical": { "$ref": "#/$defs/string_array" }
+            }
+        }
+    },
+    "$defs": {
+        "string_array": {
+            "type": "array",
+            "items": { "type": "string" }
+        }
+    }
+}

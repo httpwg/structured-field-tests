@@ -1,0 +1,109 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/httpwg/structured-field-tests/schema/expected.schema.json",
+    "type": "object",
+    "required": ["header_type", "expected"],
+    "oneOf": [
+        {
+            "properties": {
+                "header_type": { "const": "item" },
+                "expected": { "$ref": "#/$defs/item" }
+            }
+        },
+        {
+            "properties": {
+                "header_type": { "const": "list" },
+                "expected": { "$ref": "#/$defs/list" }
+            }
+        },
+        {
+            "properties": {
+                "header_type": { "const": "dictionary" },
+                "expected": { "$ref": "#/$defs/dictionary" }
+            }
+        }
+    ],
+    "$defs": {
+        "bare_item": {
+            "oneOf": [
+                { "type": "boolean" },
+                { "type": "number" },
+                { "type": "string" },
+                {
+                    "type": "object",
+                    "required": ["__type", "value"],
+                    "unevaluatedProperties": false,
+                    "oneOf": [
+                        {
+                            "properties": {
+                                "__type": { "enum": ["binary", "displaystring", "token"] },
+                                "value": { "type": "string" }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "__type": { "const": "date" },
+                                "value": { "type": "number" }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "parameters": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "prefixItems": [
+                    { "type": "string" },
+                    { "$ref": "#/$defs/bare_item" }
+                ]
+            }
+        },
+        "item": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "prefixItems": [
+                { "$ref": "#/$defs/bare_item" },
+                { "$ref": "#/$defs/parameters" }
+            ]
+        },
+        "inner_list": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "prefixItems": [
+                {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/item" }
+                },
+                { "$ref": "#/$defs/parameters" }
+            ]
+        },
+        "member": {
+            "oneOf": [
+                { "$ref": "#/$defs/item" },
+                { "$ref": "#/$defs/inner_list" }
+            ]
+        },
+        "list": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/member" }
+        },
+        "dictionary": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "minItems": 2,
+                "maxItems": 2,
+                "prefixItems": [
+                    { "type": "string" },
+                    { "$ref": "#/$defs/member" }
+                ]
+            }
+        }
+    }
+}
