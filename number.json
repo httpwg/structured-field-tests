@@ -82,6 +82,23 @@
         "expected": [123456789012345, []]
     },
     {
+        "name": "long integer followed by comma",
+        "raw": [
+            "123456789012345, 1"
+        ],
+        "header_type": "list",
+        "expected": [
+            [
+                123456789012345,
+                []
+            ],
+            [
+                1,
+                []
+            ]
+        ]
+    },
+    {
         "name": "long negative integer",
         "raw": ["-123456789012345"],
         "header_type": "item",
@@ -91,6 +108,14 @@
         "name": "too long integer",
         "raw": ["1234567890123456"],
         "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "too long integer followed by comma",
+        "raw": [
+            "1234567890123456, 1"
+        ],
+        "header_type": "list",
         "must_fail": true
     },
     {
@@ -128,6 +153,23 @@
         "raw": ["- 1.23"],
         "header_type": "item",
         "must_fail": true
+    },
+    {
+        "name": "decimal, followed by comma",
+        "raw": [
+            "123456789012.123, 1.1"
+        ],
+        "header_type": "list",
+        "expected": [
+            [
+                123456789012.123,
+                []
+            ],
+            [
+                1.1,
+                []
+            ]
+        ]
     },
     {
         "name": "tricky precision decimal",
