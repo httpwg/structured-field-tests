@@ -96,5 +96,11 @@
         "raw": [":_-Ah:"],
         "header_type": "item",
         "must_fail": true
+    },
+    {
+        "name": "binary prefix only",
+        "raw": [":"],
+        "header_type": "item",
+        "must_fail": true
     }
 ]

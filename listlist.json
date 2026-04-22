@@ -60,5 +60,17 @@
         "raw": ["("],
         "header_type": "list",
         "must_fail": true
+    },
+    {
+        "name": "nested inner lists",
+        "raw": ["((1))"],
+        "header_type": "list",
+        "must_fail": true
+    },
+    {
+        "name": "dictionary in inner list",
+        "raw": ["(a=1)"],
+        "header_type": "list",
+        "must_fail": true
     }
 ]

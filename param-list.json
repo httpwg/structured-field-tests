@@ -104,5 +104,48 @@
         "raw": ["text/html,,text/plain;q=0.5,"],
         "header_type": "list",
         "must_fail": true
+    },
+    {
+        "name": "duplicate parameter with different positions",
+        "raw": ["a;b=1;c=2;b=3"],
+        "header_type": "list",
+        "expected": [[{"__type": "token", "value": "a"}, [["b", 3], ["c", 2]]]],
+        "canonical": ["a;b=3;c=2"]
+    },
+    {
+        "name": "parameter ordering",
+        "raw": ["a;m;z;t"],
+        "header_type": "list",
+        "expected": [[{"__type": "token", "value": "a"}, [["m", true], ["z", true], ["t", true]]]]
+    },
+    {
+        "name": "trailing semicolon in parameters",
+        "raw": ["a;b=1;"],
+        "header_type": "list",
+        "must_fail": true
+    },
+    {
+        "name": "trailing semicolon and space in parameters",
+        "raw": ["a;b=1; "],
+        "header_type": "list",
+        "must_fail": true
+    },
+    {
+        "name": "empty parameter key",
+        "raw": ["a;=1"],
+        "header_type": "list",
+        "must_fail": true
+    },
+    {
+        "name": "parameter prefix only",
+        "raw": ["a;"],
+        "header_type": "list",
+        "must_fail": true
+    },
+    {
+        "name": "parameter prefix and space only",
+        "raw": ["a; "],
+        "header_type": "list",
+        "must_fail": true
     }
 ]
