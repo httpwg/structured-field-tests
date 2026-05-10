@@ -119,6 +119,6 @@
         "header_type": "item",
         "can_fail": true,
         "expected": [{"__type": "displaystring", "value": "foo, bar"}, []],
-        "canonical": ["\"foo, bar\""]
+        "canonical": ["%\"foo, bar\""]
     }
 ]
