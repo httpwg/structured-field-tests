@@ -51,12 +51,14 @@
         "name": "syntactic max date - 999,999,999,999,999",
         "raw": ["@999999999999999"],
         "header_type": "item",
+        "can_fail": true,
         "expected": [{"__type": "date", "value": 999999999999999}, []]
     },
     {
         "name": "syntactic min date - -999,999,999,999,999",
         "raw": ["@-999999999999999"],
         "header_type": "item",
+        "can_fail": true,
         "expected": [{"__type": "date", "value": -999999999999999}, []]
     },
     {
