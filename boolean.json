@@ -64,6 +64,12 @@
         "raw": ["?False"],
         "header_type": "item",
         "must_fail": true
+    },
+    {
+        "name": "boolean prefix only",
+        "raw": ["?"],
+        "header_type": "item",
+        "must_fail": true
     }
 ]
 
