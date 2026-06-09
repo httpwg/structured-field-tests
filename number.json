@@ -202,6 +202,12 @@
         "expected": [-1.123, []]
     },
     {
+        "name": "decimal with zero fractional digits",
+        "raw": ["1."],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "decimal with four fractional digits",
         "raw": ["1.1234"],
         "header_type": "item",
