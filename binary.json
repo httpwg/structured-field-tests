@@ -28,7 +28,7 @@
         "must_fail": true
     },
     {
-        "name": "bad padding",
+        "name": "unpadded",
         "raw": [":aGVsbG8:"],
         "header_type": "item",
         "expected": [
@@ -36,6 +36,18 @@
             []],
         "can_fail": true,
         "canonical": [":aGVsbG8=:"]
+    },
+    {
+        "name": "partially padded",
+        "raw": [":uuueGVsbG8=:"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "extra padding",
+        "raw": [":aGVsbG8==:"],
+        "header_type": "item",
+        "must_fail": true
     },
     {
         "name": "bad padding dot",
