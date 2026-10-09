@@ -42,6 +42,36 @@
         "must_fail": true
     },
     {
+        "name": "0x1f in display string",
+        "raw": ["%\"\u001f\""],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "0x7f in display string",
+        "raw": ["%\"\u007f\""],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "escaped newline in display string",
+        "raw": ["%\"%0a\""],
+        "header_type": "item",
+        "expected": [{"__type": "displaystring", "value": "\n"}, []]
+    },
+    {
+        "name": "escaped 0x1f in display string",
+        "raw": ["%\"%1f\""],
+        "header_type": "item",
+        "expected": [{"__type": "displaystring", "value": "\u001f"}, []]
+    },
+    {
+        "name": "escaped 0x7f in display string",
+        "raw": ["%\"%7f\""],
+        "header_type": "item",
+        "expected": [{"__type": "displaystring", "value": "\u007f"}, []]
+    },
+    {
         "name": "single quoted display string",
         "raw": ["%'foo'"],
         "header_type": "item",
