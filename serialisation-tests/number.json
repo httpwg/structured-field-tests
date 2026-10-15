@@ -52,6 +52,30 @@
         "header_type": "item",
         "expected": [9.9995, []],
         "canonical": ["10.0"]
+    },
+    {
+        "name": "round tie to even, below the midpoint as a float - serialize",
+        "header_type": "item",
+        "expected": [0.5015, []],
+        "canonical": ["0.502"]
+    },
+    {
+        "name": "round negative tie to even, below the midpoint as a float - serialize",
+        "header_type": "item",
+        "expected": [-0.5015, []],
+        "canonical": ["-0.502"]
+    },
+    {
+        "name": "round tie to even, second below-midpoint witness - serialize",
+        "header_type": "item",
+        "expected": [0.5035, []],
+        "canonical": ["0.504"]
+    },
+    {
+        "name": "round tie to even, above the midpoint as a float - serialize",
+        "header_type": "item",
+        "expected": [2.0005, []],
+        "canonical": ["2.0"]
     }
 ]
 
