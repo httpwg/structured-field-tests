@@ -163,6 +163,15 @@ for c in ALL_CHARS:
         "must_fail": True,
     }
     tests.append(test)
+
+tests.append(
+    {
+        "name": "empty token - serialise only",
+        "header_type": "item",
+        "expected": [{"__type": "token", "value": ""}, []],
+        "must_fail": True,
+    }
+)
 write("serialisation-tests/token", tests)
 
 ### keys
@@ -284,6 +293,15 @@ for c in ALL_CHARS:
     }
     tests.append(test)
 
+tests.append(
+    {
+        "name": "empty dictionary key - serialise only",
+        "header_type": "dictionary",
+        "expected": [["", [1, []]]],
+        "must_fail": True,
+    }
+)
+
 ## bad parameterised list keys
 for c in ALL_CHARS:
     if c in allowed_key_chars:
@@ -307,6 +325,15 @@ for c in ALL_CHARS:
         "must_fail": True,
     }
     tests.append(test)
+
+tests.append(
+    {
+        "name": "empty parameterised list key - serialise only",
+        "header_type": "list",
+        "expected": [[{"__type": "token", "value": "foo"}, [["", 1]]]],
+        "must_fail": True,
+    }
+)
 write("serialisation-tests/key", tests)
 
 ### large types

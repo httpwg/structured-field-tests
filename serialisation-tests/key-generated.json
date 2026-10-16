@@ -2646,6 +2646,20 @@
         "must_fail": true
     },
     {
+        "name": "empty dictionary key - serialise only",
+        "header_type": "dictionary",
+        "expected": [
+            [
+                "",
+                [
+                    1,
+                    []
+                ]
+            ]
+        ],
+        "must_fail": true
+    },
+    {
         "name": "0x00 in parameterised list key - serialise only",
         "header_type": "list",
         "expected": [
@@ -6229,6 +6243,25 @@
                 [
                     [
                         "\u007fa",
+                        1
+                    ]
+                ]
+            ]
+        ],
+        "must_fail": true
+    },
+    {
+        "name": "empty parameterised list key - serialise only",
+        "header_type": "list",
+        "expected": [
+            [
+                {
+                    "__type": "token",
+                    "value": "foo"
+                },
+                [
+                    [
+                        "",
                         1
                     ]
                 ]
