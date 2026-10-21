@@ -1486,5 +1486,17 @@
             []
         ],
         "must_fail": true
+    },
+    {
+        "name": "empty token - serialise only",
+        "header_type": "item",
+        "expected": [
+            {
+                "__type": "token",
+                "value": ""
+            },
+            []
+        ],
+        "must_fail": true
     }
 ]
