@@ -147,5 +147,11 @@
         "raw": ["a; "],
         "header_type": "list",
         "must_fail": true
+    },
+    {
+        "name": "parameter value with thirteen integer digits and no fractional digits",
+        "raw": ["1;a=1234567890123."],
+        "header_type": "item",
+        "must_fail": true
     }
 ]

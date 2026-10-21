@@ -109,5 +109,11 @@
         "raw": ["a=b; q=1.0,,c=d"],
         "header_type": "dictionary",
         "must_fail": true
+    },
+    {
+        "name": "dictionary parameter value with thirteen integer digits and no fractional digits",
+        "raw": ["a;b=1111111111111."],
+        "header_type": "dictionary",
+        "must_fail": true
     }
 ]
