@@ -232,6 +232,18 @@
         "must_fail": true
     },
     {
+        "name": "decimal with thirteen integer digits and no fractional digits",
+        "raw": ["1234567890123."],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "negative decimal with thirteen integer digits and no fractional digits",
+        "raw": ["-1234567890123."],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
         "name": "decimal with 1 significant digit and 1 insignificant digit",
         "raw": ["1.20"],
         "header_type": "item",
