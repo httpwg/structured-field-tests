@@ -24,6 +24,18 @@
         "must_fail": true
     },
     {
+        "name": "decimal rounds up to too many integer digits - serialize",
+        "header_type": "item",
+        "expected": [999999999999.9996, []],
+        "must_fail": true
+    },
+    {
+        "name": "decimal with 12 integer digits and no rounding - serialize",
+        "header_type": "item",
+        "expected": [999999999999.999, []],
+        "canonical": ["999999999999.999"]
+    },
+    {
         "name": "round positive odd decimal - serialize",
         "header_type": "item",
         "expected": [0.0015, []],
