@@ -125,6 +125,40 @@
         "must_fail": true
     },
     {
+        "name": "too long integer with leading zeros",
+        "raw": ["0000000000000001"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "negative too long integer with leading zeros",
+        "raw": ["-0000000000000001"],
+        "header_type": "item",
+        "must_fail": true
+    },
+    {
+        "name": "too long integer with leading zeros followed by comma",
+        "raw": [
+            "0777777777777775, 1"
+        ],
+        "header_type": "list",
+        "must_fail": true
+    },
+    {
+        "name": "15 digit integer with leading zeros",
+        "raw": ["000000000000001"],
+        "header_type": "item",
+        "expected": [1, []],
+        "canonical": ["1"]
+    },
+    {
+        "name": "15 digit negative integer with leading zeros",
+        "raw": ["-000000000000001"],
+        "header_type": "item",
+        "expected": [-1, []],
+        "canonical": ["-1"]
+    },
+    {
         "name": "simple decimal",
         "raw": ["1.23"],
         "header_type": "item",
