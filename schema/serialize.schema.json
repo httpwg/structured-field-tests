@@ -10,7 +10,7 @@
             "must_fail": { "type": "boolean" }
         },
         "required": ["name"],
-        "unevaluatedProperties": false,
+        "unevaluatedProperties": {"not": {}},
         "if": {
             "properties": {
                 "must_fail": { "const": false }
