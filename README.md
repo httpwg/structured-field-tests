@@ -23,7 +23,7 @@ The `expected` data structure maps the types in Structured Fields to [JSON](http
 * Item: JSON array with two elements, the Bare-Item and Parameters
 * Bare-Item: one of:
    * Integer: JSON numbers; e.g. 1
-   * Float: JSON numbers; e.g. 2.5
+   * Decimal: JSON numbers; e.g. 2.5 (see 'Decimals' below)
    * String: JSON string; e.g., "foo"
    * Token: `token` __type Object (see below)
    * Binary Content: `binary` __type Object (see below)
@@ -31,6 +31,12 @@ The `expected` data structure maps the types in Structured Fields to [JSON](http
    * Date: `date` __type Object (see below)
    * Display String: `displaystring` __type Object (see below)
 * Parameters: JSON array of arrays with two element, the param name and the param value
+
+Decimals: a Decimal is written as a JSON number, and its value is the number's decimal digits as written
+(or, equivalently, the shortest decimal string that round-trips to the double a JSON parser
+produces). Harnesses should not use the exact binary value of a double: 0.5015 is the decimal
+0.5015, not 0.50149999999999994582…. Some serialisation tests, such as those for rounding
+ties, give different results for the two readings.
 
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
 data structure can be serialised.  The expected result of this serialisation is the `canonical`
