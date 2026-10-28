@@ -13,7 +13,7 @@ object with the following members:
 - `expected`: The expected data structure after parsing (if successful). Required, unless `must_fail` is `true`.
 - `must_fail`: boolean indicating whether the test is required to fail. Defaults to `false`.
 - `can_fail`: boolean indicating whether failing this test is acceptable; for SHOULDs. Defaults to `false`.
-- `canonical`: An array of strings representing the canonical form of the field value, if it is different from `raw`. Not applicable if `must_fail` is `true`.
+- `canonical`: An array of zero or one strings representing the canonical form of the field value, if it is different from `raw`. Not applicable if `must_fail` is `true`.
 
 The `expected` data structure maps the types in Structured Fields to [JSON](https://tools.ietf.org/html/rfc8259) as follows:
 
@@ -41,14 +41,15 @@ ties, give different results for the two readings.
 For any test that case that has a valid outcome (i.e. `must_fail` is not `true`) the `expected`
 data structure can be serialised.  The expected result of this serialisation is the `canonical`
 member if specified, or `raw` otherwise.  The canonical form of a List or Dictionary with no
-members is an empty array, to represent the field being omitted.
+members is an empty array, to represent the field being omitted; otherwise, it is a single-element
+array.
 
 Test cases in the `serialisation-tests` directory can be used to test serialisation of an invalid
 or non-canonical value.  The `expected` structure (as defined above) should serialise to the
 `canonical` form, unless `must_fail` is `true` -- in which case the value cannot be serialised.
 These cases do not have a `raw` element.
 
-[JSON Schemas](https://json-schema.org/) for these formats are provided in the `schemas` directory.
+[JSON Schemas](https://json-schema.org/) for these formats are provided in the `schema` directory.
 
 ### __type Objects
 
