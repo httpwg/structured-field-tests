@@ -9,7 +9,7 @@
             "raw": { "$ref": "#/$defs/string_array" }
         },
         "required": ["name", "raw"],
-        "unevaluatedProperties": false,
+        "unevaluatedProperties": {"not": {}},
         "if": {
             "properties": {
                 "must_fail": { "const": true }
