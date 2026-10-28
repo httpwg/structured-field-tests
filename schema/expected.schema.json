@@ -43,7 +43,7 @@
                         {
                             "properties": {
                                 "__type": { "const": "date" },
-                                "value": { "type": "number" }
+                                "value": { "type": "integer" }
                             }
                         }
                     ]
