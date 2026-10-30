@@ -36,7 +36,16 @@
                     "oneOf": [
                         {
                             "properties": {
-                                "__type": { "enum": ["binary", "displaystring", "token"] },
+                                "__type": { "const": "binary" },
+                                "value": {
+                                    "type": "string",
+                                    "pattern": "^([A-Z2-7]{8})*([A-Z2-7][AEIMQUY4]======|[A-Z2-7]{3}[AQ]====|[A-Z2-7]{4}[ACEGIKMOQSUWY246]===|[A-Z2-7]{6}[AIQY]=)?$"
+                                }
+                            }
+                        },
+                        {
+                            "properties": {
+                                "__type": { "enum": ["displaystring", "token"] },
                                 "value": { "type": "string" }
                             }
                         },
