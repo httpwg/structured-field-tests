@@ -88,6 +88,18 @@
         "header_type": "item",
         "expected": [2.0005, []],
         "canonical": ["2.0"]
+    },
+    {
+        "name": "negative decimal rounds to zero - serialize",
+        "header_type": "item",
+        "expected": [-0.0001, []],
+        "canonical": ["0.0"]
+    },
+    {
+        "name": "negative midpoint decimal rounds tie to even zero - serialize",
+        "header_type": "item",
+        "expected": [-0.0005, []],
+        "canonical": ["0.0"]
     }
 ]
 
